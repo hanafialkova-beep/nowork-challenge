@@ -26,10 +26,10 @@ export default function Navbar() {
       </Link>
       <div className="flex items-center gap-4">
         <Link
-          href="/challenge"
+          href="/challenge?demo=1"
           className="text-sm text-gray-500 hover:text-nowork-black transition-colors"
         >
-          {lang === "cz" ? "Challenge" : "Challenge"}
+          {lang === "cz" ? "Náhled" : "Preview"}
         </Link>
         <button
           onClick={toggleLang}

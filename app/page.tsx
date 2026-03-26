@@ -101,6 +101,16 @@ export default function LandingPage() {
             </div>
           </div>
 
+          {/* Demo link */}
+          <div className="mb-10 text-center">
+            <Link
+              href="/challenge?demo=1"
+              className="text-sm text-gray-400 hover:text-nowork-orange underline underline-offset-4 transition-colors"
+            >
+              Chci se nejdřív podívat na obsah →
+            </Link>
+          </div>
+
           {/* How it works */}
           <div className="text-left max-w-2xl mx-auto mb-16">
             <h3 className="text-sm font-bold text-gray-400 uppercase tracking-widest text-center mb-8">Jak to funguje</h3>

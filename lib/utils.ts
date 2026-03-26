@@ -1,6 +1,7 @@
 "use client";
 
 export type Lang = "cz" | "en";
+export type Variant = "email" | "app";
 
 export function getLang(): Lang {
   if (typeof window === "undefined") return "cz";
@@ -16,8 +17,15 @@ export function getEmail(): string | null {
   return localStorage.getItem("nowork_email");
 }
 
-export function setEmail(email: string) {
+export function getVariant(): Variant | null {
+  if (typeof window === "undefined") return null;
+  return localStorage.getItem("nowork_variant") as Variant | null;
+}
+
+/** Called after successful payment — sets email, variant, and start date */
+export function activateAccess(email: string, variant: Variant) {
   localStorage.setItem("nowork_email", email);
+  localStorage.setItem("nowork_variant", variant);
   if (!localStorage.getItem("nowork_start_date")) {
     localStorage.setItem("nowork_start_date", new Date().toISOString());
   }
@@ -25,6 +33,7 @@ export function setEmail(email: string) {
 
 export function clearSession() {
   localStorage.removeItem("nowork_email");
+  localStorage.removeItem("nowork_variant");
   localStorage.removeItem("nowork_start_date");
 }
 
@@ -35,12 +44,17 @@ export function getUnlockedDays(): number {
   const start = new Date(startStr);
   const now = new Date();
   const diffDays = Math.floor((now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
-  return Math.min(diffDays + 1, 28); // Day 0 always unlocked on start
+  return Math.min(diffDays + 1, 28); // Day 0 always unlocked on activation day
 }
 
 export function isDayUnlocked(day: number): boolean {
   if (typeof window === "undefined") return false;
-  // Demo mode: all unlocked
+  // Demo mode for internal testing only
   if (new URLSearchParams(window.location.search).get("demo") === "1") return true;
   return day <= getUnlockedDays();
+}
+
+// Legacy compat — used by old RegistrationForm
+export function setEmail(email: string) {
+  activateAccess(email, "app");
 }

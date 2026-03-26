@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "nowork-challenge",
-      "runtimeExecutable": "/opt/homebrew/bin/npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeExecutable": "/usr/bin/env",
+      "runtimeArgs": ["bash", "/Users/hanafialkova/Desktop/nowork-challenge/start-dev.sh"],
       "port": 3000
     }
   ]

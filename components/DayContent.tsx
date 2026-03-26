@@ -29,9 +29,17 @@ export default function DayContent({ day, lang, demo, totalDays = 28 }: DayConte
 
       {/* Concept */}
       <div className="day-content mb-8">
-        {day.concept.map((para, i) => (
-          <p key={i}>{para}</p>
-        ))}
+        {day.concept.map((item, i) =>
+          Array.isArray(item) ? (
+            <ul key={i} className="list-disc pl-6 space-y-1.5 my-3">
+              {item.map((li, j) => (
+                <li key={j} className="text-gray-700">{li}</li>
+              ))}
+            </ul>
+          ) : (
+            <p key={i}>{item}</p>
+          )
+        )}
       </div>
 
       {/* Divider */}

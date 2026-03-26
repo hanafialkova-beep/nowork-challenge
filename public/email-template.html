@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="color-scheme" content="light" />
+  <meta name="supported-color-schemes" content="light" />
+  <title>NOWORK 28 Day Challenge</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+  <style>
+    /* RESET */
+    * { box-sizing: border-box; }
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; }
+    body { margin: 0; padding: 0; background-color: #f0f0f0; }
+
+    /* FONTS */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    /* WRAPPER */
+    .email-wrapper {
+      width: 100%;
+      background-color: #f0f0f0;
+      padding: 24px 0;
+    }
+
+    /* CONTAINER */
+    .email-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    /* HEADER */
+    .header {
+      background-color: #0a0a0a;
+      padding: 28px 40px;
+      text-align: left;
+    }
+    .header-logo {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.5px;
+      text-decoration: none;
+    }
+    .header-logo span {
+      color: #FF6B35;
+    }
+    .header-day-badge {
+      display: inline-block;
+      margin-top: 12px;
+      background-color: #1a1a1a;
+      color: #999999;
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 4px;
+    }
+
+    /* CONTENT */
+    .content {
+      padding: 40px 40px 32px;
+    }
+
+    /* HEADLINE */
+    .headline {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 26px;
+      font-weight: 700;
+      color: #0a0a0a;
+      line-height: 1.25;
+      margin: 0 0 24px;
+      letter-spacing: -0.5px;
+    }
+
+    /* BODY TEXT */
+    .body-text {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 16px;
+      color: #333333;
+      line-height: 1.7;
+      margin: 0 0 20px;
+    }
+    .body-text p {
+      margin: 0 0 16px;
+    }
+    .body-text ul {
+      margin: 0 0 16px;
+      padding-left: 20px;
+    }
+    .body-text ul li {
+      margin-bottom: 6px;
+      color: #333333;
+    }
+
+    /* DIVIDER */
+    .divider {
+      border: none;
+      border-top: 1px solid #eeeeee;
+      margin: 32px 0;
+    }
+
+    /* TASK BOX */
+    .task-box {
+      background-color: #f8f8f8;
+      border-left: 3px solid #FF6B35;
+      border-radius: 0 8px 8px 0;
+      padding: 20px 24px;
+      margin: 0 0 32px;
+    }
+    .task-label {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #FF6B35;
+      margin: 0 0 12px;
+    }
+    .task-title {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      color: #0a0a0a;
+      margin: 0 0 12px;
+      line-height: 1.4;
+    }
+    .task-text {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 15px;
+      color: #444444;
+      line-height: 1.65;
+      margin: 0;
+    }
+    .task-text ul {
+      margin: 8px 0 0;
+      padding-left: 18px;
+    }
+    .task-text ul li {
+      margin-bottom: 6px;
+    }
+    .task-text ol {
+      margin: 8px 0 0;
+      padding-left: 18px;
+    }
+    .task-text ol li {
+      margin-bottom: 6px;
+    }
+
+    /* CTA BUTTON */
+    .cta-wrapper {
+      text-align: center;
+      margin: 32px 0 8px;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #FF6B35;
+      color: #ffffff !important;
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 14px 32px;
+      border-radius: 8px;
+      letter-spacing: 0.2px;
+    }
+
+    /* TEASER */
+    .teaser {
+      background-color: #0a0a0a;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 0 0 8px;
+    }
+    .teaser-label {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #666666;
+      margin: 0 0 6px;
+    }
+    .teaser-text {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 14px;
+      color: #cccccc;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    /* FOOTER */
+    .footer {
+      background-color: #f8f8f8;
+      padding: 24px 40px;
+      border-top: 1px solid #eeeeee;
+    }
+    .footer-text {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 12px;
+      color: #999999;
+      line-height: 1.6;
+      margin: 0 0 8px;
+      text-align: center;
+    }
+    .footer-text a {
+      color: #999999;
+      text-decoration: underline;
+    }
+    .footer-logo {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: #cccccc;
+      text-align: center;
+      margin: 12px 0 0;
+    }
+    .footer-logo span {
+      color: #FF6B35;
+    }
+
+    /* MOBILE */
+    @media screen and (max-width: 620px) {
+      .email-wrapper { padding: 0 !important; }
+      .email-container { border-radius: 0 !important; }
+      .header { padding: 20px 24px !important; }
+      .content { padding: 28px 24px 24px !important; }
+      .headline { font-size: 22px !important; }
+      .footer { padding: 20px 24px !important; }
+      .cta-button { display: block !important; text-align: center !important; }
+    }
+  </style>
+</head>
+<body>
+<div class="email-wrapper">
+  <div class="email-container">
+
+    <!-- HEADER -->
+    <div class="header">
+      <a href="https://nowork.ai" class="header-logo">NO<span>WORK</span></a>
+      <br/>
+      <!-- EDITOVAT: číslo dne -->
+      <span class="header-day-badge">DAY 1 · 28 Day Challenge</span>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+
+      <!-- HEADLINE -->
+      <!-- EDITOVAT: titulek dne -->
+      <h1 class="headline">Nejsi placená za práci.<br>Jsi placená za výsledek.</h1>
+
+      <!-- BODY TEXT -->
+      <!-- EDITOVAT: text lekce -->
+      <div class="body-text">
+        <p>Když máme hodně práce, většinou automaticky řešíme jednu věc: jak všechno stihnout.</p>
+        <p>Jenže právě tady se často láme rozdíl mezi běžným fungováním a AI-first přístupem.</p>
+        <p>Nejde totiž jen o to udělat věci rychleji. Nejdřív je potřeba se zastavit a podívat se, co je vlastně skutečný výsledek, kterého chceš dosáhnout.</p>
+        <p>Někdy nejsi placená za to, že napíšeš email, připravíš prezentaci, vytvoříš dokument nebo strávíš hodinu rešerší. Jsi placená za to, že někdo dostane jasnou informaci, vznikne rozhodnutí, posune se projekt, nebo se něco kvalitně připraví.</p>
+        <p>Jakmile začneš víc přemýšlet o výsledku než o samotném úkolu, začneš mnohem snáz vidět, co můžeš udělat jednodušeji, co můžeš zadat AI, co nemusíš dělat od nuly — nebo co možná ani nemusíš dělat vůbec.</p>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- TASK BOX -->
+      <!-- EDITOVAT: mini úkol -->
+      <div class="task-box">
+        <p class="task-label">Dnešní mini úkol</p>
+        <div class="task-text">
+          <p>Vyber si jeden úkol, který dnes řešíš, a napiš si:</p>
+          <ol>
+            <li>Jak ten úkol zní teď</li>
+            <li>Jaký je skutečný výsledek, kterého chceš dosáhnout</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- CTA BUTTON -->
+      <div class="cta-wrapper">
+        <a href="https://nowork.ai/challenge" class="cta-button">Otevřít challenge na nowork.ai →</a>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- TEASER -->
+      <!-- EDITOVAT: teaser na další den -->
+      <div class="teaser">
+        <p class="teaser-label">Zítra</p>
+        <p class="teaser-text">Cokoliv děláš podruhé, by nemělo začínat od nuly. Ukážeme si, jak na to.</p>
+      </div>
+
+    </div>
+    <!-- END CONTENT -->
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p class="footer-text">
+        Dostáváš tento email, protože ses zaregistrovala do NOWORK 28 Day Challenge.<br/>
+        <a href="{{unsubscribe}}">Odhlásit se z challenge</a> &nbsp;·&nbsp;
+        <a href="https://nowork.ai">nowork.ai</a>
+      </p>
+      <p class="footer-logo">NO<span>WORK</span></p>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

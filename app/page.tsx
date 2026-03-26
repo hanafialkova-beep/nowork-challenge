@@ -60,9 +60,12 @@ export default function LandingPage() {
                   </li>
                 ))}
               </ul>
-              {/* CTA — odkaz na platbu vyplníš dle svého platebního systému */}
+              {/*
+                CTA — vyplň svůj platební link z SimpleShop / Stripe.
+                Return URL nastav na: https://nowork.ai/thank-you/email
+              */}
               <a
-                href="#email-koupit"
+                href="https://DOPLNIT-PLATEBNI-LINK-EMAIL"
                 className="block text-center bg-nowork-black text-white font-semibold px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors text-sm"
               >
                 Chci dostávat emaily →
@@ -91,9 +94,12 @@ export default function LandingPage() {
                   </li>
                 ))}
               </ul>
-              {/* CTA — odkaz na platbu vyplníš dle svého platebního systému */}
+              {/*
+                CTA — vyplň svůj platební link z SimpleShop / Stripe.
+                Return URL nastav na: https://nowork.ai/thank-you/app
+              */}
               <a
-                href="#app-koupit"
+                href="https://DOPLNIT-PLATEBNI-LINK-APP"
                 className="block text-center bg-nowork-orange text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-500 transition-colors text-sm"
               >
                 Chci web přístup →

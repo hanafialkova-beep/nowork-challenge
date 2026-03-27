@@ -46,10 +46,13 @@ export default function DayContent({ day, lang, demo, totalDays = 28 }: DayConte
       <hr className="border-gray-200 mb-8" />
 
       {/* Task box */}
-      <div className="bg-gray-50 border-l-4 border-nowork-orange rounded-r-xl p-6 mb-8">
-        <p className="text-xs font-bold tracking-widest text-nowork-orange uppercase mb-3">
-          {lang === "cz" ? "Dnešní mini úkol" : "Today's mini task"}
-        </p>
+      <div className="border-2 border-nowork-orange rounded-xl overflow-hidden mb-8">
+        <div className="bg-nowork-orange px-6 py-3 flex items-center gap-2">
+          <span className="text-white text-xs font-bold tracking-widest uppercase">
+            ✅ {lang === "cz" ? "Dnešní mini úkol" : "Today's mini task"}
+          </span>
+        </div>
+        <div className="bg-gray-50 p-6">
         <p className="text-sm text-gray-700 mb-3 font-medium">{day.taskIntro}</p>
         {day.taskType === "ul" && day.taskItems.length > 0 && (
           <ul className="list-disc pl-5 space-y-1.5">
@@ -84,6 +87,7 @@ export default function DayContent({ day, lang, demo, totalDays = 28 }: DayConte
             📝 {day.taskTip}
           </p>
         )}
+        </div>
       </div>
 
       {/* Teaser */}

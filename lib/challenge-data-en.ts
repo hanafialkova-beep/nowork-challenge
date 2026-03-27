@@ -11,13 +11,14 @@ export const challengeDataEN: ChallengeDay[] = [
       "This challenge was created to help you do the opposite.",
       "The goal is not to learn as many AI tools as possible. The goal is to start using AI practically, regularly, and in a way that genuinely makes your work easier.",
       "Each day should take about 5–7 minutes. Each day, you should take away something useful: a new perspective on your work, one small practical step, a concrete output, or a simple improvement to something you already do.",
-      "Step by step, you are not just \"playing with AI.\" You are building better habits, less friction in your work, your own prompts, templates, and workflows — and most importantly, a new way of thinking about what really has to be done manually.",
+      "Step by step, you are not just \"playing with AI.\" You are building better habits, less friction in your work, your own prompts, templates, and workflows – and most importantly, a new way of thinking about what really has to be done manually.",
       "The point of this challenge is not to complete everything. The point is to move a little further every day.",
     ],
     taskIntro: "Write down 3 things you do repeatedly by hand in your work or daily routine.",
     taskItems: [],
     taskType: "text",
-    teaser: "Why you are not paid for work — you are paid for outcomes. And how that changes everything about working with AI.",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    teaser: "Why you are not paid for work – you are paid for outcomes. And how that changes everything about working with AI.",
   },
   {
     day: 1,
@@ -34,13 +35,14 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Pick one task you are working on today and write down:",
     taskItems: ["How the task sounds right now", "What outcome you actually want from it"],
     taskType: "ol",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Anything you do for the second time should not start from scratch. Here is what to do instead.",
   },
   {
     day: 2,
     title: "Anything you do for the second time should not start from scratch.",
     subject: "If you are doing it twice, stop starting from scratch.",
-    preheader: "Repetition is a signal — not to go faster, but to build a template.",
+    preheader: "Repetition is a signal – not to go faster, but to build a template.",
     concept: [
       "A lot of work does not look difficult at first. But small repeated tasks often drain the most energy.",
       "When something repeats, it is a signal. Not a signal that you need to work faster. A signal that the task should probably have a template, a process, a prompt, or at least a better starting point.",
@@ -49,7 +51,8 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one recurring task and ask yourself:",
     taskItems: ["What repeats in this task?", "What is almost always the same?", "What could be prepared in advance?"],
     taskType: "ul",
-    teaser: "Stop using AI like a search engine. It is a collaborator — and that difference changes everything.",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    teaser: "Stop using AI like a search engine. It is a collaborator – and that difference changes everything.",
   },
   {
     day: 3,
@@ -64,7 +67,8 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Rewrite one normal prompt into this structure:",
     taskItems: ["Role", "Task", "Context", "Output"],
     taskType: "ul",
-    teaser: "A prompt is not a question. It is a work brief — and that difference changes the quality of the output completely.",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    teaser: "A prompt is not a question. It is a work brief – and that difference changes the quality of the output completely.",
   },
   {
     day: 4,
@@ -78,13 +82,15 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Take one old prompt and add:",
     taskItems: ["role", "goal", "context", "constraints", "output format"],
     taskType: "ul",
+    taskPrompt: `Before you begin, ask me 3 clarifying questions that would improve the result.`,
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "The most important question is not \"how do I do this faster?\" It is \"do I even need to be the one doing this?\"",
   },
   {
     day: 5,
     title: "Do not optimize speed. Optimize leverage.",
     subject: "Forget speed. Optimize this instead.",
-    preheader: "Leverage means thinking about what you actually need to do yourself — and what you do not.",
+    preheader: "Leverage means thinking about what you actually need to do yourself – and what you do not.",
     concept: [
       "The most important question is not: \"How can I do this faster?\" It is: \"Do I need to be the one doing this?\"",
       "Leverage means you do not do everything yourself just because you are capable of doing it. Instead, you think about what should stay with you, where AI should help, and what should no longer move manually from beginning to end.",
@@ -92,7 +98,8 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Take your task list for today and divide it into 3 groups:",
     taskItems: ["Only me", "Me + AI", "Mostly AI"],
     taskType: "ol",
-    teaser: "Why perfection kills automation — and how to stop waiting for the \"right moment\" to start.",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    teaser: "Why perfection kills automation – and how to stop waiting for the \"right moment\" to start.",
   },
   {
     day: 6,
@@ -107,6 +114,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one recurring thing and create the first usable version of something for it:",
     taskItems: ["a template", "a prompt", "a structure", "or a simple working process"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Today you will build your first mini AI system. It is simpler than it sounds.",
   },
   {
@@ -121,7 +129,8 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one activity with at least 2–3 connected steps and write down:",
     taskItems: ["What the input is", "What AI can do with it", "What the final output is"],
     taskType: "ol",
-    teaser: "Blank page? AI will write the first version of anything for you — no more staring at an empty screen.",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    teaser: "Blank page? AI will write the first version of anything for you – no more staring at an empty screen.",
   },
   {
     day: 8,
@@ -135,6 +144,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Take one piece of writing you need today and ask AI to prepare 3 versions:",
     taskItems: ["a shorter one", "a more persuasive one", "a more natural one"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Research does not have to be exhausting. Here is how AI becomes your first layer of orientation.",
   },
   {
@@ -149,13 +159,21 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one topic and ask AI to prepare:",
     taskItems: ["the key areas to look at", "a comparison framework", "the questions you should ask", "what you should verify separately"],
     taskType: "ul",
-    teaser: "When your head is full of noise, AI can help you structure it. Not by giving answers — by helping you think.",
+    taskPrompt: `I am working on this topic: [add your topic]
+
+Please prepare a quick orientation for me:
+- What are the main areas I should look at?
+- What framework could I use for comparison?
+- What key questions should I ask?
+- What should I verify from independent sources?`,
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    teaser: "When your head is full of noise, AI can help you structure it. Not by giving answers – by helping you think.",
   },
   {
     day: 10,
     title: "AI as a thinking partner.",
     subject: "When your head is full of noise, try this.",
-    preheader: "AI as a thinking partner — not just an answer machine.",
+    preheader: "AI as a thinking partner – not just an answer machine.",
     concept: [
       "Sometimes you are not sitting with a clear output in front of you, but with a mess in your head. That is exactly when AI can be surprisingly useful.",
       "Not as an expert who gives you the one correct answer. But as a partner that helps you sort your thoughts, name the real problem, separate the important from the less important, and suggest a reasonable next step.",
@@ -163,12 +181,21 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one topic that still feels unclear. Dump it into AI and ask it to help you:",
     taskItems: ["split it into blocks", "name the main problem", "suggest 2–3 possible directions", "identify the best next step"],
     taskType: "ul",
-    teaser: "Making decisions is hard. AI can help you see the options more clearly — without deciding for you.",
+    taskPrompt: `I have a messy situation I need to think through:
+[describe what is unclear]
+
+Please help me:
+1. Break it down into clear blocks
+2. Name the main problem or key question
+3. Suggest 2-3 possible ways to approach it
+4. Identify the best first step right now`,
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    teaser: "Making decisions is hard. AI can help you see the options more clearly – without deciding for you.",
   },
   {
     day: 11,
     title: "AI as a decision partner.",
-    subject: "AI as a decision partner — not just an answer machine.",
+    subject: "AI as a decision partner – not just an answer machine.",
     preheader: "AI does not decide for you. It helps you see the options more clearly.",
     concept: [
       "A lot of work is not about creating something. A lot of work is about deciding.",
@@ -177,6 +204,15 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one real decision. Give AI:",
     taskItems: ["the options you are choosing between", "what you want to achieve", "what is limiting you", "what you are worried about"],
     taskType: "ul",
+    taskPrompt: `I need to make a decision.
+
+Options I am choosing between: [add]
+What I want to achieve: [add]
+What is limiting me: [add]
+What I am worried about: [add]
+
+Please compare the options and suggest which seems most reasonable and why.`,
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "What if every meeting came with automatic notes and clear next steps? That is today.",
   },
   {
@@ -191,6 +227,15 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Take the last meeting, call, or set of notes you have and ask AI to create:",
     taskItems: ["a short summary", "the key decisions", "the next steps", "a short follow-up"],
     taskType: "ul",
+    taskPrompt: `Here are my notes from a meeting or call:
+[paste text]
+
+Please create:
+1. A short summary (3-5 sentences)
+2. Key decisions made
+3. Concrete next steps: who, what, by when
+4. A short follow-up I can send to participants`,
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Too many tasks, not enough clarity. How AI helps you set priorities that actually work.",
   },
   {
@@ -205,12 +250,25 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Take your task list for today or tomorrow and add:",
     taskItems: ["how much time you really have", "how much capacity you realistically have", "what truly matters", "what is just \"would be nice\""],
     taskType: "ul",
-    teaser: "You will set up your personal AI copilot — the first version of how you will work with AI every day.",
+    taskPrompt: `Here is my task list for today or tomorrow:
+[paste your list]
+
+Context:
+- Time I have: [add]
+- My capacity today: [full / reduced / low]
+- What is truly important: [add]
+- What is nice to have: [add]
+
+Please help me:
+1. Identify my 3 main priorities
+2. Suggest a realistic plan for the day`,
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    teaser: "You will set up your personal AI copilot – the first version of how you will work with AI every day.",
   },
   {
     day: 14,
     title: "Your personal AI copilot.",
-    subject: "Your personal AI copilot — first version.",
+    subject: "Your personal AI copilot – first version.",
     preheader: "Today you design how you want to work with AI every day. Simpler than it sounds.",
     concept: [
       "Individual AI roles are useful. But the real shift comes when you start turning them into your own system.",
@@ -219,7 +277,8 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Write down the first version of your personal AI copilot setup:",
     taskItems: ["What do I use AI for most often?", "Where does it save me the most time?", "Where does it help me do better work?", "Which 3–5 prompts or workflows do I want to save?", "What do I want my default way of working with AI to be?"],
     taskType: "ul",
-    teaser: "Do not automate everything — but definitely automate these. How to find the right candidates.",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    teaser: "Do not automate everything – but definitely automate these. How to find the right candidates.",
   },
   {
     day: 15,
@@ -233,7 +292,8 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Look at the tasks that have appeared most often during this challenge so far. For each one, ask:",
     taskItems: ["How often does it happen?", "How much time does it take?", "How mentally draining is it?", "How predictable is it?"],
     taskType: "ul",
-    teaser: "Forget the apps. First, understand the workflow — then choose the tools.",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    teaser: "Forget the apps. First, understand the workflow – then choose the tools.",
   },
   {
     day: 16,
@@ -247,6 +307,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one recurring activity and describe it in this structure:",
     taskItems: ["Trigger", "Input", "Processing", "Output"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Communication that does not start from zero every time. The AI-first approach to repetitive messages.",
   },
   {
@@ -261,6 +322,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one type of message you write often and create your first reusable base for it:",
     taskItems: ["an outline", "a template", "or a prompt"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "One idea, three outputs. This is what content leverage actually looks like.",
   },
   {
@@ -275,6 +337,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Take one existing content input and ask AI to turn it into at least 3 different outputs.",
     taskItems: [],
     taskType: "text",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "The biggest chaos does not come from the work itself. It comes between the steps. And AI can help there.",
   },
   {
@@ -289,6 +352,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one place where information often gets lost and write down:",
     taskItems: ["What always needs to be passed on?", "What should be briefly summarized?", "What should be saved into the system?", "What is the clear next step?"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Data alone is not the answer. Understanding is. And AI helps you get there faster.",
   },
   {
@@ -303,6 +367,15 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Take one real data or text input and ask AI:",
     taskItems: ["What is repeating here?", "What is most important here?", "What should I do next based on this?"],
     taskType: "ul",
+    taskPrompt: `Here is my data or text:
+[paste input]
+
+Please answer:
+- What is repeating or most frequent?
+- What is most important or significant?
+- What is surprising or unexpected?
+- What do you recommend doing next?`,
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Connected steps change everything. Today we describe how to build them.",
   },
   {
@@ -316,13 +389,14 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one area and describe a simple chain:",
     taskItems: ["What is the input?", "What does AI do?", "What gets stored, and where?", "Where does human control remain?", "What is the final output?"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "AI transformation at a company level does not start with a tool. It starts with work. And that is exactly where to begin.",
   },
   {
     day: 22,
     title: "AI in a company does not start with a tool. It starts with work.",
     subject: "AI at work does not start with a tool.",
-    preheader: "Where to actually start AI transformation — and where most companies get it wrong.",
+    preheader: "Where to actually start AI transformation – and where most companies get it wrong.",
     concept: [
       "AI transformation does not start with technology. It starts with work itself.",
       "With the places where there is: repetitive manual work, unnecessary forwarding of information, lost know-how, slow decision-making, or work with low added value.",
@@ -330,6 +404,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one team, department, or part of a company and ask:",
     taskItems: ["Where does the most repetitive manual work happen?", "Where is context or know-how getting lost?", "Where are people spending time on work that does not create the highest value?", "Where could a relatively small change create quick impact?"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Every team needs different AI use cases. How to find them and where to start.",
   },
   {
@@ -344,6 +419,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one specific team and write down:",
     taskItems: ["What do they do often?", "What slows them down the most?", "What keeps repeating?", "What could AI help draft, summarize, or speed up?"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "People are not convinced by technology. They are convinced by value. How to speak the language that actually works.",
   },
   {
@@ -358,6 +434,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Choose one specific role or person and ask:",
     taskItems: ["What might this person be worried about?", "What slows them down most in their work?", "Where could AI create a fast and visible benefit for them?", "What small quick win would make sense to show first?"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "A few simple governance rules that will save you problems and give people confidence.",
   },
   {
@@ -372,7 +449,8 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Write the first simple version of AI rules for yourself or your team:",
     taskItems: ["What is okay to put into AI?", "What should I rather anonymize or not use at all?", "Which outputs would I never leave without human review?", "What types of work require more caution?"],
     taskType: "ul",
-    teaser: "How to scale AI adoption beyond a few early adopters — across the whole company.",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    teaser: "How to scale AI adoption beyond a few early adopters – across the whole company.",
   },
   {
     day: 26,
@@ -386,6 +464,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Look at what already works and ask:",
     taskItems: ["What is worth sharing further?", "What could be saved as a prompt, template, or example?", "What would help others get started faster?", "What could become the basis of a small AI adoption kit?"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "You are no longer collecting tips. You are building a system. Second to last day.",
   },
   {
@@ -399,6 +478,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Write down the first version of your AI system:",
     taskItems: ["What I use AI for most often", "Which prompts or templates I want to save", "Which workflows already make sense to me", "Where I keep my notes, materials, and reusable assets", "Where I need human control", "What I no longer want to do from scratch manually"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "The last day of the challenge. And the beginning of everything that comes after.",
   },
   {
@@ -413,6 +493,7 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Write a short plan for the next 90 days in these 4 parts:",
     taskItems: ["Keep – what I definitely want to keep", "Build – what I want to continue developing or building", "Share – what I want to share with others", "Measure – how I will know this is actually helping"],
     taskType: "ul",
+    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "",
   },
 ];

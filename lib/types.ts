@@ -7,5 +7,7 @@ export interface ChallengeDay {
   taskIntro: string;
   taskItems: string[];
   taskType: "ul" | "ol" | "text";
+  taskPrompt?: string;   // copyable AI prompt for this day's task
+  taskTip?: string;      // where to record tip
   teaser: string;
 }

@@ -65,6 +65,25 @@ export default function DayContent({ day, lang, demo, totalDays = 28 }: DayConte
             ))}
           </ol>
         )}
+
+        {/* Copyable prompt */}
+        {day.taskPrompt && (
+          <div className="mt-5">
+            <p className="text-xs font-bold tracking-widest text-nowork-orange uppercase mb-2">
+              {lang === "cz" ? "💬 Zkopíruj a uprav v AI" : "💬 Copy and edit in AI"}
+            </p>
+            <pre className="bg-white border border-gray-200 rounded-lg p-4 text-xs text-gray-700 whitespace-pre-wrap leading-relaxed font-mono overflow-x-auto">
+              {day.taskPrompt}
+            </pre>
+          </div>
+        )}
+
+        {/* Where to record tip */}
+        {day.taskTip && (
+          <p className="mt-4 text-xs text-gray-400 italic">
+            📝 {day.taskTip}
+          </p>
+        )}
       </div>
 
       {/* Teaser */}
@@ -83,7 +102,7 @@ export default function DayContent({ day, lang, demo, totalDays = 28 }: DayConte
           <p className="text-white font-bold text-lg mb-1">
             {lang === "cz" ? "🎉 Challenge dokončena!" : "🎉 Challenge complete!"}
           </p>
-          <p className="text-orange-100 text-sm">
+          <p className="text-red-100 text-sm">
             {lang === "cz"
               ? "Gratulujeme. Tohle byl upgrade způsobu práce."
               : "Congratulations. This was an upgrade to how you work."}
@@ -112,7 +131,7 @@ export default function DayContent({ day, lang, demo, totalDays = 28 }: DayConte
         {nextDay !== null ? (
           <Link
             href={`/challenge/${nextDay}${demoParam}`}
-            className="flex items-center gap-2 text-sm font-semibold text-nowork-orange hover:text-orange-500 transition-colors"
+            className="flex items-center gap-2 text-sm font-semibold text-nowork-orange hover:text-red-500 transition-colors"
           >
             Day {nextDay} →
           </Link>

@@ -10,7 +10,7 @@ const config: Config = {
       colors: {
         nowork: {
           black: "#0a0a0a",
-          orange: "#FF6B35",
+          orange: "#E63329",
           gray: "#f0f0f0",
           dark: "#1a1a1a",
         },

@@ -25,7 +25,7 @@ export default function DayCard({ day, unlocked, demo }: DayCardProps) {
   }
 
   return (
-    <Link href={href} className="group block">
+    <Link href={href} className="group block touch-manipulation">
       <div className="bg-white rounded-xl p-5 border border-gray-200 hover:border-nowork-orange hover:shadow-md transition-all cursor-pointer h-full">
         <div className="flex items-start justify-between mb-3">
           <span className="text-xs font-bold tracking-widest text-nowork-orange uppercase">

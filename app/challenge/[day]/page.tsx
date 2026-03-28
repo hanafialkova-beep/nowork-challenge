@@ -21,7 +21,7 @@ function DayPageContent() {
 
   useEffect(() => {
     const email = getEmail();
-    if (!email) { router.push("/"); return; }
+    if (!email && !demo) { router.push("/"); return; }
     const l = getLang();
     setLangState(l);
     const dayNum = parseInt(params.day as string, 10);

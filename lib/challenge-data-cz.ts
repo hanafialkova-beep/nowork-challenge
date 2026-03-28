@@ -20,7 +20,7 @@ export const challengeDataCZ: ChallengeDay[] = [
     taskIntro: "Sepiš si 3 věci, které ve své práci nebo běžném dni děláš opakovaně ručně. Nemusí to být nic velkého. Stačí drobnosti, které se vracejí znovu a znovu. Budeme se k nim v challenge vracet.",
     taskItems: [],
     taskType: "text",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "V práci se nečeká odměna za samotnou práci, ale za výsledek – a tohle mění vše v tom, jak se zadávají AI úkoly.",
   },
   {
@@ -43,7 +43,7 @@ export const challengeDataCZ: ChallengeDay[] = [
     taskIntro: "Vyber si jeden úkol, který dnes řešíš, a napiš si k němu dvě věci:",
     taskItems: ["Jak ten úkol zní teď", "Jaký je skutečný výsledek, kterého chceš dosáhnout"],
     taskType: "ol",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Cokoliv děláš podruhé, by nemělo začínat od nuly. Ukážeme si princip OHIO – a jak ti ušetří energii.",
   },
   {
@@ -68,7 +68,7 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Výstup ve formátu [dopiš – seznam, tabulka, odstavce...]",
     ],
     taskType: "ul",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "AI není jen vyhledávač. Je to spolupracovník – a klíčem je kvalita zadání.",
   },
   {
@@ -83,19 +83,19 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Klíčový princip: kvalita zadání = kvalita výstupu. Tato rovnice platí absolutně. Vágní otázka = vágní výstup. Konkrétní zadání s kontextem = použitelný výsledek.",
       "Dobré zadání má čtyři části, které AI opravdu potřebuje znát:",
       ["Kým má být – jakou roli nebo expertízu má v tomto zadání zaujmout (zkušený obchodník, kouč, analytik...)", "Co přesně má udělat – napsat, shrnout, analyzovat, navrhnout, přepsat...", "Co potřebuje vědět – kontext o situaci, produktu, cílové skupině, tónu a omezení", "Jak má vypadat výsledek – délka, formát, tón, struktura"],
-      "Ukázka rozdílu v praxi. Vágní prompt: Napis mi email. Konkrétní zadání: Jsi zkušený obchodní komunikátor. Napis follow-up email klientovi, ktery videl nabidku na software pro HR, ale neodpovedel. Cilem je dostat schuzku. Ton je pratelsky a konkretni, maximalne 5 vet.",
+      "Ukázka rozdílu v praxi. Vágní prompt: Napiš mi email. Konkrétní zadání: Jsi zkušený obchodní komunikátor. Napiš follow-up email klientovi, který viděl nabídku na software pro HR, ale neodpověděl. Cílem je dostat schůzku. Tón je přátelský a konkrétní, maximálně 5 vět.",
       "Tohle je změna, která nejvíc mění kvalitu výstupů. A je to změna, kterou lze udělat hned – bez učení se nových nástrojů.",
       "Vezmi jeden prompt z dnešní práce a doplň mu všechny čtyři části. Uvidíš rozdíl v kvalitě výstupu okamžitě.",
     ],
     taskIntro: "Vezmi si jeden konkrétní prompt, který jsi napsal dříve nebo plánuješ napsat dnes, a přepracuj ho tak, aby obsahoval všechny čtyři části dobrého zadání:",
     taskItems: [
       "Kým má AI být – napiš roli (příklad: Jsi zkušený projektový manažer s praxí v IT projektech)",
-      "Co přesně má udělat – konkrétní úkol (příklad: Napis strucny souhrn stavu projektu pro klienta)",
+      "Co přesně má udělat – konkrétní úkol (příklad: Napiš stručný souhrn stavu projektu pro klienta)",
       "Co potřebuje vědět – kontext (příklad: Projekt je v prodlení 2 týdny, klient zatím neví proč)",
       "Jak má vypadat výsledek – formát a rozsah (příklad: Max 5 vět, profesionální tón, bez technického žargonu)",
     ],
     taskType: "ul",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Prompt Generator přístup: místo okamžité tvorby se nejdřív zeptat na klíčové detaily – a pak teprve vytvořit.",
   },
   {
@@ -115,11 +115,11 @@ export const challengeDataCZ: ChallengeDay[] = [
         "Omezení – co nemá dělat, jak má psát, jaký je maximální rozsah",
         "Formát výstupu – odstavce, číslovaný seznam, tabulka, nadpisy, krátký text",
       ],
-      "A je tu ještě jeden přístup, který funguje skvěle – přidej na konec promptu větu: Nez zacnes, poloz mi 3 doplnujici otazky, ktere zlepsit vystup. AI se sama zeptá na to, co jí chybí. A tím, že odpovíš, dáš jí lepší kontext. Výsledek bude znatelně lepší.",
-      "Ukázkový plný prompt vypadá takto: Jsi zkuseny marketingovy strateg. Napises 3 varianty subject line pro email, ktery oznamuje novou funkci v aplikaci pro produktivitu. Cilova skupina jsou projektovi manazeri ve firmach s 50+ lidmi. Ton je pratelsky a primy, zadne korporatni fraze. Kazda varianta max 8 slov. Nez zacnes, poloz mi 3 doplnujici otazky.",
+      "A je tu ještě jeden přístup, který funguje skvěle – přidej na konec promptu větu: Než začneš, polož mi 3 doplňující otázky, které zlepší výstup. AI se sama zeptá na to, co jí chybí. A tím, že odpovíš, dáš jí lepší kontext. Výsledek bude znatelně lepší.",
+      "Ukázkový plný prompt vypadá takto: Jsi zkušený marketingový stratég. Napíšeš 3 varianty subject line pro email, který oznamuje novou funkci v aplikaci pro produktivitu. Cílová skupina jsou projektoví manažeři ve firmách s 50+ lidmi. Tón je přátelský a přímý, žádné korporátní fráze. Každá varianta max 8 slov. Než začneš, polož mi 3 doplňující otázky.",
       "Nejdůležitější věc je začít. Vezmi si jeden starý prompt – takový, kde výstup nebyl ideální – a aplikuj pět složek plus větu o doplňujících otázkách. Uvidíš rozdíl okamžitě.",
     ],
-    taskIntro: "Vezmi si jeden prompt, kde výstup nebyl ideální, a přepiš ho s pěti složkami. Pak ho doplň větou: Nez zacnes, poloz mi 3 doplnujici otazky, ktere zlepsit vystup.",
+    taskIntro: "Vezmi si jeden prompt, kde výstup nebyl ideální, a přepiš ho s pěti složkami. Pak ho doplň větou: Než začneš, polož mi 3 doplňující otázky, které zlepší výstup.",
     taskItems: [
       "Role – kým má AI být",
       "Cíl – co přesně má udělat",
@@ -129,7 +129,7 @@ export const challengeDataCZ: ChallengeDay[] = [
     ],
     taskType: "ul",
     taskPrompt: `Než začneš, polož mi 3 doplňující otázky, které zlepší výstup.`,
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Nejdůležitější otázka není: jak to udělám rychleji? Ale: musí tohle být uděláno ručně?",
   },
   {
@@ -158,7 +158,7 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Hlavně AI – předvídatelné, AI to zvládne s minimálním dohledem (napiš alespoň 2 příklady)",
     ],
     taskType: "ol",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Proč dokonalost zabíjí automatizaci – a jak první verze mění všechno.",
   },
   {
@@ -190,7 +190,7 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Ulož výsledek jako šablonu nebo reusable základ pro příště",
     ],
     taskType: "ol",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Dnes si postavíš svůj první mini workflow – jednoduchý systém, kde kroky navazují.",
   },
   {
@@ -219,7 +219,7 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Co je finální výstup – co pošleš, uložíš nebo předáš dál",
     ],
     taskType: "ol",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Existuje pět úrovní AI nástrojů – a většina lidí zůstává jen u první. Ukážeme si, co je za ní.",
   },
   {
@@ -251,7 +251,7 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Agenti – kde by dávalo smysl nechat AI komplexní úkol vyřešit samostatně (i jen jako nápad)",
     ],
     taskType: "ul",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "AI mluví tvojí řečí – pokud ji to naučíš. Zítra si nastavíš svůj vlastní Tone of voice.",
   },
   {
@@ -264,8 +264,8 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Řešením je nastavit AI svůj Tone of voice – svůj styl komunikace, který pak AI reflektuje ve výstupech.",
       "Tone of voice není jen formálnost nebo neformálnost. Je to kombinace několika věcí:",
       ["Jak mluvíš s lidmi – přátelsky, přímě, odborně, konverzačně", "Co nesmí být ve výstupech – korporátní fráze, klišé, prázdná adjektiva", "Jaká slova nebo obraty jsou typicky tvoje", "Jakou délku a strukturu preferuješ"],
-      "Jak AI naučit svůj styl: nejjednodušší způsob je dát jí vzorový text, který jsi napsal sám. Může to být email, LinkedIn post, zpráva kolegovi nebo kus dokumentu. A pak říct: Analyzuj muj styl psani a popiš mi ho. Co je pro muj styl typicke? Pak při dalším zadání řekneš: Pis ve stylu, ktery jsi analyzoval.",
-      "Prompt pro nastavení Tone of voice: Tady je vzor textu, ktery jsem napsal: [vloz text]. Analyzuj muj styl: 1) Jak pisu – ton, rytmus, delka vet. 2) Co je pro muj styl typicke. 3) Co v mem stylu neni – fraze nebo pruhce ktere nepouzivam. Uloz si tento styl a pouzij ho pri dalsich zadanich.",
+      "Jak AI naučit svůj styl: nejjednodušší způsob je dát jí vzorový text, který jsi napsal sám. Může to být email, LinkedIn post, zpráva kolegovi nebo kus dokumentu. A pak říct: Analyzuj můj styl psaní a popiš mi ho. Co je pro můj styl typické? Pak při dalším zadání řekneš: Piš ve stylu, který jsi analyzoval.",
+      "Prompt pro nastavení Tone of voice: Tady je vzor textu, který jsem napsal: [vlož text]. Analyzuj můj styl: 1) Jak píšu – tón, rytmus, délka vět. 2) Co je pro můj styl typické. 3) Co v mém stylu není – fráze nebo výrazy, které nepoužívám. Ulož si tento styl a použij ho při dalších zadáních.",
       "Jakmile AI zná tvůj styl, výstupy přestanou znít genericky. Budou bližší tomu, co bys napsal sám – jen rychleji.",
       "Toto nastavení se vyplatí udělat jednou pořádně. A pak ho přidávat jako součást promptů tam, kde záleží na tónu – emaily, LinkedIn, texty pro zákazníky.",
     ],
@@ -277,14 +277,15 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Ulož si výsledný popis jako základ pro budoucí prompty",
     ],
     taskType: "ol",
-    taskPrompt: `Pracuji na tématu: [doplň téma]
+    taskPrompt: `Tady je vzor textu, který jsem napsal/a: [vlož text]
 
-Připrav mi prosím stručnou orientaci:
-- Jaké jsou hlavní oblasti, které bych měl/a sledovat?
-- Jaký rámec bych mohl/a použít pro porovnání?
-- Jaké klíčové otázky si mám položit?
-- Co bych si měl/a ověřit z nezávislých zdrojů?`,
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+Analyzuj můj styl psaní:
+1) Jak píšu – tón, rytmus, délka vět
+2) Co je pro můj styl typické
+3) Co v mém stylu není – fráze nebo výrazy, které nepoužívám
+
+Ulož si tento styl a použij ho při dalších zadáních.`,
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Druhý mozek – proč mít systém pro ukládání znalostí a k čemu to celé je.",
   },
   {
@@ -294,7 +295,7 @@ Připrav mi prosím stručnou orientaci:
     preheader: "Druhý mozek není appka. Je to systém – a AI ho umí výrazně posílit.",
     concept: [
       "Informace se dnes valí ze všech stran. Články, poznámky, emaily, nápady, zpětná vazba, zdroje. A většina z toho zmizí dřív, než ji stihneme zpracovat.",
-      "Druhý mozek je systém pro ukládání znalostí – externý systém, kde se zachycují myšlenky, materiály a poznatky tak, aby byly použitelné i za týden, měsíc nebo rok.",
+      "Druhý mozek je systém pro ukládání znalostí – externí systém, kde se zachycují myšlenky, materiály a poznatky tak, aby byly použitelné i za týden, měsíc nebo rok.",
       "Proč to funguje s AI? Protože AI je nejsilnější, když má co zpracovat. Čím víc uložených podkladů, kontextu a materiálů, tím přesnější a relevantnější výstupy AI produkuje.",
       "Druhý mozek plní tři funkce:",
       ["Zachycuje – neztrácí se myšlenky, zdroje, zpětná vazba, rozhodnutí", "Zpracovává – surový materiál se mění v použitelné znalosti", "Propojuje – starší poznatky se propojují s novým kontextem a prací"],
@@ -317,7 +318,7 @@ Pomoz mi prosím:
 2. Pojmenovat hlavní problém nebo klíčovou otázku
 3. Navrhnout 2-3 možné způsoby, jak to řešit
 4. Určit nejlepší první krok, který dává smysl udělat teď`,
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Capture: první krok ke druhému mozku – jak zachytit informace, aby se neztratily.",
   },
   {
@@ -331,7 +332,7 @@ Pomoz mi prosím:
       "Co stojí za zachycení? Čtyři základní typy:",
       ["Nápady – co tě napadlo, co by šlo zlepšit, co chceš vyzkoušet", "Zdroje – článek, video, podcast, citát, který chceš využít nebo se k němu vrátit", "Rozhodnutí a kontext – co bylo rozhodnuto, proč a za jakých podmínek", "Zpětná vazba – co říkají zákazníci, kolegové, co se osvědčilo nebo neosvědčilo"],
       "Jak na zachycení: nejjednodušší systém je jeden inbox – jedno místo, kam jde všechno bez třídění. Může to být appka, dokument nebo poznámkový blok. Důležité není kde, ale že se to zachytí.",
-      "AI pomáhá v Capture fázi tím, že dokáže zpracovat i hrubý nestrukturovaný vstup. Stačí napsat: Tady jsou moje hrube poznamky: [vloz]. Vytahni z toho klicove myslenky a serazeni.",
+      "AI pomáhá v Capture fázi tím, že dokáže zpracovat i hrubý nestrukturovaný vstup. Stačí napsat: Tady jsou moje hrubé poznámky: [vlož]. Vytáhni z toho klíčové myšlenky a seřazení.",
       "Dobré zachycení ušetří spoustu práce při zpracování. Informace, která je v systému i v surovém stavu, je vždy lepší než dokonalá informace, která zmizela.",
       "Dnes se nezaměřuj na to, jak informace třídit. Zaměřuj se jen na to, zda se zachytí. Clean a Connect přijdou v příštích dvou dnech.",
     ],
@@ -342,15 +343,14 @@ Pomoz mi prosím:
       "Zkus jednu sadu hrubých poznámek hodit do AI a nechat ji vytáhnout klíčové myšlenky",
     ],
     taskType: "ol",
-    taskPrompt: `Potřebuji se rozhodnout. Pomoz mi to promyslet.
+    taskPrompt: `Tady jsou moje hrubé poznámky: [vlož]
 
-Vybírám mezi těmito možnostmi: [doplň]
-Čeho chci dosáhnout: [doplň]
-Co mě omezuje nebo brzdí: [doplň]
-Čeho se obávám: [doplň]
-
-Porovnej mi varianty a navrhni, která dává největší smysl a proč.`,
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+Vytáhni z toho prosím:
+1. Klíčové myšlenky (max 5 bodů)
+2. Co z toho plyne nebo co bych měl/a udělat
+3. Co si chci zapamatovat
+4. Otázky, které z toho vyvstávají`,
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Zachyceno nestačí. Jak přetavit hrubý materiál v použitelné znalosti – to je Clean.",
   },
   {
@@ -364,7 +364,7 @@ Porovnej mi varianty a navrhni, která dává největší smysl a proč.`,
       "Tři úrovně Clean zpracování:",
       ["Minimální – přečti, označ co je důležité, přidej krátký komentář co z toho plyne", "Střední – shrň hlavní myšlenky, odstraň zbytečné, dej tomu strukturu", "Hlubší – propoj s jiným materiálem, vyvoď závěry, napiš vlastní pohled"],
       "AI je v Clean fázi nejsilnější. Z hrubého materiálu dokáže rychle vytvořit strukturovaný výstup – shrnutí, klíčové body, akční kroky nebo otázky k dalšímu zamyšlení.",
-      "Fungující prompt pro Clean: Tady jsou moje hrube poznamky nebo material: [vloz]. Zpracuj to takto: 1) Hlavni myslenkay v max 5 bodech. 2) Co z toho plyne nebo co bych mel udelat. 3) Co si chci zapamatovat. 4) Otazky, ktere z toho vyvstavaji.",
+      "Fungující prompt pro Clean: Tady jsou moje hrubé poznámky nebo materiál: [vlož]. Zpracuj to takto: 1) Hlavní myšlenky v max 5 bodech. 2) Co z toho plyne nebo co bych měl/a udělat. 3) Co si chci zapamatovat. 4) Otázky, které z toho vyvstávají.",
       "Kdy na Clean? Nestačí dělat Capture a doufat, že se zpracování udělá samo. Clean funguje nejlépe jako malá rutina – krátký blok jednou za den nebo týden, kdy se prochází inbox a zpracovává se to, co tam leží.",
       "Nezpracovaný inbox je jen digitální chaos. Zpracovaný druhý mozek je aktivum, které roste s časem.",
     ],
@@ -383,7 +383,7 @@ Vytvoř z toho prosím:
 2. Hlavní rozhodnutí, která padla
 3. Konkrétní další kroky: kdo, co, do kdy
 4. Krátký follow-up text, který mohu odeslat účastníkům`,
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Connect: jak propojit znalosti tak, aby AI mohla s tímto kontextem opravdu pracovat.",
   },
   {
@@ -397,9 +397,9 @@ Vytvoř z toho prosím:
       "Jak Connect funguje v praxi:",
       ["Při zahájení projektu si projdeš, co máš uloženo k podobným tématům", "Při psaní textu dáš AI kontext z dříve zachycených zdrojů nebo rozhodnutí", "Při rozhodování vytáhneš poznámky z minulých situací nebo zpětnou vazbu", "Při přípravě pro zákazníka použiješ shrnutí z minulých hovorů nebo materiálů"],
       "Connect s AI vypadá takto: dáš AI svůj zpracovaný materiál z druhého mozku jako kontext – a pak se ptáš nebo zadáváš práci. AI pak pracuje s tvým kontextem, ne s obecnými znalostmi.",
-      "Prompt pro Connect: Tady je kontext z meho druheho mozku k tomuto tematu: [vloz zpracovany material]. Pouzij tento kontext pri: [konkretni zadani].",
+      "Prompt pro Connect: Tady je kontext z mého druhého mozku k tomuto tématu: [vlož zpracovaný materiál]. Použij tento kontext při: [konkrétní zadání].",
       "Tímto způsobem se druhý mozek stává produktivním partnerem pro AI spolupráci. Nejen že neztrácíš informace – ale aktivně je zapojuješ do výstupů.",
-      "3C framework – Capture, Clean, Connect – je systém, ne jednorázová akce. Funguje nejlépe, když se stane rutinou: capture průběžně, clean jednou za čas, connect při každé relevantní příležitosti.",
+      "3C framework – Capture, Clean, Connect – je systém, ne jednorázová akce. Funguje nejlépe, když se stane rutinou: Capture průběžně, Clean jednou za čas, Connect při každé relevantní příležitosti.",
     ],
     taskIntro: "Zkus dnešní Connect krok v praxi:",
     taskItems: [
@@ -409,19 +409,12 @@ Vytvoř z toho prosím:
       "Porovnej výsledek s tím, co by AI produkovala bez tohoto kontextu",
     ],
     taskType: "ol",
-    taskPrompt: `Tady je můj seznam úkolů na dnes nebo zítra:
-[vlož seznam]
+    taskPrompt: `Tady je kontext z mého druhého mozku k tomuto tématu:
+[vlož zpracovaný materiál]
 
-Kontext:
-- Čas, který mám k dispozici: [doplň]
-- Moje kapacita dnes: [plná / snížená / malá]
-- Co je opravdu důležité: [doplň]
-- Co je spíš bylo by fajn: [doplň]
-
-Pomoz mi:
-1. Určit 3 hlavní priority s největším dopadem
-2. Navrhnout realistický plán na tento den`,
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+Na tomto základě prosím:
+[vlož konkrétní zadání nebo otázku]`,
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Halfway checkpoint – co máš, co stavíš dál a jak na tom závisí druhá polovina challenge.",
   },
   {
@@ -447,7 +440,7 @@ Pomoz mi:
       "Na co se chceš zaměřit ve druhé polovině challenge",
     ],
     taskType: "ul",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "PACT framework: jak přemýšlet o digitálním pracovním prostředí – začínáme s Projects.",
   },
   {
@@ -460,7 +453,7 @@ Pomoz mi:
       "Projects v PACT nejsou jen seznam úkolů. Jsou to strukturované celky se záměrem, milníky, kontextem a výstupy. A právě tady AI přidává velkou hodnotu.",
       "Jak AI pomáhá v projektové práci:",
       ["Rozložení projektu na kroky – z velkého záměru udělá přehledné fáze a úkoly", "Příprava briefingů a zadání – z hrubých vstupů vytvoří jasné zadání pro tým", "Sledování pokroku – shrnutí stavu projektu z poznámek nebo aktualizací", "Identifikace rizik – co se může zaseknout, co chybí, co je nejkritičtější"],
-      "Fungující prompt pro zahájení projektu: Pracuji na projektu [nazev]. Cil je [co chceme dosahnout]. Deadline je [datum]. Hlavni zainteresovane osoby jsou [kdo]. Zdroje ktere mame: [co mame k dispozici]. Rozloz projekt na logicke faze a kliclove ukoly. Identifikuj top 3 rizika.",
+      "Fungující prompt pro zahájení projektu: Pracuji na projektu [název]. Cíl je [co chceme dosáhnout]. Deadline je [datum]. Hlavní zainteresované osoby jsou [kdo]. Zdroje, které máme: [co máme k dispozici]. Rozlož projekt na logické fáze a klíčové úkoly. Identifikuj top 3 rizika.",
       "Projekt bez jasné struktury se zadrhává dřív, než začne. AI pomáhá strukturu vytvořit rychle – a pak ji udržovat aktuální.",
       "Nejsilnější použití AI v projektech není na jednom úkolu. Je na přehledu: co je stav, co je priorita, co se zaseklo a co je třeba rozhodnout. Tohle AI dokáže vytáhnout z hrubých poznámek za minuty.",
     ],
@@ -472,7 +465,7 @@ Pomoz mi:
       "Z výsledku sestav přehled stavu projektu v 5 větách",
     ],
     taskType: "ol",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "PACT: Agents – AI agenti a asistenti v praxi. Co jsou, k čemu slouží a kde začít.",
   },
   {
@@ -497,7 +490,7 @@ Pomoz mi:
       "Otestuj ho na jednom konkrétním zadání – porovnej výsledek s běžným chatbotem bez instrukce",
     ],
     taskType: "ol",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "PACT: Context – proč kontext mění kvalitu výstupů víc než jakýkoli nástroj.",
   },
   {
@@ -523,7 +516,7 @@ Pomoz mi:
       "Otestuj prompt s tímto blokem kontextu a porovnej výsledek s tím, co dostáváš bez něj",
     ],
     taskType: "ol",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "PACT: Tools – jak vybírat správné nástroje a neutopit se v jejich množství.",
   },
   {
@@ -548,7 +541,7 @@ Pomoz mi:
       "Jaký jeden nástroj by stál za hlubší prozkoumání nebo lepší nastavení",
     ],
     taskType: "ul",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "WBS – jak rozložit projekt na kroky s pomocí AI. Větší projekty bez chaosu.",
   },
   {
@@ -562,7 +555,7 @@ Pomoz mi:
       "AI-WBS kombinuje tradiční WBS přístup se silou AI: místo hodin přemýšlení nad strukturou zadáš záměr projektu a AI navrhne rozložení, které pak upravíš podle reality.",
       "Čtyři kroky AI-WBS:",
       ["Záměr projektu – co je cíl, co je úspěch, co je deadline", "Fáze – logické celky, kterými projekt prochází (příprava, realizace, finalizace...)", "Milníky – klíčové výstupy nebo rozhodnutí v každé fázi", "Úkoly – konkrétní akce s vlastníkem a odhadovaným rozsahem"],
-      "Fungující prompt pro AI-WBS: Pracuji na projektu [název]. Cíl je [co chceme dosáhnout]. Deadline je [datum]. Tým nebo zdroje: [co máme]. Vytvoř WBS strukturu: 1) Fáze projektu. 2) Hlavní milníky v každé fázi. 3. Klíčové úkoly pro každou fázi. 4) Co jsou největší rizika nebo neznámé.",
+      "Fungující prompt pro AI-WBS: Pracuji na projektu [název]. Cíl je [co chceme dosáhnout]. Deadline je [datum]. Tým nebo zdroje: [co máme]. Vytvoř WBS strukturu: 1) Fáze projektu. 2) Hlavní milníky v každé fázi. 3) Klíčové úkoly pro každou fázi. 4) Co jsou největší rizika nebo neznámé.",
       "AI-WBS není náhrada za řízení projektu. Je to rychlý způsob, jak dostat strukturu z prázdné stránky – a pak ji upřesnit podle skutečnosti.",
       "Největší hodnota je v tom, že se vidí projekt jako celek, ne jen jako dnešní úkol. A to mění to, jak se prioritizuje, deleguje a komunikuje o pokroku.",
     ],
@@ -574,7 +567,7 @@ Pomoz mi:
       "Identifikuj s AI top 3 rizika nebo klíčové neznámé",
     ],
     taskType: "ol",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Human-in-the-loop: AI dělá 90%, člověk kontroluje výsledek. Jak to nastavit správně.",
   },
   {
@@ -607,7 +600,7 @@ Odpověz mi prosím:
 - Co je nejdůležitější nebo nejzásadnější?
 - Co je překvapivé nebo neočekávané?
 - Co doporučuješ udělat dál na základě těchto informací?`,
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Superpowers: první ze pěti schopností, které AI spolupráce přináší – Perception.",
   },
   {
@@ -632,7 +625,7 @@ Odpověz mi prosím:
       "Napiš, co tě z výsledku překvapilo nebo co jsi neviděl",
     ],
     taskType: "ul",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Superpowers: Intelligence – jak AI pomáhá analyzovat lépe a rychleji.",
   },
   {
@@ -645,7 +638,7 @@ Odpověz mi prosím:
       "Intelligence neznamená, že AI myslí za tebe. Znamená, že ti pomáhá zpracovat větší množství informací, identifikovat vzorce a vyvodit závěry – a to rychleji, než bys to zvládl sám.",
       "Kde Intelligence přidává největší hodnotu:",
       ["Zpětná vazba ve velkém množství – AI vytáhne témata, opakující se vzorce a klíčové body", "Porovnání variant – AI zhodnotí plusy a mínusy možností podle zadaných kritérií", "Analýza textu nebo dat – strukturovaný přehled z nestrukturovaného vstupu", "Identifikace anomálií – co v datech nebo situaci nesedí do vzorce"],
-      "Intelligence prompt: Tady jsou [data / zpetna vazba / texty / informace]: [vloz vstup]. Analyzuj a: 1) Identifikuj hlavni vzorce nebo opakujici se temata. 2) Co je nejdulezitejsi nebo nejkritictejsi. 3) Co je neocekavane nebo neodpovida vzorci. 4) Co z toho plyne pro dalsi kroky.",
+      "Intelligence prompt: Tady jsou [data / zpětná vazba / texty / informace]: [vlož vstup]. Analyzuj a: 1) Identifikuj hlavní vzorce nebo opakující se témata. 2) Co je nejdůležitější nebo nejkritičtější. 3) Co je neočekávané nebo neodpovídá vzorci. 4) Co z toho plyne pro další kroky.",
       "Klíčový rozdíl mezi Intelligence a pouhým vyhledáváním: Intelligence není o tom dostat odpověď. Je o tom dostat strukturovanou analýzu, která ti pomůže lépe rozumět situaci a lépe rozhodovat.",
       "Intelligence jako superpower roste s tím, jak zlepšuješ kvalitu vstupu – čím lepší kontext a data, tím přesnější analýza. To opět odkazuje na druhý mozek a 3C framework: zachycené a zpracované materiály jsou skvělým vstupem pro Intelligence.",
     ],
@@ -656,7 +649,7 @@ Odpověz mi prosím:
       "Z výsledku vyvoď jeden konkrétní závěr nebo rozhodnutí",
     ],
     taskType: "ul",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Superpowers: Memory – jak AI pomáhá pamatovat víc a lépe využívat to, co víš.",
   },
   {
@@ -671,7 +664,7 @@ Odpověz mi prosím:
       ["Externalizace kontextu – vše důležité se uloží a může se znovu použít, ne jen pamatovat", "Rychlé vyhledání a propojení – starší materiál se stane relevantním v novém kontextu", "Konzistence – AI si pamatuje kontext, který jí dáš, a pracuje s ním konzistentně v rámci konverzace"],
       "Memory superpower funguje nejlépe v propojení s druhým mozkem (3C framework): zachycené a zpracované materiály jsou přesně tím, co lze předávat AI jako kontext – a tím AI rozšiřuje tvoji Memory.",
       "Kde Memory jako superpower nejvíc pomáhá: před schůzkou s klientem (co bylo probíráno, co bylo rozhodnuto, jaký je kontext), při pokračování projektu po přerušení (co bylo kde, co ještě chybí), při onboardingu nové osoby (dokumentovaný kontext a rozhodnutí).",
-      "Memory prompt: Tady je kontext a historie k tomuto tematu: [vloz material z druheho mozku]. Na tomto zakladu: [konkretni zadani nebo otazka].",
+      "Memory prompt: Tady je kontext a historie k tomuto tématu: [vlož materiál z druhého mozku]. Na tomto základě: [konkrétní zadání nebo otázka].",
       "Když propojíš druhý mozek s AI Memory, přestáváš ztrácet kontext. Každý projekt, každý klient, každé rozhodnutí má svou historii – a ta je dostupná ve správný moment.",
     ],
     taskIntro: "Procvič Memory superpower na jedné situaci, kde kontext hraje roli:",
@@ -682,7 +675,7 @@ Odpověz mi prosím:
       "Porovnej výsledek s tím, co by AI produkovala bez tohoto kontextu",
     ],
     taskType: "ol",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Superpowers: Creation – jak tvořit rychleji a s větší rozmanitostí výstupů.",
   },
   {
@@ -707,7 +700,7 @@ Odpověz mi prosím:
       "Ulož výsledný prompt jako šablonu pro příští podobné zadání",
     ],
     taskType: "ol",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Superpowers: Connection – jak AI pomáhá komunikovat lépe a dosáhnout víc.",
   },
   {
@@ -720,7 +713,7 @@ Odpověz mi prosím:
       "Connection neznamená, že AI komunikuje za tebe. Znamená, že pomáhá připravit komunikaci, která je jasnější, přesnější a lépe přizpůsobená pro konkrétního člověka nebo situaci.",
       "Kde Connection přidává největší hodnotu:",
       ["Příprava důležité zprávy – AI pomůže formulovat to, co chceš říct, tak aby to bylo slyšet", "Přizpůsobení tónu – stejný obsah formulovat jinak pro různé příjemce", "Empatie a perspektiva – jak zprávu vnímá příjemce a co by mohl slyšet jinak", "Složité situace – feedback, eskalace, odmítnutí nebo přesvědčování"],
-      "Connection prompt: Chci sdelit [obsah nebo zamer] pro [komu]. Tato osoba je [popis nebo kontext o prijemci]. Cil komunikace je [co chceme dosáhnout]. Navrhni: 1) Jak to formulovat jasne a srozumitelne. 2) Co by mohlo byt vnimano spatne a jak tomu predejit. 3) Jak uzavrit zprávu tak, aby byl jasný dalsi krok.",
+      "Connection prompt: Chci sdělit [obsah nebo záměr] pro [komu]. Tato osoba je [popis nebo kontext o příjemci]. Cíl komunikace je [co chceme dosáhnout]. Navrhni: 1) Jak to formulovat jasně a srozumitelně. 2) Co by mohlo být vnímáno špatně a jak tomu předejít. 3) Jak uzavřít zprávu tak, aby byl jasný další krok.",
       "Connection jako superpower zahrnuje i Tone of voice (den 9): když AI zná tvůj styl, komunikace zůstane osobitá – jen je lépe připravená.",
       "Nejsilnější komunikace není ta nejdelší ani nejformálnější. Je ta, která přesně říká, co má říct – a říká to způsobem, který příjemce slyší. A k tomu AI může výrazně pomoci.",
     ],
@@ -732,7 +725,7 @@ Odpověz mi prosím:
       "Finalizuj zprávu s vlastním tónem a pošli ji nebo použij",
     ],
     taskType: "ol",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "AI Adoption: jak to všechno propojit – Mindset, Tools a Superpowers jako celek.",
   },
   {
@@ -758,7 +751,7 @@ Odpověz mi prosím:
       "Superpowers – která ze pěti schopností ti přijde nejrelevantnější a chceš ji vědomě rozvíjet",
     ],
     taskType: "ul",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Předposlední den. Jak předat systém do praxe – a aby fungoval i bez aktivního přemýšlení.",
   },
   {
@@ -792,7 +785,7 @@ Odpověz mi prosím:
       "Co už nechci příště dělat od nuly ručně",
     ],
     taskType: "ul",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Poslední den challenge. A zároveň začátek toho, co přijde po ní.",
   },
   {
@@ -825,7 +818,7 @@ Odpověz mi prosím:
       "Measure – podle čeho poznám, že mi to opravdu pomáhá (konkrétní metrika nebo pocit)",
     ],
     taskType: "ul",
-    taskTip: "Zapiš si to ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "",
   },
 ];

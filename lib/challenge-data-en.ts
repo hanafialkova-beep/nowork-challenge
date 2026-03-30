@@ -414,7 +414,6 @@ Follow-up email:
 "Hi Charles, thanks for today's meeting. Glad the product makes sense for your team. As agreed, I'll send a pricing options proposal by Friday. We could schedule a CFO demo for next Thursday – does 10am or 2pm work?"
 
 Mark sent it with one small edit. Total time: 4 minutes instead of 25.`,
-Result: Client email ready in 3 minutes instead of 20 minutes manually.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "There are 5 levels of AI tools – and most people stay at the first. Let's look at what is beyond it.",
   },
@@ -568,9 +567,6 @@ First steps: 1) Ask 5 key customers for their reaction. 2) Separate visual vs. n
 What you still need to figure out: What is the original reason for rebranding – customer reaction or internal intent?
 
 Result: David had clarity in 10 minutes about what he was actually solving. Normally that would have taken an hour with a colleague.`,
-1) Facts: customers respond positively to visual changes
-2) Key question: Do we want to rebrand the name or just the visuals?
-3) Possible steps: survey 5 customers → decision in 2 weeks`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Capture: the first step toward a second brain – how to capture information so it does not get lost.",
   },
@@ -631,9 +627,6 @@ Claire captured it as: "Customer: documentation harder to navigate – missing t
 Two weeks later while working on the documentation she pulled up this note and fixed exactly that issue.
 
 Without Capture she would have forgotten it. With it: an observation from a call became a concrete product improvement.`,
-- Key: proposal approved in concept, blocker = price
-- What follows: prepare price comparison by Tuesday
-- Question: Who approves pricing on the client's side?`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Capturing is not enough. How to turn raw material into usable knowledge – that is Clean.",
   },
@@ -690,10 +683,6 @@ Follow-up email (ready to send):
 "Hi all, recap from today: we delayed project X to Q3, Q3 deadline stays. Jane will send the revised plan by Friday. Next week: project Y status. If I missed anything, let me know."
 
 Martha read it, added one sentence with context and sent it. Total: 3 minutes instead of 25.`,
-Decision: Delay project X to Q3.
-Steps: Jane prepares revised plan by Friday.
-Follow-up email: ready to send to the team.
-Result: 5 minutes of work instead of 30 minutes of manual writing.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Connect: how to link knowledge so AI can truly work with your context.",
   },
@@ -1154,8 +1143,6 @@ Expert from another field (SaaS growth):
 What Hannah hadn't seen:
 → The margin problem and self-service as a prerequisite, not a bonus.
 → Without this perspective she would have launched the cheaper version and discovered the problem 3 months later.`,
-Expert from SaaS: "Solution: self-service onboarding – scales without added costs."
-What I didn't see: the margin problem and self-service as a potential solution.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Superpowers: Intelligence – how AI helps you analyze better and faster.",
   },
@@ -1204,9 +1191,6 @@ What Veronica would have done without AI:
 Read the responses, formed an intuitive impression, likely missed the integration theme as "just one response".
 
 With Intelligence: structured output in 2 minutes, a concrete Q2 decision.`,
-Most important: speed is a strength (keep), documentation is a gap (fix)
-Unexpected: pricing mentioned by only 1/10 – not the main issue
-Recommendation: create a help center, start with 3 key FAQs`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Superpowers: Memory – how AI helps you remember more and better use what you know.",
   },

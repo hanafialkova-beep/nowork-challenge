@@ -20,12 +20,24 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Write down 3 things you do repeatedly by hand in your work or daily routine. They do not have to be big things. Small recurring tasks are enough. We will come back to them throughout the challenge.",
     taskItems: [],
     taskType: "text",
-    taskFallback: `Replying to the same customer questions over and over.
-Writing a weekly project status summary for management.
-Preparing meeting notes – always the same structure.`,
-    taskExample: `What Day 0 looks like in practice:
-→ Your list of three things is the foundation for the whole challenge.
-→ Example: customer FAQs → template (Day 2); meeting notes → workflow (Day 7); weekly report → OHIO principle (Day 2).`,
+    taskFallback: `Not sure what to pick? Try answering these:
+– What takes me more than 30 minutes and I do it every week?
+– What do I copy or rewrite from the previous document every single time?
+– What do I keep thinking "there has to be a better way to do this"?
+
+Examples from real people:
+→ I write a status email to management every Friday – same structure, different numbers.
+→ After every meeting I rewrite my notes into a recap and send it to the team.
+→ Customers keep asking the same questions – I reply to each one separately.`,
+    taskExample: `Margaret works as a project manager. She wrote down:
+1. Weekly report for management (45 minutes every Friday)
+2. Summaries from project meetings (20 minutes after every meeting)
+3. Replies to the same customer questions about invoicing
+
+By the end of the challenge, she had built templates and prompts for all three.
+Result: roughly 3–4 hours back every week.
+
+Your list will serve the same purpose – we will come back to it throughout the challenge.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "You are not paid for work – you are paid for outcomes. And that changes everything about how you work with AI.",
   },
@@ -49,13 +61,32 @@ Preparing meeting notes – always the same structure.`,
     taskIntro: "Pick one task you are working on today and write down two things:",
     taskItems: ["How the task sounds right now", "What outcome you actually want from it"],
     taskType: "ol",
-    taskFallback: `Task as stated: Prepare materials for a sales meeting.
-Actual outcome: The client says yes, or I know exactly what is holding them back.`,
-    taskExample: `Input to AI:
-"Help me name the actual outcome of this task: Tomorrow I have a meeting with a client about renewing their contract."
+    taskFallback: `Examples to choose from – pick the one closest to your situation:
+
+Situation A (sales):
+Task: Prepare a proposal for a new client.
+Actual outcome: The client understands what they get and why it is right for them – not just receiving a file with numbers.
+
+Situation B (marketing):
+Task: Write this month's newsletter.
+Actual outcome: Readers click the link or remember the product – not just "send the email".
+
+Situation C (management):
+Task: Have a 1:1 with everyone on the team.
+Actual outcome: I know who has what problem and have concrete steps to help – not just "completed the 1:1s".`,
+    taskExample: `What this difference looks like in practice with AI:
+
+Input: "I have a meeting tomorrow with a client who is hesitating about renewing. Help me name the actual outcome I want."
+
 AI replied:
-"Outcome: The client confirms renewal or tells you what needs to happen for them to decide.
-Activity: Prepare materials, agenda, key arguments."`,
+"The actual outcome is not 'get through the meeting' or 'show a new proposal'.
+It is: either the client says yes and you know the terms and timeline,
+or you know exactly what is holding them back – price, an alternative, internal approval – and you have a concrete next step.
+
+Activity (what you'll do): prepare materials, agenda, key arguments.
+Outcome (what you want to leave with): a decision or a clear blocker."
+
+Why this helps: with this framing you prepare the meeting differently – not as a presentation, but as a conversation focused on a decision.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Anything you do for the second time should not start from scratch. The OHIO principle – and how it saves you energy.",
   },
@@ -81,18 +112,30 @@ Activity: Prepare materials, agenda, key arguments."`,
       "Output in format [add – list, table, paragraphs...]",
     ],
     taskType: "ul",
-    taskFallback: `Create a template for a client follow-up email after a meeting.
-The template should include: thank you for the time, summary of key points, agreed next steps and deadlines, call to action.
-Format: short paragraphs, max 150 words.`,
-    taskExample: `AI output – follow-up email template:
----
-Subject: Meeting summary – [date]
+    taskFallback: `If you are not sure what to pick, try this prompt directly in AI:
 
+"Create a template for a weekly status email for management.
+The template should include: what was completed this week, what is planned for next week, what I need a decision or help with.
+Output as short bullet points, max 150 words total."
+
+Or for a post-meeting follow-up:
+"Create a template for a follow-up email after a sales meeting.
+Content: thank you for the time (1 sentence), summary of key points (max 3), agreed next steps with deadlines, clear call to action.
+Style: friendly and direct, max 120 words."`,
+    taskExample: `James writes a follow-up email after every meeting. Before: 20–25 minutes, starting from scratch, each email slightly different.
+
+Now: opens the template, fills in 4 fields (name, key points, steps, deadline), reads it once and sends. 5–7 minutes.
+
+The template he built with AI after the first session:
+———
+Subject: Recap – [date], [company]
 Hi [name], thanks for your time today.
 Key points: [points]
-Agreed next steps: [steps] by [deadline]
-
-Let me know if you have anything to add. [Signature]`,
+What we agreed: [steps] by [deadline]
+Let me know if anything needs adjusting.
+[Signature]
+———
+In the first month he saved ~3 hours. And every follow-up was more consistent – no forgotten points, no different format each time.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "AI is not just a search engine. It is a collaborator – and the key is the quality of your brief.",
   },
@@ -120,15 +163,29 @@ Let me know if you have anything to add. [Signature]`,
       "What the result should look like – format and scope (example: Max 5 sentences, professional tone, no technical jargon)",
     ],
     taskType: "ul",
-    taskFallback: `You are an experienced project manager.
-Write a project status summary for a client.
-The project has a 2-week delay due to a key team member being sick – the client does not know yet.
-Max 5 sentences, reassuring and direct tone.`,
-    taskExample: `Vague prompt: "Write an email to the client."
-→ result: generic message, 10 sentences, formal, no context.
+    taskFallback: `Try rewriting this vague prompt using all 4 parts:
 
-Prompt with 4 parts: "You are a business communicator. Write a follow-up to a client who saw the proposal but did not reply. Goal: get a meeting. Tone: friendly, max 5 sentences."
-→ result: specific email, 4 sentences, ready to use.`,
+Vague (how most people write it):
+"Write an email to the client that the project is done."
+
+Rewritten with 4 parts:
+"You are an experienced project manager in B2B software.
+Write an email to the client that the project is complete and ready for handover.
+The project had a 3-week delay – the client already knows. Everything is now in order.
+Email max 5 sentences, friendly and specific tone, no technical jargon."`,
+    taskExample: `Comparing the two outputs:
+
+Vague prompt: "Write an email to the client that the project is done."
+→ AI wrote a formal email, 9 sentences, generic, nothing tailored – needed a full rewrite.
+
+Prompt with 4 parts:
+→ 4 sentences, referenced the delay and the recovery, direct tone, sent as-is.
+
+What the 4-part prompt actually produced:
+———
+"Hi Michael, the project is ready for handover – everything passed the final review. I know the road here wasn't smooth, but I'm glad we finished with a solid result. Access and documentation will be with you by end of day. Let me know when a quick handover call would work."
+———
+That email went straight out. The rewrite took 2 minutes.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "The Prompt Generator approach: ask for the key details first, then create. This changes output quality completely.",
   },
@@ -163,17 +220,30 @@ Prompt with 4 parts: "You are a business communicator. Write a follow-up to a cl
     ],
     taskType: "ul",
     taskPrompt: `Before you begin, ask me 3 clarifying questions that will improve the result.`,
-    taskFallback: `You are an experienced marketing strategist.
-Write 3 subject line variants for an email campaign announcing a new feature in a productivity app.
-Target audience: project managers at companies with 50+ employees.
-Tone: friendly and direct, no corporate phrases. Max 8 words each.
-Before you start, ask me 3 clarifying questions.`,
-    taskExample: `AI asked:
-1) What is the main benefit of the new feature?
-2) Is this campaign standalone or part of a series?
-3) Should the subject line include numbers or urgency?
+    taskFallback: `Try this specific example – copy and send it to AI:
 
-After my answers: 3 specific subject lines with different angles – instead of one generic result.`,
+"You are an expert in marketing communication.
+I want to write a LinkedIn post about how I started using AI at work.
+Before you start writing, ask me 3 clarifying questions that will improve the result."
+
+AI will ask – answer the questions, then ask for the post.
+Compare the result with what you would have got without the questions.`,
+    taskExample: `What happened after sending the prompt with clarifying questions:
+
+AI asked:
+1. "Who exactly is your audience – professional community or a broader public?"
+2. "Do you want to share a specific story or more of a tips-and-insights angle?"
+3. "What tone do you prefer – inspiring, analytical, or conversational?"
+
+Lucy answered: "I'm writing for HR managers, I want to share a specific story about how AI changed our onboarding process, and the tone should be conversational."
+
+The resulting post:
+→ Was 60% more specific than what she got without the questions.
+→ Mentioned HR onboarding specifically, not generic AI topics.
+→ Went straight to LinkedIn without further edits.
+
+Without questions: a generic post about AI that anyone could have written.
+With questions: a personal story tailored to Lucy's situation.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "The most important question is not: how do I do this faster? It is: does this need to be done manually at all?",
   },
@@ -203,12 +273,34 @@ After my answers: 3 specific subject lines with different angles – instead of 
       "Mostly AI – predictable, AI can handle it with minimal oversight (write at least 2 examples)",
     ],
     taskType: "ol",
-    taskFallback: `Just me: Strategic product decisions, personal conversations with key clients
-Me + AI: Preparing proposals and presentations, writing reports, analyzing feedback
-Mainly AI: Formatting documents, transcribing meetings, follow-up emails with standard structure`,
-    taskExample: `Leverage matrix result in practice:
-"I spend 2 hours a week formatting documents → Mainly AI → save 2 hours/week."
-One specific thing moved to AI = the first real leverage of the whole challenge.`,
+    taskFallback: `Take your task list for tomorrow and try assigning each item to one of the three groups.
+
+Example from a real working day of a project manager:
+
+Just me:
+→ Strategic conversation with a key client about contract renewal
+→ Performance review with a team member (this cannot be delegated)
+
+Me + AI:
+→ Preparing a project status presentation for management
+→ Complex email reply to a client requiring context from multiple meetings
+→ Analyzing feedback from the last sprint
+
+Mainly AI:
+→ Formatting and transcribing today's meeting notes
+→ Standard replies to customer questions (onboarding FAQ)
+→ Summarizing documentation for a new colleague`,
+    taskExample: `What changed when Jane sorted her Tuesday this way:
+
+She found that out of 8 hours, only 2 hours were "Just me" work – strategic decisions and key relationships.
+Another 3.5 hours were "Me + AI" tasks where she sets the direction and AI helps with execution.
+And 2.5 hours were "Mainly AI" – things that repeat the same way every time.
+
+One shift she made immediately:
+Processing meeting notes (30–40 minutes every day) moved to "Mainly AI".
+Workflow: she writes 2 minutes of rough notes after a meeting → AI extracts a structured recap with action items.
+
+Saved: ~2 hours per week. Those hours went to work where she was truly needed.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Why perfection kills automation – and how a first version changes everything.",
   },
@@ -241,12 +333,33 @@ One specific thing moved to AI = the first real leverage of the whole challenge.
       "Save the result as a template or reusable base for next time",
     ],
     taskType: "ol",
-    taskFallback: `Intent: I need a template for a monthly report for management. I have no structure yet, just a rough idea.
-(Let AI write the first version – don't edit anything, just add feedback in step 2.)`,
-    taskExample: `Step 1: AI wrote a draft report – roughly what I need, but a bit too formal.
-Step 2 feedback: "Cut by a third, fewer headings, add a Risks section at the end."
-Step 3: AI rewrote it – cleaner, 1 page, structure works.
-Step 4: Saved as a template in Notion. Next report: 10 minutes instead of 45.`,
+    taskFallback: `Try this specific 4-step process on a monthly report template:
+
+Step 1 – input to AI:
+"I need a template for a monthly report for management.
+I'm not sure exactly what it should contain – write me a first version.
+Include: results summary, what went well, what didn't, plan for next month."
+
+(Don't read the output critically – just note what's missing or what's too much. Then move to step 2.)
+
+Step 2 – feedback:
+"This version is too long. Cut it to max 1 page. Remove section X, add a Risks section."`,
+    taskExample: `How iteration worked in practice – a management report:
+
+Tom had 30 minutes for a report that used to take 2 hours.
+
+Step 1: He gave AI 3 sentences about what the project does. AI wrote a draft – too long, too formal, but the structure was right.
+
+Step 2: "Cut it in half, add a Risks & opportunities section, make the tone direct and factual."
+
+Step 3: AI rewrote it – 1 page, clean, 5 sections.
+
+Step 4: Tom added 2 sentences with context AI couldn't know (internal team situation), read it through and sent it.
+
+Done in 28 minutes – a report that management praised.
+Template saved in Notion. Next month: 10 minutes.
+
+Key insight: Tom didn't start with a perfect prompt. He started with an intent.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Today you will build your first mini workflow – a simple system where the steps connect.",
   },
@@ -276,12 +389,31 @@ Step 4: Saved as a template in Notion. Next report: 10 minutes instead of 45.`,
       "What the final output is – what you send, save, or pass on",
     ],
     taskType: "ol",
-    taskFallback: `Input: rough bullet-point notes from a meeting
-AI: summarizes into a structured recap with action items and owners
-Output: follow-up email ready to send to the client`,
-    taskExample: `Tested workflow in practice:
-Input: "meeting with client – likes the proposal, price was a surprise, needs management approval, deadline Friday"
-AI: Structured recap + follow-up email with a concrete next step
+    taskFallback: `Try this specific workflow (or test it right now):
+
+Workflow: Meeting → Recap → Follow-up email
+
+Input: Rough notes from the meeting (3–5 bullet points written during or right after)
+
+Prompt to AI:
+"Here are my meeting notes: [paste bullet points]
+Create: 1) a structured recap with action items and deadlines, 2) a short follow-up email for the participants."
+
+Output: Recap + email ready to send.
+Time saved: 20–30 minutes → 5 minutes.`,
+    taskExample: `Mark works as a sales manager. After every client meeting he spent 20–30 minutes writing a recap.
+
+Input he gave AI:
+"Client Johnson – likes the software, price surprised them (20% above budget), needs CFO approval, free slot next Thursday"
+
+AI output in 30 seconds:
+
+Recap: "Meeting went well. Client is interested in the product. Main blocker: price exceeds budget by ~20%. Decision-maker: CFO. Next step: CFO demo or pricing proposal with options."
+
+Follow-up email:
+"Hi Charles, thanks for today's meeting. Glad the product makes sense for your team. As agreed, I'll send a pricing options proposal by Friday. We could schedule a CFO demo for next Thursday – does 10am or 2pm work?"
+
+Mark sent it with one small edit. Total time: 4 minutes instead of 25.`,
 Result: Client email ready in 3 minutes instead of 20 minutes manually.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "There are 5 levels of AI tools – and most people stay at the first. Let's look at what is beyond it.",
@@ -315,14 +447,25 @@ Result: Client email ready in 3 minutes instead of 20 minutes manually.`,
       "Agents – where it would make sense to let AI solve a complex task independently (even just as an idea)",
     ],
     taskType: "ul",
-    taskFallback: `Chatbot: ChatGPT for email drafts and summaries
-Assistant: custom GPT set up for customer communication in my style
-Script: template for the weekly status report
-Automation: Notion + Make for automatic meeting notes (idea for now)
-Agent: AI that independently suggests weekly priorities (idea for now)`,
-    taskExample: `After this exercise you will have a clear picture like:
-"I'm mainly at level 1–2 right now. Natural next step: set up my own writing assistant (level 2) – that would save me ~20 minutes a day."
-This specific decision is more valuable than a list of tools.`,
+    taskFallback: `What this map looks like for someone in marketing:
+
+Chatbot (level 1): Claude for writing texts, subject lines, LinkedIn posts – every day.
+Assistant (level 2): Custom GPT with brand voice instructions – no need to set tone again every chat.
+Scripts (level 3): Monthly newsletter template – AI fills it in, I just approve.
+Automation (level 4): New customer form submissions → AI classifies → routes to the right person (set up in Make).
+Agent (level 5): AI that reviews campaign data weekly and suggests what to test next (working on this – not live yet).`,
+    taskExample: `What the 5-level mapping revealed for Petra:
+
+After the exercise she realized: "I'm mainly at level 1 – I use ChatGPT every day but I spend 5 minutes at the start of every chat re-explaining my style and context."
+
+Natural next step: level 2 – set up her own assistant with brand voice, target audience, and writing style instructions.
+
+What it changed in practice:
+Before: 5 minutes of context setup at the start of every chat.
+After: first output matches her style right away.
+Saved: ~20 minutes a day, noticeably more consistent outputs.
+
+Key insight from the exercise: she didn't need to jump to level 4 or 5. One step up was enough.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "AI speaks your language – if you teach it. Tomorrow you will set up your own Tone of Voice.",
   },
@@ -357,11 +500,24 @@ Analyze my writing style:
 3) What is not in my style – phrases or expressions I do not use
 
 Save this style and use it for future tasks.`,
-    taskFallback: `Sample text for style analysis (replace with your own):
-"Hey Martin, just letting you know – we got it done. Small team, no chaos. It's working. Let me know if you need anything from me."`,
-    taskExample: `AI style description after analysis:
-"Your style is informal but direct. Short sentences, no filler. Typical: jumping straight to the point with no intro. You avoid formal greetings and phrases like 'I would like to bring to your attention'. You prefer action over explanation."
-You then add to your prompts: "Write in my style."`,
+    taskFallback: `Paste this email into AI (or use your own text) and ask for a style analysis:
+
+Sample text for analysis (replace with your own if you have one):
+"Hey Peter, sending over the recap from today's call. Key points: we confirmed the timeline, Anna takes ownership of the documentation, next check-in is Thursday. Let me know if I missed anything."
+
+Prompt for AI:
+"Analyze the style of this text. Describe: 1) tone and rhythm, 2) what is typical for this way of writing, 3) what is NOT in it – phrases or approaches this person avoids. Apply this style in future tasks."`,
+    taskExample: `What came out of the style analysis – and how it changed things:
+
+Owen pasted 3 emails he'd written over the past week into AI.
+
+AI description of his style:
+"You write concisely and directly – 3–4 sentences per email on average. You jump straight to the point with no courtesy intro. You use active voice ('we confirmed') instead of passive ('it was confirmed'). You avoid phrases like 'I would like to bring to your attention' or 'Kind regards'. Outputs are action-oriented – there is always a clear next step."
+
+How he used it:
+At the start of every chat: "Write in this style: concise, direct, no intros, action-oriented. Max 4 sentences."
+
+Result: he stopped rewriting AI emails. 8 out of 10 outputs went straight out – at most one small edit.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "The second brain – why you need a knowledge system and what it is all for.",
   },
@@ -387,12 +543,31 @@ You then add to your prompts: "Write in my style."`,
       "What one place would make sense as the foundation of your second brain",
     ],
     taskType: "ul",
-    taskFallback: `Where I store things: my head + random phone notes
-What gets lost: context from past decisions, customer feedback, improvement ideas
-One place as a base: Notion – one document called "Inbox"`,
-    taskExample: `Input to AI (chaos prompt):
-"I'm confused about rebranding – not sure whether to change the name, customers are asking about a new look..."
+    taskFallback: `If you're not sure how to answer, try these more specific questions first:
+
+– Where do I currently store notes and ideas? (my head / phone / app / notebook / email)
+– How many times in the last month did I need something I knew I had – but couldn't find it?
+– What type of thing gets lost most often? (customer feedback / ideas / context from decisions / articles and sources)
+
+Example answers:
+Where I store things: my head + unsystematic phone notes
+What gets lost: context from past decisions and customer feedback
+One place as a base: Notion – a folder called "Inbox"`,
+    taskExample: `How the chaos prompt helped David:
+
+Input:
+"I have chaos around our company rebranding. Customers are reacting differently to the new visuals, some ask about a name change, I don't know whether to do the whole thing or not – and I don't have capacity for a big project."
+
 AI output:
+Blocks: 1) Customer reaction to visuals (positive), 2) Question about the name (unresolved), 3) Capacity for rebranding (unclear).
+
+Key question: Is this a visual rebrand or an identity rebrand? These are two different projects with different scope and different impact.
+
+First steps: 1) Ask 5 key customers for their reaction. 2) Separate visual vs. name as independent decisions. 3) Estimate capacity through end of quarter.
+
+What you still need to figure out: What is the original reason for rebranding – customer reaction or internal intent?
+
+Result: David had clarity in 10 minutes about what he was actually solving. Normally that would have taken an hour with a colleague.`,
 1) Facts: customers respond positively to visual changes
 2) Key question: Do we want to rebrand the name or just the visuals?
 3) Possible steps: survey 5 customers → decision in 2 weeks`,
@@ -428,14 +603,34 @@ Please pull out:
 2. What follows from this or what I should do
 3. What I want to remember
 4. Questions that arise from this`,
-    taskFallback: `Inbox: a folder in Notion called "Inbox – unprocessed"
-Today's 3 captures:
-1. Idea: new onboarding email for customers after their first month
-2. Source: article about AI agents – want to revisit it
-3. Customer feedback: "I'd like more concrete examples"`,
-    taskExample: `Raw notes → AI output:
-Input: "meeting with client – likes the proposal, price was a surprise, needs management approval, deadline Friday"
-AI output:
+    taskFallback: `What a Capture inbox looks like in practice – examples of what belongs there:
+
+Ideas (capture immediately, don't sort):
+→ "What if we sent customers a video instead of a text onboarding?"
+→ "The proposal template works, but it's missing a references section."
+
+Sources:
+→ An article on AI agents you want to come back to
+→ A podcast quote you want to use in a presentation
+
+Feedback:
+→ "Customer said: I'd like more concrete examples, not just theory."
+→ "60% of people got stuck at the same step in the workshop – what does that say about the brief?"
+
+The key: everything goes to the inbox without sorting. Don't organize, don't develop. Just capture.`,
+    taskExample: `What happened when Claire started using the Capture system:
+
+Before Capture: She lost 3–4 ideas or insights every week because she didn't write them down.
+
+After setting up an inbox (folder "Inbox – unprocessed" in Notion):
+In the first week she captured 12 items: 4 content ideas, 3 sources, 5 observations from customer calls.
+
+One specific case:
+A customer said in a call: "Your documentation is good, but I have to search through it a lot."
+Claire captured it as: "Customer: documentation harder to navigate – missing table of contents or index?"
+Two weeks later while working on the documentation she pulled up this note and fixed exactly that issue.
+
+Without Capture she would have forgotten it. With it: an observation from a call became a concrete product improvement.`,
 - Key: proposal approved in concept, blocker = price
 - What follows: prepare price comparison by Tuesday
 - Question: Who approves pricing on the client's side?`,
@@ -472,11 +667,29 @@ Please create:
 2. Key decisions made
 3. Concrete next steps: who, what, by when
 4. A short follow-up I can send to participants`,
-    taskFallback: `Material for Clean (replace with your own notes):
-"Meeting about Q2 plan: Peter said we don't have enough resources. Jane suggested delaying one project. Tom agreed. Deadline stayed the same."`,
-    taskExample: `Input: 4 lines of rough meeting notes
-AI output:
-Summary: Q2 plan is at risk due to insufficient resources.
+    taskFallback: `Try the Clean prompt on these notes (or paste your own):
+
+Rough meeting notes:
+"Q2 plan – Peter said not enough resources. Jane wants to delay project X. Tom: agrees, but Q3 deadline must hold. I had the feeling project Y is at risk too – nobody mentioned it. Next meeting in 2 weeks."
+
+Prompt:
+"Process these notes: 1) Brief summary (3–5 sentences). 2) Key decisions made. 3) Concrete next steps – who, what, by when. 4) Short follow-up I can send to the team."`,
+    taskExample: `Clean in practice – from 4 lines to a finished recap:
+
+Martha pasted rough notes (8 lines written during the meeting).
+
+AI output in 45 seconds:
+
+Summary: Q2 plan is at risk due to capacity. The team agreed to delay project X to Q3.
+
+Key decisions: Project X delayed. Q3 deadline remains. Project Y to be reviewed at the next meeting.
+
+Next steps: Jane prepares a revised Q2 plan by Friday. Martha adds project Y status to the next meeting agenda.
+
+Follow-up email (ready to send):
+"Hi all, recap from today: we delayed project X to Q3, Q3 deadline stays. Jane will send the revised plan by Friday. Next week: project Y status. If I missed anything, let me know."
+
+Martha read it, added one sentence with context and sent it. Total: 3 minutes instead of 25.`,
 Decision: Delay project X to Q3.
 Steps: Jane prepares revised plan by Friday.
 Follow-up email: ready to send to the team.
@@ -512,12 +725,26 @@ Result: 5 minutes of work instead of 30 minutes of manual writing.`,
 
 On this basis please:
 [paste your specific task or question]`,
-    taskFallback: `Context from second brain:
-"Client ABC: 200 people, IT department decides. Main issue: integration with a legacy system. Previous meeting: interest was there, project never started due to budget."
-Task: Write an email proposing to restart the collaboration.`,
-    taskExample: `Without context: AI wrote a generic sales email – correct but irrelevant to the client.
-With second-brain context: Email references the legacy problem, follows up on past interest, proposes a pilot project as a first step.
-Difference: personalized email that shows real understanding of the client's situation.`,
+    taskFallback: `Try Connect with this specific scenario:
+
+Context from second brain (replace with your own):
+"Client ABC, 150 people, IT firm, main decision-maker. History: we talked in October – there was interest, project didn't start due to Q1 budget. I wrote in February – no reply. Now: new Q2 budget, I heard from a colleague they're looking for a new solution."
+
+Task: "Based on this context, write an email proposing to restart the collaboration."`,
+    taskExample: `Comparison – without context vs. with context from the second brain:
+
+Without context:
+Jacob asked AI: "Write an email saying we want to restart our collaboration with this client."
+→ Result: generic cold outreach email, could have been sent to anyone. No reply from the client.
+
+With second-brain context:
+Jacob pasted 4 sentences about the history with the client and what he currently knew about their situation.
+→ Email mentioned the specific conversation from October, acknowledged that Q1 wasn't the right time, and connected to the fact that now might make sense.
+
+Client's reaction: replied within an hour and proposed a call.
+
+Why it worked: the email showed that Jacob knew the situation and valued the original conversation.
+Without context in AI: impossible to write that. With context: AI assembles it in a minute.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Halfway checkpoint – what you have, what you are building next, and how the second half of the challenge depends on it.",
   },
@@ -544,14 +771,23 @@ Difference: personalized email that shows real understanding of the client's sit
       "What do you want to focus on in the second half of the challenge",
     ],
     taskType: "ul",
-    taskFallback: `What I actually use: AI 4× a week – mainly for emails and summaries
-Biggest mindset shift: stopped asking AI questions, started giving it specific work to do
-What I keep putting off: setting up my own assistant
-What I want to focus on next: Capture system and PACT environment`,
-    taskExample: `Sample halfway checkpoint result:
-"In 14 days: 3 templates, 1 working workflow, Tone of Voice set up.
-Most time saved: follow-up emails and meeting notes – roughly 2 hours in 2 weeks.
-To develop further: Second brain (just getting started) and PACT environment."`,
+    taskFallback: `Not sure what to write? Try answering these specific questions:
+
+What I actually use: How many times in the past week did I use AI? For what exactly?
+Biggest shift: Was there a moment when an output surprised you with its quality? When did you save real time?
+What I keep putting off: Is it setting up an assistant? A Capture system? Templates? Why?
+What to focus on next: PACT? Second brain? Better prompts?`,
+    taskExample: `Halfway checkpoint – Joseph, project manager at a B2B SaaS company:
+
+What I actually use: Claude every day – meeting recaps, follow-ups, management summaries. Roughly 45 minutes saved per day.
+
+Biggest mindset shift: "I stopped asking 'how do I write this' and started asking 'what do I want to achieve'. That changed how I brief both AI and people."
+
+What I keep putting off: Setting up my own assistant for client communication. I know it would help, but it doesn't feel urgent yet.
+
+What to focus on in the second half: PACT framework – I want a structured environment, not just ad hoc prompts.
+
+Concrete result after 14 days: 3 working templates, 1 workflow (meeting → recap → follow-up), Tone of Voice set up.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "PACT framework: how to think about your digital work environment – starting with Projects.",
   },
@@ -577,15 +813,30 @@ To develop further: Second brain (just getting started) and PACT environment."`,
       "From the result, put together a project status overview in 5 sentences",
     ],
     taskType: "ol",
-    taskFallback: `Project intent: Prepare a new onboarding email sequence for customers
-Success: Customer works independently within 2 weeks of starting
-Deadline: 6 weeks from now | Who: me + marketing colleague
-Resources: existing emails, customer feedback, tool access`,
-    taskExample: `AI output – structured project plan:
-Phase 1 – Analysis (weeks 1–2): map current state, identify bottlenecks
-Phase 2 – Creation (week 3): write emails with AI, 3 drafts for approval
-Phase 3 – Review + setup (weeks 4–5): incorporate feedback, technical setup
-Risks: management sign-off on content, designer capacity, email tool integration`,
+    taskFallback: `Try this project prompt directly in AI:
+
+"I am working on: Preparing a new onboarding email sequence for customers.
+Goal: customer works independently within 2 weeks of signing up.
+Deadline: 6 weeks.
+Team: me + a marketing colleague.
+Resources: existing emails, customer feedback, tool access.
+
+Please provide: 1) Breakdown into phases with milestones. 2) Top 3 risks or unknowns. 3) What I should do first."`,
+    taskExample: `What the project prompt gave Nicole:
+
+Nicole had an intent – an onboarding sequence for new customers. She didn't know where to start.
+
+AI output:
+Phase 1 (weeks 1–2): Analysis – map where customers drop off in onboarding, what questions keep repeating.
+Phase 2 (week 3): Content – write 5 emails with AI, 3 variants each, choose the best.
+Phase 3 (week 4): Revision + setup – incorporate feedback, technical setup in Mailchimp.
+Phase 4 (weeks 5–6): Pilot launch + feedback collection.
+
+Top 3 risks: 1) Content approval takes longer (no clear owner), 2) CRM integration complexity, 3) Designer capacity for visuals.
+
+First step: Spend 1 hour analyzing customer feedback from the past 6 months.
+
+What Nicole said: "Normally I'd spend a full day thinking through the plan. With AI I had a structure in 20 minutes and immediately knew what to do today."`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "PACT: Agents – AI agents and assistants in practice. What they are, what they are for, and where to start.",
   },
@@ -611,13 +862,32 @@ Risks: management sign-off on content, designer capacity, email tool integration
       "Test it on one specific task – compare the result with a regular chatbot without an instruction",
     ],
     taskType: "ol",
-    taskFallback: `Role: Communication assistant for writing customer replies
-Style: informal but direct, no corporate phrases, short sentences, straight to the point
-I do: reply to inquiries, follow-ups, onboarding emails
-I don't: make decisions for the company, invent pricing, ask questions without context`,
-    taskExample: `Assistant without instruction: responded formally, emails 8 sentences, generic tone.
-Assistant with system instruction: informal, 3–4 sentences, specific answer.
-Result: with the instruction I save ~80% of rewriting on every email.`,
+    taskFallback: `Try writing a system instruction for your first assistant:
+
+Role: Communication assistant for writing customer replies and internal messages.
+
+Instruction (copy and adapt for yourself):
+"You are my personal communication assistant.
+Style: informal but direct, no corporate phrases, short sentences (max 3–4 per email).
+Always go straight to the point – no intros like 'I would like to bring to your attention'.
+Before writing, ask: who is this for and what is the goal of the message.
+Output: always max 150 words unless I say otherwise."`,
+    taskExample: `What changed after Ryan set up his assistant:
+
+Before the system instruction:
+– Re-explained his style at the start of every chat.
+– First version of an email: 8 sentences, formal, too wordy.
+– Rewrote every second email.
+
+After the system instruction:
+– First version: 3–4 sentences, direct, right tone.
+– Rewrites 1 in 10 emails.
+– Saves 5–7 minutes per email.
+
+Concrete output from the first test:
+Task: "A customer wrote that their delivery arrived late. Write an apology and offer a solution."
+AI output with assistant instruction: "Hi Paul, I'm sorry about the delay. The shipment arrived 2 days late due to a carrier capacity issue. As compensation, I'd like to offer you [X]. Your next order will be prioritized."
+Ryan sent it as-is.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "PACT: Context – why context changes output quality more than any tool.",
   },
@@ -644,11 +914,27 @@ Result: with the instruction I save ~80% of rewriting on every email.`,
       "Test a prompt with this context block and compare the result with what you get without it",
     ],
     taskType: "ol",
-    taskFallback: `[CONTEXT: I work as a project manager at an IT company. I write for management and client teams. Style: direct and factual, no corporate phrases or empty adjectives.]
-[TASK: Write a brief project status summary for the client. Project is on track with a minor 1-week delay – the client is aware.]`,
-    taskExample: `Without context block: AI wrote a generic status report, 8 sentences, formal tone, standard structure.
-With context block: right style, 4 sentences, factual – no rewriting needed.
-Difference: with a prepared context block the output is ready to use immediately.`,
+    taskFallback: `Write your first context block for your most common situation:
+
+Template for a project manager (adapt for yourself):
+"[CONTEXT: I work as a project manager at a B2B SaaS company. I write mainly for internal teams and clients from the corporate sector. Style: direct and factual, no corporate jargon. What I don't want: empty adjectives, passive voice, vague conclusions. Output always max 5 sentences unless I say otherwise.]"
+
+How to use it: paste it at the start of any prompt where tone and format matter.`,
+    taskExample: `How a context block changed Luke's daily work:
+
+Without context block – he wrote every prompt like this:
+"Write a project summary for the client. Keep it short."
+→ AI: 7 sentences, formal tone, generic structure, needed rewriting.
+
+With context block:
+"[CONTEXT: Project manager at SaaS, corporate client, direct style, max 5 sentences]
+Write a project status summary – we are one week ahead, the client doesn't know yet."
+→ AI: 4 sentences, specific, direct tone, no rewriting needed.
+
+What Luke does now:
+He keeps a context block saved as 3 variants (for client / for management / for team).
+He pastes the right one at the start of the prompt and gets straight to work.
+Average time to prepare a status: 5 minutes instead of 20.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "PACT: Tools – how to choose the right tools and not drown in their volume.",
   },
@@ -674,14 +960,30 @@ Difference: with a prepared context block the output is ready to use immediately
       "What one tool would be worth exploring more deeply or setting up better",
     ],
     taskType: "ul",
-    taskFallback: `Use every week: Claude (daily), Notion (notes)
-Occasionally: ChatGPT, Grammarly
-Installed but not using: Perplexity
-Unsolved need: quick summary from calls or recordings
-Worth exploring: Otter.ai or native transcription in Notion`,
-    taskExample: `Toolkit review result:
-"Reduced to 2 core tools. Clear on what I don't use and why.
-Gap identified: call summaries. Plan: try Otter.ai this week – decision to add or drop within 2 weeks."`,
+    taskFallback: `What a toolkit review might look like:
+
+Use every week: Claude (daily – drafts, summaries), Notion (notes and second brain).
+Installed but rarely use: Perplexity (tried twice), Grammarly (rarely open it).
+Unsolved need: quick processing of meeting recordings without manual work.
+Worth exploring: Otter.ai or native AI meeting notes in Notion.
+
+Criteria for deciding about a new tool:
+– What specific problem does it solve? (not: "it looks interesting")
+– How quickly will I see a first result?
+– Does it integrate with what I already use?`,
+    taskExample: `Toolkit review result – Alice, marketing manager:
+
+After the review she found: she had 7 different AI tools installed and was actually using 2.
+
+Key insight: "Every time I see a new tool, I try it and then stop using it. I'm losing time setting things up instead of doing the work."
+
+Decisions she made:
+1. Primary tool: Claude – she knows it, it works, stop abandoning it for every new thing.
+2. Uninstall: Jasper, Writesonic – they overlap with Claude, she never uses them.
+3. Explore within 2 weeks: Otter.ai – meeting recordings are a real unsolved problem.
+4. Rule for every new tool: "It has to save me time within 3 days, otherwise I'm not adding it."
+
+Result: simpler stack, clarity on what and why.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "WBS – how to break a project into steps with the help of AI. Larger projects without chaos.",
   },
@@ -708,16 +1010,33 @@ Gap identified: call summaries. Plan: try Otter.ai this week – decision to add
       "Identify with AI the top 3 risks or key unknowns",
     ],
     taskType: "ol",
-    taskFallback: `Project: Preparing a new customer onboarding process
-Goal: Customer works independently within 2 weeks of signing the contract
-Deadline: 6 weeks | Team: me + customer success team (3 people)
-Resources: existing documentation, tool access, customer feedback`,
-    taskExample: `AI WBS output:
-Phase 1 – Mapping (week 1): map current state, identify bottlenecks
-Phase 2 – Design (weeks 2–3): new flow, templates, emails
-Phase 3 – Testing (week 4): pilot with 2 customers, collect feedback
-Phase 4 – Launch (weeks 5–6): rollout + feedback processing
-Top 3 risks: team capacity, documentation sign-off, technical dependencies`,
+    taskFallback: `Try this WBS prompt directly in AI:
+
+"I am working on: [write your project intent].
+Goal: [what counts as success].
+Deadline: [date or number of weeks].
+Team / resources: [who and what we have].
+
+Please create:
+1) Project phases (max 4–5)
+2) Key milestones for each phase
+3) 3–5 specific tasks for each phase
+4) Top 3 risks or key unknowns"`,
+    taskExample: `WBS in practice – launching new pricing and packages:
+
+Robert gave AI his intent: Rolling out a new pricing structure and packages for existing customers.
+Deadline: 6 weeks. Team: him + sales + marketing.
+
+AI output:
+Phase 1 – Analysis (week 1): Map customers by segment, define new packages.
+Phase 2 – Preparation (weeks 2–3): Pricing strategy, communication plan, internal team training.
+Phase 3 – Pilot outreach (week 4): Reach key customers individually before the public announcement.
+Phase 4 – Launch (week 5): Email campaign, website update, support FAQ.
+Phase 5 – Stabilization (week 6): Handle customer questions, evaluate first reactions.
+
+Top 3 risks: 1) Customers downgrade to cheaper plan → prepare retention arguments. 2) Legal review of terms takes longer than expected. 3) Support capacity for the spike in inquiries at launch.
+
+Robert: "WBS in 15 minutes. Normally I'd spend an hour on it and still miss 2 of these risks."`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Human-in-the-loop: AI does 90%, the human checks the result. How to set this up correctly.",
   },
@@ -751,14 +1070,37 @@ Please answer:
 - What is most important or most significant?
 - What is surprising or unexpected?
 - What do you recommend doing next based on this information?`,
-    taskFallback: `Always review before using: emails to customers, contracts, pricing
-Quick glance is enough: internal documents, team drafts, meeting notes
-Can use directly: personal summaries, research, transcriptions, brainstorming
-Situation to reconsider: I once sent an AI-written email without checking – the tone was too formal`,
-    taskExample: `Analysis result:
-"3 categories clear. Main rule: anything going to a customer = always read before sending.
-I'll save ~30 min/week by stopping the habit of rewriting internal things.
-Review where it matters – not review everything."`,
+    taskFallback: `Simple rules you can start using today:
+
+Always read before sending:
+→ Emails to customers or partners (tone and relationship matter too much)
+→ Proposals and contracts (accuracy of facts and numbers)
+→ Anything going out with your name on it (you are responsible for it)
+
+Quick glance is enough:
+→ Internal summaries and notes for the team
+→ First drafts intended for further editing
+→ Meeting recaps for internal use
+
+Use directly without review:
+→ Brainstorming and ideas for further selection
+→ Research and source summaries for personal use
+→ Templates where you fill in the facts yourself`,
+    taskExample: `A case where Human-in-the-loop saved the situation:
+
+Tom was letting AI write customer replies and sending them without reading.
+
+Once AI wrote: "Your request falls outside the scope of our agreement."
+But the customer's situation was borderline – Tom would have made an exception.
+
+The customer felt rejected. It took 2 extra emails and a phone call to smooth it over.
+
+What Tom changed:
+One simple rule: anything going to a customer = read before sending.
+Not because AI makes mistakes. But because the customer relationship depends on tone and context that AI cannot fully judge without deep setup.
+
+Time to review: 30 seconds per email.
+Cost of a bad output: hours of damage control.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Superpowers: the first of five abilities that AI collaboration brings – Perception.",
   },
@@ -784,14 +1126,34 @@ Review where it matters – not review everything."`,
       "Write down what surprised you in the result or what you had not seen",
     ],
     taskType: "ul",
-    taskFallback: `Situation: I'm considering launching a cheaper version of our service for smaller clients.
-Perspectives for AI:
-- customer (small company, limited budget)
-- critic (risks for the business, distraction from core)
-- expert from another field (how SaaS companies handle this)`,
-    taskExample: `AI output – 3 perspectives:
-Customer: "Interesting, but I want references and an ROI calculation before deciding."
-Critic: "Risk: smaller clients = more support, lower margins, distracted focus."
+    taskFallback: `Try the Perception prompt on one situation you're currently thinking about:
+
+"Look at this situation from three perspectives:
+1) The customer or client who experiences it
+2) The critical voice that sees the risks
+3) An expert from a different field who would solve it differently
+
+Situation: [write what you are working through]
+
+For each perspective: What does this person see as the main advantage or problem? What would they say is being overlooked?"`,
+    taskExample: `Perception in practice – a decision about a new product:
+
+Hannah was deciding whether to add a cheaper version of her service for startups.
+
+AI output from three perspectives:
+
+Customer (startup founder, limited budget):
+"A cheaper version? Absolutely want it. But I need to see references from companies like mine and a clear ROI calculation before committing."
+
+Critical voice (risks):
+"A cheaper tier means more customers with higher support load and lower margins. It can also cannibalize customers who would otherwise pay full price."
+
+Expert from another field (SaaS growth):
+"Freemium or self-service tier works – but only if the customer doesn't need onboarding. Otherwise costs will exceed revenue. Operating without human onboarding is a condition, not a nice-to-have."
+
+What Hannah hadn't seen:
+→ The margin problem and self-service as a prerequisite, not a bonus.
+→ Without this perspective she would have launched the cheaper version and discovered the problem 3 months later.`,
 Expert from SaaS: "Solution: self-service onboarding – scales without added costs."
 What I didn't see: the margin problem and self-service as a potential solution.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
@@ -818,14 +1180,30 @@ What I didn't see: the margin problem and self-service as a potential solution.`
       "From the result, draw one concrete conclusion or decision",
     ],
     taskType: "ul",
-    taskFallback: `Input for analysis (pick one):
-a) 10 customer feedback responses from the last survey
-b) Results of the last project (what worked, what didn't)
-c) Task list from last month – what got done, what shifted
-Task for AI: identify patterns, what repeats, what is most important`,
-    taskExample: `Input: 10 customer feedback responses
+    taskFallback: `Try the Intelligence prompt on this input (or paste your own):
+
+Sample input – feedback from a workshop (8 responses):
+"Great pace but too much theory. Not enough examples. Took a lot away from it. Too many tools at once. Would like more exercises. The speaker was excellent. Couldn't keep up with note-taking. Too much theory, not enough practice."
+
+Prompt: "Analyze this feedback: 1) Main patterns or recurring themes. 2) What is most important to change next time. 3) What is surprising or unexpected. 4) What you recommend changing first."`,
+    taskExample: `Intelligence in practice – analyzing customer feedback:
+
+Veronica collected 15 responses from a survey after customers' first month using the product.
+Instead of reading them manually, she pasted everything into AI.
+
 AI output:
-Patterns: 7/10 mention response speed positively; 4/10 mention missing documentation
+Patterns: 11/15 rate "simplicity" positively. 8/15 mention "missing integration with tool X". 5/15 want better notifications.
+
+Most important: Integration with tool X is a blocker for a segment of customers – likely affecting retention.
+
+Surprising: Price was not mentioned once. It's not a problem.
+
+Recommendation: Prioritize integration with tool X as the first technical item for Q2.
+
+What Veronica would have done without AI:
+Read the responses, formed an intuitive impression, likely missed the integration theme as "just one response".
+
+With Intelligence: structured output in 2 minutes, a concrete Q2 decision.`,
 Most important: speed is a strength (keep), documentation is a gap (fix)
 Unexpected: pricing mentioned by only 1/10 – not the main issue
 Recommendation: create a help center, start with 3 key FAQs`,
@@ -855,12 +1233,30 @@ Recommendation: create a help center, start with 3 key FAQs`,
       "Compare the result with what AI would produce without this context",
     ],
     taskType: "ol",
-    taskFallback: `Context and history for the project:
-"We launched in January. First 6 weeks had onboarding problems – customers were missing documentation. Better since March. Key decisions: added chat support, dropped phone support."
-Task: Write a Q2 plan for the customer success team.`,
-    taskExample: `Without context: AI wrote a generic Q2 plan with generic goals.
-With second-brain context: Q2 plan reflects reality – mentions documentation gap, builds on chat support, adapts priorities to project history.
-Difference: a plan that works with what is actually there – not with what could theoretically be.`,
+    taskFallback: `Try the Memory prompt on this specific scenario (or use your own):
+
+Scenario: Meeting with a client you last spoke to 3 months ago.
+
+Context to paste into AI:
+"Client ABC: customer company, 80 people, problems with internal communication. Last meeting (September): interest in our product, blocked by Q4 budget. I wrote in January – no reply. Now they have a new Q2 budget."
+
+Task: "Based on this context, suggest how to open the meeting and what to mention first."`,
+    taskExample: `Memory superpower in practice – preparing for a client call:
+
+Michael had a call in 30 minutes with a client he last spoke to 4 months ago.
+
+Without Memory (how he used to do it):
+Spent 15 minutes searching emails. Still didn't remember enough context. On the call he asked about things the client had already told him – it felt unprofessional.
+
+With Memory (how he does it now):
+Michael keeps a short document in Notion for each key client: what they are working on, what was decided, what is blocking them, last interaction.
+
+He pasted into AI: "Here is the context for client ABC: [4 sentences from Notion]."
+AI output: Recommended opening for the call, what to connect to, what the client might have worked through in the meantime, questions to verify.
+
+Result of the call: the client said "I can tell you remember what we talked about" – and the meeting moved faster.
+
+Key point: AI Memory doesn't replace knowing the client. It supplements what you have stored and helps you walk into the conversation prepared.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Superpowers: Creation – how to create faster and with greater variety of outputs.",
   },
@@ -886,17 +1282,30 @@ Difference: a plan that works with what is actually there – not with what coul
       "Save the resulting prompt as a template for the next similar task",
     ],
     taskType: "ol",
-    taskFallback: `Intent: LinkedIn post about what I learned from AI over the past month
-Context: for managers at mid-sized companies, informal tone, max 150 words
-Variants:
-1) practical list of things I changed
-2) personal story of one specific situation
-3) provocative angle – what AI can't do or where it fails`,
-    taskExample: `3 variants from AI:
-1) Practical: "5 things I stopped doing manually: [list]"
-2) Story: "I had 3 hours to prepare a presentation. AI helped me do it in 40 minutes."
-3) Counter: "I don't use AI for everything. But these 3 things I always delegate."
-Final post: combination of elements from 1 and 2 – personal specificity worked best.`,
+    taskFallback: `Try the Creation workflow on a LinkedIn post or short text:
+
+Intent: write a post about what helped you at work in the past month.
+
+Prompt:
+"Write me 3 variants of a LinkedIn post on this topic: [your topic].
+Variant 1: practical list (what I changed, what works)
+Variant 2: personal story of one specific situation
+Variant 3: contrarian angle or a surprising finding
+Target audience: [who reads you]. Tone: [how you want to sound]. Max 150 words per variant."`,
+    taskExample: `Creation in practice – LinkedIn post about AI in project management:
+
+Peter wanted to write a post but sat at a blank page for 40 minutes. Wrote one version, wasn't happy, kept putting it off.
+
+With the Creation workflow: he gave AI his intent, target audience, and asked for 3 variants. In 3 minutes he had material.
+
+Variant 1 (list): "5 things I've stopped doing manually: meeting recaps, follow-up emails, status reports..."
+Variant 2 (story): "Last Thursday I had 2 hours to prepare a board presentation. With AI I had a draft in 35 minutes and time left to prepare for their questions."
+Variant 3 (counter): "AI didn't help me with creativity. It helped me get rid of the work that was blocking my creativity."
+
+Peter picked elements from variants 1 and 2, combined them and added his own voice.
+
+Result: 3× higher engagement than his average.
+Time: 15 minutes instead of 40.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Superpowers: Connection – how AI helps you communicate better and achieve more.",
   },
@@ -922,13 +1331,30 @@ Final post: combination of elements from 1 and 2 – personal specificity worked
       "Finalize the message with your own tone and send it or use it",
     ],
     taskType: "ol",
-    taskFallback: `Intent: Tell a client the project has a 2-week delay.
-Recipient: senior manager, expects results, doesn't want excuses without solutions
-Goal: maintain trust and agree on a new deadline without damaging the relationship
-Style: direct, specific cause + specific solution + specific next step`,
-    taskExample: `AI suggested this phrasing:
-"I want to inform you of a 2-week shift in the project. Cause: a key team member was unavailable. New deadline: [date]. We are adding a final review checkpoint. We suggest a 20-minute call next week."
-What would be received badly: passive language, vague causes, late notification.`,
+    taskFallback: `Try the Connection prompt on one specific situation:
+
+Situation: Tell a client the project has a 2-week delay.
+
+Prompt:
+"I need to tell [a client / senior manager] that the project will be delayed by 2 weeks.
+Recipient: expects results, doesn't want excuses without solutions.
+Goal: maintain trust, announce the change, agree on a new deadline.
+
+Suggest: 1) Phrasing that is direct but maintains the relationship. 2) What might be received badly. 3) How to close the email with a clear next step."`,
+    taskExample: `Connection in practice – a difficult message to a client:
+
+Jane needed to write to a client that a project would be 3 weeks later than promised.
+
+Without AI: spent 30 minutes writing. Had 4 versions. None felt right – too apologetic or too cold.
+
+With the Connection prompt – input: described the situation, recipient (senior corporate manager who doesn't tolerate vague answers), goal (maintain relationship + agree on a new timeline).
+
+AI output:
+"Dear Michael, I'm writing with news I'm sorry to share: the final phase of the project is shifting by 3 weeks – to [new date]. The cause: a technical issue in the integration that we only identified this week. We are adding an extra final review, and the new deadline is realistic. We'd like to suggest a 20-minute call next Tuesday."
+
+What AI flagged as a risk: passive phrasing and vague causes ("a complication") – Jane replaced it with the specific technical detail.
+
+Result: Client replied the next day confirming the call. No escalation.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "AI Adoption: how to connect it all – Mindset, Tools, and Superpowers as a whole.",
   },
@@ -955,13 +1381,29 @@ What would be received badly: passive language, vague causes, late notification.
       "Superpowers – which of the five abilities feels most relevant and you want to consciously develop",
     ],
     taskType: "ul",
-    taskFallback: `Mindset: Stopped asking AI questions, started giving it specific work with context
-Tools: OHIO templates, Capture in Notion, PACT writing assistant
-Superpowers: Most often use Creation (quick drafts) and Intelligence (feedback analysis)`,
-    taskExample: `Sample reflection result:
-"In 26 days the biggest change was how I brief work – context instead of short questions.
-I have 4 saved templates, 1 working workflow, Tone of Voice set up.
-Superpowers: strongest is Memory – second-brain context genuinely changes output quality."`,
+    taskFallback: `If you're not sure what to put in each layer, try these prompts:
+
+Mindset – what actually changed in how you think?
+→ "I now ask about the outcome first, not about the activity."
+→ "When something repeats, I see it as a signal for a template, not a reason to work faster."
+
+Tools – what actually works and you want to keep?
+→ Specific templates, prompts, or workflows you use every week.
+
+Superpowers – which one gives you the most value?
+→ Where do you see more, create faster, or communicate better thanks to AI?`,
+    taskExample: `AI Adoption reflection after 26 days – Jane, HR manager:
+
+Mindset:
+"Biggest shift: I stopped treating AI as a search engine. I now brief it with four parts – and outputs are usable on the first try. That saves me rewriting every second text."
+
+Tools:
+"Taking away: 1) Job ad template (15 min with AI instead of 2h), 2) Meeting → recap → follow-up workflow, 3) Tone of Voice set up for internal communication."
+
+Superpowers:
+"I use Creation most – any draft is ready in minutes. And Intelligence – analyzing exit interview feedback showed me patterns I wouldn't have spotted manually."
+
+Overall: "In 26 days I didn't change every part of my work. But 5–6 specific things I now do differently are giving me 2–3 hours back every week."`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Second to last day. How to transfer the system into practice – and make it work even without active thinking.",
   },
@@ -996,17 +1438,43 @@ Superpowers: strongest is Memory – second-brain context genuinely changes outp
       "What I no longer want to do from scratch manually",
     ],
     taskType: "ul",
-    taskFallback: `Most used: Claude for drafts and summaries every day
-Saved prompts: Tone of Voice, follow-up email template, WBS prompt
-Workflow: Meeting notes → Capture in Notion → AI summary → follow-up email
-Second brain: folder in Notion – "AI Workspace" with materials and decisions
-Rule: anything going to a customer – always read before sending`,
-    taskExample: `Sample AI system on 1 page:
-Mindset: Outcomes > activities, Leverage > speed
-Prompts: 3 templates (email, report, summary) + Tone of Voice
-Workflow: Meeting → Capture → AI recap → follow-up (15 min instead of 45 min)
-Second brain: Notion inbox + weekly Clean routine
-Rule: customer communication = human review always`,
+    taskFallback: `Example of a finished AI system on 1 page (adapt for yourself):
+
+What I use AI for most:
+→ Claude every day: email drafts, summaries, meeting recaps
+
+Saved prompts and templates:
+→ Tone of Voice instructions (3 sentences describing my style)
+→ Follow-up email template after meetings
+→ Prompt for cleaning up meeting notes
+→ WBS prompt for new projects
+
+Workflow:
+→ Meeting → rough notes → AI recap + follow-up (15 min instead of 45 min)
+
+Second brain:
+→ Notion: "Inbox" folder + weekly Clean routine (20 min every Friday)
+
+Rule:
+→ Anything going to a customer or partner = read before sending`,
+    taskExample: `How the system changed work over the past 4 weeks – Owen, consultant:
+
+Before the challenge: using AI ad hoc, no structure. Starting from scratch every time.
+
+System he built:
+– 4 saved prompts (email, recap, summary, WBS)
+– 1 working workflow (meeting → Capture → AI processing → follow-up)
+– Notion inbox with weekly Clean routine
+– Rule: customer communication = human review always
+
+What it changed in practice:
+→ Meeting recaps: 25 min → 5 min
+→ Preparing proposals: 2 hours → 45 minutes
+→ Weekly reports: 40 min → 10 min
+
+Total: roughly 3–4 hours back every week.
+
+Owen: "The system isn't perfect. But it exists. And that is the whole difference."`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "The last day of the challenge. And the beginning of everything that comes after.",
   },
@@ -1040,15 +1508,34 @@ Rule: customer communication = human review always`,
       "Measure – how I will know this is actually helping me (concrete metric or feeling)",
     ],
     taskType: "ul",
-    taskFallback: `Keep: Tone of Voice setup, OHIO email templates, AI workflow for meeting notes
-Build: Fully functional PACT environment with a custom assistant; expand the second brain
-Share: Show a colleague how to set up the Capture system in Notion
-Measure: In 90 days I have 5 working workflows and save ~3 hours a week`,
-    taskExample: `Sample 90-day plan:
-Keep: Email prompts, report template, daily Capture routine
-Build: PACT assistant set up, second brain with real content
-Share: One specific session with a colleague – demo of 1 workflow
-Measure: Number of recurring tasks not done from scratch (goal: at least 5)`,
+    taskFallback: `If you're not sure what to keep – here are 5 things always worth holding onto:
+
+1. At least one saved prompt you use every week
+2. One place for Capture (inbox) where everything goes without sorting
+3. A Human-in-the-loop rule: anything going out with your name = read it first
+4. Tone of Voice setup for your most common type of communication
+5. One specific place where you store templates and prompts
+
+That is the foundation. Everything else can be built gradually.`,
+    taskExample: `90-day plan – Michelle, UX designer:
+
+Keep:
+→ Claude as a daily tool for texts and summaries (saves 45 min/day)
+→ Brief template for design tasks (a week without it showed how much I need it)
+→ Rule: anything going to a client = always review first
+
+Build:
+→ Second brain for project documentation – I have notes scattered everywhere, want to centralize in Notion
+→ Custom AI assistant with Tone of Voice for client communication
+
+Share:
+→ Show my colleague George how I do meeting recaps – he could save an hour a day
+
+Measure:
+→ In 90 days: at least 5 projects without needlessly rewriting documentation from scratch
+→ Concrete feeling: "starting a new project doesn't take me a full day"
+
+Michelle: "I'm not solving whether the 90-day plan will be perfect. I'm solving whether it will exist in 3 months."`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "",
   },

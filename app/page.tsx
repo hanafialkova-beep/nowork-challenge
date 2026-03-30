@@ -42,7 +42,10 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-16 text-left max-w-2xl mx-auto">
 
             {/* Email variant */}
-            <div className="flex flex-col border-2 border-gray-200 rounded-2xl p-7 hover:border-nowork-orange transition-colors">
+            <div className="flex flex-col border-2 border-nowork-orange rounded-2xl p-7 relative">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-nowork-orange text-white text-xs font-bold tracking-widest uppercase px-3 py-1 rounded-full">
+                Doporučujeme
+              </div>
               <div className="text-3xl mb-4">✉️</div>
               <h2 className="text-xl font-bold text-nowork-black mb-2">Email Challenge</h2>
               <p className="text-sm text-gray-500 mb-5 leading-relaxed">
@@ -73,10 +76,7 @@ export default function LandingPage() {
             </div>
 
             {/* Web App variant */}
-            <div className="flex flex-col border-2 border-nowork-orange rounded-2xl p-7 relative">
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-nowork-orange text-white text-xs font-bold tracking-widest uppercase px-3 py-1 rounded-full">
-                Doporučujeme
-              </div>
+            <div className="flex flex-col border-2 border-gray-200 rounded-2xl p-7 hover:border-nowork-orange transition-colors">
               <div className="text-3xl mb-4">💻</div>
               <h2 className="text-xl font-bold text-nowork-black mb-2">Web App</h2>
               <p className="text-sm text-gray-500 mb-5 leading-relaxed">

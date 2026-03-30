@@ -20,6 +20,12 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Write down 3 things you do repeatedly by hand in your work or daily routine. They do not have to be big things. Small recurring tasks are enough. We will come back to them throughout the challenge.",
     taskItems: [],
     taskType: "text",
+    taskFallback: `Replying to the same customer questions over and over.
+Writing a weekly project status summary for management.
+Preparing meeting notes – always the same structure.`,
+    taskExample: `What Day 0 looks like in practice:
+→ Your list of three things is the foundation for the whole challenge.
+→ Example: customer FAQs → template (Day 2); meeting notes → workflow (Day 7); weekly report → OHIO principle (Day 2).`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "You are not paid for work – you are paid for outcomes. And that changes everything about how you work with AI.",
   },
@@ -43,6 +49,13 @@ export const challengeDataEN: ChallengeDay[] = [
     taskIntro: "Pick one task you are working on today and write down two things:",
     taskItems: ["How the task sounds right now", "What outcome you actually want from it"],
     taskType: "ol",
+    taskFallback: `Task as stated: Prepare materials for a sales meeting.
+Actual outcome: The client says yes, or I know exactly what is holding them back.`,
+    taskExample: `Input to AI:
+"Help me name the actual outcome of this task: Tomorrow I have a meeting with a client about renewing their contract."
+AI replied:
+"Outcome: The client confirms renewal or tells you what needs to happen for them to decide.
+Activity: Prepare materials, agenda, key arguments."`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Anything you do for the second time should not start from scratch. The OHIO principle – and how it saves you energy.",
   },
@@ -68,6 +81,18 @@ export const challengeDataEN: ChallengeDay[] = [
       "Output in format [add – list, table, paragraphs...]",
     ],
     taskType: "ul",
+    taskFallback: `Create a template for a client follow-up email after a meeting.
+The template should include: thank you for the time, summary of key points, agreed next steps and deadlines, call to action.
+Format: short paragraphs, max 150 words.`,
+    taskExample: `AI output – follow-up email template:
+---
+Subject: Meeting summary – [date]
+
+Hi [name], thanks for your time today.
+Key points: [points]
+Agreed next steps: [steps] by [deadline]
+
+Let me know if you have anything to add. [Signature]`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "AI is not just a search engine. It is a collaborator – and the key is the quality of your brief.",
   },
@@ -95,6 +120,15 @@ export const challengeDataEN: ChallengeDay[] = [
       "What the result should look like – format and scope (example: Max 5 sentences, professional tone, no technical jargon)",
     ],
     taskType: "ul",
+    taskFallback: `You are an experienced project manager.
+Write a project status summary for a client.
+The project has a 2-week delay due to a key team member being sick – the client does not know yet.
+Max 5 sentences, reassuring and direct tone.`,
+    taskExample: `Vague prompt: "Write an email to the client."
+→ result: generic message, 10 sentences, formal, no context.
+
+Prompt with 4 parts: "You are a business communicator. Write a follow-up to a client who saw the proposal but did not reply. Goal: get a meeting. Tone: friendly, max 5 sentences."
+→ result: specific email, 4 sentences, ready to use.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "The Prompt Generator approach: ask for the key details first, then create. This changes output quality completely.",
   },
@@ -129,6 +163,17 @@ export const challengeDataEN: ChallengeDay[] = [
     ],
     taskType: "ul",
     taskPrompt: `Before you begin, ask me 3 clarifying questions that will improve the result.`,
+    taskFallback: `You are an experienced marketing strategist.
+Write 3 subject line variants for an email campaign announcing a new feature in a productivity app.
+Target audience: project managers at companies with 50+ employees.
+Tone: friendly and direct, no corporate phrases. Max 8 words each.
+Before you start, ask me 3 clarifying questions.`,
+    taskExample: `AI asked:
+1) What is the main benefit of the new feature?
+2) Is this campaign standalone or part of a series?
+3) Should the subject line include numbers or urgency?
+
+After my answers: 3 specific subject lines with different angles – instead of one generic result.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "The most important question is not: how do I do this faster? It is: does this need to be done manually at all?",
   },
@@ -158,6 +203,12 @@ export const challengeDataEN: ChallengeDay[] = [
       "Mostly AI – predictable, AI can handle it with minimal oversight (write at least 2 examples)",
     ],
     taskType: "ol",
+    taskFallback: `Just me: Strategic product decisions, personal conversations with key clients
+Me + AI: Preparing proposals and presentations, writing reports, analyzing feedback
+Mainly AI: Formatting documents, transcribing meetings, follow-up emails with standard structure`,
+    taskExample: `Leverage matrix result in practice:
+"I spend 2 hours a week formatting documents → Mainly AI → save 2 hours/week."
+One specific thing moved to AI = the first real leverage of the whole challenge.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Why perfection kills automation – and how a first version changes everything.",
   },
@@ -190,6 +241,12 @@ export const challengeDataEN: ChallengeDay[] = [
       "Save the result as a template or reusable base for next time",
     ],
     taskType: "ol",
+    taskFallback: `Intent: I need a template for a monthly report for management. I have no structure yet, just a rough idea.
+(Let AI write the first version – don't edit anything, just add feedback in step 2.)`,
+    taskExample: `Step 1: AI wrote a draft report – roughly what I need, but a bit too formal.
+Step 2 feedback: "Cut by a third, fewer headings, add a Risks section at the end."
+Step 3: AI rewrote it – cleaner, 1 page, structure works.
+Step 4: Saved as a template in Notion. Next report: 10 minutes instead of 45.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Today you will build your first mini workflow – a simple system where the steps connect.",
   },
@@ -219,6 +276,13 @@ export const challengeDataEN: ChallengeDay[] = [
       "What the final output is – what you send, save, or pass on",
     ],
     taskType: "ol",
+    taskFallback: `Input: rough bullet-point notes from a meeting
+AI: summarizes into a structured recap with action items and owners
+Output: follow-up email ready to send to the client`,
+    taskExample: `Tested workflow in practice:
+Input: "meeting with client – likes the proposal, price was a surprise, needs management approval, deadline Friday"
+AI: Structured recap + follow-up email with a concrete next step
+Result: Client email ready in 3 minutes instead of 20 minutes manually.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "There are 5 levels of AI tools – and most people stay at the first. Let's look at what is beyond it.",
   },
@@ -251,6 +315,14 @@ export const challengeDataEN: ChallengeDay[] = [
       "Agents – where it would make sense to let AI solve a complex task independently (even just as an idea)",
     ],
     taskType: "ul",
+    taskFallback: `Chatbot: ChatGPT for email drafts and summaries
+Assistant: custom GPT set up for customer communication in my style
+Script: template for the weekly status report
+Automation: Notion + Make for automatic meeting notes (idea for now)
+Agent: AI that independently suggests weekly priorities (idea for now)`,
+    taskExample: `After this exercise you will have a clear picture like:
+"I'm mainly at level 1–2 right now. Natural next step: set up my own writing assistant (level 2) – that would save me ~20 minutes a day."
+This specific decision is more valuable than a list of tools.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "AI speaks your language – if you teach it. Tomorrow you will set up your own Tone of Voice.",
   },
@@ -285,6 +357,11 @@ Analyze my writing style:
 3) What is not in my style – phrases or expressions I do not use
 
 Save this style and use it for future tasks.`,
+    taskFallback: `Sample text for style analysis (replace with your own):
+"Hey Martin, just letting you know – we got it done. Small team, no chaos. It's working. Let me know if you need anything from me."`,
+    taskExample: `AI style description after analysis:
+"Your style is informal but direct. Short sentences, no filler. Typical: jumping straight to the point with no intro. You avoid formal greetings and phrases like 'I would like to bring to your attention'. You prefer action over explanation."
+You then add to your prompts: "Write in my style."`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "The second brain – why you need a knowledge system and what it is all for.",
   },
@@ -310,6 +387,15 @@ Save this style and use it for future tasks.`,
       "What one place would make sense as the foundation of your second brain",
     ],
     taskType: "ul",
+    taskFallback: `Where I store things: my head + random phone notes
+What gets lost: context from past decisions, customer feedback, improvement ideas
+One place as a base: Notion – one document called "Inbox"`,
+    taskExample: `Input to AI (chaos prompt):
+"I'm confused about rebranding – not sure whether to change the name, customers are asking about a new look..."
+AI output:
+1) Facts: customers respond positively to visual changes
+2) Key question: Do we want to rebrand the name or just the visuals?
+3) Possible steps: survey 5 customers → decision in 2 weeks`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Capture: the first step toward a second brain – how to capture information so it does not get lost.",
   },
@@ -342,6 +428,17 @@ Please pull out:
 2. What follows from this or what I should do
 3. What I want to remember
 4. Questions that arise from this`,
+    taskFallback: `Inbox: a folder in Notion called "Inbox – unprocessed"
+Today's 3 captures:
+1. Idea: new onboarding email for customers after their first month
+2. Source: article about AI agents – want to revisit it
+3. Customer feedback: "I'd like more concrete examples"`,
+    taskExample: `Raw notes → AI output:
+Input: "meeting with client – likes the proposal, price was a surprise, needs management approval, deadline Friday"
+AI output:
+- Key: proposal approved in concept, blocker = price
+- What follows: prepare price comparison by Tuesday
+- Question: Who approves pricing on the client's side?`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Capturing is not enough. How to turn raw material into usable knowledge – that is Clean.",
   },
@@ -375,6 +472,15 @@ Please create:
 2. Key decisions made
 3. Concrete next steps: who, what, by when
 4. A short follow-up I can send to participants`,
+    taskFallback: `Material for Clean (replace with your own notes):
+"Meeting about Q2 plan: Peter said we don't have enough resources. Jane suggested delaying one project. Tom agreed. Deadline stayed the same."`,
+    taskExample: `Input: 4 lines of rough meeting notes
+AI output:
+Summary: Q2 plan is at risk due to insufficient resources.
+Decision: Delay project X to Q3.
+Steps: Jane prepares revised plan by Friday.
+Follow-up email: ready to send to the team.
+Result: 5 minutes of work instead of 30 minutes of manual writing.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Connect: how to link knowledge so AI can truly work with your context.",
   },
@@ -406,6 +512,12 @@ Please create:
 
 On this basis please:
 [paste your specific task or question]`,
+    taskFallback: `Context from second brain:
+"Client ABC: 200 people, IT department decides. Main issue: integration with a legacy system. Previous meeting: interest was there, project never started due to budget."
+Task: Write an email proposing to restart the collaboration.`,
+    taskExample: `Without context: AI wrote a generic sales email – correct but irrelevant to the client.
+With second-brain context: Email references the legacy problem, follows up on past interest, proposes a pilot project as a first step.
+Difference: personalized email that shows real understanding of the client's situation.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Halfway checkpoint – what you have, what you are building next, and how the second half of the challenge depends on it.",
   },
@@ -432,6 +544,14 @@ On this basis please:
       "What do you want to focus on in the second half of the challenge",
     ],
     taskType: "ul",
+    taskFallback: `What I actually use: AI 4× a week – mainly for emails and summaries
+Biggest mindset shift: stopped asking AI questions, started giving it specific work to do
+What I keep putting off: setting up my own assistant
+What I want to focus on next: Capture system and PACT environment`,
+    taskExample: `Sample halfway checkpoint result:
+"In 14 days: 3 templates, 1 working workflow, Tone of Voice set up.
+Most time saved: follow-up emails and meeting notes – roughly 2 hours in 2 weeks.
+To develop further: Second brain (just getting started) and PACT environment."`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "PACT framework: how to think about your digital work environment – starting with Projects.",
   },
@@ -457,6 +577,15 @@ On this basis please:
       "From the result, put together a project status overview in 5 sentences",
     ],
     taskType: "ol",
+    taskFallback: `Project intent: Prepare a new onboarding email sequence for customers
+Success: Customer works independently within 2 weeks of starting
+Deadline: 6 weeks from now | Who: me + marketing colleague
+Resources: existing emails, customer feedback, tool access`,
+    taskExample: `AI output – structured project plan:
+Phase 1 – Analysis (weeks 1–2): map current state, identify bottlenecks
+Phase 2 – Creation (week 3): write emails with AI, 3 drafts for approval
+Phase 3 – Review + setup (weeks 4–5): incorporate feedback, technical setup
+Risks: management sign-off on content, designer capacity, email tool integration`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "PACT: Agents – AI agents and assistants in practice. What they are, what they are for, and where to start.",
   },
@@ -482,6 +611,13 @@ On this basis please:
       "Test it on one specific task – compare the result with a regular chatbot without an instruction",
     ],
     taskType: "ol",
+    taskFallback: `Role: Communication assistant for writing customer replies
+Style: informal but direct, no corporate phrases, short sentences, straight to the point
+I do: reply to inquiries, follow-ups, onboarding emails
+I don't: make decisions for the company, invent pricing, ask questions without context`,
+    taskExample: `Assistant without instruction: responded formally, emails 8 sentences, generic tone.
+Assistant with system instruction: informal, 3–4 sentences, specific answer.
+Result: with the instruction I save ~80% of rewriting on every email.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "PACT: Context – why context changes output quality more than any tool.",
   },
@@ -508,6 +644,11 @@ On this basis please:
       "Test a prompt with this context block and compare the result with what you get without it",
     ],
     taskType: "ol",
+    taskFallback: `[CONTEXT: I work as a project manager at an IT company. I write for management and client teams. Style: direct and factual, no corporate phrases or empty adjectives.]
+[TASK: Write a brief project status summary for the client. Project is on track with a minor 1-week delay – the client is aware.]`,
+    taskExample: `Without context block: AI wrote a generic status report, 8 sentences, formal tone, standard structure.
+With context block: right style, 4 sentences, factual – no rewriting needed.
+Difference: with a prepared context block the output is ready to use immediately.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "PACT: Tools – how to choose the right tools and not drown in their volume.",
   },
@@ -533,6 +674,14 @@ On this basis please:
       "What one tool would be worth exploring more deeply or setting up better",
     ],
     taskType: "ul",
+    taskFallback: `Use every week: Claude (daily), Notion (notes)
+Occasionally: ChatGPT, Grammarly
+Installed but not using: Perplexity
+Unsolved need: quick summary from calls or recordings
+Worth exploring: Otter.ai or native transcription in Notion`,
+    taskExample: `Toolkit review result:
+"Reduced to 2 core tools. Clear on what I don't use and why.
+Gap identified: call summaries. Plan: try Otter.ai this week – decision to add or drop within 2 weeks."`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "WBS – how to break a project into steps with the help of AI. Larger projects without chaos.",
   },
@@ -559,6 +708,16 @@ On this basis please:
       "Identify with AI the top 3 risks or key unknowns",
     ],
     taskType: "ol",
+    taskFallback: `Project: Preparing a new customer onboarding process
+Goal: Customer works independently within 2 weeks of signing the contract
+Deadline: 6 weeks | Team: me + customer success team (3 people)
+Resources: existing documentation, tool access, customer feedback`,
+    taskExample: `AI WBS output:
+Phase 1 – Mapping (week 1): map current state, identify bottlenecks
+Phase 2 – Design (weeks 2–3): new flow, templates, emails
+Phase 3 – Testing (week 4): pilot with 2 customers, collect feedback
+Phase 4 – Launch (weeks 5–6): rollout + feedback processing
+Top 3 risks: team capacity, documentation sign-off, technical dependencies`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Human-in-the-loop: AI does 90%, the human checks the result. How to set this up correctly.",
   },
@@ -592,6 +751,14 @@ Please answer:
 - What is most important or most significant?
 - What is surprising or unexpected?
 - What do you recommend doing next based on this information?`,
+    taskFallback: `Always review before using: emails to customers, contracts, pricing
+Quick glance is enough: internal documents, team drafts, meeting notes
+Can use directly: personal summaries, research, transcriptions, brainstorming
+Situation to reconsider: I once sent an AI-written email without checking – the tone was too formal`,
+    taskExample: `Analysis result:
+"3 categories clear. Main rule: anything going to a customer = always read before sending.
+I'll save ~30 min/week by stopping the habit of rewriting internal things.
+Review where it matters – not review everything."`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Superpowers: the first of five abilities that AI collaboration brings – Perception.",
   },
@@ -617,6 +784,16 @@ Please answer:
       "Write down what surprised you in the result or what you had not seen",
     ],
     taskType: "ul",
+    taskFallback: `Situation: I'm considering launching a cheaper version of our service for smaller clients.
+Perspectives for AI:
+- customer (small company, limited budget)
+- critic (risks for the business, distraction from core)
+- expert from another field (how SaaS companies handle this)`,
+    taskExample: `AI output – 3 perspectives:
+Customer: "Interesting, but I want references and an ROI calculation before deciding."
+Critic: "Risk: smaller clients = more support, lower margins, distracted focus."
+Expert from SaaS: "Solution: self-service onboarding – scales without added costs."
+What I didn't see: the margin problem and self-service as a potential solution.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Superpowers: Intelligence – how AI helps you analyze better and faster.",
   },
@@ -641,6 +818,17 @@ Please answer:
       "From the result, draw one concrete conclusion or decision",
     ],
     taskType: "ul",
+    taskFallback: `Input for analysis (pick one):
+a) 10 customer feedback responses from the last survey
+b) Results of the last project (what worked, what didn't)
+c) Task list from last month – what got done, what shifted
+Task for AI: identify patterns, what repeats, what is most important`,
+    taskExample: `Input: 10 customer feedback responses
+AI output:
+Patterns: 7/10 mention response speed positively; 4/10 mention missing documentation
+Most important: speed is a strength (keep), documentation is a gap (fix)
+Unexpected: pricing mentioned by only 1/10 – not the main issue
+Recommendation: create a help center, start with 3 key FAQs`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Superpowers: Memory – how AI helps you remember more and better use what you know.",
   },
@@ -667,6 +855,12 @@ Please answer:
       "Compare the result with what AI would produce without this context",
     ],
     taskType: "ol",
+    taskFallback: `Context and history for the project:
+"We launched in January. First 6 weeks had onboarding problems – customers were missing documentation. Better since March. Key decisions: added chat support, dropped phone support."
+Task: Write a Q2 plan for the customer success team.`,
+    taskExample: `Without context: AI wrote a generic Q2 plan with generic goals.
+With second-brain context: Q2 plan reflects reality – mentions documentation gap, builds on chat support, adapts priorities to project history.
+Difference: a plan that works with what is actually there – not with what could theoretically be.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Superpowers: Creation – how to create faster and with greater variety of outputs.",
   },
@@ -692,6 +886,17 @@ Please answer:
       "Save the resulting prompt as a template for the next similar task",
     ],
     taskType: "ol",
+    taskFallback: `Intent: LinkedIn post about what I learned from AI over the past month
+Context: for managers at mid-sized companies, informal tone, max 150 words
+Variants:
+1) practical list of things I changed
+2) personal story of one specific situation
+3) provocative angle – what AI can't do or where it fails`,
+    taskExample: `3 variants from AI:
+1) Practical: "5 things I stopped doing manually: [list]"
+2) Story: "I had 3 hours to prepare a presentation. AI helped me do it in 40 minutes."
+3) Counter: "I don't use AI for everything. But these 3 things I always delegate."
+Final post: combination of elements from 1 and 2 – personal specificity worked best.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Superpowers: Connection – how AI helps you communicate better and achieve more.",
   },
@@ -717,6 +922,13 @@ Please answer:
       "Finalize the message with your own tone and send it or use it",
     ],
     taskType: "ol",
+    taskFallback: `Intent: Tell a client the project has a 2-week delay.
+Recipient: senior manager, expects results, doesn't want excuses without solutions
+Goal: maintain trust and agree on a new deadline without damaging the relationship
+Style: direct, specific cause + specific solution + specific next step`,
+    taskExample: `AI suggested this phrasing:
+"I want to inform you of a 2-week shift in the project. Cause: a key team member was unavailable. New deadline: [date]. We are adding a final review checkpoint. We suggest a 20-minute call next week."
+What would be received badly: passive language, vague causes, late notification.`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "AI Adoption: how to connect it all – Mindset, Tools, and Superpowers as a whole.",
   },
@@ -743,6 +955,13 @@ Please answer:
       "Superpowers – which of the five abilities feels most relevant and you want to consciously develop",
     ],
     taskType: "ul",
+    taskFallback: `Mindset: Stopped asking AI questions, started giving it specific work with context
+Tools: OHIO templates, Capture in Notion, PACT writing assistant
+Superpowers: Most often use Creation (quick drafts) and Intelligence (feedback analysis)`,
+    taskExample: `Sample reflection result:
+"In 26 days the biggest change was how I brief work – context instead of short questions.
+I have 4 saved templates, 1 working workflow, Tone of Voice set up.
+Superpowers: strongest is Memory – second-brain context genuinely changes output quality."`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "Second to last day. How to transfer the system into practice – and make it work even without active thinking.",
   },
@@ -777,6 +996,17 @@ Please answer:
       "What I no longer want to do from scratch manually",
     ],
     taskType: "ul",
+    taskFallback: `Most used: Claude for drafts and summaries every day
+Saved prompts: Tone of Voice, follow-up email template, WBS prompt
+Workflow: Meeting notes → Capture in Notion → AI summary → follow-up email
+Second brain: folder in Notion – "AI Workspace" with materials and decisions
+Rule: anything going to a customer – always read before sending`,
+    taskExample: `Sample AI system on 1 page:
+Mindset: Outcomes > activities, Leverage > speed
+Prompts: 3 templates (email, report, summary) + Tone of Voice
+Workflow: Meeting → Capture → AI recap → follow-up (15 min instead of 45 min)
+Second brain: Notion inbox + weekly Clean routine
+Rule: customer communication = human review always`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "The last day of the challenge. And the beginning of everything that comes after.",
   },
@@ -810,6 +1040,15 @@ Please answer:
       "Measure – how I will know this is actually helping me (concrete metric or feeling)",
     ],
     taskType: "ul",
+    taskFallback: `Keep: Tone of Voice setup, OHIO email templates, AI workflow for meeting notes
+Build: Fully functional PACT environment with a custom assistant; expand the second brain
+Share: Show a colleague how to set up the Capture system in Notion
+Measure: In 90 days I have 5 working workflows and save ~3 hours a week`,
+    taskExample: `Sample 90-day plan:
+Keep: Email prompts, report template, daily Capture routine
+Build: PACT assistant set up, second brain with real content
+Share: One specific session with a colleague – demo of 1 workflow
+Measure: Number of recurring tasks not done from scratch (goal: at least 5)`,
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
     teaser: "",
   },

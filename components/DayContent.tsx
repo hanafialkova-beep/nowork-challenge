@@ -81,6 +81,30 @@ export default function DayContent({ day, lang, demo, totalDays = 28 }: DayConte
           </div>
         )}
 
+        {/* Fallback example */}
+        {day.taskFallback && (
+          <div className="mt-5 rounded-lg border border-dashed border-gray-300 p-4">
+            <p className="text-xs font-bold tracking-widest text-gray-400 uppercase mb-2">
+              {lang === "cz" ? "💡 Pokud tě nic nenapadá, zkus tohle" : "💡 If you're stuck, try this"}
+            </p>
+            <pre className="text-xs text-gray-600 whitespace-pre-wrap leading-relaxed font-mono">
+              {day.taskFallback}
+            </pre>
+          </div>
+        )}
+
+        {/* Sample output */}
+        {day.taskExample && (
+          <div className="mt-4 rounded-lg border border-gray-200 bg-white p-4">
+            <p className="text-xs font-bold tracking-widest text-gray-400 uppercase mb-2">
+              {lang === "cz" ? "📋 Takhle může výsledek vypadat" : "📋 What the result looks like"}
+            </p>
+            <pre className="text-xs text-gray-600 whitespace-pre-wrap leading-relaxed font-mono">
+              {day.taskExample}
+            </pre>
+          </div>
+        )}
+
         {/* Where to record tip */}
         {day.taskTip && (
           <p className="mt-4 text-xs text-gray-400 italic">

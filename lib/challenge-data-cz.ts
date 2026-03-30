@@ -20,6 +20,12 @@ export const challengeDataCZ: ChallengeDay[] = [
     taskIntro: "Sepiš si 3 věci, které ve své práci nebo běžném dni děláš opakovaně ručně. Nemusí to být nic velkého. Stačí drobnosti, které se vracejí znovu a znovu. Budeme se k nim v challenge vracet.",
     taskItems: [],
     taskType: "text",
+    taskFallback: `Odpisuji zákazníkům na stále stejné otázky.
+Píšu týdenní shrnutí stavu projektu pro vedení.
+Připravuji zápis z meetingu – vždy stejná struktura.`,
+    taskExample: `Výsledek dne 0 v praxi:
+→ Tvůj seznam tří věcí je základ pro celou challenge.
+→ Příklad: zákaznické dotazy → šablona (Day 2); zápisy → workflow (Day 7); report → OHIO princip (Day 2).`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "V práci se nečeká odměna za samotnou práci, ale za výsledek – a tohle mění vše v tom, jak se zadávají AI úkoly.",
   },
@@ -43,6 +49,13 @@ export const challengeDataCZ: ChallengeDay[] = [
     taskIntro: "Vyber si jeden úkol, který dnes řešíš, a napiš si k němu dvě věci:",
     taskItems: ["Jak ten úkol zní teď", "Jaký je skutečný výsledek, kterého chceš dosáhnout"],
     taskType: "ol",
+    taskFallback: `Úkol jak zní: Připravit podklady na obchodní schůzku.
+Skutečný výsledek: Klient řekne ano nebo přesně vím, co ho brzdí.`,
+    taskExample: `Vstup do AI:
+"Pomoz mi pojmenovat skutečný výsledek tohoto úkolu: Zítra mám schůzku s klientem o prodloužení smlouvy."
+AI odpověděla:
+"Výsledek: Klient potvrdí prodloužení nebo se dozvíš, co je třeba k jeho rozhodnutí.
+Aktivita: Připravit podklady, agenda, klíčové argumenty."`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Cokoliv děláš podruhé, by nemělo začínat od nuly. Ukážeme si princip OHIO – a jak ti ušetří energii.",
   },
@@ -68,6 +81,18 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Výstup ve formátu [dopiš – seznam, tabulka, odstavce...]",
     ],
     taskType: "ul",
+    taskFallback: `Vytvoř mi šablonu pro follow-up email po schůzce s klientem.
+Šablona má obsahovat: poděkování za čas, shrnutí klíčových bodů, dohodnuté kroky a termíny, výzvu k akci.
+Výstup ve formátu krátkých odstavců, max 150 slov.`,
+    taskExample: `AI výstup – šablona follow-up emailu:
+---
+Předmět: Shrnutí schůzky – [datum]
+
+Ahoj [jméno], díky za čas na dnešní schůzce.
+Shrnutí klíčových bodů: [body]
+Dohodnuté kroky: [kroky] do [termín]
+
+Dej vědět, pokud chceš něco doplnit. [Podpis]`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "AI není jen vyhledávač. Je to spolupracovník – a klíčem je kvalita zadání.",
   },
@@ -95,6 +120,15 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Jak má vypadat výsledek – formát a rozsah (příklad: Max 5 vět, profesionální tón, bez technického žargonu)",
     ],
     taskType: "ul",
+    taskFallback: `Jsi zkušený projektový manažer.
+Napiš shrnutí stavu projektu pro klienta.
+Projekt má 2týdenní skluz kvůli nemoci klíčového člena týmu, klient o tom zatím neví.
+Max 5 vět, uklidňující a přímý tón.`,
+    taskExample: `Vágní prompt: "Napiš email klientovi."
+→ výsledek: obecná zpráva, 10 vět, formální, bez kontextu.
+
+Prompt se 4 částmi: "Jsi obchodní komunikátor. Napiš follow-up klientovi, který viděl nabídku ale neodpověděl. Cíl: dostat schůzku. Tón: přátelský, max 5 vět."
+→ výsledek: konkrétní email, 4 věty, hned použitelný.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Prompt Generator přístup: místo okamžité tvorby se nejdřív zeptat na klíčové detaily – a pak teprve vytvořit.",
   },
@@ -129,6 +163,17 @@ export const challengeDataCZ: ChallengeDay[] = [
     ],
     taskType: "ul",
     taskPrompt: `Než začneš, polož mi 3 doplňující otázky, které zlepší výstup.`,
+    taskFallback: `Jsi zkušený marketingový stratég.
+Napíšeš 3 varianty subject line pro emailovou kampaň o nové funkci v produktivitní aplikaci.
+Cílová skupina: projektoví manažeři ve firmách s 50+ lidmi.
+Tón přátelský a přímý, žádné korporátní fráze. Max 8 slov každý.
+Než začneš, polož mi 3 doplňující otázky.`,
+    taskExample: `AI se zeptala:
+1) Jaký je hlavní benefit nové funkce?
+2) Je kampaň součástí série nebo standalone?
+3) Má subject line obsahovat čísla nebo urgenci?
+
+Po odpovědích vznikly 3 konkrétní subject liny s různým přístupem – místo jednoho generického výsledku.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Nejdůležitější otázka není: jak to udělám rychleji? Ale: musí tohle být uděláno ručně?",
   },
@@ -158,6 +203,12 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Hlavně AI – předvídatelné, AI to zvládne s minimálním dohledem (napiš alespoň 2 příklady)",
     ],
     taskType: "ol",
+    taskFallback: `Jen já: Strategická rozhodnutí o produktu, osobní rozhovory s klíčovými zákazníky
+Já + AI: Příprava nabídek a prezentací, psaní reportů, analýza zpětné vazby
+Hlavně AI: Formátování dokumentů, přepisy meetingů, follow-up emaily se standardní strukturou`,
+    taskExample: `Výsledek Leverage matice v praxi:
+"Každý týden trávím 2h formátováním dokumentů → Hlavně AI → ušetřím 2h/týden."
+Jedna konkrétní věc přesunutá do AI = první velký leverage celé challenge.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Proč dokonalost zabíjí automatizaci – a jak první verze mění všechno.",
   },
@@ -190,6 +241,12 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Ulož výsledek jako šablonu nebo reusable základ pro příště",
     ],
     taskType: "ol",
+    taskFallback: `Záměr: Potřebuji šablonu pro měsíční report pro vedení. Zatím nemám nic, jen přibližnou představu.
+(Nech AI napsat první verzi – nic neopravuj, jen přidej feedback v kroku 2.)`,
+    taskExample: `Krok 1: AI napsala draft reportu – přibližně to, co potřebuji, ale trochu moc formální.
+Krok 2 feedback: "Zkrať o třetinu, méně titulků, přidej sekci Rizika na konec."
+Krok 3: AI přepsala – čistší, 1 strana, struktura sedí.
+Krok 4: Uloženo jako šablona v Notion. Příští report: 10 minut místo 45.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Dnes si postavíš svůj první mini workflow – jednoduchý systém, kde kroky navazují.",
   },
@@ -219,6 +276,13 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Co je finální výstup – co pošleš, uložíš nebo předáš dál",
     ],
     taskType: "ol",
+    taskFallback: `Vstup: Hrubé bullet-point poznámky z meetingu
+AI: Shrne do strukturovaného zápisu s action items a odpovědnými osobami
+Výstup: Follow-up email připravený k odeslání zákazníkovi`,
+    taskExample: `Vyzkoušený workflow v praxi:
+Vstup: "schůzka s klientem – líbí se nabídka, zaskočila cena, potřebuje schválení vedení, deadline pátek"
+AI: Strukturovaný zápis + follow-up email s konkrétním návrhem dalšího kroku
+Výsledek: Za 3 minuty hotový email pro klienta místo 20 minut ručně.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Existuje pět úrovní AI nástrojů – a většina lidí zůstává jen u první. Ukážeme si, co je za ní.",
   },
@@ -251,6 +315,14 @@ export const challengeDataCZ: ChallengeDay[] = [
       "Agenti – kde by dávalo smysl nechat AI komplexní úkol vyřešit samostatně (i jen jako nápad)",
     ],
     taskType: "ul",
+    taskFallback: `Chatbot: ChatGPT pro drafty emailů a shrnutí
+Asistent: vlastní GPT nastavený pro zákaznickou komunikaci v mém stylu
+Skript: šablona pro každotýdenní status report
+Automatizace: Notion + Make pro automatické zápisy z meetingů (zatím nápad)
+Agent: AI, která sama navrhne priority týdne (zatím nápad)`,
+    taskExample: `Po tomto cvičení budeš mít přehled jako:
+"Teď jsem hlavně na úrovni 1–2. Přirozený další krok: nastavit si vlastního asistenta pro psaní (úroveň 2) – to by mi ušetřilo ~20 minut denně."
+Toto konkrétní rozhodnutí je cennější než seznam nástrojů.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "AI mluví tvojí řečí – pokud ji to naučíš. Zítra si nastavíš svůj vlastní Tone of voice.",
   },
@@ -285,6 +357,11 @@ Analyzuj můj styl psaní:
 3) Co v mém stylu není – fráze nebo výrazy, které nepoužívám
 
 Ulož si tento styl a použij ho při dalších zadáních.`,
+    taskFallback: `Text pro analýzu stylu (vlož místo něj vlastní):
+"Ahoj Martine, dávám vědět – dotáhli jsme to. Malý tým, žádný chaos. Jde to. Dej vědět, jestli potřebuješ cokoli ode mě."`,
+    taskExample: `AI popis stylu po analýze:
+"Tvůj styl je neformální ale věcný. Krátké věty, bez zbytečných slov. Typické: přímý přechod k věci bez úvodu. Vyhýbáš se formálním pozdravům a frázím jako 'Dovolte mi uvést'. Preferuješ akci nad vysvětlováním."
+Tento popis pak přidáváš do promptů: "Piš v mém stylu."`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Druhý mozek – proč mít systém pro ukládání znalostí a k čemu to celé je.",
   },
@@ -318,6 +395,15 @@ Pomoz mi prosím:
 2. Pojmenovat hlavní problém nebo klíčovou otázku
 3. Navrhnout 2-3 možné způsoby, jak to řešit
 4. Určit nejlepší první krok, který dává smysl udělat teď`,
+    taskFallback: `Kde ukládám: hlava + nesystematické poznámky v telefonu
+Co se ztrácí: kontext z minulých rozhodnutí, zpětná vazba zákazníků, nápady na zlepšení
+Jedno místo jako základ: Notion – jeden dokument nazvaný "Inbox"`,
+    taskExample: `Vstup do AI (chaos prompt):
+"Chaos ohledně rebrandingu – nevím jestli změnit název, zákazníci se ptají na nový styl..."
+AI výstup:
+1) Fakta: zákazníci reagují pozitivně na vizuální změny
+2) Klíčová otázka: Chceme rebrandovat název nebo jen vizuál?
+3) Možné kroky: průzkum u 5 zákazníků → rozhodnutí do 2 týdnů`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Capture: první krok ke druhému mozku – jak zachytit informace, aby se neztratily.",
   },
@@ -350,6 +436,17 @@ Vytáhni z toho prosím:
 2. Co z toho plyne nebo co bych měl/a udělat
 3. Co si chci zapamatovat
 4. Otázky, které z toho vyvstávají`,
+    taskFallback: `Inbox: složka v Notion nazvaná "Inbox – nezpracované"
+Dnešní 3 zachycení:
+1. Nápad: nový onboarding email pro zákazníky po prvním měsíci
+2. Zdroj: článek o AI agentech – chci se k němu vrátit
+3. Zpětná vazba zákazníka: "Přeji si víc konkrétních příkladů"`,
+    taskExample: `Hrubé poznámky → AI výstup:
+Vstup: "meeting s klientem – líbí se nabídka, zaskočila cena, potřebuje schválení vedení, deadline pátek"
+AI výstup:
+- Klíčové: nabídka schválena konceptuálně, bloker = cena
+- Co plyne: připravit cenové srovnání do úterý
+- Otázka: Kdo rozhoduje o ceně na straně klienta?`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Zachyceno nestačí. Jak přetavit hrubý materiál v použitelné znalosti – to je Clean.",
   },
@@ -383,6 +480,15 @@ Vytvoř z toho prosím:
 2. Hlavní rozhodnutí, která padla
 3. Konkrétní další kroky: kdo, co, do kdy
 4. Krátký follow-up text, který mohu odeslat účastníkům`,
+    taskFallback: `Materiál pro Clean (vlož místo něj vlastní poznámky):
+"Meeting o Q2 plánu: Petr říkal, že máme málo zdrojů. Jana navrhla odložit jeden projekt. Tomáš souhlasil. Deadline zůstal stejný."`,
+    taskExample: `Vstup: 4 řádky hrubých poznámek z meetingu
+AI výstup:
+Shrnutí: Q2 plán je ohrožen nedostatkem zdrojů.
+Rozhodnutí: Odložit projekt X na Q3.
+Kroky: Jana připraví revidovaný plán do pátku.
+Follow-up email: připraveno k odeslání týmu.
+Výsledek: 5 minut práce místo 30 minut psaní ručně.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Connect: jak propojit znalosti tak, aby AI mohla s tímto kontextem opravdu pracovat.",
   },
@@ -414,6 +520,12 @@ Vytvoř z toho prosím:
 
 Na tomto základě prosím:
 [vlož konkrétní zadání nebo otázku]`,
+    taskFallback: `Kontext z druhého mozku:
+"Klient ABC: 200 lidí, IT oddělení rozhoduje. Hlavní problém: integrace s legacy systémem. Minulá schůzka: zájem byl, projekt se nezahájil kvůli rozpočtu."
+Zadání: Napiš email s návrhem na obnovení spolupráce.`,
+    taskExample: `Bez kontextu: AI napsala obecný obchodní email – korektní, ale bez relevance pro klienta.
+S kontextem z druhého mozku: Email zmiňuje legacy problém, navazuje na předchozí zájem, nabízí pilotní projekt jako první krok.
+Rozdíl: personalizovaný email, který ukazuje reálné pochopení situace klienta.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Halfway checkpoint – co máš, co stavíš dál a jak na tom závisí druhá polovina challenge.",
   },
@@ -440,6 +552,14 @@ Na tomto základě prosím:
       "Na co se chceš zaměřit ve druhé polovině challenge",
     ],
     taskType: "ul",
+    taskFallback: `Co reálně používám: 4× týdně píšu s AI – hlavně emaily a shrnutí
+Největší posun v myšlení: přestal jsem se AI ptát, začal jsem jí zadávat konkrétní práci
+Co odkládám: nastavit si vlastního asistenta
+Na co se zaměřím dál: Capture systém a PACT prostředí`,
+    taskExample: `Vzorový výsledek checkpointu:
+"Za 14 dní: 3 šablony, 1 fungující workflow, Tone of voice nastavený.
+Největší ušetřená práce: follow-up emaily a zápisy z meetingů – odhadem 2h za 2 týdny.
+Dál rozvíjet: Druhý mozek (teprve začínám) a PACT prostředí."`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "PACT framework: jak přemýšlet o digitálním pracovním prostředí – začínáme s Projects.",
   },
@@ -465,6 +585,15 @@ Na tomto základě prosím:
       "Z výsledku sestav přehled stavu projektu v 5 větách",
     ],
     taskType: "ol",
+    taskFallback: `Záměr projektu: Příprava nové onboardingové sekvence emailů pro zákazníky
+Cíl úspěchu: Zákazník pracuje samostatně do 2 týdnů od startu
+Deadline: za 6 týdnů | Kdo: já + kolegyně z marketingu
+Zdroje: stávající emaily, zákaznická zpětná vazba, přístup k nástrojům`,
+    taskExample: `AI výstup – strukturovaný plán projektu:
+Fáze 1 – Analýza (týden 1–2): zmapovat current state, identifikovat bottlenecky
+Fáze 2 – Tvorba (týden 3): napsat emaily s AI, 3 drafty ke schválení
+Fáze 3 – Revize + nastavení (týden 4–5): zapracovat feedback, technické nastavení
+Rizika: schválení obsahu vedením, kapacita grafika, integrace s emailovým nástrojem`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "PACT: Agents – AI agenti a asistenti v praxi. Co jsou, k čemu slouží a kde začít.",
   },
@@ -490,6 +619,13 @@ Na tomto základě prosím:
       "Otestuj ho na jednom konkrétním zadání – porovnej výsledek s běžným chatbotem bez instrukce",
     ],
     taskType: "ol",
+    taskFallback: `Role: Komunikační asistent pro psaní odpovědí zákazníkům
+Styl: neformální ale věcný, bez korporátních frází, krátké věty, přímý přechod k věci
+Dělám: odpovědi na dotazy, follow-upy, onboarding emaily
+Nedělám: nerozhoduji za firmu, nevymýšlím ceny, neptám se bez základního kontextu`,
+    taskExample: `Asistent bez instrukce: odpovídal formálně, emaily 8 vět, generický tón.
+Asistent se systémovou instrukcí: neformální, 3–4 věty, konkrétní odpověď.
+Výsledek: s instrukcí ušetřím ~80% přepracování každého emailu.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "PACT: Context – proč kontext mění kvalitu výstupů víc než jakýkoli nástroj.",
   },
@@ -516,6 +652,11 @@ Na tomto základě prosím:
       "Otestuj prompt s tímto blokem kontextu a porovnej výsledek s tím, co dostáváš bez něj",
     ],
     taskType: "ol",
+    taskFallback: `[KONTEXT: Pracuji jako projektový manažer v IT firmě. Píšu pro vedení i klientské týmy. Styl: věcný a přímý, bez korporátních frází ani prázdných adjektiv.]
+[ZADÁNÍ: Napiš stručné shrnutí stavu projektu pro klienta. Projekt je v pořádku, mírný skluz 1 týden – klient o tom ví.]`,
+    taskExample: `Bez bloku kontextu: AI napsala obecný status report, 8 vět, formální tón, generická struktura.
+S blokem kontextu: přesný styl, 4 věty, věcné – žádné přepisování.
+Rozdíl: s připraveným blokem kontextu je výstup hned použitelný.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "PACT: Tools – jak vybírat správné nástroje a neutopit se v jejich množství.",
   },
@@ -541,6 +682,14 @@ Na tomto základě prosím:
       "Jaký jeden nástroj by stál za hlubší prozkoumání nebo lepší nastavení",
     ],
     taskType: "ul",
+    taskFallback: `Používám každý týden: Claude (denně), Notion (zápisky)
+Občas: ChatGPT, Grammarly
+Nainstalované, ale nepoužívám: Perplexity
+Nevyřešená potřeba: rychlé shrnutí z hovorů nebo nahrávek
+Stojí za prozkoumání: Otter.ai nebo nativní přepis v Notion`,
+    taskExample: `Výsledek toolkit reviewu:
+"Zredukoval jsem na 2 core nástroje. Jasno o tom, co nepoužívám a proč.
+Gap: shrnutí hovorů. Plán: zkusit Otter.ai tento týden – do 2 týdnů rozhodnutí přidat nebo ne."`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "WBS – jak rozložit projekt na kroky s pomocí AI. Větší projekty bez chaosu.",
   },
@@ -567,6 +716,16 @@ Na tomto základě prosím:
       "Identifikuj s AI top 3 rizika nebo klíčové neznámé",
     ],
     taskType: "ol",
+    taskFallback: `Projekt: Příprava nového zákaznického onboardingu
+Cíl: Zákazník pracuje samostatně do 2 týdnů od podpisu smlouvy
+Deadline: za 6 týdnů | Tým: já + zákaznický tým (3 lidi)
+Zdroje: stávající dokumentace, přístup k nástrojům, zpětná vazba od zákazníků`,
+    taskExample: `AI výstup WBS:
+Fáze 1 – Mapování (týden 1): zmapovat current state, identifikovat bottlenecky
+Fáze 2 – Design (týden 2–3): nový flow, šablony, emaily
+Fáze 3 – Testování (týden 4): pilot se 2 zákazníky, sbírat feedback
+Fáze 4 – Launch (týden 5–6): rollout + zpracování feedbacku
+Top 3 rizika: kapacita týmu, schválení dokumentace, technické závislosti`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Human-in-the-loop: AI dělá 90%, člověk kontroluje výsledek. Jak to nastavit správně.",
   },
@@ -600,6 +759,14 @@ Odpověz mi prosím:
 - Co je nejdůležitější nebo nejzásadnější?
 - Co je překvapivé nebo neočekávané?
 - Co doporučuješ udělat dál na základě těchto informací?`,
+    taskFallback: `Vždy kontroluji před použitím: emaily zákazníkům, smlouvy, cenové kalkulace
+Stačí rychlý pohled: interní dokumenty, drafty pro tým, poznámky ze schůzek
+Mohu použít přímo: sumarizace pro sebe, research, přepisy, brainstorming
+Situace k přehodnocení: minule jsem odeslal AI email bez kontroly – tón byl příliš formální`,
+    taskExample: `Výsledek analýzy:
+"3 kategorie jasné. Hlavní pravidlo: cokoliv jde zákazníkovi = vždy přečíst.
+Ušetřím ~30 min/týden tím, že interní věci přestanu přepisovat.
+Kontrola tam, kde to má smysl – ne kontrola všeho."`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Superpowers: první ze pěti schopností, které AI spolupráce přináší – Perception.",
   },
@@ -625,6 +792,16 @@ Odpověz mi prosím:
       "Napiš, co tě z výsledku překvapilo nebo co jsi neviděl",
     ],
     taskType: "ul",
+    taskFallback: `Situace: Přemýšlím, jestli spustit levnější verzi služby pro menší klienty.
+Perspektivy pro AI:
+- zákazník (menší firma, omezený rozpočet)
+- kritik (rizika pro firmu, odvede pozornost od core businessu)
+- odborník z jiného oboru (jak to řeší SaaS firmy)`,
+    taskExample: `AI výstup – 3 perspektivy:
+Zákazník: "Zajímavé, ale chci reference a kalkulaci ROI před rozhodnutím."
+Kritik: "Riziko: menší klienti = více supportu, nižší marže, odvede focus."
+Odborník ze SaaS: "Řešení: self-service onboarding – škáluje bez přidaných nákladů."
+Co jsem neviděl: maržový problém a možnost self-service jako řešení.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Superpowers: Intelligence – jak AI pomáhá analyzovat lépe a rychleji.",
   },
@@ -649,6 +826,17 @@ Odpověz mi prosím:
       "Z výsledku vyvoď jeden konkrétní závěr nebo rozhodnutí",
     ],
     taskType: "ul",
+    taskFallback: `Vstup pro analýzu (vyber jeden):
+a) 10 zpětných vazeb zákazníků z posledního průzkumu
+b) Výsledky posledního projektu (co fungovalo, co ne)
+c) Seznam úkolů z minulého měsíce – co se udělalo, co se posunulo
+Zadání AI: identifikuj vzorce, co se opakuje, co je nejdůležitější`,
+    taskExample: `Vstup: 10 zpětných vazeb zákazníků
+AI výstup:
+Vzorce: 7/10 zmiňuje rychlost odezvy kladně; 4/10 chybí dokumentace
+Nejdůležitější: rychlost je silná stránka (udržet), dokumentace je gap (řešit)
+Neočekávané: cena zmíněna jen 1/10 – není hlavním problémem
+Doporučení: vytvořit help center, začít 3 klíčovými FAQ`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Superpowers: Memory – jak AI pomáhá pamatovat víc a lépe využívat to, co víš.",
   },
@@ -675,6 +863,12 @@ Odpověz mi prosím:
       "Porovnej výsledek s tím, co by AI produkovala bez tohoto kontextu",
     ],
     taskType: "ol",
+    taskFallback: `Kontext a historie k projektu:
+"Projekt jsme spustili v lednu. Prvních 6 týdnů problémy s onboardingem – chyběla dokumentace. Od března funguje lépe. Klíčová rozhodnutí: přidali jsme chat support, zrušili telefonní linku."
+Zadání: Napiš Q2 plán pro zákaznický tým.`,
+    taskExample: `Bez kontextu: AI napsala obecný Q2 plán s generickými cíli.
+S kontextem z druhého mozku: Q2 plán reflektuje situaci – zmiňuje dokumentaci jako gap, navazuje na chat support, přizpůsobuje priority historii projektu.
+Rozdíl: plán, který pracuje s tím, co reálně je – ne s tím, co by mohlo být.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Superpowers: Creation – jak tvořit rychleji a s větší rozmanitostí výstupů.",
   },
@@ -700,6 +894,17 @@ Odpověz mi prosím:
       "Ulož výsledný prompt jako šablonu pro příští podobné zadání",
     ],
     taskType: "ol",
+    taskFallback: `Záměr: LinkedIn post o tom, co jsem se naučil díky AI za poslední měsíc
+Kontext: pro manažery středně velkých firem, neformální tón, max 150 slov
+Varianty:
+1) praktický seznam věcí, co jsem změnil
+2) osobní příběh jedné konkrétní situace
+3) provokativní pohled – co AI neumí nebo kde selhává`,
+    taskExample: `3 varianty od AI:
+1) Praktická: "5 věcí, které jsem přestal dělat ručně: [seznam]"
+2) Příběh: "Měl jsem 3 hodiny na přípravu prezentace. AI mi pomohla za 40 minut."
+3) Kontra: "Nepoužívám AI pro vše. Ale tyhle 3 věci deleguji vždy."
+Výsledný post: kombinace prvků 1 a 2 – nejlépe fungovala osobní konkrétnost.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Superpowers: Connection – jak AI pomáhá komunikovat lépe a dosáhnout víc.",
   },
@@ -725,6 +930,13 @@ Odpověz mi prosím:
       "Finalizuj zprávu s vlastním tónem a pošli ji nebo použij",
     ],
     taskType: "ol",
+    taskFallback: `Záměr: Sdělit klientovi, že projekt má 2týdenní skluz.
+Příjemce: senior manažer, očekává výsledky, nechce výmluvy bez řešení
+Cíl: udržet důvěru a domluvit nový termín bez poškození vztahu
+Styl: přímý, konkrétní příčina + konkrétní řešení + konkrétní další krok`,
+    taskExample: `AI navrhla formulaci:
+"Chci vás informovat o 2týdenním posunu v projektu. Příčina: výpadek klíčového člena týmu. Nový termín: [datum]. Přidáváme závěrečnou kontrolu navíc. Navrhujeme 20minutový call příští týden."
+Co by bylo vnímáno špatně: pasivní formulace, vágní příčiny, pozdní sdělení.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "AI Adoption: jak to všechno propojit – Mindset, Tools a Superpowers jako celek.",
   },
@@ -751,6 +963,13 @@ Odpověz mi prosím:
       "Superpowers – která ze pěti schopností ti přijde nejrelevantnější a chceš ji vědomě rozvíjet",
     ],
     taskType: "ul",
+    taskFallback: `Mindset: Přestal jsem se AI ptát, začal jsem jí zadávat konkrétní práci s kontextem
+Tools: OHIO šablony, Capture v Notion, PACT asistent pro psaní
+Superpowers: Nejčastěji využívám Creation (rychlé drafty) a Intelligence (analýza zpětné vazby)`,
+    taskExample: `Vzorový výsledek reflexe:
+"Za 26 dní se nejvíc změnil způsob zadávání – kontext místo krátkých otázek.
+Mám 4 uložené šablony, 1 fungující workflow, Tone of voice nastavený.
+Superpowers: nejsilnější je Memory – kontext z druhého mozku reálně mění kvalitu výstupů."`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Předposlední den. Jak předat systém do praxe – a aby fungoval i bez aktivního přemýšlení.",
   },
@@ -785,6 +1004,17 @@ Odpověz mi prosím:
       "Co už nechci příště dělat od nuly ručně",
     ],
     taskType: "ul",
+    taskFallback: `Nejčastěji používám: Claude na drafty a shrnutí každý den
+Uložené prompty: Tone of voice, šablona follow-up emailu, WBS prompt
+Workflow: Poznámky → Capture v Notion → AI shrnutí → follow-up email
+Druhý mozek: složka "AI Workspace" v Notion s podklady a rozhodnutími
+Pravidlo: cokoliv jde zákazníkovi – vždy přečíst před odesláním`,
+    taskExample: `Vzorový AI systém na 1 stránce:
+Mindset: Výsledky > aktivity, Leverage > rychlost
+Prompty: 3 šablony (email, report, shrnutí) + Tone of voice
+Workflow: Meeting → Capture → AI zápis → follow-up (15 min místo 45 min)
+Druhý mozek: Notion inbox + weekly Clean rutina
+Pravidlo: zákaznická komunikace = lidský pohled vždy`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Poslední den challenge. A zároveň začátek toho, co přijde po ní.",
   },
@@ -818,6 +1048,15 @@ Odpověz mi prosím:
       "Measure – podle čeho poznám, že mi to opravdu pomáhá (konkrétní metrika nebo pocit)",
     ],
     taskType: "ul",
+    taskFallback: `Keep: Tone of voice nastavení, OHIO šablony pro emaily, AI workflow pro zápisy
+Build: Plně funkční PACT prostředí s vlastním asistentem; rozšířit druhý mozek
+Share: Ukáži kolegovi, jak nastavit Capture systém v Notion
+Measure: Za 90 dní mám 5 fungujících workflow a ušetřím ~3 hodiny týdně`,
+    taskExample: `Vzorový 90denní plán:
+Keep: Prompty pro emaily, šablona pro report, Capture rutina každý den
+Build: PACT asistent nastavený, druhý mozek s reálným obsahem
+Share: Konkrétní setkání s kolegou – ukázka 1 workflow
+Measure: Počet opakujících se věcí, které nedělám od nuly (cíl: min. 5)`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "",
   },

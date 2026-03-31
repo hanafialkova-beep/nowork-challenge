@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import Link from "next/link";
+import ProductSection from "@/components/ProductSection";
 
 export default function LandingPage() {
   return (
@@ -27,94 +27,20 @@ export default function LandingPage() {
 
           {/* Subheadline */}
           <p className="text-lg text-gray-500 mb-4 max-w-xl mx-auto leading-relaxed">
-            28 dní. 5–7 minut denně. Každý den jeden praktický krok, který ti opravdu ulehčí práci s AI.
+            28 dní. 5–7 minut denně. Dvě úrovně – vyber si tu svoji a začni se posouvat.
           </p>
 
           <div className="flex flex-wrap justify-center gap-3 mb-14 text-sm">
-            {["Bez teorie", "Bez složitosti", "Jen praxe"].map((f) => (
+            {["Bez zbytečné teorie", "Bez složitosti", "Jen praxe"].map((f) => (
               <span key={f} className="bg-gray-100 text-gray-600 px-4 py-1.5 rounded-full">
                 {f}
               </span>
             ))}
           </div>
 
-          {/* Product cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-16 text-left max-w-2xl mx-auto">
-
-            {/* Email variant */}
-            <div className="flex flex-col border-2 border-nowork-orange rounded-2xl p-7 relative">
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-nowork-orange text-white text-xs font-bold tracking-widest uppercase px-3 py-1 rounded-full">
-                Doporučujeme
-              </div>
-              <div className="text-3xl mb-4">✉️</div>
-              <h2 className="text-xl font-bold text-nowork-black mb-2">Email Challenge</h2>
-              <p className="text-sm text-gray-500 mb-5 leading-relaxed">
-                Každý den ti přijde jeden email s výzvou. Otevři, přečti, udělej. Žádná appka, žádné přihlašování.
-              </p>
-              <ul className="text-sm text-gray-600 space-y-2 mb-7 flex-1">
-                {[
-                  "Jeden email denně, ve stejnou dobu",
-                  "28 dní, automaticky",
-                  "Funguje odkudkoliv",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-2">
-                    <span className="text-nowork-orange font-bold mt-0.5">✓</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              {/*
-                CTA — vyplň svůj platební link z SimpleShop / Stripe.
-                Return URL nastav na: https://nowork.ai/thank-you/email
-              */}
-              <a
-                href="https://DOPLNIT-PLATEBNI-LINK-EMAIL"
-                className="block text-center bg-nowork-black text-white font-semibold px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors text-sm"
-              >
-                Chci dostávat emaily →
-              </a>
-            </div>
-
-            {/* Web App variant */}
-            <div className="flex flex-col border-2 border-gray-200 rounded-2xl p-7 hover:border-nowork-orange transition-colors">
-              <div className="text-3xl mb-4">💻</div>
-              <h2 className="text-xl font-bold text-nowork-black mb-2">Web App</h2>
-              <p className="text-sm text-gray-500 mb-5 leading-relaxed">
-                Přihlásíš se na webu a každý den se ti zpřístupní jedna výzva. Vše přehledně na jednom místě.
-              </p>
-              <ul className="text-sm text-gray-600 space-y-2 mb-7 flex-1">
-                {[
-                  "Den po dni, automaticky",
-                  "Výzvy přehledně na webu",
-                  "Postupuje s tebou",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-2">
-                    <span className="text-nowork-orange font-bold mt-0.5">✓</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              {/*
-                CTA — vyplň svůj platební link z SimpleShop / Stripe.
-                Return URL nastav na: https://nowork.ai/thank-you/app
-              */}
-              <a
-                href="https://DOPLNIT-PLATEBNI-LINK-APP"
-                className="block text-center bg-nowork-orange text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-500 transition-colors text-sm"
-              >
-                Chci web přístup →
-              </a>
-            </div>
-          </div>
-
-          {/* Demo link */}
-          <div className="mb-10 text-center">
-            <Link
-              href="/challenge?demo=1"
-              className="text-sm text-gray-400 hover:text-nowork-orange underline underline-offset-4 transition-colors"
-            >
-              Chci se nejdřív podívat na obsah →
-            </Link>
+          {/* Product section — version selector + product cards */}
+          <div className="mb-16">
+            <ProductSection />
           </div>
 
           {/* How it works */}

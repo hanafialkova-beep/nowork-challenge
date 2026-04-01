@@ -2,6 +2,19 @@
 
 export type Lang = "cz" | "en";
 export type Variant = "email" | "app";
+export type Version = "basic" | "advanced";
+
+export function getVersion(): Version {
+  if (typeof window === "undefined") return "basic";
+  // URL param overrides localStorage (useful for demo links)
+  const param = new URLSearchParams(window.location.search).get("version");
+  if (param === "basic" || param === "advanced") return param;
+  return (localStorage.getItem("nowork_version") as Version) ?? "basic";
+}
+
+export function setVersion(version: Version) {
+  localStorage.setItem("nowork_version", version);
+}
 
 export function getLang(): Lang {
   if (typeof window === "undefined") return "cz";
@@ -22,10 +35,11 @@ export function getVariant(): Variant | null {
   return localStorage.getItem("nowork_variant") as Variant | null;
 }
 
-/** Called after successful payment — sets email, variant, and start date */
-export function activateAccess(email: string, variant: Variant) {
+/** Called after successful payment — sets email, variant, version, and start date */
+export function activateAccess(email: string, variant: Variant, version: Version = "basic") {
   localStorage.setItem("nowork_email", email);
   localStorage.setItem("nowork_variant", variant);
+  localStorage.setItem("nowork_version", version);
   if (!localStorage.getItem("nowork_start_date")) {
     localStorage.setItem("nowork_start_date", new Date().toISOString());
   }

@@ -4,9 +4,13 @@ import { Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import DayCard from "@/components/DayCard";
-import { getEmail, getLang, getUnlockedDays, getVariant } from "@/lib/utils";
+import { getEmail, getLang, getUnlockedDays, getVariant, getVersion } from "@/lib/utils";
 import { challengeDataCZ } from "@/lib/challenge-data-cz";
 import { challengeDataEN } from "@/lib/challenge-data-en";
+import { challengeDataBasicCZ } from "@/lib/challenge-data-basic-cz";
+import { challengeDataBasicEN } from "@/lib/challenge-data-basic-en";
+import { challengeDataAdvancedCZ } from "@/lib/challenge-data-advanced-cz";
+import { challengeDataAdvancedEN } from "@/lib/challenge-data-advanced-en";
 import type { ChallengeDay } from "@/lib/types";
 
 function ChallengeContent() {
@@ -18,6 +22,7 @@ function ChallengeContent() {
   const [unlockedDays, setUnlockedDays] = useState(0);
   const [lang, setLangState] = useState("cz");
   const [variant, setVariantState] = useState<string | null>(null);
+  const [version, setVersionState] = useState<string>("basic");
 
   useEffect(() => {
     const email = getEmail();
@@ -26,15 +31,25 @@ function ChallengeContent() {
       return;
     }
     const l = getLang();
+    const v = getVersion();
     setLangState(l);
-    setData(l === "cz" ? challengeDataCZ : challengeDataEN);
+    setVersionState(v);
+    const dataMap: Record<string, Record<string, ChallengeDay[]>> = {
+      basic:    { cz: challengeDataBasicCZ,    en: challengeDataBasicEN },
+      advanced: { cz: challengeDataAdvancedCZ, en: challengeDataAdvancedEN },
+    };
+    setData(dataMap[v]?.[l] ?? (l === "cz" ? challengeDataCZ : challengeDataEN));
     setUnlockedDays(demo ? 28 : getUnlockedDays());
     setVariantState(getVariant());
   }, [router, demo]);
 
+  const versionLabel = version === "advanced"
+    ? (lang === "cz" ? "Advanced" : "Advanced")
+    : (lang === "cz" ? "Basic" : "Basic");
+
   const labels = lang === "cz"
-    ? { title: "28 Day Challenge", sub: "Vyber den a pokračuj v challenge.", days: "dní" }
-    : { title: "28 Day Challenge", sub: "Pick a day and continue your challenge.", days: "days" };
+    ? { title: `28 Day Challenge — ${versionLabel}`, sub: "Vyber den a pokračuj v challenge.", days: "dní" }
+    : { title: `28 Day Challenge — ${versionLabel}`, sub: "Pick a day and continue your challenge.", days: "days" };
 
   const progressPct = Math.round((Math.min(unlockedDays, 28) / 28) * 100);
 

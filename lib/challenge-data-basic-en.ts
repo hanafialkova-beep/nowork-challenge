@@ -1018,5 +1018,6 @@ export const challengeDataBasicEN: ChallengeDay[] = [
       "Input: What would AI recommend as a first step after Basic if I'm interested in deeper prompting and my own workflows?\nAI output: First step: take your most-used template from Basic and develop it into a chain-of-thought sequence — instead of one prompt, build a three-step process. Step 1: AI proposes the structure. Step 2: you fill in the content. Step 3: AI checks the tone and length. That's the foundation of workflow thinking in Advanced.",
     taskTip:
       "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "",
   },
 ];

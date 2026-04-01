@@ -118,7 +118,7 @@ Priority: Introduce Clean as a regular step after every meeting and project.`,
         "Facts without context or connection to your actual work",
         "Things that probably won't come up again and aren't transferable",
       ],
-      "Quality Capture is selective. Better to save less but meaningfully — than everything and use none of it.",
+      "Good Capture is selective. Better to save less but meaningfully — than everything and use none of it.",
       "Today's goal: understand your own filter and set up one place where you capture things that matter.",
     ],
     taskIntro:
@@ -232,7 +232,7 @@ Next steps:
     taskType: "ol",
     taskFallback: `If no specific example comes to mind, try this prompt:
 
-"Help me find Connect between old and new knowledge. Ask me about a current challenge I'm working on and three projects or situations from the past that might be relevant. Then help me identify transferable lessons."
+"Help me find the Connect between old and new knowledge. Ask me about a current challenge I'm working on and three projects or situations from the past that might be relevant. Then help me identify transferable lessons."
 
 AI will help you surface both the material and the connections.`,
     taskExample: `Input:
@@ -1054,7 +1054,7 @@ What I learned: I hadn't mapped customer satisfaction with the current service. 
     concept: [
       "Over the last two days you covered Perception and Intelligence. Three superpowers remain to complete the framework.",
       "Memory — extending your working memory.",
-      "Human memory is great at recognition. It's worse at precise capturing. AI helps you with a system that doesn't forget: it captures decisions, context, results, formats. The most powerful use is a combination of templates + AI summarization + regular saving — creating a system where nothing slips through.",
+      "Human memory is great at recognition. It's worse at capturing things precisely. AI helps you with a system that doesn't forget: it captures decisions, context, results, formats. The most powerful use is a combination of templates + AI summarization + regular saving — creating a system where nothing slips through.",
       "Memory in practice:",
       [
         "Meeting notes → AI formats them and saves them in the same structure every time.",
@@ -1163,7 +1163,7 @@ AI output after feedback: Brief ready to use. Full process: 35 minutes. A result
     day: 21,
     title: "Your AI superpowers: which comes naturally, which to develop further.",
     subject: "Week 3 reflection — your personal superpower profile.",
-    preheader: "You'll know yourself where your natural strength is — and where there's room.",
+    preheader: "You'll know where your natural strength is — and where there's room to grow.",
     concept: [
       "Today is a reflection day. Over the past seven days you've been through five superpowers — and you've tried each one a little in practice.",
       "Reflection isn't just looking back. It's the foundation for what you'll develop next. Without reflection you randomly chase tools and tips. With reflection you know where to invest your energy.",
@@ -1216,7 +1216,7 @@ Connection (3/5): Used it for preparing feedback — very useful. Want to extend
       [
         "Framing and context — what AI is working on, with what information, for whom. Never delegate this entirely.",
         "Interpreting the output — AI's result is a proposal, not a decision. You assess and approve it.",
-        "Ethical and strategic decisions — what we communicate to a customer, how we respond to a crisis, what we tell an investor. These are decisions with impact — and they're yours.",
+        "Ethical and strategic decisions — what you communicate to a customer, how you respond to a crisis, what you tell an investor. These are decisions with impact — and they're yours.",
         "Feedback for improvement — what worked, what didn't, how to adjust the prompt or process next time.",
       ],
       "Where AI can work more autonomously:",
@@ -1343,7 +1343,7 @@ Human-in-the-loop moments: 1, 5, 7 are indispensably mine.`,
       "The best adoption approach: find one colleague, show them one concrete example that saves them time — and let them share it with others themselves. Organic spread works better than top-down mandates.",
       "Tomorrow you'll try this in practice: teach a colleague one specific AI trick — or write it up as a mini guide.",
     ],
-    taskIntro: "Think about one colleague or team member that AI could help. Answer three questions:",
+    taskIntro: "Think about one colleague or team member AI could help. Answer three questions:",
     taskItems: [
       "What do they do repeatedly that AI could simplify? (one specific task)",
       "What is their current experience with AI — enthusiastic, skeptical, or neutral?",

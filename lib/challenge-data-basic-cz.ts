@@ -7,14 +7,14 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     subject: "28 dní, 5–7 minut denně. Začínáme.",
     preheader: "Tohle není kurz. Je to zvyk.",
     concept: [
-      "Většina lidí zkouší AI tak, že si jednou napíše do ChatGPT, nedostane co čekala, a zavře záložku. Tohle nebude to samé.",
-      "Tato challenge má jiný přístup: místo toho, aby ses učila o AI, budeš AI každý den používat na věci, které už děláš. Malé kroky, každý den, bez přetížení.",
+      "Většina lidí zkouší AI tak, že si jednou napíše do ChatGPT, nedostane co čekal/a, a zavře záložku. Tohle nebude to samé.",
+      "Tato challenge má jiný přístup: místo toho, aby ses učil/a o AI, budeš AI každý den používat na věci, které už děláš. Malé kroky, každý den, bez přetížení.",
       [
         "5–7 minut denně — víc není potřeba",
         "Každý den jedno téma nebo jeden úkol",
         "Výsledky ukládáš, iteruješ, stavíš na sobě",
       ],
-      "Tenhle první den je záměrně jednoduchý. Jde o to, abys začala — ne abys všechno pochopila hned.",
+      "Tenhle první den je záměrně jednoduchý. Jde o to, abys začal/a — ne abys všechno pochopil/a hned.",
     ],
     taskIntro: "Než začneme, jeden malý úkol. Zamysli se a zapiš si:",
     taskItems: [
@@ -92,9 +92,9 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
       "Klíčový princip: AI je nejlepší spolupracovník, když víš, co od ní chceš — a ověříš, co ti dá.",
     ],
     taskIntro:
-      "Zamysli se nad jedním úkolem, kde si nejsi jistá, jestli by AI pomohla. Zkus to otestovat:",
+      "Zamysli se nad jedním úkolem, kde si nejsi jistý/á, jestli by AI pomohla. Zkus to otestovat:",
     taskItems: [
-      "Vyber úkol, kde jsi skeptická nebo kde se ti AI dosud neosvědčila",
+      "Vyber úkol, kde jsi skeptický/á nebo kde se ti AI dosud neosvědčila",
       "Napiš AI jednoduchý prompt a zjisti, co dostaneš",
       "Zhodnoť: bylo to užitečné? Kde AI selhala? Co by pomohlo?",
     ],
@@ -251,8 +251,8 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     subject: "Co ti fungovalo? Zapiš si 3 zjištění.",
     preheader: "Týden za tebou. Čas zastavit se a zapsat.",
     concept: [
-      "Jeden z nejcennějších návyků při práci s AI je reflexe. Ne proto, abys hodnotila výkon — ale proto, abys věděla, co opakovat.",
-      "Za první týden jsi vyzkoušela: mindset (D1–D2), první výstupy (D3), prompting (D4–D5), iteraci (D6). Každý z těch dnů mohl fungovat jinak.",
+      "Jeden z nejcennějších návyků při práci s AI je reflexe. Ne proto, abys hodnotil/a výkon — ale proto, abys věděl/a, co opakovat.",
+      "Za první týden jsi vyzkoušel/a: mindset (D1–D2), první výstupy (D3), prompting (D4–D5), iteraci (D6). Každý z těch dnů mohl fungovat jinak.",
       "Reflexe ti pomůže odpovědět na dvě otázky:",
       [
         "Co mi přineslo největší hodnotu? (opakovat)",
@@ -268,9 +268,9 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     ],
     taskType: "ol",
     taskFallback:
-      "Vstup: Shrň mi moje zkušenosti z prvního týdne na základě tohoto: nejvíc mi pomohlo D3 a D5. D1 mi přišlo moc teoretické. Zjistila jsem, že první výsledek nikdy nepoužívám rovnou.\nAI výstup: Tvoje silná stránka je praktické testování — hned vidíš, co funguje. Teoretické rámce tě tolik neoslovují. Zároveň máš intuici pro iteraci, což je přesně správný návyk. Do druhého týdne vstupuješ s dobrým základem.",
+      "Vstup: Shrň mi moje zkušenosti z prvního týdne na základě tohoto: nejvíc mi pomohlo D3 a D5. D1 mi přišlo moc teoretické. Zjistil/a jsem, že první výsledek nikdy nepoužívám rovnou.\nAI výstup: Tvoje silná stránka je praktické testování — hned vidíš, co funguje. Teoretické rámce tě tolik neoslovují. Zároveň máš intuici pro iteraci, což je přesně správný návyk. Do druhého týdne vstupuješ s dobrým základem.",
     taskExample:
-      "Vstup: Chci si zapsat 3 zjištění z prvního týdne. Pomoz mi to zformulovat na základě tohoto: prompty mi šly lépe než jsem čekala, ale výstupy jsou někdy moc dlouhé a musím je zkracovat.\nAI výstup: Zjištění 1: Prompting je pro tebe přirozenější, než jsi čekala. Zjištění 2: Délka výstupu je parametr, který musíš explicitně nastavit. Zjištění 3: Iterace (zkracování) je součást tvého workflow, ne výjimka.",
+      "Vstup: Chci si zapsat 3 zjištění z prvního týdne. Pomoz mi to zformulovat na základě tohoto: prompty mi šly lépe než jsem čekal/a, ale výstupy jsou někdy moc dlouhé a musím je zkracovat.\nAI výstup: Zjištění 1: Prompting je pro tebe přirozenější, než jsi čekal/a. Zjištění 2: Délka výstupu je parametr, který musíš explicitně nastavit. Zjištění 3: Iterace (zkracování) je součást tvého workflow, ne výjimka.",
     taskTip:
       "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser:
@@ -329,10 +329,10 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
         "Co je cíl výstupu (přesvědčit, informovat, uklidnit, motivovat)",
         "Jaký je kontext firmy nebo projektu (velikost, obor, tón)",
       ],
-      "Jednoduchý test: přečti si svůj prompt a zeptej se — kdybych to četla poprvé bez jakéhokoliv kontextu, věděla bych přesně, co se po mně chce? Pokud ne, přidej víc.",
+      "Jednoduchý test: přečti si svůj prompt a zeptej se — kdybych to četl/a poprvé bez jakéhokoliv kontextu, věděl/a bych přesně, co se po mně chce? Pokud ne, přidej víc.",
     ],
     taskIntro:
-      "Vezmi prompt, který jsi napsala v D8, a přidej mu víc kontextu:",
+      "Vezmi prompt, který jsi napsal/a v D8, a přidej mu víc kontextu:",
     taskItems: [
       "Pro koho konkrétně je výstup? (jméno role, ne jméno osoby)",
       "Jaká je situace nebo vztah?",
@@ -354,7 +354,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     subject: "Čtyři složky v praxi — na tvůj reálný úkol",
     preheader: "Dnes napíšeš prompt, který budeš reálně používat.",
     concept: [
-      "Tenhle den je přelomový. Dosud jsi cvičila na příkladech. Dnes napíšeš prompt pro úkol, který skutečně děláš.",
+      "Tenhle den je přelomový. Dosud jsi cvičil/a na příkladech. Dnes napíšeš prompt pro úkol, který skutečně děláš.",
       "Proč je to jiné? Protože vlastní kontext mění všechno. AI s tvým kontextem dává výstupy, které jsou použitelné rovnou — nebo s minimálními úpravami.",
       "Připomeň si čtyři složky: Role, Úkol, Kontext, Formát. Dnes je všechny použiješ najednou.",
     ],
@@ -376,7 +376,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     taskTip:
       "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser:
-      "Zítra se naučíš, jak opravit špatný výstup — bez toho, abys začínala znovu.",
+      "Zítra se naučíš, jak opravit špatný výstup — bez toho, abys začínal/a znovu.",
   },
   {
     day: 11,
@@ -390,7 +390,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
       "Kdy použít follow-up vs. přepisování:",
       [
         "Follow-up: výstup je přibližně správný, ale potřebuje úpravu (tón, délka, detail, struktura)",
-        "Přepisování od nuly: výstup je úplně mimo — špatný cíl, špatný kontext, fundamentálně jiný výsledek než co jsi chtěla",
+        "Přepisování od nuly: výstup je úplně mimo — špatný cíl, špatný kontext, fundamentálně jiný výsledek než co jsi chtěl/a",
       ],
       "Příklady dobrých follow-up instrukcí:",
       [
@@ -423,7 +423,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     subject: "Vezmi výstup z D10 a vylepši ho",
     preheader: "Výstup z minulého týdne dnes dotáhneš do finální verze.",
     concept: [
-      "Dnes je čistě praktický den. Vezmeš výstup, který jsi vytvořila v D10, a provedeme ho třemi iteračními kroky.",
+      "Dnes je čistě praktický den. Vezmeš výstup, který jsi vytvořil/a v D10, a provedeme ho třemi iteračními kroky.",
       "Cíl: na konci dnešního cvičení budeš mít výstup, který je reálně použitelný — nebo se mu přiblížíš.",
       "Každý iterační krok má jinou funkci:",
       [
@@ -497,7 +497,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     subject: "3–5 bodů, které si odneseš z druhého týdne",
     preheader: "Druhý týden za tebou. Čas zkonsolidovat.",
     concept: [
-      "Za dva týdny jsi prošla prompting od základů přes strukturu, kontext, iteraci až po analýzu kdy AI pomáhá. Teď je čas to zkonsolidovat.",
+      "Za dva týdny jsi prošel/a prompting od základů přes strukturu, kontext, iteraci až po analýzu kdy AI pomáhá. Teď je čas to zkonsolidovat.",
       "Prompt checklist je tvůj osobní seznam věcí, které kontroluješ před odesláním každého promptu. Nebude fungovat pro každého stejně — proto si ho píšeš ty.",
       "Co do checklistu patří:",
       [
@@ -505,7 +505,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
         "Věci, které ti naopak pokaždé fungují",
         "Zkratky nebo přístupy, které šetří čas",
       ],
-      "Příklad checklistu (přizpůsob si pro sebe): Přidal/a jsem kontext? Specifikoval/a jsem formát? Mám jasný cíl výstupu? Odpovídá tón příjemci?",
+      "Příklad checklistu (přizpůsob si pro sebe): Přidal/a jsem kontext? Specifikoval/a jsem formát? Mám jasný cíl výstupu? Sedí tón pro příjemce?",
     ],
     taskIntro: "Napiš si svůj osobní prompt checklist — 3 až 5 bodů:",
     taskItems: [
@@ -658,7 +658,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     taskFallback:
       "Vstup: Pomoz mi vytvořit šablonu promptu pro psaní statusu na Slack pro tým. Pevná a proměnná část. Ukáž příklad.\nAI výstup: Šablona: 'Napiš krátký status update pro tým na Slack. Téma: [CO se děje]. Stav: [kde jsme]. Blokery: [co brzdí / nebo 'žádné']. Formát: max 5 vět, neformální tón, bez bullet pointů.'\nDosazení: 'Napiš krátký status update pro tým na Slack. Téma: spuštění nové kampaně. Stav: grafika hotová, čekáme na schválení textu. Blokery: schválení se zdrželo o den. Formát: max 5 vět.'\nVýstup: Grafika je hotová a kampaň je připravena ke spuštění! Čekáme ještě na finální schválení textů — mělo to přijít včera, ale snad dnes. Jakmile to bude, jdeme živě.",
     taskExample:
-      "Vstup: Vytvořím šablonu pro týdenní report. Jak ji uložit, abych ji snadno našla?\nAI výstup: Nejjednodušší: ulož ji jako první stránku v Notion nebo jako Google Doc s názvem 'Šablona — týdenní report'. Každý týden otevřeš, dosadíš proměnné části a pošleš. Ušetří ti 30 minut týdně.",
+      "Vstup: Vytvořím šablonu pro týdenní report. Jak ji uložit, abych ji snadno našel/a?\nAI výstup: Nejjednodušší: ulož ji jako první stránku v Notion nebo jako Google Doc s názvem 'Šablona — týdenní report'. Každý týden otevřeš, dosadíš proměnné části a pošleš. Ušetří ti 30 minut týdně.",
     taskTip:
       "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser:
@@ -670,36 +670,36 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     subject: "Upřímná analýza tvé vlastní praxe",
     preheader: "Ne každé použití AI je efektivní. Tohle je důležité přiznat.",
     concept: [
-      "Po třech týdnech máš dost praxe na to, aby ses mohla upřímně zeptat: kde mi AI skutečně šetří čas?",
+      "Po třech týdnech máš dost praxe na to, aby ses mohl/a upřímně zeptat: kde mi AI skutečně šetří čas?",
       "Existuje efekt, kterému se říká 'AI iluze produktivity' — přijde ti, že pracuješ rychleji nebo lépe, ale ve skutečnosti trávíš čas opravováním AI výstupů nebo psaním promptů pro věci, které by trvaly kratší dobu ručně.",
       "Jak poznat, že AI šetří čas:",
       [
-        "Výstup jsi použila s minimální úpravou (< 5 minut)",
+        "Výstup jsi použil/a s minimální úpravou (< 5 minut)",
         "Úkol by bez AI trval znatelně déle (> 20 minut rozdíl)",
         "Kvalita výstupu je srovnatelná nebo lepší",
       ],
       "Jak poznat, že AI přidává práci:",
       [
-        "Výstup jsi přepisovala déle, než by trvalo napsat ho od nuly",
-        "Strávila jsi 20 minut psaním promptu pro 2minutový úkol",
-        "Musela jsi ověřovat fakta (a zjistila jsi chybu)",
+        "Výstup jsi přepisoval/a déle, než by trvalo napsat ho od nuly",
+        "Strávil/a jsi 20 minut psaním promptu pro 2minutový úkol",
+        "Musel/a jsi ověřovat fakta (a zjistil/a jsi chybu)",
       ],
     ],
     taskIntro: "Proveď rychlý audit za poslední týden:",
     taskItems: [
-      "Vypiš 3 momenty, kdy ti AI ušetřila čas (konkrétní příklady)",
+      "Vypiš 3 momenty, kdy ti AI ušetřil/a čas (konkrétní příklady)",
       "Vypiš 1–2 momenty, kdy AI přidala práci nebo nepomohla",
       "Z toho vyvoď: kde budeš AI používat víc a kde míň?",
     ],
     taskType: "ol",
     taskFallback:
-      "Vstup: Chci udělat audit — kde mi AI za poslední týden pomohla a kde ne. Pomoz mi to zformulovat.\nAI výstup: Klidně to řekni jako 'šetřilo mi to čas' nebo 'bylo to víc práce než bez AI' — já z toho vytáhnu strukturu. Nebo zkus odpovědět na 3 otázky: 1. Jaký úkol s AI byl nejrychlejší? 2. Kdy jsi musela výstup hodně přepisovat? 3. Kdy jsi AI nepoužila, přestože by pomohla?",
+      "Vstup: Chci udělat audit — kde mi AI za poslední týden pomohla a kde ne. Pomoz mi to zformulovat.\nAI výstup: Klidně to řekni jako 'šetřilo mi to čas' nebo 'bylo to víc práce než bez AI' — já z toho vytáhnu strukturu. Nebo zkus odpovědět na 3 otázky: 1. Jaký úkol s AI byl nejrychlejší? 2. Kdy jsi musel/a výstup hodně přepisovat? 3. Kdy jsi AI nepoužil/a, přestože by pomohla?",
     taskExample:
-      "Vstup: Ušetřilo mi čas: draft newsletteru (uložila jsem 90 minut), šablona e-mailu pro klienta (5 minut místo 20). Přidalo práci: AI mi navrhla blog post s vymyšlenými statistikami, musela jsem vše ověřit.\nAI výstup: Silné stránky tvé praxe: dlouhé texty a šablony. Slabé místo: fakta a data vždy ověřuj — AI vymýšlí přesvědčivě. Doporučení: používej AI na psaní, ne na research.",
+      "Vstup: Ušetřilo mi čas: draft newsletteru (ušetřil/a jsem 90 minut), šablona e-mailu pro klienta (5 minut místo 20). Přidalo práci: AI mi navrhla blog post s vymyšlenými statistikami, musel/a jsem vše ověřit.\nAI výstup: Silné stránky tvé praxe: dlouhé texty a šablony. Slabé místo: fakta a data vždy ověřuj — AI vymýšlí přesvědčivě. Doporučení: používej AI na psaní, ne na research.",
     taskTip:
       "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser:
-      "Zítra tě čeká jeden vědomý den s AI — zaznamenáš, co jsi použila a co ne.",
+      "Zítra tě čeká jeden vědomý den s AI — zaznamenáš, co jsi použil/a a co ne.",
   },
   {
     day: 20,
@@ -711,22 +711,22 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
       "Proč to dělat? Protože většina lidí buď AI používá nahodile (bez systému) nebo ji nepoužívá ani tam, kde by pomohla. Vědomí vzorce je první krok ke změně.",
       "Jak zaznamenávat:",
       [
-        "Krátká poznámka po každém pracovním bloku: 'použila jsem AI na X, ušetřilo mi Y minut'",
-        "Nebo naopak: 'mohla jsem použít AI na X, ale nenapadlo mě to'",
+        "Krátká poznámka po každém pracovním bloku: 'použil/a jsem AI na X, ušetřilo mi Y minut'",
+        "Nebo naopak: 'mohl/a jsem použít AI na X, ale nenapadlo mě to'",
         "Nestresuj se přesností — odhad je dost",
       ],
     ],
     taskIntro: "Na konci dne si zapiš:",
     taskItems: [
-      "3 momenty, kdy jsi AI použila — a odhadni, kolik času to ušetřilo",
-      "1–2 momenty, kdy jsi AI nepoužila, ale mohla jsi",
+      "3 momenty, kdy jsi AI použil/a — a odhadni, kolik času to ušetřilo",
+      "1–2 momenty, kdy jsi AI nepoužil/a, ale mohl/a jsi",
       "Jedno zjištění: co tě překvapilo?",
     ],
     taskType: "ol",
     taskFallback:
-      "Vstup: Použila jsem AI třikrát: draft e-mailu (ušetřeno 15 min), shrnutí dokumentu (ušetřeno 20 min), návrh agendy (ušetřeno 10 min). Nepoužila jsem AI na přípravu prezentace, i když jsem věděla, že by pomohla.\nAI výstup: Celkem odhadovaná úspora: 45 minut za jeden den. Vzorec: AI používáš dobře na psaní a shrnutí. Mezera: prezentace — pravděpodobně ti přijde 'příliš specifická', ale AI zvládne strukturu a osnovu velmi dobře.",
+      "Vstup: Použil/a jsem AI třikrát: draft e-mailu (ušetřeno 15 min), shrnutí dokumentu (ušetřeno 20 min), návrh agendy (ušetřeno 10 min). Nepoužil/a jsem AI na přípravu prezentace, i když jsem věděl/a, že by pomohla.\nAI výstup: Celkem odhadovaná úspora: 45 minut za jeden den. Vzorec: AI používáš dobře na psaní a shrnutí. Mezera: prezentace — pravděpodobně ti přijde 'příliš specifická', ale AI zvládne strukturu a osnovu velmi dobře.",
     taskExample:
-      "Vstup: Překvapilo mě, že jsem AI nepoužila na brainstorming témat pro příští kampaň, i když to byl úkol, kde jsem seděla 30 minut a nic kloudného mě nenapadlo.\nAI výstup: To je přesně 'skrytá příležitost' — úkoly, kde se zasekneš, jsou ideální pro AI. Brainstorming je jedna z věcí, kde AI generuje dostatek nápadů rychle, a ty si pak vyberete nejlepší. Příště zkus: 'Dej mi 15 nápadů na téma kampaně pro [cílová skupina a produkt].'",
+      "Vstup: Překvapilo mě, že jsem AI nepoužil/a na brainstorming témat pro příští kampaň, i když to byl úkol, kde jsem seděl/a 30 minut a nic kloudného mě nenapadlo.\nAI výstup: To je přesně 'skrytá příležitost' — úkoly, kde se zasekneš, jsou ideální pro AI. Brainstorming je jedna z věcí, kde AI generuje dostatek nápadů rychle, a ty si pak vyberete nejlepší. Příště zkus: 'Dej mi 15 nápadů na téma kampaně pro [cílová skupina a produkt].'",
     taskTip:
       "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser:
@@ -738,7 +738,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     subject: "Co ti sedí, co přeskakuješ — 3 věci co opravdu děláš",
     preheader: "Nejlepší systém je ten, který skutečně používáš.",
     concept: [
-      "Za tři týdny ses naučila dost o AI — teorie, prompting, šablony, workflow. Ale naučit se a dělat jsou dvě různé věci.",
+      "Za tři týdny ses naučil/a dost o AI — teorie, prompting, šablony, workflow. Ale naučit se a dělat jsou dvě různé věci.",
       "Dnes si upřímně zapíšeš: co z toho opravdu děláš? Ne co bys měla dělat. Co děláš.",
       "Proč je to důležité? Protože tvůj AI styl je unikátní. Někdo preferuje rychlé prompty bez struktury. Někdo iteruje pečlivě. Někdo AI používá jen na psaní. Někdo na brainstorming.",
       "Neexistuje špatný styl — existuje jen styl, který nevíš, že máš. A styl, který vědomě rozvíjíš.",
@@ -746,14 +746,14 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     taskIntro: "Zapiš si tři věci, které skutečně děláš:",
     taskItems: [
       "Co z AI opravdu používám pravidelně? (Konkrétní příklady, ne kategorie)",
-      "Co z challenge jsem přeskočila nebo ignorovala? (Bez sebeodsuzování — jen fakt)",
+      "Co z challenge jsem přeskočil/a nebo ignoroval/a? (Bez sebeodsuzování — jen fakt)",
       "Jeden návyk, který chci posílit do čtvrtého týdne",
     ],
     taskType: "ol",
     taskFallback:
-      "Vstup: Chci si zformulovat svůj AI styl. Opravdu používám: AI na psaní e-mailů a draftů. Přeskočila jsem: leverage matici a šablony. Chci posílit: pravidelné ukládání výstupů.\nAI výstup: Tvůj AI styl: ad hoc pisatel/ka — používáš AI reaktivně na psaní, ale nemáš systém pro opakované použití. Příští krok: jeden soubor nebo Notion stránka kde budeš ukládat prompty a výstupy. Uvidíš, jak rychle to změní produktivitu.",
+      "Vstup: Chci si zformulovat svůj AI styl. Opravdu používám: AI na psaní e-mailů a draftů. Přeskočil/a jsem: leverage matici a šablony. Chci posílit: pravidelné ukládání výstupů.\nAI výstup: Tvůj AI styl: ad hoc pisatel/ka — používáš AI reaktivně na psaní, ale nemáš systém pro opakované použití. Příští krok: jeden soubor nebo Notion stránka kde budeš ukládat prompty a výstupy. Uvidíš, jak rychle to změní produktivitu.",
     taskExample:
-      "Vstup: Opravdu dělám: AI na brainstorming a strukturování textů. Přeskákala jsem: workflow a šablony, přišly mi složité. Chci posílit: šablonu pro newsletter.\nAI výstup: Dobrá zpráva: brainstorming a strukturování jsou nejsnadnější AI návyky — a ty je máš. Šablony jsou přirozený další krok. Zkus udělat jednu šablonu pro newsletter — a tím 'složitost' přestane být důvod.",
+      "Vstup: Opravdu dělám: AI na brainstorming a strukturování textů. Přeskočil/a jsem: workflow a šablony, přišly mi složité. Chci posílit: šablonu pro newsletter.\nAI výstup: Dobrá zpráva: brainstorming a strukturování jsou nejsnadnější AI návyky — a ty je máš. Šablony jsou přirozený další krok. Zkus udělat jednu šablonu pro newsletter — a tím 'složitost' přestane být důvod.",
     taskTip:
       "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser:
@@ -765,18 +765,18 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     subject: "Proč ukládat výstupy, ne jen hledat znovu",
     preheader: "Nejlepší AI výstup je ten, který najdeš za měsíc.",
     concept: [
-      "Jeden z největších ztrát času při práci s AI: ptát se AI na to samé podruhé. Protože jsi výstup neuložila, nebo jsi zapomněla, kde je.",
-      "Druhý mozek je systém pro ukládání toho, co jsi vytvořila — výstupy, šablony, prompty, poznámky. Nemusí být složitý. Musí být konzistentní.",
+      "Jeden z největších ztrát času při práci s AI: ptát se AI na to samé podruhé. Protože jsi výstup neuložil/a, nebo jsi zapomněl/a, kde je.",
+      "Druhý mozek je systém pro ukládání toho, co jsi vytvořil/a — výstupy, šablony, prompty, poznámky. Nemusí být složitý. Musí být konzistentní.",
       "Proč 'lite' verze?",
       [
         "Nepotřebuješ sofistikovaný systém — stačí jedno místo",
         "Nepotřebuješ tagy ani kategorie — stačí prohledávatelný text",
-        "Nepotřebuješ být dokonalá — stačí ukládat pravidelně",
+        "Nepotřebuješ být dokonalý/á — stačí ukládat pravidelně",
       ],
       "Tři věci, které stojí za uložení:",
       [
         "Šablony promptů, které ti fungovaly",
-        "AI výstupy, které jsi skutečně použila",
+        "AI výstupy, které jsi skutečně použil/a",
         "Poznámky ze své reflexe (D7, D14, D21)",
       ],
     ],
@@ -789,9 +789,9 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     ],
     taskType: "ol",
     taskFallback:
-      "Vstup: Chci zjistit, jestli potřebuji systém pro ukládání AI výstupů. Výstupy mám různě v Notion, v Docs i v chatu AI.\nAI výstup: Ano, potřebuješ. Tři různá místa = žádné místo. Navrhuju: vytvoř jednu Notion stránku nebo Google Doc s názvem 'Moje AI' a přesuň tam: šablony, použité výstupy, prompt checklist. Za měsíc to budeš ráda mít pohromadě.",
+      "Vstup: Chci zjistit, jestli potřebuji systém pro ukládání AI výstupů. Výstupy mám různě v Notion, v Docs i v chatu AI.\nAI výstup: Ano, potřebuješ. Tři různá místa = žádné místo. Navrhuju: vytvoř jednu Notion stránku nebo Google Doc s názvem 'Moje AI' a přesuň tam: šablony, použité výstupy, prompt checklist. Za měsíc budeš rád/a, že to máš pohromadě.",
     taskExample:
-      "Vstup: Co by měl obsahovat minimální 'druhý mozek' pro práci s AI?\nAI výstup: Minimální verze: 1. Šablony promptů (5–10 nejpoužívanějších). 2. Výstupy, které jsi použila a hodily by se znovu (e-maily, reporty, posty). 3. Reflexe a zjištění (z D7, D14, D21). To je vše. Jeden dokument, konzistentní ukládání.",
+      "Vstup: Co by měl obsahovat minimální 'druhý mozek' pro práci s AI?\nAI výstup: Minimální verze: 1. Šablony promptů (5–10 nejpoužívanějších). 2. Výstupy, které jsi použil/a a hodily by se znovu (e-maily, reporty, posty). 3. Reflexe a zjištění (z D7, D14, D21). To je vše. Jeden dokument, konzistentní ukládání.",
     taskTip:
       "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Zítra si ten systém skutečně vytvoříš — jedno místo, základ hned.",
@@ -817,7 +817,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
       ],
       "Co budeš přidávat průběžně:",
       [
-        "Každý výstup, který jsi skutečně použila",
+        "Každý výstup, který jsi skutečně použil/a",
         "Každý prompt, který chceš použít znovu",
         "Každou poznámku, která ti pomohla",
       ],
@@ -845,15 +845,15 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     preheader: "Pocit produktivity a reálná úspora jsou dvě různé věci.",
     concept: [
       "Existuje rozdíl mezi tím, přijde ti, že AI pomáhá, a tím, že ti skutečně pomáhá.",
-      "Pocit produktivity může být klam — klikáš, generuješ, iteruješ... a na konci dne máš méně hotového, než kdyby ses soustředila na práci přímo.",
+      "Pocit produktivity může být klam — klikáš, generuješ, iteruješ... a na konci dne máš méně hotového, než kdyby ses soustředil/a na práci přímo.",
       "Jak měřit reálný přínos AI (jednoduše):",
       [
-        "Čas: kolik minut/hodin jsi ušetřila? (i hrubý odhad stačí)",
-        "Kvalita: je výstup lepší, než bys vytvořila sama ve stejném čase?",
+        "Čas: kolik minut/hodin jsi ušetřil/a? (i hrubý odhad stačí)",
+        "Kvalita: je výstup lepší, než bys vytvořil/a sám/sama ve stejném čase?",
         "Frekvence: používáš AI pravidelně, nebo jen občas? Pravidelnost = návyk = systém",
-        "Výsledek: vedl AI výstup k reálné akci? (Odeslala jsi e-mail? Použila jsi report?)",
+        "Výsledek: vedl AI výstup k reálné akci? (Odeslal/a jsi e-mail? Použil/a jsi report?)",
       ],
-      "Klíčová otázka: 'Kdybych to dělala bez AI, byl by výsledek horší nebo by mi to trvalo déle?' Pokud je odpověď ne — AI ti v tomhle nepomáhá.",
+      "Klíčová otázka: 'Kdybych to dělal/a bez AI, byl by výsledek horší nebo by mi to trvalo déle?' Pokud je odpověď ne — AI ti v tomhle nepomáhá.",
     ],
     taskIntro: "Proveď jednoduchou zpětnou vazbu za poslední týden:",
     taskItems: [
@@ -863,7 +863,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     ],
     taskType: "ol",
     taskFallback:
-      "Vstup: Chci zhodnotit, jestli mi AI opravdu pomáhá. Pomohla mi: newsletter (ušetřeno 2 hodiny). Nepomohla: analýza dat — výstupy byly špatné a musela jsem vše ručně.\nAI výstup: Reálná úspora za týden: 2 hodiny. AI funguje na psaní textu, ne na analýzu dat bez správného nástroje. Doporučení: pro datovou analýzu použij specializovaný nástroj (Code Interpreter v ChatGPT nebo Claude s CSV). Pro texty pokračuj v současném přístupu.",
+      "Vstup: Chci zhodnotit, jestli mi AI opravdu pomáhá. Pomohla mi: newsletter (ušetřeno 2 hodiny). Nepomohla: analýza dat — výstupy byly špatné a musel/a jsem vše ručně.\nAI výstup: Reálná úspora za týden: 2 hodiny. AI funguje na psaní textu, ne na analýzu dat bez správného nástroje. Doporučení: pro datovou analýzu použij specializovaný nástroj (Code Interpreter v ChatGPT nebo Claude s CSV). Pro texty pokračuj v současném přístupu.",
     taskExample:
       "Vstup: Jak si nastavit jednoduché měření přínosu AI, aby to nezabíralo víc jak 2 minuty týdně?\nAI výstup: Jednoduchá metrika: jednou týdně zapiš tři čísla — kolik úkolů jsi řešila s AI, kolik bez, a jak se odhaduje celková úspora v minutách. Nemusí být přesné. Po měsíci uvidíš trend — to je dost.",
     taskTip:
@@ -890,7 +890,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     taskIntro:
       "Vyber jeden konkrétní úkol a proveď srovnání s AI vs. bez AI:",
     taskItems: [
-      "Vyber úkol — ideálně takový, který jsi v minulosti dělala bez AI",
+      "Vyber úkol — ideálně takový, který jsi v minulosti dělal/a bez AI",
       "Odhadni, jak dlouho by ti trval bez AI a jaký by byl výsledek",
       "Proveď ho s AI a zapiš čas a zhodnocení výsledku",
     ],
@@ -898,7 +898,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     taskPrompt:
       "Pomoz mi s [konkrétní úkol]. [Kontext a instrukce].",
     taskFallback:
-      "Vstup: Chci porovnat psaní obchodní nabídky s AI a bez. Bez AI: odhaduji 1,5 hodiny, průměrná kvalita. S AI: zadala jsem kontext a instrukce.\nAI výstup: [AI vygeneruje draft nabídky za 3 minuty]\nSrovnání: Čas s AI: 15 minut (draft + úpravy). Čas bez AI: odhad 90 minut. Úspora: ~75 minut. Kvalita: srovnatelná nebo lepší (AI navrhla strukturu, na kterou bych sama nenarazila).",
+      "Vstup: Chci porovnat psaní obchodní nabídky s AI a bez. Bez AI: odhaduji 1,5 hodiny, průměrná kvalita. S AI: zadal/a jsem kontext a instrukce.\nAI výstup: [AI vygeneruje draft nabídky za 3 minuty]\nSrovnání: Čas s AI: 15 minut (draft + úpravy). Čas bez AI: odhad 90 minut. Úspora: ~75 minut. Kvalita: srovnatelná nebo lepší (AI navrhla strukturu, na kterou bych sám/sama nenarazil/a).",
     taskExample:
       "Vstup: Porovnávám přípravu agendy na schůzku s AI vs. bez AI. Bez AI: 20 minut, zapomenu na nějaký bod. S AI: Napiš agendu na schůzku s klientem o prodloužení smlouvy. Cíl: dohodnout podmínky. Účastníci: já a obchodní ředitel. Čas: 45 minut.\nAI výstup: Agenda: 1. Přivítání a cíl schůzky (2 min). 2. Review uplynulého roku — klíčové výsledky (10 min). 3. Návrh podmínek nové smlouvy (15 min). 4. Otázky a diskuse (10 min). 5. Shrnutí a next steps (8 min).\nSrovnání: 3 minuty vs. 20 minut. Agenda strukturovanější než obvykle.",
     taskTip:
@@ -912,19 +912,19 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     subject: "Z challenge na rutinu",
     preheader: "Challenge skončí. Návyk zůstane.",
     concept: [
-      "Za 26 dní jsi prošla mindsetu, promptingu, šablonám, analýze a systému. Teď přichází nejdůležitější otázka: co z toho přetrvá po skončení challenge?",
+      "Za 26 dní jsi prošel/a mindsetu, promptingu, šablonám, analýze a systému. Teď přichází nejdůležitější otázka: co z toho přetrvá po skončení challenge?",
       "Jak funguje návyk:",
       [
         "Musí být konkrétní: ne 'budu používat AI', ale 'každý den si přečtu e-maily a jeden napíšu s AI'",
         "Musí mít spouštěč: co tě připomene, že máš AI použít?",
         "Musí být snadný: první verze návyku by měla trvat max 5 minut",
-        "Musí mít odměnu: co ti dá dobrý pocit z toho, že jsi to udělala?",
+        "Musí mít odměnu: co ti dá dobrý pocit z toho, že jsi to udělal/a?",
       ],
       "Příklady malých AI návyků:",
       [
         "Ráno: jeden úkol na den — nechám AI navrhnout prioritu",
         "Každý draft: začnu s AI, upravím sama",
-        "Každý týden: zkontroluju co jsem uložila do 'Moje AI'",
+        "Každý týden: zkontroluju co jsem uložil/a do 'Moje AI'",
       ],
     ],
     taskIntro: "Navrhni si jeden konkrétní AI návyk:",
@@ -953,7 +953,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
       [
         "Je konkrétní: víš přesně co otevřeš, co napíšeš, co dostaneš",
         "Je krátký: max 5 minut, jinak ho nepůjde udržet",
-        "Dává okamžitý výsledek: po rituálu víš nebo umíš něco, co jsi před ním nevěděla",
+        "Dává okamžitý výsledek: po rituálu víš nebo umíš něco, co jsi před ním nevěděl/a",
       ],
       "Kdy rituál zařadit:",
       [
@@ -975,11 +975,11 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     taskFallback:
       "Vstup: Pomoz mi nastavit denní AI rituál. Mám 5 minut ráno. Nejčastěji dělám projektové řízení. Chci mít jasný plán dne.\nAI výstup: Tvůj ranní rituál:\nSpouštěč: druhý doušek kávy.\nAkce: otevřeš AI a napíšeš: 'Mám před sebou: [vypiš 3–5 věcí]. Co je dnes priorita? Co mohu delegovat nebo odložit?'\nVýsledek: 3 priority a jeden úkol, který přesunete.\nČas: 4 minuty.",
     taskExample:
-      "Vstup: Chci večerní rituál — shrnutí dne a příprava na zítřek. Max 5 minut.\nAI výstup: Večerní rituál:\nSpouštěč: zavření počítače.\nAkce: napíšeš AI: 'Co jsem dnes dokončila: [seznam]. Nedokončené: [seznam]. Co je zítra nejdůležitější?'\nVýsledek: čistá hlava a jasný začátek zítřka.\nČas: 3–4 minuty.",
+      "Vstup: Chci večerní rituál — shrnutí dne a příprava na zítřek. Max 5 minut.\nAI výstup: Večerní rituál:\nSpouštěč: zavření počítače.\nAkce: napíšeš AI: 'Co jsem dnes dokončil/a: [seznam]. Nedokončené: [seznam]. Co je zítra nejdůležitější?'\nVýsledek: čistá hlava a jasný začátek zítřka.\nČas: 3–4 minuty.",
     taskTip:
       "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser:
-      "Zítra je poslední den — a je to tvůj závěr. Co ses naučila, co tě čeká.",
+      "Zítra je poslední den — a je to tvůj závěr. Co ses naučil/a, co tě čeká.",
   },
   {
     day: 28,
@@ -987,8 +987,8 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     subject: "28 dní za tebou. Co teď?",
     preheader: "Tohle není konec. Je to základ.",
     concept: [
-      "Prošla jsi 28 dny, 5–7 minut denně. Tohle není málo — většina lidí, kteří 'začínají s AI', to vzdá po prvním týdnu.",
-      "Co ses za ty čtyři týdny naučila:",
+      "Prošel/a jsi 28 dny, 5–7 minut denně. Tohle není málo — většina lidí, kteří 'začínají s AI', to vzdá po prvním týdnu.",
+      "Co ses za ty čtyři týdny naučil/a:",
       [
         "Týden 1: Jak na AI myslet — leverage, ne jen rychlost",
         "Týden 2: Jak psát dobré prompty — struktura, kontext, iterace",
@@ -1007,15 +1007,15 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     ],
     taskIntro: "Závěrečný úkol — tři věci:",
     taskItems: [
-      "Napiš si (nebo do AI): co jsi za 28 dní reálně zvládla? Konkrétně, ne obecně.",
+      "Napiš si (nebo do AI): co jsi za 28 dní reálně zvládl/a? Konkrétně, ne obecně.",
       "Co ti z challenge vydrží — jeden návyk, jedna šablona, jedno zjištění?",
       "Co chceš udělat jako první krok po skončení challenge?",
     ],
     taskType: "ol",
     taskPrompt:
-      "Prošla jsem 28denní AI challenge. Zvládla jsem: [co konkrétně]. Vydrží mi: [návyk nebo systém]. Chci dál: [co tě zajímá nebo kde chceš růst]. Shrň mi to jako malý milník a navrhni jeden konkrétní první krok.",
+      "Prošel/a jsem 28denní AI challenge. Zvládl/a jsem: [co konkrétně]. Vydrží mi: [návyk nebo systém]. Chci dál: [co tě zajímá nebo kde chceš růst]. Shrň mi to jako malý milník a navrhni jeden konkrétní první krok.",
     taskFallback:
-      "Vstup: Prošla jsem 28denní AI challenge. Zvládla jsem: psaní lepších promptů, šablonu pro newsletter, denní rituál. Vydrží mi: ranní AI checkin. Chci dál: automatizace a AI pro analýzu dat.\nAI výstup: Milník: Za 28 dní jsi prošla od nuly k fungujícímu systému — to není samozřejmost. Máš šablonu, rituál a realistický pohled na AI. První krok do Advanced: zkus ChatGPT Code Interpreter nebo Claude s CSV souborem — nahraj datový soubor a nech AI najít vzorec. Uvidíš hned, kde je hranice.",
+      "Vstup: Prošel/a jsem 28denní AI challenge. Zvládl/a jsem: psaní lepších promptů, šablonu pro newsletter, denní rituál. Vydrží mi: ranní AI checkin. Chci dál: automatizace a AI pro analýzu dat.\nAI výstup: Milník: Za 28 dní jsi prošel/a od nuly k fungujícímu systému — to není samozřejmost. Máš šablonu, rituál a realistický pohled na AI. První krok do Advanced: zkus ChatGPT Code Interpreter nebo Claude s CSV souborem — nahraj datový soubor a nech AI najít vzorec. Uvidíš hned, kde je hranice.",
     taskExample:
       "Vstup: Co by mi doporučila AI jako první krok po Basic challenge, pokud mě zajímá hlubší prompting a vlastní workflow?\nAI výstup: První krok: vezmi svou nejpoužívanější šablonu z Basic a rozviň ji o 'chain of thought' — místo jednoho promptu udělej tříkrokový proces. Krok 1: AI navrhne strukturu. Krok 2: ty doplníš obsah. Krok 3: AI zkontroluje tón a délku. To je základ workflow v Advanced.",
     taskTip:

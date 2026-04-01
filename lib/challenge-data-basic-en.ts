@@ -679,15 +679,15 @@ export const challengeDataBasicEN: ChallengeDay[] = [
       ],
       "Signs AI is adding work:",
       [
-        "You rewrote the output longer than it would have taken to write from scratch",
+        "You spent longer rewriting the output than it would have taken to write from scratch",
         "You spent 20 minutes on a prompt for a 2-minute task",
         "You had to fact-check and found errors",
       ],
     ],
     taskIntro: "Run a quick audit of the past week:",
     taskItems: [
-      "List 3 moments where AI saved you time (specific examples)",
-      "List 1–2 moments where AI added work or didn't help",
+      "List 3 moments when AI saved you time (specific examples)",
+      "List 1–2 moments when AI added work or didn't help",
       "From that: where will you use AI more and where less?",
     ],
     taskType: "ol",
@@ -717,8 +717,8 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     ],
     taskIntro: "At the end of the day, write down:",
     taskItems: [
-      "3 moments where you used AI — and estimate how much time it saved",
-      "1–2 moments where you didn't use AI but could have",
+      "3 moments when you used AI — and estimate how much time it saved",
+      "1–2 moments when you didn't use AI but could have",
       "One takeaway: what surprised you?",
     ],
     taskType: "ol",
@@ -1018,7 +1018,5 @@ export const challengeDataBasicEN: ChallengeDay[] = [
       "Input: What would AI recommend as a first step after Basic if I'm interested in deeper prompting and my own workflows?\nAI output: First step: take your most-used template from Basic and develop it into a chain-of-thought sequence — instead of one prompt, build a three-step process. Step 1: AI proposes the structure. Step 2: you fill in the content. Step 3: AI checks the tone and length. That's the foundation of workflow thinking in Advanced.",
     taskTip:
       "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Advanced is waiting — deeper prompting, automation, and AI workflows. See you there.",
   },
 ];

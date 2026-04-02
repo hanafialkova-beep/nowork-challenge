@@ -7,9 +7,9 @@ export interface ChallengeDay {
   taskIntro: string;
   taskItems: string[];
   taskType: "ul" | "ol" | "text";
-  taskPrompt?: string;   // copyable AI prompt for this day's task
-  taskFallback?: string; // "stuck?" example ready to copy
-  taskExample?: string;  // sample input → output to show what "done" looks like
+  taskPrompt?: string;    // copyable AI prompt for this day's task
+  taskFallback?: string; // fallback task if user has no AI tool yet
+  taskExample?: string;  // example output or worked example
   taskTip?: string;      // where to record tip
   teaser: string;
 }

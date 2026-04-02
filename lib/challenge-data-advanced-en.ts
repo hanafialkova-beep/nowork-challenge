@@ -3,1617 +3,925 @@ import type { ChallengeDay } from "./types";
 export const challengeDataAdvancedEN: ChallengeDay[] = [
   {
     day: 0,
-    title: "Welcome to the Advanced version. This is a different level.",
-    subject: "Advanced start: systems, frameworks, leverage.",
-    preheader: "For those who already have the basics. Now it's time to go deeper.",
+    title: "You have the basics. Now comes the system.",
+    subject: "Advanced start: 3C, PACT, Superpowers.",
+    preheader: "For those who have the fundamentals. Now it's time to go further.",
     concept: [
-      "You're here because you've moved past the basics. You know how to give AI a task. Maybe you use it every day. And yet you sense there's more — that you're getting a fraction of what AI could actually offer.",
+      "You're here because you already have the basics. You know how to give AI a task. You may even use it every day. And still you feel there's more — that you're getting a fraction of what AI could offer.",
       "That's exactly why this version of the challenge exists.",
-      "We're not starting with what AI is or how to use it. We're starting with the question: how do you build a system that works even when you're not there?",
+      "We're not starting with what AI is and how to use it. We're starting with the question: how do you build a system that works — even when you're not actively managing it?",
       "This challenge has three layers:",
       [
         "3C framework — Capture, Clean, Connect: how to turn knowledge chaos into something you can actually use",
-        "PACT framework — Projects, Agents, Context, Tools: how to think about AI as a system, not a bag of tricks",
-        "Superpowers — five capabilities you genuinely gain through AI collaboration: perception, intelligence, memory, creation, connection",
+        "PACT framework — Projects, Agents, Context, Tools: how to think about AI as a system, not a collection of tricks",
+        "Superpowers — five capabilities you genuinely develop through AI collaboration: Perception, Intelligence, Memory, Creation, Connection",
       ],
-      "Each day takes 5–10 minutes. Theory days are shorter. Practice days are more concrete. The goal is to build — not just read.",
-      "Here's the first thing we'll do: reflect on where AI currently falls short for you.",
-      "Not where you think AI could theoretically help. But where specifically in your work it lets you down — where you have to rewrite the output, where the result is useless, where you lose more time with AI than without it.",
-      "This is your starting point. It's not self-criticism — it's mapping the terrain. The next 28 days will be more useful if you know where you're beginning.",
+      "And a fourth layer that closes everything: Scale — how to turn what you've built into a system that works for you.",
+      "Each day takes 5–10 minutes. The theory is shorter and more concrete. The practice focuses on things you can use immediately.",
+      "First step: think about where AI falls short for you. Not generally — but specifically. Where do you have to rewrite the output? Where do you lose time with AI instead of saving it? Where does it hit a wall?",
+      "This is your starting point. It's not self-criticism — it's mapping the terrain. The next 28 days will be more concrete when you know where you're starting from.",
     ],
-    taskIntro:
-      "Write 3 areas where AI currently falls short for you or where you want to go significantly deeper. Be specific — not 'I want to prompt better', but 'client-facing outputs always need full rewrites' or 'I don't know how to bring AI into strategic planning.'",
+    taskIntro: "Write 3 things where AI falls short for you or where you want to go significantly deeper. Be specific:",
     taskItems: [],
     taskType: "text",
-    taskFallback: `If you're not sure where to start, try answering these questions:
-– Where do I always have to heavily rework AI output?
-– What do I do repeatedly where AI doesn't help me the way I'd want?
-– Where do I feel like others are getting more out of AI than I am?
+    taskFallback: `If you're not sure where to start, answer these three questions:
+– Where do I always have to significantly rewrite AI's output?
+– What do I do repeatedly where AI doesn't help the way I'd like?
+– Where do I feel others are getting more from AI than I am?
 
-In practice — three specific answers:
-→ Client deliverables are always generic — I have to rewrite everything into the project's context.
-→ I don't know how to use AI for strategic planning without results being shallow.
-→ I use AI for content creation but have no system for keeping what works.`,
-    taskExample: `Input: "Where does AI currently fall short for me?"
+Examples from practice:
+→ Outputs for clients are too generic — I always have to rewrite them into project context.
+→ I don't know how to involve AI in strategic planning without getting shallow results.
+→ I use AI for content, but I'm missing a system for keeping what works.`,
+    taskExample: `Input: "Where does AI fall short for me?"
 
-AI output — three concrete entries:
-1. Preparing client proposals: AI suggests a structure but doesn't know the project or client context — I rewrite about 60% of the result every time.
-2. Project retrospectives: I have no system for capturing lessons from projects and feeding them back to AI as context for future work.
-3. Delegating AI tasks to my team: I use AI myself but don't know how to introduce a system that works for everyone.
-
-These are exactly the areas this challenge will address.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow we'll introduce the 3C framework — and why knowledge chaos holds back even the best prompts.",
+Three concrete records:
+1. Proposal writing: AI suggests a structure but doesn't know the client context — I always rewrite 60% of it.
+2. Project retrospectives: I don't know how to systematically capture insights and give them to AI as context.
+3. Team delegation: I use AI myself, but I don't know how to introduce a system for the whole team.`,
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow we'll look at the 3C framework — and why knowledge chaos slows down even good prompts.",
   },
   {
     day: 1,
     title: "3C framework: Capture, Clean, Connect as one system.",
-    subject: "Why knowledge chaos holds back even good prompts.",
+    subject: "Why knowledge chaos slows down even good prompts.",
     preheader: "Knowledge without a system isn't knowledge. It's just data.",
     concept: [
       "One of the most common reasons AI outputs are mediocre has nothing to do with the prompt itself.",
       "It has everything to do with the input. With what you give AI to work with.",
-      "If you're working with chaos — notes scattered everywhere, ideas unwritten, project lessons buried in emails — even the best prompt produces average results. Garbage in, garbage out applies twice as hard with AI.",
-      "The 3C framework is a system for working with knowledge in an AI context:",
+      "If you're working with chaos — notes everywhere, ideas unwritten, lessons from projects lost in emails — then even the best prompt produces mediocre results. Garbage in, garbage out applies to AI doubly so.",
+      "The 3C framework is a system for working with knowledge in the context of AI. Three steps, one system:",
       [
-        "Capture — what's worth saving and what isn't. Filtering is a skill, not just a habit.",
-        "Clean — transforming raw material into usable knowledge. This is the step most people skip.",
+        "Capture — saving things worth keeping: what's worth retaining and what isn't. Filtering is a skill, not just a habit.",
+        "Clean — processing raw material into usable knowledge. This is the step most people skip.",
         "Connect — linking old knowledge to current work. An old insight can unlock a new solution.",
       ],
-      "Three steps, one system. It only works as a whole.",
-      "Capture without Clean = a pile of notes you never use.",
-      "Clean without Connect = isolated knowledge with no context.",
-      "Connect without Capture = linking things you never actually saved.",
-      "Over the next few days we'll break each step into theory and practice. Today's goal: understand why a system matters more than any single prompt.",
-      "The best AI outputs don't come from the smartest prompts. They come from the best context. And context comes from a system.",
+      "Three steps that only work as a whole:",
+      [
+        "Capture without Clean = a pile of notes you never use",
+        "Clean without Connect = isolated knowledge without context",
+        "Connect without Capture = linking things you never actually captured",
+      ],
+      "In the days ahead we'll break each step into theory and practice. But today the most important insight is this: the highest quality outputs from AI don't come from the cleverest prompts. They come from the best context. And context comes from a system.",
     ],
-    taskIntro:
-      "Reflect on how you currently work with knowledge from your job. Answer these three questions:",
+    taskIntro: "Think about how you currently work with knowledge from your work. Answer three questions:",
     taskItems: [
-      "Where do you capture insights, ideas, and important information from your work? (One place, or scattered chaos?)",
+      "Where do you capture insights, ideas, and important information from work? (one place, or chaos?)",
       "How do you process raw material — notes, transcripts, rough drafts — into something usable?",
-      "How do you return to old knowledge and insights when tackling a new problem?",
+      "How do you return to old knowledge and insights when you're solving a new problem?",
     ],
     taskType: "ol",
-    taskFallback: `If you don't know how to answer, try this prompt:
-
-"Help me map how I currently work with knowledge from my job. Ask me 5 specific questions that help me understand where the gaps are in my knowledge management system."
-
-AI will ask you questions — answer them and ask it to summarize the state of your system.`,
-    taskExample: `Input: "How I work with knowledge from my job — current state"
-
-AI output (after filling in answers):
-Capture: I use an inbox in Notion but fill it inconsistently — sometimes I capture project insights, sometimes I don't.
-Clean: I rarely process raw material (meeting notes). Occasionally I summarize key points, but with no consistent format.
-Connect: I rarely return to old insights — I rely on memory.
-
-Conclusion: Capture partly works. Clean barely exists. Connect is accidental.
-Priority: Introduce Clean as a regular step after every meeting and project.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow we look at the first step — Capture: what's worth saving and what isn't.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow we'll look at the first step — Capture: what's worth saving and what isn't.",
   },
   {
     day: 2,
     title: "Capture: not everything is worth saving.",
-    subject: "Capture — filtering is a skill, not just a habit.",
+    subject: "Filtering is a skill, not just a habit.",
     preheader: "Capturing everything is just as bad as capturing nothing.",
     concept: [
       "The first step of the 3C system is Capture — saving valuable information from your work.",
-      "But here's the trap most people fall into: they try to capture everything. The result is a pile of notes they never actually use.",
-      "Capture isn't about maximum collection. It's about filtering.",
+      "But here's the problem most people fall into: they try to capture everything. And the result is a pile of notes they never pull anything useful from.",
+      "Capture isn't about maximum retention. It's about filtering. A good filter teaches you to see what has lasting value — and what's just momentary noise.",
       "Filter principles — what's worth capturing:",
       [
-        "Lessons from practice: what worked, what didn't, what you'd decide differently next time",
-        "Recurring patterns: what keeps happening — in projects, communication, decisions",
-        "Context for AI: information you'll want to give AI as context — about a client, a project, yourself",
+        "Practical insights: what worked, what didn't, what you'd decide differently next time",
+        "Recurring patterns: what happens regularly — in projects, communication, decisions",
+        "Context for AI: information you'll want to give AI as context — about a client, project, yourself",
         "Decisions and their reasons: not just what was decided, but why",
       ],
       "What you don't need to capture:",
       [
-        "General information that's easy to look up",
-        "Facts without context or connection to your actual work",
-        "Things that probably won't come up again and aren't transferable",
+        "General information that's easily searchable at any time",
+        "Facts without context or without connection to your specific work",
+        "Things that probably won't come back and aren't transferable",
       ],
-      "Good Capture is selective. Better to save less but meaningfully — than everything and use none of it.",
-      "Today's goal: understand your own filter and set up one place where you capture things that matter.",
+      "Practical test: if you read a captured note three weeks from now — will it still be relevant? If yes, capture it. If not, skip it.",
+      "Today's goal: understand your filter and capture five things from the current week that genuinely have lasting value.",
     ],
-    taskIntro:
-      "Capture 5 things from this work week that are worth keeping. They don't need to be polished thoughts — raw captured material is fine. For each one, write one sentence: why you captured it.",
+    taskIntro: "Capture 5 things from this working week that are worth keeping. For each, write one sentence: why you captured it.",
     taskItems: [],
     taskType: "text",
     taskFallback: `If you're not sure what to capture, use this prompt:
 
-"Help me capture the key things from this work week. Ask me 5 questions focused on: what worked, what didn't, what decision I made and why, what surprised me, and what I'd do differently next time."
+"Help me capture the key things from this working week. Ask me 5 questions focused on: what worked, what didn't, what decision I made and why, what surprised me, and what I'd do differently next time."
 
-Answer the questions — you'll have the basis for 5 captured items.`,
+Answer the questions — you have the basis for 5 captured things.`,
     taskExample: `Input (raw material from the week, given to AI):
-"This week: client meeting about contract renewal, report draft, internal project retrospective, new vendor — first call, Q2 budget rejected."
+"This week: meeting with client about contract renewal, report draft, internal project retrospective, new vendor — first call, Q2 budget rejected."
 
 AI output — 5 things worth capturing:
-1. Client meeting: what specific objections came up and how I responded (Why: be better prepared next time).
-2. Retrospective: three things the team would do differently (Why: recurring patterns).
-3. New vendor: first impression, key parameters of the relationship (Why: context for future conversations).
-4. Rejected budget: what the real reason for rejection was (Why: pattern for future requests).
-5. Report draft: what worked in the structure, what was unclear (Why: foundation for a template).`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow we look at what to do with that raw material — the Clean step: processing is not the same as storing.",
+1. Client — meeting: what specific objections came up and how I responded. (Why: prepare answers next time)
+2. Retrospective: three things the team would do differently. (Why: patterns that repeat)
+3. New vendor: first impression, key collaboration parameters. (Why: context for future negotiations)
+4. Rejected budget: what the real reason for rejection was. (Why: pattern for future requests)
+5. Report draft: what worked in the structure, what was unclear. (Why: foundation for a template)`,
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Capture in practice — how to build capturing into your workday without being overwhelmed.",
   },
   {
     day: 3,
-    title: "Clean: processing is not the same as storing.",
-    subject: "Clean — raw material isn't enough. You need usable knowledge.",
-    preheader: "Saving a note and processing it are two very different things.",
+    title: "Capture in practice: a system that takes no more than 2 minutes.",
+    subject: "How to build capturing into work without being overwhelmed.",
+    preheader: "The best system is the one you actually use.",
     concept: [
-      "You have things recorded. Meeting notes. A call transcript. A rough draft of an idea. An email with key information.",
-      "And for most people, that's where it ends. The material sits there, never processed further.",
-      "Clean is the step most people skip — and that's exactly why their 'knowledge system' doesn't work.",
-      "Processing is not the same as storing. Saving a raw meeting note is not Clean. Clean is transforming raw material into usable knowledge.",
-      "What that looks like in practice:",
+      "The theory of Capture is clear. The practice is another thing — because most people start capturing, keep it up for two weeks, and then stop. Not because they don't want to. But because the system was too complex.",
+      "The rule: the best Capture system is the simplest one that genuinely works for you. One inbox. One place. Two minutes.",
+      "Three Capture patterns that work in practice:",
       [
-        "Raw notes → structured summary with key decisions and next steps",
-        "Rough draft → clean text with clear structure and redundancies removed",
-        "Transcript → extract with the most important points and context",
-        "Pile of notes → set of organized entries with categories",
+        "End-of-day note: 3 sentences at the end of the workday — what happened, what you learned, what to do differently",
+        "Meeting capture: right after a meeting — two minutes, three things: what was decided, what I need to do, what surprised me",
+        "Inbox first: one place for everything — Notion, Apple Notes, or paper — and once a week you process it",
       ],
-      "Why this step is critical for AI work: AI works best with clean, structured input. If you give it a raw transcript, you get an average output. If you give it a structured summary with context, the output is an order of magnitude better.",
-      "Clean doesn't have to take hours. With AI it can take 5–10 minutes. The key is consistency — not perfection.",
+      "How AI helps with Capture: you don't need to write clean notes right away. Dump rough notes into AI — fragmented sentences, abbreviations, stream of thought. AI structures it. That makes Capture faster and less painful.",
+      "Example Capture prompt: I have these rough notes from a meeting: [paste notes]. Extract: 1) what was decided, 2) what I need to do and by when, 3) the most important insight.",
+      "The key mistake: having too many places for Capture. Every extra place is a place where information disappears. One place, consistently. A week is enough to find out if it works.",
     ],
-    taskIntro:
-      "Take one piece of raw material from your work (meeting notes, a transcript, a rough draft, or a pile of thoughts) and process it with AI into a structured output. Steps:",
+    taskIntro: "Set up your Capture system — concretely, not generally:",
     taskItems: [
-      "Copy the raw material into AI",
-      "Prompt: 'Process this material into a structured summary. List: key points, decisions, open questions, and suggested next steps. Format: clear bullet points.'",
-      "Save the result as a clean document — not a copy of the raw material",
+      "Choose one place to capture — Notion, Apple Notes, Google Docs, paper (one, not several)",
+      "Choose your pattern: end-of-day note, meeting capture, or weekly inbox — which fits you better?",
+      "Right now, capture 3 things from today or yesterday — test your system today",
     ],
     taskType: "ol",
-    taskFallback: `If you don't have suitable material on hand, use this practice example:
-
-Raw input (copy into AI):
-"Meeting with Alex and Sarah about Q3 planning. Alex said something about shifting priorities, Sarah wants more focus on product, I brought up the marketing thing, then we got to budget, some tension there, eventually agreed that Alex will summarize by Friday but it's not clear in what format, and we also talked about hiring."
-
-Prompt: "Process this raw meeting record into a structured summary: key points, decisions made, open questions, next steps with ownership."`,
-    taskExample: `Input (raw meeting notes):
-"Today's meeting on onboarding a new client. Jamie mentioned they have an internal system we should respect. Chris said the timeline is tight. We agreed on a pilot phase. Someone brought up reporting but I'm not sure who's responsible for it. Next meeting probably in 2 weeks."
-
-AI output (after Clean):
-Key points:
-– Client has an internal system that needs to be integrated into the collaboration process
-– Timeline is tight — risk needs to be managed from the start
-
-Decisions:
-– Collaboration will begin with a pilot phase (scope to be defined)
-
-Open questions:
-– Who is responsible for reporting? (not decided)
-– What exactly does the client's internal system look like?
-
-Next steps:
-– Define pilot scope by [date]
-– Resolve reporting ownership
-– Schedule follow-up meeting in 2 weeks`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow we add the third step of the 3C system: Connect — how an old insight unlocks a new solution.",
+    taskPrompt: "I have these rough notes from a meeting or day: [paste notes]. Extract: 1) what was decided or what is the key conclusion, 2) what I need to do and by when, 3) the most important insight worth keeping.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Clean — why saving a note and processing a note are two different things.",
   },
   {
     day: 4,
-    title: "Connect: old insight, new solution.",
-    subject: "Connect — link what you know to what you're solving.",
-    preheader: "The biggest leverage isn't in new information. It's in old information, used well.",
+    title: "Clean: processing is not the same as storing.",
+    subject: "Clean — raw material becomes knowledge only after processing.",
+    preheader: "A pile of notes isn't a knowledge system. It's just a pile.",
     concept: [
-      "The third step of the 3C system is the least intuitive — and the most valuable.",
-      "Connect means linking old knowledge to current work. Finding connections between what you already know and what you're working on right now.",
-      "Why it's so valuable: most problems you face are variations of problems you've faced before. They just look different, have a different name, a different context.",
-      "Without a Connect system, knowledge sits in a drawer — captured, processed, but unused.",
-      "How Connect works in practice with AI:",
+      "The second step of the 3C system is Clean — processing raw material into usable knowledge.",
+      "Here's the biggest gap in most systems: people capture but don't clean. And the result is a pile of raw material you can't efficiently extract anything from.",
+      "The difference between storing and processing:",
       [
-        "Give AI the context of an old project or insight and the current problem",
-        "Ask it for connections, analogies, or transferable lessons",
-        "AI helps surface parallels you might have missed on your own",
+        "Storing: I copied the meeting transcript into Notion",
+        "Processing: from the transcript I extracted three key decisions, two tasks with deadlines, and one strategic insight — and tagged each one for easy searching",
       ],
-      "Connect is most powerful when you have a solid Capture and Clean base. The higher the quality of your processed knowledge, the more precise and valuable the connections AI will suggest.",
-      "What this sounds like in practice: 'Here's a situation I'm dealing with. Here are insights from a similar project last year. What connections do you see? What could I apply — and what should I avoid?'",
-      "This is how you stop solving every problem from scratch. You start building on what you already know.",
+      "Why Clean is critical: AI needs structured context, not raw chaos. The better the input material is processed, the more relevant the output.",
+      "How Clean works in practice:",
+      [
+        "Extraction: pull the key points from a long piece of material — decisions, tasks, insights",
+        "Formatting: rewrite raw material into a consistent structure you can quickly read next time",
+        "Tagging: add a category or keyword — so it's easy to find later",
+        "Compression: from an hour of notes, make five bullets — what you actually need",
+      ],
+      "AI as Clean assistant: paste raw material, give a Clean instruction, get structured output. Then verify and save. Clean with AI takes 3 minutes instead of 20.",
+      "Today's goal: take raw material from D2 or D3 and run it through the entire Clean process.",
     ],
-    taskIntro:
-      "Take a current problem or challenge you're working on and one old insight, project, or situation that might be relevant. Feed this pair to AI and ask for connections.",
+    taskIntro: "Take raw material from your Capture system and run Clean:",
     taskItems: [
-      "Describe the current situation or problem (3–5 sentences)",
-      "Add context from an old project, decision, or experience that came to mind",
-      "Prompt: 'What connections do you see between these two situations? What could be transferred, what should be avoided, and what is the key difference in context?'",
+      "Open raw material — meeting notes, day record, or anything from D2/D3",
+      "Give AI the Clean instruction (see prompt below) or do it manually: extract key points, format, add context",
+      "Save the result as a clean record — so that in a month you can read it and immediately understand",
     ],
     taskType: "ol",
-    taskFallback: `If no specific example comes to mind, try this prompt:
-
-"Help me find the Connect between old and new knowledge. Ask me about a current challenge I'm working on and three projects or situations from the past that might be relevant. Then help me identify transferable lessons."
-
-AI will help you surface both the material and the connections.`,
-    taskExample: `Input:
-Current situation: "We're rolling out a new content approval process in the team. It's taking longer than expected and people are bypassing it."
-Old insight: "Two years ago we introduced a new reporting system — we hit similar resistance, but eventually simplified the form to 3 fields and adoption jumped."
-
-AI output (Connect):
-Core connection: In both cases this is about friction — a new process adds steps without an immediate benefit for the person who has to follow it.
-
-What to transfer:
-– Simplify the first version of the process to the minimum required steps (analogous to: 3 fields vs. a full form)
-– Show a quick win for the user, not just for management
-
-What not to do:
-– Don't push for compliance before the benefit is visible
-
-Key contextual difference:
-Content work has a creative dimension — an overly rigid process can hurt quality. Reporting was purely administrative. The content approval process should be lighter.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow we run through the full 3C system in practice — and see where the gaps are in your approach.",
+    taskPrompt: "Here is this raw material: [paste notes or transcript]. Run Clean: 1) extract key decisions and conclusions, 2) list tasks with deadlines, 3) identify the most important insight or pattern, 4) write a one-sentence summary. Output in structured format.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Clean in practice — how to build it into your routine so it works even in busy weeks.",
   },
   {
     day: 5,
-    title: "3C in practice: Capture, Clean, Connect as one movement.",
-    subject: "Run the full 3C system on one real example.",
-    preheader: "Theory is done. Now run the whole system from start to finish.",
+    title: "Clean in practice: a routine that works even under pressure.",
+    subject: "How to process regularly — without being overwhelmed.",
+    preheader: "Clean as a habit: once a week, structured, 20 minutes.",
     concept: [
-      "You understand Capture, Clean, and Connect as individual steps. Today it's time to connect them into a single movement.",
-      "The 3C system works as a loop, not a one-time procedure. Capture → Clean → Connect → back into work → new things to Capture.",
-      "When to trigger the loop: after every meeting, after closing a project, after a decision, after reading important content, after feedback from a client or colleague.",
-      "How fast it goes with AI: the whole loop can take 10–15 minutes once you know what you're doing.",
-      "The full 3C loop with AI:",
+      "The theory of Clean is clear. The practice is about when and how you fit it into your working week — not as extra work, but as part of a routine.",
+      "The most common mistake: trying to Clean in real time. Cleaning every record immediately after capturing is too demanding. The result is overwhelm, and then abandoning the whole system.",
+      "Better approach: batch Clean. Once a week, thirty minutes, everything at once. Or a daily mini Clean: five minutes at the end of the day for three records from today.",
+      "Two functional routines:",
       [
-        "Capture: What's worth saving? (2-minute filter)",
-        "Clean: Feed raw material to AI and have it structured (5 minutes)",
-        "Connect: Add context and ask for connections to old knowledge or analogies (3–5 minutes)",
+        "Weekly Clean (Friday, 20–30 min): go through the entire inbox from the week, process everything at once, archive",
+        "Daily mini Clean (end of day, 5 min): three most important things from today, quick extraction",
       ],
-      "At the end you have a clean, usable output connected to what you already know. This output then serves as context for future work.",
-      "Today's goal is to run through the entire loop once, start to finish — on real material from your work.",
+      "How AI speeds up weekly Clean: paste all your raw records from the week into one AI conversation and give it: 'Process these records from the week. For each: extract key points, identify recurring patterns across multiple records, and suggest a processing priority.' In 10 minutes you have structure that would otherwise take an hour.",
+      "Key insight: regular Clean is more valuable than perfect Clean. A perfect system that doesn't run regularly brings nothing. An imperfect system that runs every week brings a lot.",
+      "After today's practice you'll have both Capture and Clean built in. Tomorrow we add the third step: Connect.",
     ],
-    taskIntro:
-      "Choose one piece of material from this week (a meeting, project, decision, or feedback) and run it through the full 3C loop. Three steps in sequence:",
+    taskIntro: "Set your Clean rhythm and run your first weekly Clean:",
     taskItems: [
-      "Capture: Write why this material is worth saving and what specifically is worth keeping in it",
-      "Clean: Feed the raw material to AI and have it structured into a clear summary",
-      "Connect: Add one piece of old context and ask AI for connections — what to transfer, what to avoid",
+      "Decide: weekly Clean or daily mini Clean — which better fits your work?",
+      "Set a recurring slot in your calendar — specific day and time",
+      "Run your first Clean right now: take everything from your Capture inbox and process it using the AI prompt",
     ],
     taskType: "ol",
-    taskFallback: `If you don't have material on hand, practice the 3C loop on this scenario:
-
-"This week I attended a workshop on agile planning. There was a lot of information — some I knew, some was new. I'm not sure what's actually relevant to my work."
-
-Capture: What from the workshop is worth keeping?
-Clean: Feed the key points to AI for structuring
-Connect: How does this relate to how you currently plan at work?`,
-    taskExample: `Input (raw material — project retrospective):
-"The project was overall okay, but client communication broke down in the final third. Deadlines kept slipping. Alex said the client wasn't available, I think we could have escalated sooner. The output was good, client satisfied. Next time we should have clearer milestones."
-
-3C output:
-
-Capture — why it's worth saving:
-A recurring pattern: communication breakdowns in the final phase of a project. Relevant for the next project with a similar client profile.
-
-Clean (AI output):
-Key points: Project successfully completed, client satisfied. Communication broke down in the final third — missing escalation protocol.
-Decision: Set clear milestones and an escalation path for the next project.
-Next step: Create a template for managing communication in the closing phase of a project.
-
-Connect (connection to old project):
-Old context: A similar situation came up with client X — what helped was introducing a weekly check-in email in the final month.
-Connection: Apply the same check-in system with clients who have low availability.
-Risk: Not all clients respond the same way to structured communication — adjust frequency accordingly.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow: reflection — where your 3C system works, where the gaps are, and one concrete step to improve.",
+    taskPrompt: "Here are my raw records from this working week: [paste records]. Process them: 1) for each record extract key points, 2) identify recurring patterns or themes across multiple records, 3) suggest what is priority for future work.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Connect — how to link an old insight to a new problem so a real solution emerges.",
   },
   {
     day: 6,
-    title: "3C reflection: where the system works and where the gaps are.",
-    subject: "Week 1 done — time to look at where you stand.",
-    preheader: "Reflection isn't evaluation. It's setting the compass for the next 7 days.",
+    title: "Connect: old insight, new solution.",
+    subject: "Connect — linking knowledge is the most valuable part of 3C.",
+    preheader: "The most valuable knowledge you have is the knowledge that leads you to a new solution.",
     concept: [
-      "You've been through the whole first week: the 3C framework from theory to practice.",
-      "Reflection isn't about self-criticism. It's about looking at what works and identifying one concrete step to improve.",
-      "Three questions for your 3C reflection:",
+      "The third step of the 3C system is Connect — linking your captured and processed knowledge to current work.",
+      "Capture and Clean are preparation. Connect is where the value actually shows up.",
+      "What Connect means in practice: when you're solving a new problem, project, or decision, you're not creating knowledge from scratch. You go back to what you captured and processed — and link it to the current situation.",
+      "Three ways Connect works:",
       [
-        "Capture: Do you capture things systematically, or only when you remember? Do you have one place, or chaos across multiple locations?",
-        "Clean: Do you process material regularly, or does it pile up unprocessed? Do you have a format that's worked for you?",
-        "Connect: Do you return to old knowledge deliberately, or do you rely on memory and chance?",
+        "Analogy: 'I'm now solving X. I solved a similar situation Y before. What worked then?'",
+        "Patterns: 'This project has a recurring problem Z. I've seen it in three previous projects. What was the common denominator?'",
+        "Contextual input: 'I need to create a proposal for Client A. I have records on a similar Client B — I'll give them to AI as context.'",
       ],
-      "The goal of reflection isn't to answer 'everything works perfectly'. The goal is to identify one concrete step — not the whole system, but one step — that you'll take next week.",
-      "Examples of a concrete step:",
-      [
-        "I'll block 10 minutes every Friday afternoon for Clean",
-        "I'll create one place in Notion just for captured project insights",
-        "Next time I start a new problem, I'll check old notes from similar projects first",
-      ],
-      "A small step applied consistently creates a bigger shift than a perfect system applied once.",
+      "How AI helps with Connect: paste your processed records from Capture/Clean as context and tell AI: 'I'm currently dealing with this situation: [description]. From my previous records, this is relevant: [records]. What patterns do you see? What from previous experience is applicable?'",
+      "Key insight: people who get the best outputs from AI don't write the best prompts. They have the best context. And context comes from a working Capture, Clean, Connect system.",
+      "After today you have the entire 3C system — at least as theory. Tomorrow we'll do a review: where the system works, where there are gaps, and what you'll take forward.",
     ],
-    taskIntro:
-      "Run through your 3C reflection. Write the status for Capture, Clean, and Connect — what works, what doesn't. Then choose one concrete step to improve and write when and how you'll do it.",
+    taskIntro: "Take a current problem or project you're working on and run Connect:",
     taskItems: [
-      "Capture — status: what works, what doesn't",
-      "Clean — status: what works, what doesn't",
-      "Connect — status: what works, what doesn't",
-      "One concrete improvement step: what, when, how",
+      "Choose a current problem or decision you're dealing with",
+      "Go through your Capture/Clean system: what from previous records is relevant?",
+      "Give AI the current problem + relevant records as context and ask for pattern analysis and recommendations",
     ],
     taskType: "ol",
-    taskFallback: `If you're not sure how to approach the reflection, try this prompt:
-
-"Help me do a reflection on my 3C knowledge system. Ask me questions about each of the three steps — Capture, Clean, Connect — then help me identify one concrete step to improve."
-
-AI will ask questions and help you structure the reflection.`,
-    taskExample: `Input (reflection given to AI):
-"Capture: I capture inconsistently — mostly important things, but not regularly. Clean: Almost never — notes pile up unprocessed. Connect: I rely on memory."
-
-AI output (reflection + recommendation):
-Status:
-– Capture: Partly functional. Filtering is good, but consistency and a single place are missing.
-– Clean: Critical gap. Raw material accumulates not because of missing Capture but because Clean never happens.
-– Connect: Weakest link. Without clean knowledge there's nothing to connect.
-
-Priority for improvement:
-Clean is the bottleneck of the whole system. Without processing, even captured things are unusable.
-
-Concrete step:
-Every Friday, 10 minutes: open notes from the week and process the most important ones into a structured summary using AI. One summary per week is better than zero.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Next week we move to the PACT framework — and start thinking about AI as a system, not a bag of tricks.",
+    taskPrompt: "I'm currently dealing with this situation: [description of situation or problem]. From my previous records, this is relevant: [paste records]. What patterns do you see? What from previous experience or insights can be applied to the current situation?",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: 3C reflection — where the system works, where there are gaps, and what you take forward from week one.",
   },
   {
     day: 7,
-    title: "PACT framework: Projects, Agents, Context, Tools.",
-    subject: "Why a framework beats random tool-picking.",
-    preheader: "Without structure, AI becomes just another tool adding noise.",
+    title: "3C reflection: where the system works and where the gaps are.",
+    subject: "Week one is done — what you're taking from 3C.",
+    preheader: "A system only works when you actually use it.",
     concept: [
-      "Week 2 of the challenge is about the PACT framework — a way to think about AI in a work context systematically.",
-      "PACT has four elements:",
+      "The entire first week was about the 3C framework. Today is time to pause and evaluate — not as theory, but as practice.",
+      "Reflection isn't an assessment of whether you did everything 'right'. It's mapping reality: where the system works and where it hits friction. This is the most valuable information for keeping the system alive and improving it.",
+      "Three questions for 3C reflection:",
       [
-        "Projects — how to bring AI into real projects with clear structure and outputs",
-        "Agents — when AI agents and multi-step workflows make sense, and when they're unnecessarily complex",
-        "Context — why context determines output quality more than the prompt itself",
-        "Tools — how to choose tools based on function, not hype",
+        "Capture: are you capturing regularly? Is the inbox overflowing or empty? What's the biggest obstacle?",
+        "Clean: are you processing records or are they piling up? Is AI helping you with Clean or have you not used it yet?",
+        "Connect: did you go back to an old record this week and use it? Why or why not?",
       ],
-      "Why a framework beats random selection: without structure, AI becomes another tool you use ad hoc. With a framework, it becomes part of how you work.",
-      "The difference in practice: without PACT, you ask 'What AI tool should I try?' With PACT, you ask 'What result do I want, and how can AI systematically help me get there?'",
-      "PACT isn't a rigid methodology. It's a way of thinking. Four questions you ask whenever you're thinking about bringing in AI:",
-      [
-        "Is this a project with clear structure, or a one-off task?",
-        "Is this a complex recurring task where an agent or workflow would help?",
-        "Do I have enough context for the output to be high quality?",
-        "What tool is actually right for this situation?",
-      ],
-      "This week we'll break each PACT element into theory and practice. The goal: by the end of the week, know exactly how to bring AI into your work systematically.",
+      "What to do with the reflection results: if Capture isn't working — simplify the system (one place, one pattern). If Clean is overwhelming — switch to weekly Clean. If Connect is missing — start every project or problem by first connecting it to your archive.",
+      "Key insight from week one: 3C isn't about perfection. It's about consistency. An imperfect system you use every week is more valuable than a perfect system you abandon after two weeks.",
+      "Next week we move to the PACT framework — and we start thinking about AI as a system for project work.",
     ],
-    taskIntro:
-      "Reflect on your current work and answer the four PACT questions. The goal isn't perfect answers — it's mapping where you are right now.",
+    taskIntro: "Run a 3C reflection — briefly and concretely:",
     taskItems: [
-      "Projects: Which current project could have a clear AI-assisted structure? (one example)",
-      "Agents: Do you have a complex recurring task where a multi-step workflow might work? (one example or 'not sure yet')",
-      "Context: What context about yourself, your role, or your work does AI not have — and that would meaningfully improve outputs?",
-      "Tools: Which AI tools do you use and why — or are you using them randomly without clear reasons?",
+      "Capture: is it working? What's the biggest friction point?",
+      "Clean: are you processing regularly or is material piling up?",
+      "Connect: did you use an old record this week? What did it bring you, or what are you missing?",
     ],
     taskType: "ol",
-    taskFallback: `If you're not sure how to answer the PACT questions, try this prompt:
-
-"Help me map how I use AI at work through the PACT framework. Ask me questions about Projects, Agents, Context, and Tools — then help me identify where the biggest opportunity for improvement is."`,
-    taskExample: `Input: "How I use AI at work — PACT analysis"
-
-AI output (after answering questions):
-Projects: I use AI for individual tasks, not for project structure. Tried WBS once — it worked. Opportunity: introduce WBS as a standard step at the start of every project.
-Agents: I have a workflow on paper but haven't used it consistently. Opportunity: simplify to 2 steps so it's actually usable.
-Context: AI doesn't know my industry specifics, internal terminology, or typical objections in business conversations.
-Tools: Claude for writing, ChatGPT for quick answers — but the choice isn't systematic, it's just habit.
-
-Biggest opportunity: Context. Investing in a system prompt with role and client context will immediately improve output quality.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow we dig into Projects — how to plan a real project with AI using WBS.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Next week: PACT framework — Projects, Agents, Context, Tools. A systematic approach to AI in project work.",
   },
   {
     day: 8,
-    title: "Projects: plan a real project with AI using WBS.",
-    subject: "Projects — AI as a collaborator on project structure.",
-    preheader: "AI doesn't know your project. But if you describe it, it can help you break it down.",
+    title: "PACT framework: Projects, Agents, Context, Tools.",
+    subject: "Why a framework beats a random selection of tools.",
+    preheader: "Without structure, AI becomes another tool that adds confusion.",
     concept: [
-      "The first element of the PACT framework is Projects — how to bring AI into real project work.",
-      "The most common mistake: AI gets used for individual parts of a project (write an email, summarize a document), but not for the project as a whole. The result is fragmented help with no added value at the whole-project level.",
-      "Work Breakdown Structure (WBS) is a technique that breaks a project into clear layers of outputs and steps. With AI, you can create it quickly — and the result serves as a foundation for the entire project.",
-      "How WBS with AI works: you describe the project — goal, scope, key constraints — and AI helps you:",
+      "Week two of the challenge is about the PACT framework — a way to think about AI in a work context systematically.",
+      "PACT stands on four elements. Each is a different layer, a different question:",
       [
-        "Identify main phases and deliverables",
-        "Break phases down into concrete steps",
-        "Flag dependencies and risks",
-        "Suggest a rough time estimate",
+        "Projects — how to involve AI in real projects with clear structure and outputs",
+        "Agents — when AI agents and multi-step workflows make sense, and when they're unnecessarily complex",
+        "Context — why context determines output quality more than the prompt itself",
+        "Tools — how to choose tools functionally, not based on hype",
       ],
-      "WBS with AI isn't a final plan. It's a starting point — a quick overview that you then adjust to reality.",
-      "When AI really helps with Projects: when you have a project that's complex or new, where the scope isn't clear, or where you need a structure quickly for stakeholder communication.",
-      "Today's goal: take one real project and have AI create a WBS for it.",
+      "Why a framework instead of random tool selection: without structure, AI becomes another tool you come to ad hoc. With a framework, it becomes part of how you work.",
+      "The difference in practice: without PACT you ask 'What AI tool should I try?' or 'How do I write a better prompt?'. With PACT you ask 'What result do I want to achieve and how can AI systematically help me?' — and that's a different question.",
+      "PACT isn't a rigid methodology. It's a way of thinking — four questions you ask when thinking about involving AI:",
+      [
+        "Is this a project with a clear structure, or a one-off task?",
+        "Is this a recurring complex task where an agent or workflow would help?",
+        "Do I have enough context for the output to be high quality?",
+        "What tool is genuinely appropriate for this situation?",
+      ],
+      "This week we'll break down each PACT element. The goal: by the end of the week, have clarity on how to involve AI systematically in your work context.",
     ],
-    taskIntro:
-      "Choose one current project — ideally one where the scope or structure isn't fully clear. Give AI a description of the project and ask for a WBS.",
+    taskIntro: "Think about your current work and answer the four PACT questions:",
     taskItems: [
-      "Write a project description: what's the goal, what's in scope, who's involved, what's the rough timeline",
-      "Prompt: 'Create a WBS for this project. Break it into main phases, key deliverables in each phase, and concrete steps. Flag dependencies and potential risks.'",
-      "Review the result and adjust to reality — add what AI missed, remove what doesn't make sense",
+      "Projects: Which current project could have a clear AI-assisted structure?",
+      "Agents: Do you have a complex recurring task where a multi-step workflow could work?",
+      "Context: What context about yourself, your role, or your work does AI not have — that would significantly improve outputs?",
+      "Tools: Which AI tools do you use and why — or do you use them randomly without a clear reason?",
     ],
     taskType: "ol",
-    taskFallback: `If you don't have a suitable project on hand, use this practice scenario:
-
-Project: "Introducing a new onboarding process for new employees. Goal: reduce the time to full productivity from 3 months to 6 weeks. Involved: HR, direct manager, IT. Timeline: Q3."
-
-Feed this description to AI with a WBS request and review the result.`,
-    taskExample: `Input:
-"Project: Customer portal redesign. Goal: improve UX and reduce support ticket volume by 30%. Scope: frontend and navigation only, no backend changes. Involved: product team, UX designer, development, customer support. Timeline: 4 months."
-
-AI output (WBS):
-Phase 1 — Discovery (4 weeks)
-– Analysis of current support tickets: categorize issues
-– User research: 5–8 interviews with key users
-– Heuristic analysis of the current portal
-– Output: Discovery report with prioritized problems
-
-Phase 2 — Design (6 weeks)
-– Wireframes for key flows
-– User testing of wireframes
-– Hi-fi prototype
-– Output: Approved design ready for development
-
-Phase 3 — Development (8 weeks)
-– Frontend implementation by component
-– QA testing
-– Output: Functional portal ready for deployment
-
-Phase 4 — Launch & Monitoring (2 weeks)
-– Staged rollout
-– Track support tickets and UX metrics
-– Output: Evaluation and next steps
-
-Dependencies: Design must be approved before development begins.
-Risk: User research may uncover issues outside scope — clear boundaries needed.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow: Agents — what AI agents are, when they make sense, and when they're overkill.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Projects — how to plan a real project with AI using WBS.",
   },
   {
     day: 9,
-    title: "Agents: when they make sense and when they're overkill.",
-    subject: "Agents — what AI agents are and how to think about them.",
-    preheader: "An agent isn't magic. It's a workflow. And a workflow has to make sense.",
+    title: "Projects: plan a real project with AI using WBS.",
+    subject: "AI as a collaborator on project structure.",
+    preheader: "AI doesn't know your project. But if you describe it, it can help you break it down.",
     concept: [
-      "The second element of PACT is Agents — AI agents and automated workflows.",
-      "What an AI agent is: simply put, it's AI that doesn't just do one task but a sequence of steps — reacting to the output of the previous step, deciding what to do next, and potentially calling tools or other AI models.",
-      "When agents make sense:",
+      "The first element of the PACT framework is Projects — how to involve AI in real project work.",
+      "The most common mistake: AI is used on individual parts of a project (write an email, summarize a document) but not on the project as a whole. The result is fragmented help without added value at the level of the whole.",
+      "Work Breakdown Structure (WBS) is a technique that breaks a project down into clear layers of outputs and steps. With AI it can be created quickly — and the result serves as the foundation for the whole project, stakeholder communication, and delegation.",
+      "How WBS with AI works: you describe the project — goal, scope, key constraints — and AI helps you:",
       [
-        "A complex recurring task with a clear sequence of steps",
-        "A task where each step depends on the result of the previous one",
-        "A task where human intervention is unnecessary or too slow",
+        "Identify major phases and outputs in each phase",
+        "Break phases down into specific steps and responsibilities",
+        "Flag dependencies and risks",
+        "Suggest a rough time estimate",
       ],
-      "When agents don't make sense:",
-      [
-        "A simple task that one prompt can handle",
-        "Situations where context or judgment requires a human",
-        "Prototyping or exploratory work — agents add complexity without value",
-      ],
-      "The most common mistake: using an agent just because it sounds advanced. Agents add complexity — and that only makes sense if it adds proportional value.",
-      "A practical rule: start with a simple prompting workflow. Add automation or agents only when you feel that manual steps are the bottleneck.",
-      "Today is a theory day — the goal is to understand when and why, not to start building. Tomorrow we'll try a multi-step workflow in practice.",
+      "When AI genuinely helps with Projects: when you have a project that is complex or new, when you're unclear on scope, or when you need a structure quickly for communicating with stakeholders.",
+      "WBS with AI isn't the final plan — it's a starting point. A quick overview you then adjust to reality. But creating it takes 10 minutes instead of 3 hours.",
     ],
-    taskIntro:
-      "Reflect on your work and identify 2–3 complex recurring tasks where a multi-step workflow or agent might make sense. For each task, assess:",
+    taskIntro: "Choose one current project and have AI create a WBS for it:",
     taskItems: [
-      "What is the task and how often does it recur?",
-      "What steps does it involve — are they dependent on each other?",
-      "Where is the bottleneck: time, consistency, or quality?",
-      "Does an agent or workflow make sense, or would a better prompt be enough?",
+      "Write a project description: what is the goal, what is in scope, who is involved, what is the rough timeline",
+      "Give AI the WBS instruction (see prompt below)",
+      "Go through the result and adjust to reality — add what AI missed, remove what doesn't make sense",
     ],
     taskType: "ol",
-    taskFallback: `If you're not sure how to approach the analysis, try this prompt:
-
-"Help me identify complex recurring tasks in my work where an AI agent or multi-step workflow might make sense. Ask me about my most frequent recurring tasks and help me assess where automation adds value and where it's unnecessary."`,
-    taskExample: `Input: "Recurring tasks suitable for agent/workflow analysis"
-
-Task 1: Weekly management summary
-Steps: Gather data from Notion + email + Slack → structure → write summary → send.
-Dependencies: Yes (summary depends on data).
-Bottleneck: Time (45 min/week), format consistency.
-Verdict: Suitable for a workflow — but start with a manual prompt using a template. Add automation after 4 weeks.
-
-Task 2: Follow-up after every meeting
-Steps: Open notes → structure → write follow-up email → send.
-Dependencies: Minimal.
-Bottleneck: Quality and time.
-Verdict: A good prompt and a template are enough. An agent is overkill.
-
-Task 3: New client onboarding
-Steps: Welcome email → system access → briefing documentation → first meeting agenda.
-Dependencies: Yes (sequential).
-Bottleneck: Consistency and time.
-Verdict: Suitable for a multi-step workflow. Worth setting up.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow we actually break down one complex recurring task into a multi-step workflow.",
+    taskPrompt: "Create a WBS for this project: [project description — goal, scope, people involved, timeline]. Break it down into: 1) major phases with outputs, 2) specific steps in each phase, 3) dependencies between phases, 4) potential risks. Output in structured format.",
+    taskFallback: `If you don't have a suitable project, use this practice task:
+"Project: Implementing a new onboarding process for new employees. Goal: reduce time to full productivity from 3 months to 6 weeks. Involved: HR, direct manager, IT. Timeline: Q3."`,
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Agents — what are AI agents, when do they make sense, and when are they overkill.",
   },
   {
     day: 10,
-    title: "Agents in practice: build a multi-step workflow for a complex recurring task.",
-    subject: "Build a workflow that works even when you're not there.",
-    preheader: "The best workflow is one you can run in 2 minutes tomorrow.",
+    title: "Agents: when they make sense and when they're overkill.",
+    subject: "What are AI agents and how to think about them.",
+    preheader: "An agent isn't magic. It's a workflow. And a workflow has to make sense.",
     concept: [
-      "You know the theory of agents and when they make sense. Today we actually build one multi-step workflow.",
-      "A multi-step AI workflow works like this: a series of connected prompts where the output of one step is the input of the next. You don't need special software — just a clear sequence and the discipline to follow it.",
-      "The basic building blocks of a workflow:",
+      "The second element of the PACT framework is Agents — AI agents and automated workflows.",
+      "What is an AI agent: simplified, it's an AI that doesn't just perform one task but a series of steps — it reacts to the result of the previous step, decides what to do next, and can call tools or other models.",
+      "When agents make sense:",
       [
-        "Trigger: what starts the workflow? (a meeting, a new project, end of the week, an incoming email)",
-        "Steps: what happens in each step? (input, prompt, expected output)",
-        "Output: what is the final result of the whole workflow?",
-        "Storage: where does the result go and in what format?",
+        "A recurring complex task where there's a clear sequence of steps and each depends on the output of the previous",
+        "Processing a large volume of inputs — an agent goes through data, categorizes, filters",
+        "Parallel processing — an agent runs multiple tasks simultaneously and combines outputs",
+        "Monitoring or alerting — an agent watches a state and notifies when a condition is met",
       ],
-      "Example of a simple workflow: Post-meeting processing",
+      "When agents don't help or add complexity:",
       [
-        "Trigger: meeting ends",
-        "Step 1: Copy notes or key points into AI → Clean (structured summary)",
-        "Step 2: Output of Step 1 → Connect (what connections to old projects or decisions?)",
-        "Step 3: Output of Step 2 → Follow-up email draft",
-        "Output: Clean summary + follow-up email → saved in Notion + sent",
+        "One-off or simple tasks — they add complexity without value",
+        "Creative work with a high degree of human judgment — agents don't replace decision-making",
+        "Tasks where input is very different each time — agents need consistent input structure",
       ],
-      "Key principle: the workflow must be simple enough that you'll actually return to it. A complex workflow you never use is worse than a simple prompt you use every day.",
+      "Practical test for agents: does this task have a clear trigger, clear steps, and a clear output? Does it repeat regularly? If yes to both — it's a candidate for an agent. If not — a good prompt is enough.",
+      "For this challenge we focus on simpler multi-step workflows — a series of prompts where the output of one step is the input of the next. Agents in the technical sense are a more advanced topic.",
     ],
-    taskIntro:
-      "Take one of the complex recurring tasks you identified yesterday and build a multi-step workflow for it. Document it in this structure:",
+    taskIntro: "Identify one recurring complex task from your work and evaluate:",
     taskItems: [
-      "Workflow name and trigger (what starts it)",
-      "Step 1: input → prompt → output",
-      "Step 2: input (= output of step 1) → prompt → output",
-      "Step 3 (if needed): input → prompt → output",
-      "Final output and where it's stored",
+      "Does it have a clear trigger and predictable steps? (condition for a workflow)",
+      "Does it repeat regularly in the same or similar structure?",
+      "Sketch: what would a three-step workflow look like — what is the input, what are the steps, what is the output",
     ],
     taskType: "ol",
-    taskFallback: `If you're not sure where to start, build a workflow for this scenario:
-
-Workflow: Processing output from a webinar or online course
-Trigger: I finish a webinar or online course
-Step 1: Webinar notes → AI Clean → structured summary of key points
-Step 2: Summary → AI Connect → what's relevant to my current work or projects?
-Step 3: Relevant points → AI Action → concrete steps I'll take this week
-Final output: Actionable document saved to Notion`,
-    taskExample: `Workflow: Preparing for a strategic meeting
-Trigger: Strategic meeting is on the calendar 48 hours out
-
-Step 1 — Context:
-Input: Meeting description + agenda
-AI prompt: "Summarize what the goal of this meeting is and what I need to know or decide. What questions should be answered?"
-Output: Overview of goal and key questions
-
-Step 2 — Preparation:
-Input: Output of Step 1 + relevant materials (old project, data, feedback)
-Prompt: "Based on these materials, draft a meeting agenda, key arguments, and potential objections."
-Output: Agenda + arguments + risks
-
-Step 3 — Brief:
-Input: Output of Step 2
-Prompt: "Condense the whole preparation into a one-page brief I'll read 30 minutes before the meeting."
-Output: One-page brief
-
-Final output: Brief saved in Notion + shared with relevant colleagues`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow we look at Context — why context determines output quality more than the prompt itself.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Agents in practice — you'll build a multi-step workflow for one real task.",
   },
   {
     day: 11,
-    title: "Context: why context decides more than the prompt.",
-    subject: "Context — the most underestimated element of the entire PACT framework.",
-    preheader: "Two identical prompts. Two completely different results. The only difference: context.",
+    title: "Agents in practice: a multi-step workflow for a complex task.",
+    subject: "Build a workflow where each step builds on the previous.",
+    preheader: "One complex task. Three steps. Each depends on the last.",
     concept: [
-      "The third element of PACT is Context — and it's probably the most underestimated of all four.",
-      "Here's the key insight: two people give AI the exact same prompt. One gets a mediocre result, the other gets an excellent one. What's different? Context.",
-      "Context isn't just the role you assign AI ('You are an experienced...'). Context is everything AI needs to know for the output to be relevant — to you, your situation, your customer, your market.",
-      "Layers of context:",
+      "The theory of agents is behind us. Today it's practice: you'll build a multi-step workflow for one recurring task.",
+      "A multi-step workflow with AI is a sequence of prompts where the output of one step is the input of the next. You're not using an automation tool — you're working in one conversation or a series of conversations, but with clear structure.",
+      "Example multi-step workflow for preparing a client proposal:",
       [
-        "Personal context: who you are, what you do, what company, what market",
-        "Project context: what kind of project, what phase, who the stakeholders are",
-        "Communication context: who the output is for, what their background is, what they need to know",
-        "Preference context: what the output should look like — tone, length, format, what to avoid",
+        "Step 1 — Context analysis: 'Here is information about the client and their situation. Identify key needs and potential objections.'",
+        "Step 2 — Proposal structure: 'Based on the analysis from step 1, suggest a proposal structure — sections, key arguments for each section, what to emphasize first.'",
+        "Step 3 — Draft: 'Write a draft proposal based on the structure from step 2. Tone: professional but friendly. Length: max 1 A4 page.'",
       ],
-      "Why most people skip this: it seems tedious. But investing in a good system prompt (context document) takes 20–30 minutes once — and then you use it for months.",
-      "The practical impact: with good context, an average prompt produces a good output. Without context, even a great prompt won't produce results you can use directly.",
-      "Tomorrow you'll write your own working system prompt. Today's goal: understand why context decides.",
+      "Why this structure is stronger than one prompt: each step refines the input for the next. The result is relevant to the specific situation, not generic.",
+      "Where multi-step workflows add value: complex outputs (proposals, reports, strategies) where you need to analyze first and then create. A simple email or summary doesn't need a workflow.",
+      "Today's goal: take the task from D10 and build a concrete three-step workflow. Then test it.",
     ],
-    taskIntro:
-      "Run an experiment with two prompts. Give AI the same task twice — once without context, once with rich context. Compare the results.",
+    taskIntro: "Take the task from D10 and build a three-step workflow:",
     taskItems: [
-      "Choose one specific work task (an email, a summary, an analysis, a recommendation)",
-      "Give it to AI without context — exactly as someone who doesn't know how to use AI would",
-      "Give it again with full context: who you are, for whom, in what context, what the output must achieve",
-      "Compare the two results: how do they differ? Which would you actually use?",
+      "Step 1: What is the input and what should AI analyze or discover?",
+      "Step 2: What builds on the output of step 1 and what should AI suggest or structure?",
+      "Step 3: What is the final output and what should it look like?",
     ],
     taskType: "ol",
-    taskFallback: `If you're not sure what task to pick, try this pair:
-
-Without context:
-"Write a recommendation for a customer."
-
-With context:
-"You are a senior consultant at a B2B SaaS company focused on HR technology. Write a recommendation for a customer (HR director at a manufacturing company, 500 employees) who is considering implementing a new onboarding system. The customer is skeptical about technology changes and needs to see ROI within 12 months. Tone: professional and concrete. Length: max 200 words."`,
-    taskExample: `Experiment: recommendation email
-
-Without context — prompt:
-"Write an email with a recommendation for a client."
-AI output: Generic formal email, 8 sentences, nothing adapted to the situation — would need a complete rewrite.
-
-With context — prompt:
-"You are a project manager at a technology consulting firm. The client is the CFO of an e-commerce company considering a switch to a new ERP system. The client is data-driven and prefers concise, direct communication. The project costs $250k, implementation is 8 months. Write an email recommending we move to a pilot phase. Tone: matter-of-fact and confident. Max 150 words."
-AI output: Email precisely targeted at the CFO, referencing specific ROI expectations, proposing a pilot phase with a clear next step — sent it directly.
-
-Conclusion: The contextualized prompt produced a usable result. The non-contextualized prompt produced garbage.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow you'll write a system prompt for your work context — and from that point, every output will be an order of magnitude better.",
+    taskPrompt: "Step 1: [instruction for input analysis]. \nStep 2: Based on the output of step 1, [instruction for structure or proposal]. \nStep 3: Based on the output of step 2, [instruction for final output — format, tone, length].",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Context — why context decides more than the prompt itself.",
   },
   {
     day: 12,
-    title: "Context in practice: write your working system prompt.",
-    subject: "System prompt — invest once, benefit every day.",
-    preheader: "One document that turns every AI output into a result ready to use.",
+    title: "Context: why context decides more than the prompt.",
+    subject: "The most important part of the PACT framework — and why most people overlook it.",
+    preheader: "Same prompt, different context — completely different result.",
     concept: [
-      "You understand why context decides. Today you write it.",
-      "A system prompt is a document you give AI as context at the start of every session or project. It contains the most important things AI needs to know for its outputs to be relevant to you.",
-      "What a good working system prompt includes:",
+      "The third element of the PACT framework is Context — and it's probably the most important of the four.",
+      "Experiment: take any prompt and give it twice — once without context and once with detailed context. The results will be as different as if they came from a different AI.",
+      "Why context decides: AI processes your input and generates a probabilistic output based on what it knows. Without context, it knows general things. With context, it knows your situation. And the output matches what it knows.",
+      "Three types of context that have the biggest impact:",
       [
-        "Who you are: role, company, industry, experience",
-        "Who you work for: type of clients or stakeholders, their background, what matters to them",
-        "How you communicate: tone, length, formats, what to avoid",
-        "What AI must never do: what would ruin outputs or not fit your situation",
-        "Specific context: terminology, internal rules, constraints",
+        "Role and person context: who you are, what you do, for whom, and with what constraints — this sets the entire tone and relevance",
+        "Situation context: what specifically is happening, what's at stake, what is the goal, what are the facts",
+        "Output context: who the result is for, what they know about the topic, what their perspective is",
       ],
-      "Your system prompt doesn't need to be perfect from the start. Begin with a first draft and refine it as you learn what works.",
-      "How to use it: paste it into every new project or session as the first message. Or set it as instructions in Claude Projects, ChatGPT Projects, or Gemini.",
-      "Long-term effect: with a good system prompt, you stop spending time re-explaining context over and over. AI starts functioning like a colleague who knows your situation.",
+      "The biggest mistake in working with context: thinking it's about length. Context can be one sentence — if it's the right sentence. 'I'm writing a proposal for a conservative financial audience' changes the output more dramatically than three paragraphs of irrelevant context.",
+      "System prompt as a context tool: a system prompt is a way to give AI persistent context for a whole conversation or for repeated use. It's like onboarding a new employee — brief them once well, and you don't have to repeat it.",
+      "Tomorrow you'll write your own system prompt — context you'll use repeatedly.",
     ],
-    taskIntro:
-      "Write the first draft of your working system prompt. Use this approach:",
+    taskIntro: "Run a context experiment — you'll see the difference immediately:",
     taskItems: [
-      "Prompt AI: 'Help me write a working system prompt. Ask me 8–10 questions about my role, clients, communication style, and preferences for AI outputs.'",
-      "Answer the AI's questions — be specific, not generic",
-      "Ask AI: 'Based on my answers, write a system prompt in the first person that I'll use as context for my work.'",
-      "Review the result, adjust anything that doesn't match reality, and save it as 'My working system prompt'",
+      "Take any prompt you plan to use or regularly use",
+      "First give it without context — save the result",
+      "Add detailed context (who you are, what the situation is, who the output is for) and give it again",
+      "Compare both outputs — write down the concrete difference",
     ],
     taskType: "ol",
-    taskFallback: `If you want to start without AI, use this template and fill it in:
-
-I am a [role] at a [type of company/industry]. I primarily work with [type of clients/colleagues/stakeholders].
-I communicate [tone: formally/informally] and prefer [length: concise/detailed] outputs.
-Outputs should be in [format: bullet points/paragraphs/tables].
-I avoid [what you don't want: jargon, generalities, excessive formality...].
-Key terminology from my field: [3–5 terms].
-What AI must know about my context: [company specifics, clients, projects].`,
-    taskExample: `Output (example working system prompt):
-
-I am a product manager at a B2B SaaS company focused on HR technology. I work with an internal development team (8 people), C-level leadership (CEO, CTO), and key customers (HR directors at companies with 200–2,000 employees).
-
-I communicate directly and concisely — I prefer bullet points over paragraphs, outputs max 200 words unless specified otherwise. I avoid buzzwords, vague recommendations, and phrases like 'it depends on the situation' without concrete guidance.
-
-Outputs for customers: friendly and confident tone, focused on results and ROI.
-Outputs for the internal team: direct, technical tone where needed, oriented toward decisions and next steps.
-Outputs for leadership: concise, focused on strategic impact, always with a recommendation.
-
-Specifics: our company is at Series A stage, primary market is the US. Customers are conservative and adopt technology changes slowly.
-
-Never: suggest solutions that assume significant internal IT resources on the customer's side.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow we wrap up Week 2 with a PACT checkpoint — what from the framework you're actually using and where the gaps are.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: you'll write your working system prompt — context you'll use again and again.",
   },
   {
     day: 13,
-    title: "PACT checkpoint: what from the framework you're actually using.",
-    subject: "Week 2 done — PACT reflection and gaps in your approach.",
-    preheader: "A framework is a tool. If you're not using it, it's just theory.",
+    title: "Context in practice: write your working system prompt.",
+    subject: "Write it once. Use it a hundred times.",
+    preheader: "Your system prompt is your standing briefing for AI.",
     concept: [
-      "You've been through the full PACT framework: Projects, Agents, Context, Tools.",
-      "A checkpoint isn't about grading yourself. It's about looking at what from the framework actually works in your day-to-day — and what stayed theoretical.",
-      "Four questions for your PACT checkpoint:",
+      "Context theory is behind us. Today you create: you'll write your working system prompt.",
+      "A system prompt is a document or passage that immediately gives AI context about you, your role, and your preferred ways of working together. You add it to the beginning of every new conversation — or set it in Custom Instructions in ChatGPT or Project Settings in Claude.",
+      "What a good system prompt contains:",
       [
-        "Projects: Are you bringing AI into projects systematically with a clear structure, or just ad hoc for individual tasks?",
-        "Agents: Do you have at least one workflow that functions and that you use regularly?",
-        "Context: Do you have a system prompt or some other way of giving AI context systematically?",
-        "Tools: Do you choose tools deliberately based on the task, or out of habit or hype?",
+        "Who you are: role, field, type of organization, years of experience",
+        "What you do: 3–5 typical tasks, who you create outputs for",
+        "How you work: preferred tone, output length, what you don't want",
+        "Context about your organization or field: what's specific to your context — terminology, culture, constraints",
+        "Preferred format: bullets or paragraphs, structured or free",
       ],
-      "Most common gaps people find:",
-      [
-        "Context: investing in a system prompt keeps getting delayed — yet it's the biggest source of leverage",
-        "Agents: the workflow exists on paper but isn't used in real work",
-        "Projects: AI gets brought in for execution, not planning — missing the strategic value",
-      ],
-      "What to focus on: don't pick three things to improve. Pick one — the one with the biggest impact on your daily work — and do it really well.",
-      "Week 3 brings Superpowers — five capabilities you genuinely gain through AI collaboration. Get ready.",
+      "How to use a system prompt: paste it at the beginning of every new AI conversation. Or save to Custom Instructions / Project Settings. AI then immediately 'knows' who it's talking to — and outputs will be more relevant without repeated briefing.",
+      "Most important property of a system prompt: it's not perfect the first time. Write the first version today, test it this week, and adjust what doesn't fit. A system prompt is a living document.",
     ],
-    taskIntro:
-      "Run through your PACT checkpoint. For each of the four elements, write: status (what works and what doesn't) and one concrete opportunity to improve. Then pick the single most important step.",
+    taskIntro: "Write your working system prompt — in 5 sections:",
     taskItems: [
-      "Projects — status and opportunity",
-      "Agents — status and opportunity",
-      "Context — status and opportunity",
-      "Tools — status and opportunity",
-      "The single most important step: what, why, by when",
+      "Who I am and what I do: role, field, typical outputs",
+      "Who I work for: internal team, clients, leadership — and what they know about my work",
+      "How I prefer to communicate: tone, length, format",
+      "What AI must not do or assume: constraints, sensitive areas",
+      "Context about my organization or field: what's specific, what AI won't know without explanation",
     ],
     taskType: "ol",
-    taskFallback: `If you're not sure how to approach the reflection, try this prompt:
-
-"Help me do a PACT checkpoint. Ask me questions about how I'm currently using Projects, Agents, Context, and Tools at work. Then help me identify the biggest gap and one concrete step to improve."`,
-    taskExample: `Input: "PACT checkpoint — status after two weeks"
-
-AI output (after answering questions):
-
-Projects: I use AI for individual tasks, not project structure. Tried WBS once — it worked. Opportunity: make WBS a standard step at the start of every project.
-
-Agents: Workflow exists on paper but I've only used it twice in a week. Opportunity: simplify to 2 steps so it's realistically usable.
-
-Context: I wrote a system prompt but don't use it consistently. Opportunity: save it as default instructions in Claude Projects.
-
-Tools: Using Claude and ChatGPT without a clear reason for choosing which. Opportunity: define when I use which and why.
-
-Most important step: Context — set the system prompt as default instructions and use it in every session for 2 weeks. Impact: immediate improvement in output quality with no additional effort.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Next week we move to Superpowers — five real capabilities you gain through AI collaboration.",
+    taskPrompt: "I work as [role] at [type of organization/field]. My typical tasks are: [3–5 specific things]. Outputs are created for [who]. Preferred tone: [friendly/formal/direct]. Preferred output length: [short/medium/detailed]. Format: [bullets/paragraphs]. What I don't want: [what AI shouldn't do]. Specific context: [what's important to know about my work or field].",
+    taskTip: "Save the system prompt in your knowledge base — and add it as Custom Instructions in ChatGPT or Project Instructions in Claude.",
+    teaser: "Tomorrow: PACT checkpoint — what from the framework you're actually using and what's bringing you value.",
   },
   {
     day: 14,
-    title: "PACT Tools: choosing the right tool for the right task.",
-    subject: "A chatbot isn't enough. Here's how to choose AI tools intentionally.",
-    preheader: "Tools in PACT: not what's newest, but what fits your work.",
+    title: "PACT checkpoint: what from the framework you're actually using.",
+    subject: "Halfway through Advanced challenge — time to map where you are.",
+    preheader: "A framework without reflection is just theory.",
     concept: [
-      "The fourth element of PACT is Tools — and it's probably the most underestimated. Most people reach for a tool out of habit, not strategy.",
-      "The key question isn't: which tool is best? It's: which tool is best for this specific task, this context, and this output?",
-      "There are four core criteria for choosing an AI tool:",
+      "Fourteen days are behind us. You've been through the entire 3C framework and the entire PACT framework. Today is reflection — not a test, but mapping reality.",
+      "The most useful question of the day: which parts of 3C and PACT am I actually using and which stayed as theory?",
       [
-        "Type of task — conversation and writing (chatbot), workflow automation (workflow tool), data analysis (specialized tool), content generation (generator)",
-        "Context and integration — where do you work? Do you need a tool integrated into your existing environment or standalone?",
-        "Quality and reliability — for what outputs is this tool genuinely good? Not what it can do in general, but where it excels.",
-        "Sustainability — can you afford it, learn it, and use it consistently? The best tool is the one you'll actually use.",
+        "3C — Capture: am I capturing regularly? Does my filter work? Am I still capturing too much or too little?",
+        "3C — Clean: am I processing records or are they piling up? Is AI helping me with Clean?",
+        "3C — Connect: do I go back to old knowledge or do I ignore it?",
+        "PACT — Projects: did I use WBS or a structured approach on a project?",
+        "PACT — Agents: do I have any workflow that runs repeatedly?",
+        "PACT — Context: did I set up a system prompt and am I using it?",
+        "PACT — Tools: do I know clearly why I use which tools?",
       ],
-      "A practical approach: instead of testing every new tool, build your own intentional stack of 3–4 tools with clearly defined roles. Each tool has its zone — and you know exactly when to reach for which.",
-      "Example of a simple stack: Claude for writing, analysis, and complex prompts. ChatGPT for quick answers and brainstorming. Perplexity for research with current data. Notion AI for working directly in documents.",
-      "You don't need a perfect stack right away. You just need an intentional one — and to keep refining it based on what you actually use.",
+      "Key insight: it's not a problem if you're not using part of the framework. The problem is if you don't know. Reflection shows you where the opportunity is.",
+      "The second half of the Advanced challenge will focus on Superpowers — five capabilities you genuinely develop through AI collaboration. And then on Scale — how to convert everything you've built into a system that works for you.",
     ],
-    taskIntro: "Map your current AI tool stack and assign a clear role to each:",
+    taskIntro: "PACT checkpoint — go through each element and evaluate:",
     taskItems: [
-      "What AI tools do you currently use (even occasionally)?",
-      "What type of tasks do you actually use each one for?",
-      "Where do they overlap — and where is there a gap (a task you do manually where AI would help)?",
-      "What would your ideal stack of 3–4 tools with a clear role for each look like?",
+      "Capture, Clean, Connect: for each write one sentence — working, or where are the gaps?",
+      "Projects, Agents, Context, Tools: for each write one sentence — are you using it, or did it stay as theory?",
+      "One concrete improvement: what from the above do you want to actively improve over the next 14 days?",
     ],
     taskType: "ol",
-    taskPrompt: `Help me map my AI tool stack.
-
-Tools I use: [list them]
-Tasks I use them for: [list them]
-
-Based on this:
-1. Where do the tools overlap and where are there gaps?
-2. What would an effective 3–4 tool stack look like with a clear role for each?
-3. What should I stop doing manually and hand to AI?`,
-    taskFallback: `If you're not sure where to start, try this prompt:
-
-"I use Claude and ChatGPT but I'm not clear on when to use which. Help me define a clear role for each tool based on what I do at work: [describe your work in 3 sentences]."
-
-AI will suggest a specific role split adapted to your context.`,
-    taskExample: `Input: "I use Claude, ChatGPT, and Notion AI. I work in marketing — I write copy, analyze campaign results, and communicate with clients."
-
-AI output:
-
-Suggested stack with roles:
-→ Claude: long-form writing, strategic documents, analyzing client feedback. Excels at nuance and depth.
-→ ChatGPT: quick ideas, brainstorming variants, subject lines. Fast and straightforward.
-→ Notion AI: working directly in documents — summarizing meeting notes, rewriting briefs. No tool-switching needed.
-
-Gap: you don't have a tool for research with current data (campaign results, trends). Consider Perplexity or Claude with web access.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow we move to Superpowers — five areas where AI collaboration genuinely expands what you can do.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Next week: Superpowers — five capabilities you develop through AI collaboration.",
   },
   {
     day: 15,
     title: "Five superpowers you gain through AI collaboration.",
     subject: "Perception, Intelligence, Memory, Creation, Connection.",
-    preheader: "It's not about tools. It's about capabilities that go beyond any tool.",
+    preheader: "The most valuable things AI collaboration brings aren't outputs. They're capabilities.",
     concept: [
-      "Over the past two weeks you've worked on mindset, systems, and tools. Now comes the layer that ties it all together: superpowers.",
-      "Superpowers aren't a metaphor. They're concrete ways of working that open up when AI stops being a tool for specific tasks and becomes a permanent part of how you think.",
-      "There are five areas where AI fundamentally changes how you work:",
+      "Week three of the challenge is about Superpowers — five capabilities you genuinely develop through AI collaboration.",
+      "This view is different from what most people hear about AI. Most discussion is about what AI will do for you. But even more valuable is what AI collaboration teaches you — capabilities you carry with you even without AI.",
+      "The five superpowers:",
       [
-        "Perception — you see more. You can quickly grasp large amounts of information, find patterns and conclusions that would otherwise escape you.",
-        "Intelligence — you make better decisions. You can analyze complex situations from multiple angles, test scenarios, and uncover blind spots in your thinking.",
-        "Memory — you forget nothing. AI-integrated systems function as an extension of your memory — capturing what you did, said, and what worked.",
-        "Creation — you create at a different level. The speed and quality of creation shifts so that outputs that used to take days can be done in hours.",
-        "Connection — you communicate and collaborate better. With AI you prepare prompts for people, templates for teams, and tailor communication precisely for specific situations.",
+        "Perception — the ability to see patterns and structure where others see chaos",
+        "Intelligence — the ability to make better decisions through structured dialogue with AI as a thinking partner",
+        "Memory — the ability to work with information and knowledge systematically, not relying only on your memory",
+        "Creation — the ability to quickly create quality first versions and iterate — without blank page paralysis",
+        "Connection — the ability to link ideas, people, and resources in ways that would take much longer without AI",
       ],
-      "Each superpower has its own Week 3 day — theory and practice. Today you'll get an overview and identify which one resonates most with you right now.",
-      "One important thing: superpowers don't depend on which tool you use. They depend on how you integrate AI into the way you think. That's exactly what the rest of this week is about.",
+      "Why are these superpowers, not just AI features: if AI stopped existing tomorrow, these capabilities would stay with you. Pattern awareness, systematic memory work, iterative creation — these are ways of thinking that AI practice strengthens.",
+      "This week we'll break each superpower into theory and practice. Today is the overview — tomorrow we go deep with the first one: Perception.",
     ],
-    taskIntro: "Review the five superpowers and for each one, write:",
+    taskIntro: "Think about the five superpowers and answer:",
     taskItems: [
-      "Where do you use it least right now?",
-      "Where would you most want to strengthen it?",
-      "What specific task in your work would change the most with this superpower?",
+      "Which of the five comes most naturally to you — where does AI collaboration feel most natural?",
+      "Which is your biggest opportunity — where do you feel AI collaboration could add the most?",
+      "Write down one concrete situation from your work where each superpower could help",
     ],
     taskType: "ol",
-    taskFallback: `Not sure which superpower is most relevant to you? Try answering these questions:
-
-– Do you feel you're missing an overview when making decisions? → Intelligence
-– Do you lose information or forget what you decided? → Memory
-– Does it take you too long to produce outputs? → Creation
-– Do you struggle to adapt communication for different people? → Connection
-– Do you overlook important things in data or documents? → Perception
-
-In practice:
-Input: "It takes me too long to prepare materials for presentations and I'm always afraid I've forgotten something."
-AI output: That's two superpowers at once — Creation (producing materials) and Memory (a system that captures important things). Start with Creation.`,
-    taskExample: `In practice — overview of the five superpowers with real examples:
-
-Perception:
-Input: Annual report PDF, 80 pages.
-AI output: Key trends over 3 years, 5 risk areas, comparison to industry average. Time: 4 minutes.
-
-Intelligence:
-Input: "I'm considering expanding into the UK market. What are the risks?"
-AI output: 7 concrete risks with likelihood and impact, 3 scenarios, 2 blind spots I hadn't considered.
-
-Memory:
-Input: Meeting notes (raw notes).
-AI output: Structured record, action items with owners, summary in 5 sentences for the team.
-
-Creation:
-Input: "I need a pitch for an investor, I only have rough bullet points."
-AI output: Complete pitch deck structure, 3 variants for the opening slide, key messages for each section.
-
-Connection:
-Input: "I'm giving feedback to a colleague who repeatedly misses deadlines."
-AI output: 4 feedback variants — direct, diplomatic, coaching, written — with explanation of when to use each.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow: the first superpower in practice — Perception — how to see more with AI than without it.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Perception — how AI collaboration trains your ability to see patterns and structure.",
   },
   {
     day: 16,
     title: "Perception: you see patterns that would otherwise escape you.",
-    subject: "Analyze a document or dataset with AI — see what you've been missing.",
-    preheader: "AI doesn't replace your judgment. It expands what you're even able to see.",
+    subject: "How AI collaboration trains your ability to see structure in chaos.",
+    preheader: "The most valuable thing isn't a faster output. It's a different way of seeing.",
     concept: [
-      "Perception — the ability to notice and understand things — is the first of the five superpowers. And it's the one that most changes how you work with information.",
-      "Every day you work with documents, data, feedback, reports. Most of the time you read them linearly: start to finish, take notes, draw conclusions. But linear reading has limits — you see what comes up in sequence. You miss patterns, outliers, and what's not there at all.",
-      "With AI, Perception changes in three ways:",
+      "The first superpower is Perception — the ability to see patterns, structure, and connections where others see chaos or unrelated information.",
+      "How AI collaboration trains Perception: AI very quickly finds structure in large amounts of text or data. If you work with AI regularly, you start to adopt this way of looking — you look for patterns before you start creating. You see structure before you name it.",
+      "Three exercises that strengthen Perception:",
       [
-        "Speed — an 80-page document takes 5 minutes to grasp, not an hour.",
-        "Breadth — AI catches things you'd skip or undervalue with linear reading.",
-        "Depth — you can ask targeted questions: 'what are the three biggest risks?', 'what patterns are in this dataset?', 'where are the gaps in the argument?'",
+        "Pattern recognition: give AI a large volume of material and ask — 'What patterns do you see? What repeats? What looks unusual?' Then try this perspective yourself next time without AI.",
+        "Structure first: before every new task ask — 'What is the fundamental structure of this problem? What are the key variables?' Before you start creating.",
+        "Anomaly detection: in any data input (reports, feedback, customer responses) ask AI — 'What looks unusual or unexpected here?' It trains you to see exceptions.",
       ],
-      "The most powerful way to use Perception isn't just 'summarize this for me'. It's the combination: first a summary, then targeted questions, then your own interpretation.",
-      "Today's practice: take a real document or dataset from your work — a report, a spreadsheet, customer feedback, a meeting transcript — and go through it with AI. You won't just see the content. You'll see the patterns.",
+      "Perception in the context of 3C: the Clean process strengthens Perception — processing raw material forces you to look for key points and patterns. After a month of Clean routine this way of looking starts to come automatically.",
+      "Key insight: Perception can't be trained by reading. It's trained through practice — repeatedly looking for patterns in your own work. AI is your training partner.",
     ],
-    taskIntro: "Choose a document or dataset from your work and run it through AI in three steps:",
+    taskIntro: "Perception exercise — take a large piece of material from your work:",
     taskItems: [
-      "Paste the document (or a key section) and ask for a structured summary — key points, most important numbers, main conclusions.",
-      "Ask 2–3 targeted questions: 'What patterns are there?', 'Where are the outliers or exceptions?', 'What is missing from this document?'",
-      "Write your own interpretation — what surprised you, what confirmed your assumption, what you want to investigate further.",
+      "Choose material: meeting transcripts, customer feedback, project notes, or data from a report",
+      "Give it to AI and ask: 'What patterns do you see? What repeats? What is unusual or surprising?'",
+      "Compare the output with what you'd have noticed yourself — what did AI see that surprised you?",
     ],
     taskType: "ol",
-    taskFallback: `Don't have a suitable document on hand? Try this approach with any text you have:
-
-Input: Feedback from 5 customers over the last month (copy into AI).
-AI output: Three recurring themes: delivery speed, packaging quality, website clarity. One outlier: one customer mentioned a problem with the payment gateway — the others didn't. Recommendation: investigate the payment gateway as a potentially hidden issue.
-
-Or for a spreadsheet:
-Input: Q1 sales table (values for 12 products, 3 months).
-AI output: Product X shows consistent decline across all three months, while Product Y has the highest fluctuations. The trend suggests a seasonal pattern in categories A and B.`,
-    taskExample: `In practice — working with a real document:
-
-Input: "I have notes from a 4-hour strategic workshop (2,200 words). Summarize the key conclusions, identify 3 main themes, and tell me what's missing or ambiguous in the notes."
-
-AI output:
-Key conclusions: The team agreed on three priorities for Q3 but didn't agree on their order. Two initiatives have no assigned owner.
-
-Three main themes: 1) expansion to new markets, 2) internal processes and efficiency, 3) customer retention.
-
-What's missing: The notes contain no action items with deadlines and owners. The budget topic was opened but not closed — it's unclear whether an agreement was reached.
-
-Result: This output made it clear at the follow-up meeting what needed to be resolved — instead of another hour re-reading the notes.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow: Intelligence — how AI helps make better decisions and uncover blind spots.",
+    taskPrompt: "Here is [type of material]: [paste material]. Run a Perception analysis: 1) What patterns or recurring themes do you see? 2) What seems unusual or surprising? 3) What is the underlying structure or logic of this material?",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Intelligence — how AI collaboration trains your ability to make better decisions.",
   },
   {
     day: 17,
     title: "Intelligence: better decisions with AI as a thinking partner.",
-    subject: "Pros/cons, scenarios, blind spots — AI as a counterweight to your thinking.",
-    preheader: "AI doesn't decide for you. It helps you see what you're overlooking.",
+    subject: "How AI collaboration trains your ability to decide better.",
+    preheader: "AI won't decide for you. But it will help you make a better decision.",
     concept: [
-      "Intelligence — the second superpower — isn't about AI being smarter than you. It's about AI being structured differently than you.",
-      "Every person thinks with certain patterns, preferences, and blind spots. It's hard to see yourself from a perspective you don't naturally have. AI doesn't have your experiences or your biases — and that's exactly its value as a thinking partner.",
-      "Where Intelligence helps most:",
+      "The second superpower is Intelligence — the ability to make better decisions through structured dialogue with AI as a thinking partner.",
+      "AI doesn't decide for you. But it can help you structure a decision in a way that reveals blind spots, challenges assumptions, and shows alternatives.",
+      "Four ways AI helps with decision-making:",
       [
-        "Decisions with multiple variables — where it's hard to hold all the criteria in your head at once.",
-        "Risk scenarios — 'what could go wrong?' People tend to underestimate risks in things they're emotionally invested in.",
-        "Counterarguments — 'play devil's advocate' or 'convince me why I shouldn't do this'.",
-        "Blind spots — 'what's missing from my thinking?', 'what angle haven't I considered?'",
+        "Devil's advocate: 'Here is my decision. Play devil's advocate — what are the strongest arguments against it?'",
+        "Assumptions: 'Here is my reasoning. What assumptions does this decision require? Which are the riskiest?'",
+        "Pre-mortem: 'Imagine this decision fails in a year. What most likely caused the failure?'",
+        "Alternatives: 'What are three alternative approaches to this problem that I haven't mentioned?'",
       ],
-      "Key principle: AI is the best thinking partner when you're not asking it for the right answer — but for structured analysis and alternative perspectives. The decision is always yours.",
-      "The most powerful Intelligence prompt: 'Here's my decision and my reasoning. Play the role of a critical advisor — what am I overlooking, what are the risks, what should I consider before deciding?'",
-      "Today is a theory day. Tomorrow you'll apply Intelligence to a real decision from your work.",
+      "Why this trains Intelligence: each of these exercises forces you to break a decision into parts and examine it structurally. If you repeat this method, you start applying it automatically — even without AI.",
+      "Important boundary: AI is a thinking partner, not a decision-making tool. The final decision is always yours. AI gives you breadth of view — you bring expert judgment and responsibility.",
+      "Key mistake: asking AI 'what should I do?' instead of 'help me think through this situation'. The first question turns off your thinking. The second turns it on.",
     ],
-    taskIntro: "Try Intelligence on a small decision you're working on — or a hypothetical scenario. Follow three steps:",
+    taskIntro: "Choose one decision you're currently working on and go through it with these four steps:",
     taskItems: [
-      "Describe the situation and your current thinking or decision.",
-      "Ask AI for a pros/cons analysis and three alternative scenarios.",
-      "Add: 'What am I overlooking in my thinking? What are my blind spots?'",
+      "Write your current reasoning — why you lean toward the option you currently prefer",
+      "Ask AI for devil's advocate — the strongest arguments against your preferred choice",
+      "Ask AI for a pre-mortem — what could cause failure in a year",
+      "Incorporate the outputs into your decision-making — what did it change or confirm?",
     ],
     taskType: "ol",
-    taskFallback: `Input (hypothetical example — adapt it to your situation):
-"I'm considering whether to accept an offer for a new role at a company. The salary is 20% higher, but the role is uncertain — the company is going through restructuring. My current job is stable but offers no career growth. What are the pros and cons? What are three possible scenarios in 12 months? What am I overlooking in my thinking?"
-
-AI output (sample):
-Pros of new role: higher income, new experience, potential leadership position.
-Cons: uncertainty, need to rebuild relationships, restructuring risk.
-Scenario 1: Company stabilizes → you're in a better role with higher salary.
-Scenario 2: Company keeps restructuring → you're job-hunting again in 8 months.
-Scenario 3: You accept the role but it doesn't meet expectations → you're frustrated and without security.
-Blind spot: You don't mention how much you enjoy your current work — and that's a key variable missing from the analysis.`,
-    taskExample: `In practice — Intelligence as a decision check:
-
-Input: "We're deciding whether to launch a new product in Q2 or wait until Q4. Q2 has the advantage of speed to market, Q4 would mean better preparation. Play the role of a critical advisor — what am I overlooking?"
-
-AI output:
-Critical questions missing from the analysis:
-1. What is the team's capacity in Q2 — do you have the people for a launch or will it come at the expense of another project?
-2. Is Q2 actually an advantage, or just a feeling of urgency without market data?
-3. What exactly would 'better preparation' in Q4 improve — and is it measurable?
-
-Blind spot: The analysis assumes the Q4 deadline will be met. But without a clear Q4 milestone, there's a real risk of slipping into Q1 — losing the advantage of both options.
-
-Result: The team realized they had no clear criterion for 'better preparation' — and that was exactly what was blocking the decision.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow you'll apply Intelligence to a real decision from your work — not a hypothetical.",
+    taskPrompt: "I'm working through this decision: [description of situation and your current reasoning]. \n1) Play devil's advocate — what are the strongest arguments against my preferred choice? \n2) What assumptions does my reasoning require? Which are the riskiest? \n3) Pre-mortem: if this decision fails in a year, what most likely caused the failure?",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Intelligence in practice — you'll analyze a real decision you're currently facing.",
   },
   {
     day: 18,
     title: "Intelligence in practice: analyze a real decision you're facing.",
-    subject: "One real decision. Full analysis with AI.",
-    preheader: "Theory is fine. But you only really understand it when you do it on your own.",
+    subject: "Structured decision-making with AI — from reasoning to action.",
+    preheader: "Decision theory is one thing. Practice is another.",
     concept: [
-      "Yesterday you saw how Intelligence works in theory. Today you apply it to a real decision from your work.",
-      "Practice differs from theory in one way: your real decision has context that a hypothetical example doesn't. And with real context, AI works best.",
-      "Three types of decisions that work best with Intelligence:",
+      "Intelligence theory is behind us. Today it's practice — you'll take a real decision from your work context and run it through the whole process.",
+      "Why practice is harder than theory: real decisions have uncertainty, an emotional component, and political context. AI helps with the analytical component — but the emotional and political component is on you.",
+      "Three types of decisions where AI Intelligence adds the most:",
       [
-        "Decisions with multiple alternatives — where you have 2–4 options and aren't sure which is right.",
-        "Decisions under uncertainty — where information is missing or depends on the future.",
-        "Decisions under pressure — where you feel you're deciding too fast or too emotionally.",
+        "Strategic decisions with unclear outcomes: where choice depends on assumptions about the future",
+        "Cross-domain decisions: where you need to integrate multiple perspectives at once",
+        "Decisions under time pressure: where AI quickly structures what would otherwise take hours of deliberation",
       ],
-      "How to approach it: write AI a brief context (5–8 sentences), your current intention, and then ask for analysis. Don't be afraid to give AI more information rather than less — the more context, the more relevant the output.",
-      "After the analysis, take one extra step: write down what decision you'll make and why — and how the analysis influenced or confirmed your judgment. This is the moment where Intelligence truly becomes your superpower.",
+      "How to handle a decision with high emotional charge: first write to AI how you feel about the situation — without filters. Then ask for structured analysis. Separating emotion and analysis gives you clarity that's hard to reach in direct discussion.",
+      "Key insight: AI sees your situation without emotion and without politics. That's both an advantage and a limitation. Advantage: clarity and breadth of view. Limitation: AI doesn't know context you never write down.",
     ],
-    taskIntro: "Choose one real decision you're currently working on or putting off. Then follow these steps:",
+    taskIntro: "Take a real decision from your work context and run it through the structured decision-making process:",
     taskItems: [
-      "Describe the situation: context, your current thinking, what's blocking you.",
-      "Give AI this instruction: 'Play the role of a critical advisor. Analyze pros/cons, propose 3 scenarios, name the blind spots, and tell me what's missing from my analysis.'",
-      "After the output, write one sentence: 'From this analysis I learned...' — what changed or confirmed your decision.",
+      "Write the situation: what you're deciding, what the options are, what's keeping you undecided",
+      "Run through the four Intelligence steps from D17: devil's advocate, assumptions, pre-mortem, alternatives",
+      "Write: what surprised you about the AI output or what changed? What did it confirm? What will you do differently because of this process?",
     ],
     taskType: "ol",
-    taskFallback: `If you don't have a major decision right now, use this one:
-
-Input: "I'm deciding whether to move our team standup from Thursday to Monday. The benefit is that Monday better frames the week. The downside is that Monday mornings people have a lot of emails and may be less focused. How should I analyze this decision?"
-
-This type of decision is intentionally small — Intelligence works at all levels, not just for strategic decisions.`,
-    taskExample: `In practice — a real work decision:
-
-Input: "We're deciding whether to outsource customer service or continue building an internal team. Right now we have 2 people, capacity isn't enough, outsourcing would be faster, but I'm worried about quality. Play critical advisor."
-
-AI output:
-Pros of outsourcing: faster scaling, lower fixed costs, no HR overhead.
-Cons: less quality control, loss of company culture in communication, dependency on a vendor.
-
-Three scenarios:
-1. Outsourcing works → capacity solved, but in 18 months you'll want to bring some back in-house.
-2. Outsourcing falls short on quality → you have to build the internal team in parallel — more expensive.
-3. Hybrid → outsource simple queries, internal team for complex ones — hardest to manage.
-
-Blind spot: You didn't mention how customers currently perceive the quality of service. If it's good, the risk of outsourcing is higher. If it's average, there's room to improve.
-
-What I learned: I hadn't mapped customer satisfaction with the current service. That's the first step before any decision.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow: Memory, Creation, and Connection — the remaining three superpowers in one overview.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: the remaining three superpowers — Memory, Creation, Connection.",
   },
   {
     day: 19,
     title: "Memory, Creation, Connection: the remaining three superpowers.",
-    subject: "Three different ways AI expands what you're capable of.",
-    preheader: "Each works differently — and each changes a different type of work.",
+    subject: "Three superpowers that complete the picture.",
+    preheader: "Memory, creation, connection — and how AI collaboration develops them.",
     concept: [
-      "Over the last two days you covered Perception and Intelligence. Three superpowers remain to complete the framework.",
-      "Memory — extending your working memory.",
-      "Human memory is great at recognition. It's worse at capturing things precisely. AI helps you with a system that doesn't forget: it captures decisions, context, results, formats. The most powerful use is a combination of templates + AI summarization + regular saving — creating a system where nothing slips through.",
-      "Memory in practice:",
+      "Perception and Intelligence are behind us. Today we add the remaining three superpowers — and tie everything together.",
+      "Memory — the ability to work with information systematically, without relying on natural memory:",
       [
-        "Meeting notes → AI formats them and saves them in the same structure every time.",
-        "Project retrospectives → AI captures what worked, what didn't, what to do differently.",
-        "Personal knowledge base → notes from conferences, courses, books — AI summarizes and indexes them.",
+        "AI collaboration forces you to capture and process (see 3C) — and this strengthens the ability to work with an external memory system",
+        "In practice: system prompt, knowledge base, recurring context — these are tools of externalized memory",
+        "Superpower: you stop relying on what you remember — and start building a system that works even without you",
       ],
-      "Creation — producing at a different level.",
-      "Creation isn't about AI creating for you. It's about you handling the full cycle with AI: from idea to structure to final output — faster and with better results. The key is iteration with full context.",
-      "Creation in practice:",
+      "Creation — the ability to quickly create first versions and iterate without paralysis:",
       [
-        "Complex presentations → from a rough idea to slide structure with key messages.",
-        "Strategic documents → from a brief to polished formulations across multiple iterations.",
-        "Multi-channel content → one original output adapted for different formats.",
+        "AI collaboration trains you in iterative creation — the first draft is a foundation, not a final product",
+        "Superpower: overcoming blank page paralysis. Whenever you don't know how to start, you have a way — ask AI for a first version",
+        "In practice: complex outputs (proposals, strategies, presentations) come together faster and at higher quality",
       ],
-      "Connection — communication tailored to the situation.",
-      "Connection is the superpower of interpersonal communication. AI helps you prepare communication that accounts for context, relationship, goal, and tone — for each specific situation, not generically.",
-      "Connection in practice:",
+      "Connection — the ability to link ideas, people, and resources:",
       [
-        "Feedback → 4 variants for different relationships and situations.",
-        "Difficult conversations → preparation for key points, anticipating reactions.",
-        "Team communication → templates and approaches that work across different people's styles.",
+        "AI collaboration exposes you to broader context — AI sees connections that would take years of experience to identify",
+        "In practice: cross-disciplinary thinking, connecting seemingly unrelated things, identifying experts or resources",
+        "Superpower: you learn to ask 'who or what else is solving this?' — and look for inspiration outside your own field",
       ],
-      "Tomorrow you'll fully apply Creation — building a real output with full context and iteration.",
+      "All five superpowers together: Perception sees patterns. Intelligence structures decisions. Memory retains and retrieves. Creation realizes. Connection links. AI collaboration strengthens all of them — but they're yours.",
     ],
-    taskIntro: "For each of the three superpowers, write one sentence answering the question:",
+    taskIntro: "For each of the three remaining superpowers, write one concrete example from your work:",
     taskItems: [
-      "Memory: Where in my work do important pieces of information 'slip through' that I'd want to capture?",
-      "Creation: What output from my work takes the longest and could be broken into structure + content + format?",
-      "Connection: In what kind of communication situation would I want better preparation or more variants for how to approach it?",
+      "Memory: where do you rely on your head but a system would work better? Where would externalized memory add value?",
+      "Creation: where does the blank page or getting started block you? Where would an AI draft help overcome the beginning?",
+      "Connection: where would connecting with another domain, field, or person bring a new perspective?",
     ],
     taskType: "ol",
-    taskFallback: `Input: "I'm not sure where to start with Memory. How could I use AI to capture information at work?"
-
-AI output: Start with meetings. After every meeting, copy your raw notes into AI and use this prompt: "Structure these notes: key conclusions, action items with owners, open questions. Format: bullet points, max 200 words." Save the outputs in one place. In 3 weeks you'll have the foundation of a knowledge base.`,
-    taskExample: `In practice — three superpowers side by side:
-
-Memory:
-Input: Raw notes from a 60-minute workshop (450 words of scattered text).
-AI output: Structured record — 3 decisions, 5 action items with owners, 2 open questions. Processing time: 2 minutes.
-
-Creation:
-Input: "I need a strategic brief for a new campaign — I only have 4 bullet points about what we know about the target audience."
-AI output: Complete brief (situation, goal, target audience, key message, tone, formats, KPIs) — 3 iterations in 20 minutes. The result was used directly for the agency briefing.
-
-Connection:
-Input: "I need to give a colleague feedback on repeatedly missing deadlines — it's a sensitive topic, we have a good relationship."
-AI output: 3 feedback variants — direct and factual, empathetic with questions, coaching focused on the system. Plus phrases best avoided and how to open the conversation.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow: Creation in full — build a complex output from scratch with full context, structure, and iteration.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Creation in practice — building a complex output from scratch, with iteration.",
   },
   {
     day: 20,
     title: "Creation: complex output from scratch with iteration.",
-    subject: "Not 'write me an email'. The full cycle from idea to final output.",
-    preheader: "Creation works differently than you think — it's all about context and iteration.",
+    subject: "Build a complex output in six steps.",
+    preheader: "Blank page paralysis stops when you have a process.",
     concept: [
-      "Creation is the superpower that differs most from how most people use it.",
-      "When people say 'AI will help me create', most mean: I'll write a prompt, get some text, done. But that isn't Creation — it's generation. And the results match.",
-      "Real Creation works differently. It has three phases:",
+      "The Creation superpower is today's practice. You'll take a complex output — one that would normally take hours — and run it through the full iterative process with AI.",
+      "What a complex output is: not one email or short summary. But a strategy, presentation, proposal, analysis, consulting recommendation, or any output where the blank page is the biggest obstacle.",
+      "Six steps for Creation with AI:",
       [
-        "Context — AI needs to understand the situation: who reads it, why it exists, what the goal is, what already exists.",
-        "Structure — before AI creates content, it proposes a skeleton. You review, comment, approve.",
-        "Iteration — the final output emerges over 2–3 rounds. Each iteration sharpens and improves.",
+        "Define: write exactly what you want to create — for whom, why, in what format, what is the goal",
+        "Structure: ask AI for a structure — overview of sections and flow logic, not the content itself",
+        "Draft sections: for each section separately write a prompt — this gives more relevant content than one big prompt",
+        "Synthesize: combine sections, go through the whole output — what's missing, what's excessive, what doesn't fit",
+        "Refine: iterate — specific instructions for each weak part",
+        "Final review: go through from the reader's perspective — is it understandable, convincing, usable?",
       ],
-      "Why iteration matters: the first AI output is a draft. The second, with your feedback, is noticeably better. The third can be final. Without iteration you stay at average results.",
-      "Today's task is intentionally larger: you'll create a complex output — a strategic document, a presentation, a guide, or a communication plan — from start to a result ready to actually use.",
-      "Key principle: the more context you give AI upfront, the fewer iterations you need. Invest 5 minutes describing the situation — save 30 minutes of rework.",
+      "Why sections separately work better than one big prompt: each section has a different goal, different tone, different constraints. One prompt for the whole output generates the average. Prompts for sections generate the optimum.",
+      "Today you'll work longer than the usual 5–10 minutes. Creation work deserves 20–30 minutes. But the output you get will be worth it.",
     ],
-    taskIntro: "Choose a complex output you need to create (or would need to). Run through the full Creation process:",
+    taskIntro: "Choose a complex output from your work and run it through the six-step Creation process:",
     taskItems: [
-      "Context (5–8 sentences): describe what you're creating, for whom, why, and what the reader/user needs to know or do.",
-      "Ask AI for the structure of the output — just a skeleton, no content yet. Review it, adjust, approve.",
-      "Ask AI for a first version of the content based on the approved structure. Give specific feedback and ask for a revised version.",
+      "Define: what you're creating, for whom, why, and in what format",
+      "Structure: let AI suggest a structure — then adjust to reality",
+      "Draft: run each section as a separate prompt, combine",
+      "Refine: iterate the weak parts, finalize",
     ],
     taskType: "ol",
-    taskFallback: `If you're not sure what to create, try one of these:
-
-Option A — Strategic brief: for a project or initiative you're planning to launch.
-Option B — Onboarding guide: for a new colleague, client, or vendor.
-Option C — Communication plan: for sharing results or a change with your team or leadership.
-
-Starting input: "We're creating a [output] for [recipient]. The goal is [what the output should do/say]. Context: [situation, key information]. Start with the structure — just a skeleton with headings and a short description of each section."`,
-    taskExample: `In practice — Creation in three rounds:
-
-Output: Strategic brief for a customer portal redesign.
-
-Round 1 — Context and structure:
-Input: Situation description (7 sentences) + "Propose a brief structure."
-AI output: 6 sections — situation, project goal, target audience, key requirements, out of scope, definition of success. Time: 3 minutes.
-
-Round 2 — First content version:
-Input: "Write content for each section. Tone: matter-of-fact, for internal audience. Max one A4 page."
-AI output: Complete brief draft. Two problems: 'target audience' section too generic, 'out of scope' missing.
-Feedback: "Update target audience — add 3 specific personas. Add out of scope: mobile app, ERP integration."
-
-Round 3 — Final version:
-AI output after feedback: Brief ready to use. Full process: 35 minutes. A result that would have taken 2–3 hours manually.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow we close Week 3: which superpower comes naturally to you and which do you want to develop further?",
+    taskPrompt: "We're creating a [type of output] for [recipient/audience]. Goal: [what the output should achieve]. Context: [relevant info]. \nStep 1: Suggest a structure — overview of sections with a one-sentence description of each. \nStep 2 (for each section separately): Write the [section name] section at [length] in [tone] tone.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: Superpowers reflection — which comes naturally to you and which do you want to develop further.",
   },
   {
     day: 21,
     title: "Your AI superpowers: which comes naturally, which to develop further.",
-    subject: "Week 3 reflection — your personal superpower profile.",
-    preheader: "You'll know where your natural strength is — and where there's room to grow.",
+    subject: "Superpowers week reflection — and your personal profile.",
+    preheader: "The best development system is the one that starts from you.",
     concept: [
-      "Today is a reflection day. Over the past seven days you've been through five superpowers — and you've tried each one a little in practice.",
-      "Reflection isn't just looking back. It's the foundation for what you'll develop next. Without reflection you randomly chase tools and tips. With reflection you know where to invest your energy.",
-      "Three things you'll map today:",
+      "Week three is behind us. You've been through all five superpowers — Perception, Intelligence, Memory, Creation, Connection — in theory and practice.",
+      "Today is reflection: not what you did, but what you're taking forward.",
+      "Why Superpowers reflection matters: everyone works with AI differently. Everyone has different natural strengths. And everyone has different areas where AI collaboration is the biggest opportunity. Knowing your profile helps you invest energy where the effect will be greatest.",
+      "Five questions for Superpowers reflection:",
       [
-        "Natural strength — which superpower came most easily or made the most sense? Where did you feel an immediate benefit?",
-        "Development potential — which superpower is most important for your work but you're not yet using to its full capacity?",
-        "Concrete next step — not 'I want to improve', but one specific task or system you'll start building.",
+        "Perception: are you using AI for finding patterns regularly? Or is it still occasional experiments?",
+        "Intelligence: did you run AI structured decision-making in a real situation? What did it bring?",
+        "Memory: is your 3C system working as externalized memory? Or do you still rely mainly on your head?",
+        "Creation: has AI collaboration overcome blank page paralysis? Are you iterating or still waiting for a perfect first draft?",
+        "Connection: are you actively looking for connections and analogies from other fields? Or staying in a narrow context?",
       ],
-      "Superpowers develop gradually. You don't need to be strong in all five at once. Choose one or two and go deep.",
-      "A reminder of the five superpowers: Perception (you see patterns), Intelligence (better decisions), Memory (nothing slips through), Creation (outputs at a different level), Connection (communication tailored to the situation).",
+      "Your Superpowers profile isn't a perfect picture — it's a starting point for further development. Week four will focus on Scale: how to convert what you've built into a system that works for you.",
     ],
-    taskIntro: "Review each of the five superpowers and for each one, write one sentence answering:",
+    taskIntro: "Write your Superpowers profile — briefly and concretely:",
     taskItems: [
-      "Where did I try it this week — what did I do?",
-      "How strong is this capability in my current work (1–5)?",
-      "What would my concrete next step be if I wanted to strengthen it?",
+      "Your naturally stronger superpowers (1–2): where does AI collaboration feel most natural",
+      "Your biggest opportunity (1): where is the greatest potential for improvement",
+      "One concrete step for week four: what you'll actively do differently",
     ],
     taskType: "ol",
-    taskFallback: `Input: "I'm thinking about which superpower fits me best. I enjoy working with text and communication, but I'm not an analytical type."
-
-AI output: Based on what you're describing, Creation and Connection come most naturally to you. Creation because working with text is exactly where AI functions as a collaborator across the full cycle. Connection because communication tailored to the situation — feedback, difficult conversations, team messages — is an area where you have both interest and experience.
-
-I recommend starting with Creation: take one output you produce repeatedly and build a full context + iteration workflow around it. That will be your foundation.`,
-    taskExample: `In practice — reflection on the five superpowers:
-
-Perception (2/5): Tried document analysis. It went well, but I'm not doing it regularly yet. Next step: for every report I receive, analyze it with AI first.
-
-Intelligence (3/5): Analyzed one decision — biggest 'aha moment' of the week. Want to do this for every major decision. Next step: create a decision analysis template.
-
-Memory (2/5): Not using systematically yet. Know that meetings are the weak point. Next step: next meeting → AI-structured notes within 10 minutes of it ending.
-
-Creation (4/5): This comes naturally and I'm getting results. Want to refine iteration further. Next step: add a structure round before every major output.
-
-Connection (3/5): Used it for preparing feedback — very useful. Want to extend to difficult conversations. Next step: prepare the next difficult conversation with AI in advance.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Next week: how to build your AI system at scale — for yourself, your team, and recurring processes.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Next week: Scale — Human-in-the-loop, workflow with checkpoints, AI adoption in a team, and a system that works for you.",
   },
   {
     day: 22,
     title: "Human-in-the-loop: where you must be in the AI process.",
-    subject: "AI must not decide alone. Where and why you matter.",
-    preheader: "The more AI does, the more it matters where you make the decisions.",
+    subject: "How to design a system where AI works but you control.",
+    preheader: "The best AI system isn't one where AI does everything. It's one that knows where you're needed.",
     concept: [
-      "Week 4 is about the system at a larger scale. And we start with the fundamental question: where are you in the whole AI process?",
-      "Human-in-the-loop is a principle that says: in a well-designed AI workflow, there is always a point where a human decides, reviews, or approves. Not because AI is unreliable. But because responsibility for the outcome is always human.",
-      "Where you must always be in the process:",
+      "Week four is about Scale — converting what you've built into systems that work for you. And the first question you need to answer: where are you in the process?",
+      "Human-in-the-loop (HITL) is a principle of AI system design: AI does what it does well, but humans are involved at key decision points.",
+      "Why HITL matters: a fully automated system without human oversight works great — until it fails. And then it fails catastrophically. HITL systems are more robust because humans catch errors that AI doesn't see.",
+      "Three types of human involvement:",
       [
-        "Framing and context — what AI is working on, with what information, for whom. Never delegate this entirely.",
-        "Interpreting the output — AI's result is a proposal, not a decision. You assess and approve it.",
-        "Ethical and strategic decisions — what you communicate to a customer, how you respond to a crisis, what you tell an investor. These are decisions with impact — and they're yours.",
-        "Feedback for improvement — what worked, what didn't, how to adjust the prompt or process next time.",
+        "Human-before: you define the input, context, and goal — AI then executes",
+        "Human-in: you approve or correct at key steps of the workflow",
+        "Human-after: AI runs the entire task, you review and approve the result",
       ],
-      "Where AI can work more autonomously:",
+      "How to decide where to be in the process:",
       [
-        "Routine generation and formatting of outputs.",
-        "Data analysis without decision-making implications.",
-        "Preparing variants and drafts for you to choose from.",
+        "High failure risk or large impact: human-before or human-in",
+        "Low risk and a recurring structured task: human-after",
+        "Creative or highly personalized output: human-before, strong context",
       ],
-      "A practical question: go through one workflow you do regularly and ask: where in this process am I? Where do I decide? Where does AI help without my involvement? And are those the right places?",
-      "Tomorrow you'll map or describe this workflow — with clearly marked decision points where you're in control.",
+      "Today's goal: map one of your recurring tasks and decide where the right place for human input is.",
     ],
-    taskIntro: "Choose one recurring workflow from your work. For each step, write:",
+    taskIntro: "Take one recurring task from your work context and design its HITL structure:",
     taskItems: [
-      "What happens in this step?",
-      "Who (or what) does it — you, AI, or both together?",
-      "Why is or isn't a human decision point important at this step?",
+      "Describe the task: what is the input, what are the steps, what is the output",
+      "Decide: human-before, human-in, or human-after — where is your added value?",
+      "Write concretely: what does AI do and exactly where do you enter — what do you review, what do you approve, what do you adjust",
     ],
     taskType: "ol",
-    taskFallback: `Input: "How do I know where in my workflow I need to be and where AI can work more autonomously?"
-
-AI output: There are four signals for a human decision point:
-1. The result has a direct impact on a customer, colleague, or the company — that's you.
-2. A bad decision would be hard to reverse — that's you.
-3. The decision depends on relationship, context, or emotion — that's you.
-4. It's something you bear personal or professional responsibility for — that's you.
-
-Everywhere else, AI can work more autonomously and you approve the output.`,
-    taskExample: `In practice — a workflow with clear human-in-the-loop:
-
-Workflow: Creating and sending a newsletter.
-
-Step 1: Topic gathering → AI scans notes and proposes 5 topics. Human point: you choose 1–2 relevant ones.
-Step 2: Content creation → AI writes the first version. Human point: you fix facts, add personal context.
-Step 3: Tone editing → AI adjusts phrasing based on feedback. Human point: final approval.
-Step 4: Technical sending → tool sends automatically. No human point — purely mechanical.
-Step 5: Results analysis → AI summarizes metrics. Human point: interpretation and decision on what to do differently next time.
-
-Result: You know exactly where you need to be and where AI saves you time. Nothing slips through.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow you'll map or describe your own workflow — with clearly marked decision points where you're in control.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: map your workflow — where you are, where AI works, where the checkpoints are.",
   },
   {
     day: 23,
     title: "Map your workflow: where you are, where AI works.",
-    subject: "Visualize the process — see where AI saves time and where you must be.",
-    preheader: "A good workflow is visible. Today you make yours visible.",
+    subject: "Workflow with checkpoints — visualizing the system.",
+    preheader: "A system you can't see, you can't optimize.",
     concept: [
-      "Yesterday you thought through the human-in-the-loop principle. Today you make it concrete.",
-      "Visualizing or describing a workflow has a practical purpose: only when you see it all at once do you recognize where there are unnecessary steps, where AI adds value, and where you're indispensable.",
-      "How to describe or map a workflow:",
+      "Yesterday you decided where you are in the process. Today you visualize it — you'll draw (or write) your workflow.",
+      "Why visualization matters: a workflow you only have in your head is a workflow you can't share, optimize, or delegate. Once you draw it or describe it, you see it differently.",
+      "How to describe a workflow — four elements:",
       [
-        "List the steps in order — what happens, what comes after what.",
-        "For each step add: who does it (me / AI / both / tool).",
-        "Mark decision or approval points — these are the human-in-the-loop moments.",
-        "Mark points where output goes directly to the next step without a decision — these are opportunities for automation.",
+        "Trigger: what starts the process? (new client request, weekly rhythm, a specific event)",
+        "Steps: what happens in what order? (who or what — you or AI)",
+        "Checkpoints: where are the human control points?",
+        "Output: what is the final result and who does it serve?",
       ],
-      "The format is up to you: it can be a list with annotations, a table, or an actual map in Figma, Miro, or on paper.",
-      "After building the workflow, ask yourself three questions: Where do I spend the most time and could that be delegated to AI? Where is AI working without my oversight and should there be a checkpoint? Where is an entire step unnecessary?",
-      "The goal isn't a perfect workflow right away. The goal is a workflow you can see — and then gradually improve.",
+      "How AI helps with workflow design: give AI a description of your current process and ask: 'Identify steps where AI could help, and suggest where the right checkpoints for human oversight are.' AI gives you a structured view you then adjust.",
+      "Today's goal: have one recurring process described — so that someone else could read it and understand how to run it. That's the foundation for delegation or improvement.",
     ],
-    taskIntro: "Choose one recurring process from your work and describe it in this format:",
+    taskIntro: "Write or draw a workflow for one of your recurring processes:",
     taskItems: [
-      "Name of the process and how often it recurs.",
-      "Steps in order — each on one line or bullet point.",
-      "For each step: me / AI / both / tool. Plus label: [D] = decision (human-in-the-loop), [A] = automatable.",
+      "Trigger: what starts this process?",
+      "Steps in order: what happens, who does it (you or AI), what is the output of each step",
+      "Checkpoints: where do you enter — what do you review or approve",
+      "Final output: what is created and who does it serve",
     ],
     taskType: "ol",
-    taskFallback: `Input: "I mapped my workflow but I'm not sure how to write it up clearly."
-
-Try this format:
-
-Workflow: Preparing monthly report (monthly, ~3 hours)
-
-1. Data gathering → me [A] — can be delegated to AI based on data from the spreadsheet
-2. Summarizing results → me [D] — interpretation is mine
-3. Preparing visuals → me+AI [A] — AI suggests, I approve
-4. Writing commentary → me+AI [D] — AI drafts, I edit
-5. Final check → me [D] — always mine
-6. Sending to leadership → me [A] — automatable
-
-Result: you can see where you'll save ~45 minutes and where you must be.`,
-    taskExample: `In practice — workflow for preparing a client proposal:
-
-Workflow: Preparing a business proposal (every 2 weeks, ~5 hours)
-
-1. Client briefing → me [D] — key needs, context
-2. Internal research → me+AI [A] — AI finds precedents, I add specifics
-3. Proposal structure → me+AI [D] — AI proposes, I approve or adjust
-4. Content creation → me+AI [A] — AI writes the draft, I iterate
-5. Pricing → me [D] — always my decision
-6. Final tone editing → me+AI [A] — AI adjusts phrasing, I approve
-7. Sending → me [D] — review before sending
-
-Identified savings: steps 2, 3, 4, 6 are partly delegatable → roughly 2 hours back.
-Human-in-the-loop moments: 1, 5, 7 are indispensably mine.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow: how to share AI knowledge in a team — without hype, without resistance, with results.",
+    taskPrompt: "Here is a description of my process for [process name]: [description of current process]. Identify: 1) where AI could take over or assist, 2) where the right checkpoints for human oversight are, 3) what the optimized workflow would look like. Output as a structured step-by-step overview.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: AI adoption in a team — sharing knowledge without hype or resistance.",
   },
   {
     day: 24,
     title: "AI adoption in a team: sharing knowledge without hype or resistance.",
-    subject: "What works when introducing AI to a team — and what doesn't.",
-    preheader: "Adoption isn't about persuading. It's about concrete results.",
+    subject: "How to bring AI to colleagues without pressure and without technology for technology's sake.",
+    preheader: "The best AI champion on a team is the one who shows results, not evangelizes.",
     concept: [
-      "One of the biggest barriers to AI adoption in teams isn't the technology. It's the way people talk about AI.",
-      "Hype works short-term. 'AI will change everything', 'we need to start now', 'this will save 40% of our work' — statements like these create either inflated expectations or defensive reactions. And then, when results come more slowly, they leave disappointment or skepticism.",
-      "What works instead of hype:",
+      "One of the biggest AI opportunities isn't what you can do with AI on your own. It's what a team can do when knowledge, prompts, and workflows are shared.",
+      "But AI adoption in a team is a different challenge than personal AI adoption. People have different technical backgrounds, different openness to new tools, and different concerns. The 'just try it, it's great' approach isn't enough.",
+      "Three AI adoption approaches for teams that work:",
       [
-        "A concrete result, not a generic benefit — 'this prompt saves 20 minutes of meeting preparation every time' works better than 'AI will speed up our work'.",
-        "A live demonstration, not a theory — show the workflow, don't explain it. People believe what they see.",
-        "Respecting different starting points — some people are enthusiastic, some skeptical. Both are fine.",
-        "Small steps, not grand transformations — one new prompt or template is an achievable goal.",
+        "Show, don't tell: show a concrete result from your work — time saved, quality, a simpler process. Results convince more than arguments.",
+        "Start small: one prompt for one recurring task the team does regularly. No big project, no new tool on top.",
+        "Build a shared library: start a shared collection of prompts, templates, and workflows. Everyone contributes what works for them. The system grows organically.",
       ],
-      "What doesn't work:",
+      "What slows adoption:",
       [
-        "Pressure and mandates — 'from now on everyone must use AI' without support or meaning.",
-        "Starting too complex — if the first step requires 3 hours, no one will do it.",
-        "Ignoring concerns — fear of job loss or feeling obsolete are real. They need to be addressed openly.",
+        "Too much hype: 'AI will change everything' creates resistance in skeptics and disappointment in enthusiasts, because reality never matches hype",
+        "Technical complexity: if adoption requires a new tool or big investment, most people will put it off",
+        "No clear benefit: if it's not clear what it specifically lightens for you, you have no reason to try",
       ],
-      "The best adoption approach: find one colleague, show them one concrete example that saves them time — and let them share it with others themselves. Organic spread works better than top-down mandates.",
-      "Tomorrow you'll try this in practice: teach a colleague one specific AI trick — or write it up as a mini guide.",
+      "Your role in adoption: you're not an AI evangelist. You're someone who has results — and is willing to share them. That's a powerful enough contribution.",
     ],
-    taskIntro: "Think about one colleague or team member AI could help. Answer three questions:",
+    taskIntro: "Prepare an adoption contribution for your team:",
     taskItems: [
-      "What do they do repeatedly that AI could simplify? (one specific task)",
-      "What is their current experience with AI — enthusiastic, skeptical, or neutral?",
-      "How would you show them the result — with a live demo, or a short guide?",
+      "Choose one concrete result or workflow that's working for you from the challenge",
+      "Write a one-sentence description: what it is, how long it takes, what it will bring a colleague",
+      "Share it with one colleague — verbally, in chat, or as a document",
     ],
     taskType: "ol",
-    taskFallback: `Input: "I'm not sure how to start with a colleague who's skeptical about AI."
-
-AI output: The best approach is not asking 'do you want to try AI?' but showing a concrete result without advance warning.
-
-In practice: They come to a meeting and mention they're struggling with preparing the agenda. You open Claude, enter the meeting goal, and in 2 minutes you have a structure. Don't frame it as 'let me teach you AI' — just say 'try this prompt.' Nothing more needed.
-
-Skeptics change through their own experience, not through persuasion.`,
-    taskExample: `In practice — a successful and unsuccessful adoption approach:
-
-Unsuccessful approach:
-At a team meeting: "Starting next month we'll all be using AI tools. Here are 3 tools I've chosen. Please review the documentation."
-
-Result: Two people try it, the rest don't. In a month it's forgotten.
-
-Successful approach:
-One on one: "Hey, I have a tip for saving 15 minutes on every report you prepare. Let me show you one prompt — takes 3 minutes."
-
-Live demo. Result visible immediately.
-
-Result: The colleague copies the prompt. In a week they show it to another colleague. In a month four people use it — with no mandate at all.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow you'll do it: teach a colleague one trick — or write it up as a mini guide (max one page).",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: teach a colleague one AI trick — or write it as a mini guide.",
   },
   {
     day: 25,
     title: "Teach a colleague one AI trick — or write it as a mini guide.",
-    subject: "Knowledge that sticks when you pass it on.",
-    preheader: "The best way to solidify knowledge: teach it to someone else.",
+    subject: "Knowledge shared is knowledge doubled.",
+    preheader: "The best test of whether you understand something: can you explain it simply?",
     concept: [
-      "Today is the practice session for yesterday's theory. The goal is to do one thing: share a concrete piece of AI knowledge with a colleague — or write it up so anyone can use it.",
-      "Why sharing? Three reasons:",
+      "One of the best ways to deepen your own knowledge is to teach others. If you can explain how an AI prompt works, simply and without jargon — you genuinely understand it.",
+      "Today's task has two variants: teach a colleague one trick in person, or write it as a mini guide.",
+      "Personal teaching (5–10 minutes): choose one concrete AI trick from your repertoire, walk through one real example with a colleague, and let them try it themselves. Goal: the colleague walks away with one usable prompt.",
+      "Mini guide (alternative): write a document explaining one AI trick or workflow. Contents:",
       [
-        "You confirm what you actually know — only when you explain it do you find where the gaps are.",
-        "You create a lasting artifact — a guide or template that stays useful after the challenge ends.",
-        "You start organic spread — everyone you show can show someone else.",
+        "What it is: a one-sentence description",
+        "Why it works: the basic principle (simply, without theory)",
+        "How to do it: step by step, with a concrete prompt",
+        "Example output: what you get if you do it right",
       ],
-      "Formats for sharing knowledge:",
-      [
-        "Live demo — you sit together, you show it in real time. Most effective for skeptics.",
-        "Mini guide — one document, max one A4 page. Situation, prompt, output, how to use.",
-        "Annotated template — a prepared template or prompt with an explanation of why it works.",
-        "Short video or screen recording — for remote teams or async sharing.",
-      ],
-      "A good mini guide has this structure: title (what the guide solves), situation (when to use it), prompt or process (the exact input), example output (so it's clear what to expect), tips and adjustments (how to customize).",
-      "Today's task is intentionally concrete: either call a colleague and show them one trick, or write a mini guide for one specific AI workflow from your work.",
+      "Why a mini guide works better than sharing a link or tooltip: a guide is contextualized for your team and your work. A generic tutorial covers generic situations. Your guide covers your context.",
+      "Bonus: if a colleague uses the mini guide and gives you feedback — what was unclear, what works differently — you'll learn more from that than from an hour of another tutorial.",
     ],
-    taskIntro: "Choose one of the options and do it today:",
+    taskIntro: "Choose a variant and do it today:",
     taskItems: [
-      "Option A: Find a colleague and show them one prompt or workflow that saves you time — in real time. Note their reaction and questions.",
-      "Option B: Write a mini guide (max 1 page) for one specific AI workflow. Use the structure: situation, prompt, output, how to use.",
+      "Variant A: Teach a colleague one trick in person — specific prompt, real example, let them try it",
+      "Variant B: Write a mini guide for one AI trick or workflow from your practice",
+      "After completing: write down what surprised you — either in the colleague's responses or in the writing process",
     ],
-    taskType: "ul",
-    taskFallback: `Input: "I want to write a mini guide but I'm not sure how to structure it."
-
-Try this format — copy and fill in:
-
-Title: How to prepare a meeting structure in 2 minutes
-
-Situation: When to use it
-You have a meeting in less than an hour and need a quick structure and agenda.
-
-Prompt:
-"You are an experienced facilitator. I'm preparing a meeting on [topic]. Participants are [list]. The goal of the meeting is [goal]. Propose an agenda for [length] minutes with timing, key points for each block, and suggestions for how to open and close."
-
-Example output: [paste a real AI output here]
-
-Tips: Add specific participant names for better results. If it's a recurring meeting, save the output as a template.`,
-    taskExample: `In practice — mini guide for preparing feedback:
-
-Title: How to prepare constructive feedback in 5 minutes
-
-Situation: When to use it
-You need to give a colleague feedback on a specific situation and want it to be factual, clear, and not create unnecessary tension.
-
-Prompt:
-"You are an experienced coach and communication advisor. I need to give feedback to a colleague on this situation: [describe the situation]. Our relationship is [friendly/formal/strained]. The goal of the feedback is [behavior change/recognition/correction]. Write 2–3 variants — one direct, one empathetic, one coaching. Each max 4 sentences."
-
-Example output:
-Direct: "On the last three projects the deadline has slipped by more than a week. I need us to talk about what's blocking it and agree on concrete next steps."
-Empathetic: "I can see you have a lot going on and the projects are demanding. At the same time we need to talk about deadlines — when would you have a moment?"
-Coaching: "How do you yourself see the deadlines on the last few projects? What would help to make it work differently?"
-
-Tips: The more specific the situation description, the more relevant the variants. The guide works for upward, downward, and horizontal feedback.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow: leverage at the system level — not faster tasks, but a genuinely different way of working.",
+    taskType: "ol",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: leverage at the system level — tool vs. way of working.",
   },
   {
     day: 26,
     title: "Leverage at the system level: tool vs. way of working.",
-    subject: "Faster tasks aren't enough. It's about changing how work functions.",
-    preheader: "A system works even when you're not there. A tool doesn't.",
+    subject: "The difference between 'I use AI' and 'AI is part of how I work'.",
+    preheader: "The biggest leverage isn't in one great prompt. It's in the system.",
     concept: [
-      "At the start of the challenge we talked about leverage as a way of thinking. Today we return to it at a different level: leverage at the system level.",
-      "Most people who use AI have it as a tool. They open ChatGPT, give it a task, get a result, close it. That's fine — and it's a starting point. But it's not a system.",
-      "A system works differently. It has four properties a tool doesn't:",
+      "The second-to-last topic of the Advanced challenge comes back to the beginning — but differently.",
+      "At the start of the challenge, leverage was defined as: achieving a result that wouldn't otherwise be possible. Or would take ten times longer. Leverage at the individual level.",
+      "Leverage at the system level is different: AI is embedded in how you work so it functions for you — even when you're not actively thinking 'how do I use AI'. It becomes part of the process, not a tool you consciously pull out.",
+      "What it looks like in practice:",
       [
-        "Repeatability — it works the same way every time, not just when you remember it.",
-        "Spread — others can use it without you having to be there.",
-        "Improvement — every use generates feedback that makes the system better.",
-        "Independence — it works even when you have other things to do.",
+        "Every project kickoff automatically includes a WBS with AI — not as an extra step, but as part of how a project starts",
+        "Every week the Clean routine is built in — Friday, 20 minutes, Capture inbox processed",
+        "The system prompt is set and adds automatically — no manual briefing",
+        "The shared prompt library in the team grows organically — everyone adds what works",
       ],
-      "The practical difference:",
-      [
-        "Tool: every time you open AI fresh, write a prompt from scratch, get a result.",
-        "System: you have a prompt template, workflow steps, outputs saved in one place, and a way to share or hand them off.",
-      ],
-      "How to tell if you're using a tool or a system: ask yourself — if you were sick for a week, would it keep working? Or would it depend on you being there?",
-      "Tomorrow you'll build an end-to-end mini AI system for one specific recurring task. Today: prepare the ground by choosing the task and thinking through the four system properties in your context.",
+      "System leverage comes from habits and processes, not motivation. If every Monday you have to remind yourself 'today I'll use AI', you don't yet have system leverage. If AI is simply part of how you do things — you have it.",
+      "Today's question: what from what you've built over 26 days has become part of your system? And what hasn't yet?",
     ],
-    taskIntro: "Choose one recurring task you currently do as a tool — and think through what it would look like as a system:",
+    taskIntro: "Map your current system leverage:",
     taskItems: [
-      "Repeatability: what would need to be documented for it to work without you being there?",
-      "Spread: who else could use this system? What would they need to do that?",
-      "Improvement: how would you capture what works and what doesn't after each use?",
-      "Independence: what would the system do automatically (or semi-automatically) without your input every time?",
+      "What from the challenge has become a routine or part of how you work? (specific things, not general)",
+      "What still requires conscious effort or reminders?",
+      "One concrete decision: what will you embed into your system as a regular step — with a specific timeline",
     ],
     taskType: "ol",
-    taskFallback: `Input: "How do I know if I have a tool or a system?"
-
-AI output: Try answering these questions:
-– Do I have to remember it exists every time? → Tool.
-– Is it documented so a colleague could use it without asking me anything? → System.
-– If you were doing it for the third time, do you start from scratch or have a starting point? → Starting from scratch again = tool.
-– Does it work during your vacation? → No = tool. Yes = system.`,
-    taskExample: `In practice — moving from tool to system:
-
-Tool (how I do it now):
-Every Friday morning I open AI, write roughly the same prompt for the weekly report, get a draft, edit it, send to leadership. Takes 40 minutes.
-
-System (what it could look like):
-1. Prompt template saved in Notion — I open it, fill in the numbers, send to AI. 2 minutes.
-2. Report output template — AI fills in the structure, I approve. 5 minutes.
-3. Output archive — every report saved in the same folder, same file name format, with date.
-4. Colleague instructions — if I'm not available, colleague knows where the template is and how to use it.
-
-Result: 40 minutes → 15 minutes. Works without my presence. Colleague can take over without a briefing.
-
-The transition took one hour of setup. Saved ~25 minutes every week = 20 hours per year.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow: you'll build an end-to-end mini AI system for one real recurring task from start to finish.",
+    taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: you'll build an end-to-end mini AI system — for one of your key processes.",
   },
   {
     day: 27,
     title: "Build an end-to-end mini AI system.",
-    subject: "Input → steps → output. A system for one complex recurring task.",
-    preheader: "One hour of work today = hours saved every month.",
+    subject: "One key process — from input to output — with AI at every step.",
+    preheader: "A system that works for you starts as one well-designed process.",
     concept: [
-      "Today is one of the most important days of the whole challenge. You'll build an end-to-end mini AI system — a complete workflow for one recurring task.",
-      "What end-to-end means: input (what enters the system), steps (how the system works), output (what comes out of the system). Every step documented, replicable, handoff-ready.",
-      "Why this matters: without a documented system you stay with a tool. Every next use starts again from scratch. With a documented system you have a foundation that improves — not repeats.",
-      "Structure of a mini AI system:",
+      "Second-to-last day of the challenge. Today you create — and you're creating the biggest thing in the entire challenge.",
+      "An end-to-end mini AI system is one concrete process from your work — from input to output — designed with AI at every relevant step, with a clear HITL structure, and documented so that someone else could follow it or use it.",
+      "Five elements of a good mini AI system:",
       [
-        "Name and description — what the system solves, for whom, how often it's used.",
-        "Input — what enters the system: what data, texts, information, in what format.",
-        "Steps — sequence of actions: what AI does, what the person does, what the tool does. Each step in one sentence.",
-        "Prompts — exact prompt text for each AI step (or templates with variables in [square brackets]).",
-        "Output — what comes out: format, length, where it's saved.",
-        "Human-in-the-loop points — where you decide or approve.",
-        "Tips and adjustments — what improves results, how to adapt to different situations.",
+        "Trigger: what starts the process and how do I know it's time to run it",
+        "Input: what I feed in — data, context, material",
+        "AI steps: what AI does at each step and with what prompt",
+        "HITL checkpoints: where I enter — what I review, approve, or adjust",
+        "Output: what is created and who it serves",
       ],
-      "Today's goal isn't a perfect system. It's a version 1.0 system — usable, documented, ready for iteration.",
+      "Examples of mini AI systems from the world of work:",
+      [
+        "Weekly reporting: Trigger: Friday 2pm. Input: week's data. AI: structures summary, suggests key numbers. HITL: I verify accuracy of numbers, add context. Output: report for leadership.",
+        "Client onboarding: Trigger: new client signed. Input: client info. AI: draft onboarding email sequence. HITL: I review tone, personalize. Output: sent emails.",
+        "Project retrospective: Trigger: end of project. Input: notes, feedback, data. AI: structures retrospective. HITL: I add context, decide on priorities. Output: retrospective record in Capture system.",
+      ],
+      "Today's goal is to have one working mini AI system documented so a colleague could read it and understand how to run it.",
     ],
-    taskIntro: "Choose one complex recurring task and build an end-to-end mini AI system for it. Document it in this structure:",
+    taskIntro: "Build your end-to-end mini AI system — documented in five elements:",
     taskItems: [
-      "Name, description, frequency of use.",
-      "Input — what enters the system.",
-      "Steps in order — who or what does them, human-in-the-loop points marked [D].",
-      "Prompts — exact text for each AI step.",
-      "Output — format and storage location.",
+      "Choose a process: recurring, complex, and valuable — where AI adds the most",
+      "Document the five elements: trigger, input, AI steps with prompts, HITL checkpoints, output",
+      "Test it once — run the whole system on a real example and write down what to adjust",
     ],
     taskType: "ol",
-    taskFallback: `Not sure which task to choose? These types work best for a mini AI system:
-
-– Regular reports (daily, weekly, monthly)
-– Preparing materials for recurring types of meetings
-– Content creation for a specific channel (newsletter, LinkedIn, blog)
-– Processing customer feedback or surveys
-– Onboarding new colleagues or clients
-
-Starting input: "Help me design the structure of a mini AI system for [task name]. I need: input description, process steps, prompts for AI steps, and output format."`,
-    taskExample: `In practice — mini AI system for processing customer feedback:
-
-Name: Monthly customer feedback analysis
-Frequency: Once monthly, ~2 hours → after implementing the system ~35 minutes.
-
-Input: Export of customer ratings and comments from CRM (CSV or copied text), current month.
-
-Steps:
-1. Data preparation → me [A] — copy data into AI, remove sensitive information.
-2. Categorization → AI [A] — prompt: "Categorize this feedback into themes. Identify 5 main categories, mention counts, sentiment (positive/negative/neutral)."
-3. Pattern identification → AI [D] — prompt: "What are the three recurring problems? What are the three recurring compliments? What is new compared to last month?" I approve the interpretation.
-4. Recommendations → me+AI [D] — prompt: "Based on the analysis, propose three concrete actions for next month." I select and adjust.
-5. Report output → AI [A] — prompt: "Write a feedback summary for leadership. Max 200 words, bullet points, key numbers."
-6. Archiving → me [A] — save to folder /Customer Feedback/[year-month].
-
-Output: Structured report for leadership + action items + archive.
-
-Human-in-the-loop points: step 3 (interpreting patterns), step 4 (choosing recommendations).`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser:
-      "Tomorrow: the final day. What you've built. Where to go next. The system that works for you.",
+    taskTip: "Save the system in your knowledge base — so it's accessible to you and to colleagues.",
+    teaser: "Tomorrow is the wrap-up. 28 days. What you've built — and what comes next.",
   },
   {
     day: 28,
     title: "What you've built. A system that works for you.",
-    subject: "Challenge wrap-up — and the beginning of a new way of working.",
-    preheader: "28 days. One major shift. And it's only just beginning.",
+    subject: "Advanced challenge wrap-up — and what comes next.",
+    preheader: "End of the challenge. Beginning of the system.",
     concept: [
-      "You made it. 28 days. Twenty-eight ideas, practice sessions, systems, and small shifts.",
-      "At the start of the challenge you wrote down three areas where AI was falling short for you. Today you can answer: how many of them work differently now?",
-      "Over 28 days you've gone through three layers of AI adoption:",
+      "Twenty-eight days are behind us.",
+      "You've been through the 3C framework — Capture, Clean, Connect — and built the foundation for working with knowledge in the context of AI. You've been through the PACT framework — Projects, Agents, Context, Tools — and started thinking about AI systematically, not as a collection of tricks. You've been through Superpowers — five capabilities you develop through AI collaboration. And you finished with Scale — Human-in-the-loop, workflow design, AI adoption in a team, system leverage.",
+      "What you take from the Advanced challenge:",
       [
-        "Mindset — you understood that it's not about speed, but about leverage. That the quality of your input equals the quality of your output. That AI is a collaborator, not a search engine.",
-        "Systems — you built: templates, prompts, workflows, a knowledge capture system, a foundation for a knowledge base.",
-        "Superpowers — you developed Perception, Intelligence, Memory, Creation, and Connection. And you know which is your natural strength.",
+        "3C system as the foundation of knowledge work — Capture, Clean, Connect as a routine",
+        "PACT as a way of thinking about AI in project and work context",
+        "Five superpowers as a conscious development goal — what to train, where is the opportunity",
+        "HITL as a principle of AI workflow design — where you are, where AI works",
+        "At least one documented end-to-end mini AI system",
       ],
-      "What comes next:",
-      [
-        "The systems you've built are version 1.0. Every use is an opportunity to improve them.",
-        "Superpowers develop through practice — not reading. Every real task is training.",
-        "Sharing knowledge with your team is a multiplier — one guide or live demo can trigger adoption in others.",
-        "AI evolves quickly. The key isn't knowing about every new tool — it's having a foundational system and mindset that works independently of any specific tool.",
-      ],
-      "One final impulse: find one system from the last 28 days that works best and use it today. Not to learn something new. But because repetition is the foundation of habit.",
-      "This isn't the end. It's the foundation. You build on it from here.",
+      "What comes next: this challenge is the end of a course, not the end of the journey. The systems you've built improve with every week of use. The 3C system will be better in a month than it is today. The workflow you designed will dial in after the first month of operation.",
+      "One last question: what is one concrete decision you'll make in the next 30 days — one that moves your AI system forward?",
+      "Take that with you.",
     ],
-    taskIntro: "Final reflection: go through these three questions and write your answers:",
+    taskIntro: "Final Advanced challenge reflection:",
     taskItems: [
-      "What is the biggest shift over 28 days? (one specific way of working, result, or system that didn't exist before the challenge)",
-      "Which three things from the start of the challenge have you transformed — are they different now or don't exist anymore?",
-      "What are your three concrete steps for the next 30 days? (a system, a superpower, or team adoption)",
+      "Three biggest insights from the whole challenge — concrete, not general",
+      "One place where AI changed how you work — systemically, not just once",
+      "One concrete decision for the next 30 days — what you'll embed or improve",
     ],
     taskType: "ol",
-    taskFallback: `Input: "I'm not sure how to describe my biggest shift over 28 days."
-
-AI output: Try answering this question: What do you do differently today than 28 days ago? It doesn't have to be a big thing. It could be:
-– One prompt you now use regularly.
-– One workflow that's documented and replicable.
-– One type of task where you no longer start from scratch.
-– One way of thinking about prompts that you didn't have before.
-
-That's your shift. And it's real.`,
-    taskExample: `In practice — final reflection:
-
-Biggest shift: Before the challenge I wrote every report from scratch. Now I have a prompt template and an output saved as a template. Reports take 15 minutes instead of 45.
-
-Three things that are different:
-1. Meeting notes — used to be free-form notes, now AI-structured within 5 minutes of every meeting.
-2. Decision-making — now for every major decision I ask AI for an analysis first, as a thinking partner, then make my own call.
-3. Content creation — instead of staring at a blank page I start with structure, then content, then iteration.
-
-Three steps for the next 30 days:
-1. Expand the knowledge base with notes from this month.
-2. Show one system to a colleague — specifically the feedback analysis.
-3. Deepen the Intelligence superpower: every major decision goes through AI analysis first, then mine.`,
-    taskTip:
-      "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser: "",
+    taskTip: "Save the final reflection in your knowledge base — read it in 3 months and see how far you've come.",
+    teaser: "You built the system. Now use it. Results come — not from motivation, but from consistency.",
   },
 ];

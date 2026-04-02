@@ -3,13 +3,14 @@
 import { Suspense, useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Navbar from "@/components/Navbar";
-import { activateAccess, getEmail, type Variant } from "@/lib/utils";
+import { activateAccess, getEmail, type Level, type Variant } from "@/lib/utils";
 
 function ActivateContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
   const variantParam = (searchParams.get("variant") ?? "app") as Variant;
+  const levelParam = (searchParams.get("level") ?? "basic") as Level;
   const emailParam = searchParams.get("email") ?? "";
 
   const [email, setEmailState] = useState(emailParam);
@@ -29,7 +30,7 @@ function ActivateContent() {
     e.preventDefault();
     if (!email.trim()) return;
     setLoading(true);
-    activateAccess(email.trim(), variantParam);
+    activateAccess(email.trim(), variantParam, levelParam);
     setTimeout(() => {
       if (variantParam === "email") {
         setSubmitted(true);

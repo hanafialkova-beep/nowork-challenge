@@ -110,7 +110,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 4,
-    title: "Dobrý prompt nebo špatný — záleží na jednom.",
+    title: "Jeden detail dělí skvělý prompt od průměrného.",
     subject: "Co dělá největší rozdíl mezi výsledkem a odpadem.",
     preheader: "Vágní vstup = vágní výstup. Platí vždy.",
     concept: [
@@ -217,7 +217,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 8,
-    title: "Dobré prompty mají strukturu. Tady je ta tvoje.",
+    title: "Dobré prompty mají strukturu. Čtyři části, které fungují.",
     subject: "Anatomie dobrého promptu — čtyři části, které vždy fungují.",
     preheader: "Role, úkol, kontext, formát. V tomhle pořadí.",
     concept: [
@@ -272,7 +272,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 10,
-    title: "Dnes tvoříš pro sebe. Prompt z tvé reálné práce.",
+    title: "Dnes to bude osobní. Prompt přímo z tvé práce.",
     subject: "Žádné cvičení — opravdový úkol, opravdový výstup.",
     preheader: "Tady se teorie mění na praxi.",
     concept: [
@@ -299,7 +299,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 11,
-    title: "Výstup nesedí? Tady jak ho zachránit.",
+    title: "Výstup z AI nesedí? Tři otázky, které ho zachrání.",
     subject: "Jak opravit špatný výstup — bez začínání od nuly.",
     preheader: "Zklamání z výsledku je informace. Víš, co říct dál.",
     concept: [
@@ -325,7 +325,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 12,
-    title: "Vrátíme se k pondělnímu výstupu. Teď ho dotáhneme.",
+    title: "Dobrý výstup se stane skvělým. Takto se iteruje.",
     subject: "Iterace v praxi — lepší výstup z toho, co máš.",
     preheader: "Dobrý výsledek nevznikne napoprvé. Vznikne napotřetí.",
     concept: [
@@ -351,7 +351,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 13,
-    title: "AI není správná volba vždy. Tady kdy.",
+    title: "Kdy AI nepoužívat — a proč to vědět je výhoda.",
     subject: "Kdy AI pomáhá a kdy přidává práci.",
     preheader: "Nejlepší nástroj pro každý úkol — to někdy není AI.",
     concept: [
@@ -377,7 +377,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 14,
-    title: "Polovina za tebou. Čas se zastavit a podívat dozadu.",
+    title: "Polovina za tebou. Ohlédnutí, které dává směr.",
     subject: "Checkpoint — co ti z první poloviny zůstalo.",
     preheader: "Nejlepší investice 5 minut: vědět, co si vezmeš dál.",
     concept: [
@@ -405,7 +405,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 15,
-    title: "Opakující se práce je nejdražší práce, co máš.",
+    title: "Opakující se úkoly jsou nejdražší práce, která existuje.",
     subject: "Identifikuj, co děláš každý týden znovu — to je signál.",
     preheader: "Ne každá opakující se práce je nutná. Ale každá stojí za pozornost.",
     concept: [
@@ -430,7 +430,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 16,
-    title: "Sestavíš svůj osobní seznam AI kandidátů.",
+    title: "Sestav si mapu: které úkoly svěřit AI a které ne.",
     subject: "Top 5 opakujících se úkolů, kde AI může ušetřit nejvíc.",
     preheader: "Leverage matice: co předat AI, co vylepšit, co zautomatizovat.",
     concept: [
@@ -482,7 +482,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 18,
-    title: "Dnes postavíš šablonu, která ti ušetří hodinu týdně.",
+    title: "Jedna šablona, která od teď ušetří hodinu každý týden.",
     subject: "Vytvoř první opakovaně použitelný prompt.",
     preheader: "Jednou dobře. Pak za 30 vteřin pokaždé.",
     concept: [
@@ -536,7 +536,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 20,
-    title: "Jeden vědomý den s AI vedlejší.",
+    title: "Jeden den záměrně bez AI. Pozoruj, co se změní.",
     subject: "Reálný den s AI — ne experiment, ale způsob práce.",
     preheader: "AI jako tichý spolupracovník po celý den.",
     concept: [
@@ -639,7 +639,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
 
   {
     day: 24,
-    title: "Cítíš to, ale neumíš to změřit. Tady jak.",
+    title: "Cítíš, že AI pomáhá. Ale umíš to změřit?",
     subject: "Jak poznat, že AI ti skutečně pomáhá.",
     preheader: "Ne \u201EAI mi pomáhá\". Ale proč, kde a o kolik.",
     concept: [

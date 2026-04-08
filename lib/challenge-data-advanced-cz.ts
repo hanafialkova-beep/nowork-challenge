@@ -16,7 +16,7 @@ export const challengeDataAdvancedCZ: ChallengeDay[] = [
         "PACT framework — Projects, Agents, Context, Tools: jak přemýšlet o AI jako o systému, ne sadě triků",
         "Superpowers — pět schopností, které AI spoluprací skutečně získáváš: Perception, Intelligence, Memory, Creation, Connection",
       ],
-      "A čtvrtá vrstva, která to celé uzavírá: Scale — jak převést to, co jsi vybudoval/a, na systém, který pracuje za tebe.",
+      "A čtvrtá vrstva, která to celé uzavírá: Scale — jak vše vybudované převést na systém, který pracuje za tebe.",
       "Každý den trvá 5–10 minut. Teorie jsou kratší a konkrétnější. Praxe je zaměřena na věci, které budeš moci použít hned.",
       "Prvním krokem: zamysli se nad tím, kde tě AI zatím nestačí. Ne obecně — ale konkrétně. Kde musíš výstup přepsat? Kde ztrácíš čas s AI místo abys ho šetřila? Kde naráží?",
       "Tohle je výchozí bod. Nejde o sebekritiku — jde o mapování terénu. Příštích 28 dní bude konkrétnější, pokud víš, kde začínáš.",
@@ -26,7 +26,7 @@ export const challengeDataAdvancedCZ: ChallengeDay[] = [
     taskType: "text",
     taskFallback: `Pokud nevíš, kde začít, odpověz si na tři otázky:
 – Kde musím výstup z AI vždy výrazně přepracovat?
-– Co dělám opakovaně a AI mi s tím nepomáhá tak, jak bych chtěl/a?
+– Co dělám opakovaně a AI mi s tím nepomáhá tak, jak by bylo potřeba?
 – Kde mám pocit, že ostatní z AI dostávají víc než já?
 
 Příklady z praxe:
@@ -38,7 +38,7 @@ Příklady z praxe:
 Tři konkrétní záznamy:
 1. Příprava nabídek: AI navrhne strukturu, ale nezná kontext klienta — výsledek vždy přepisuji ze 60 %.
 2. Projektové retrospektivy: nevím, jak systematicky zachycovat poznatky a dávat je AI jako kontext.
-3. Delegování v týmu: sám/sama AI používám, ale nevím, jak zavést systém pro celý tým.`,
+3. Delegování v týmu: AI sice funguje individuálně, ale nevím, jak zavést systém pro celý tým.`,
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
     teaser: "Zítra si ukážeme 3C framework — a proč chaos ve znalostech brzdí i dobré prompty.",
   },
@@ -61,7 +61,7 @@ Tři konkrétní záznamy:
       [
         "Capture bez Clean = hromada poznámek, které nikdy nepoužiješ",
         "Clean bez Connect = izolované znalosti bez kontextu",
-        "Connect bez Capture = propojuješ věci, které jsi nikdy nezachytil/a",
+        "Connect bez Capture = propojuješ věci, které nebyly nikdy zachyceny",
       ],
       "V následujících dnech si každý krok rozložíme do teorie i praxe. Ale dnes je důležitější jeden poznatek: nejkvalitnější výstupy z AI nevznikají z nejchytřejších promptů. Vznikají z nejlepšího kontextu. A kontext pochází ze systému.",
     ],
@@ -86,7 +86,7 @@ Tři konkrétní záznamy:
       "Capture není o maximálním zachycení. Je o filtrování. Dobrý filtr tě naučí vidět, co má trvalou hodnotu — a co je jen momentální hluk.",
       "Principy filtru — co stojí za zachycení:",
       [
-        "Poznatky z praxe: co fungovalo, co nefungovalo, co by ses příště rozhodl/a jinak",
+        "Poznatky z praxe: co fungovalo, co nefungovalo, co by si příště zasloužilo jiný přístup",
         "Opakující se vzorce: co se děje pravidelně — v projektech, v komunikaci, v rozhodnutích",
         "Kontext pro AI: informace, které budeš chtít AI dát jako kontext — o klientovi, projektu, sobě",
         "Rozhodnutí a jejich důvody: ne jen co bylo rozhodnuto, ale proč",
@@ -100,19 +100,19 @@ Tři konkrétní záznamy:
       "Praktický test: pokud si za tři týdny přečteš zachycenou poznámku — bude stále relevantní? Pokud ano, zachyť. Pokud ne, přeskoč.",
       "Cíl dnešního dne: pochopit svůj filtr a zachytit pět věcí z aktuálního týdne, které skutečně mají trvalou hodnotu.",
     ],
-    taskIntro: "Zachyť 5 věcí z tohoto pracovního týdne, které stojí za uchování. Ke každé věci napiš jednu větu: proč si ji zachytil/a.",
+    taskIntro: "Zachyť 5 věcí z tohoto pracovního týdne, které stojí za uchování. Ke každé věci napiš jednu větu: proč to stojí za uchování.",
     taskItems: [],
     taskType: "text",
     taskFallback: `Pokud nevíš, co zachytit, použij tento prompt:
 
-"Pomoč mi zachytit klíčové věci z tohoto pracovního týdne. Zeptej se mě na 5 otázek zaměřených na: co fungovalo, co nefungovalo, jaké rozhodnutí jsem udělal/a a proč, co mě překvapilo a co bych příště udělal/a jinak."
+"Pomoč mi zachytit klíčové věci z tohoto pracovního týdne. Zeptej se mě na 5 otázek zaměřených na: co fungovalo, co nefungovalo, jaká rozhodnutí padla a proč, co překvapilo a co by šlo příště udělat jinak."
 
 Odpověz na otázky — máš základ pro 5 zachycených věcí.`,
     taskExample: `Vstup (surový materiál z týdne, zadaný do AI):
 "Tento týden: schůzka s klientem ohledně prodloužení smlouvy, draft reportu, interní retrospektiva projektu, nový dodavatel — první call, zamítnutý rozpočet pro Q2."
 
 AI výstup — 5 věcí hodných zachycení:
-1. Klient — schůzka: jaké konkrétní námitky zazněly a jak jsem na ně reagoval/a. (Proč: příště mít připravené odpovědi)
+1. Klient — schůzka: jaké konkrétní námitky zazněly a jak na ně zazněla reakce. (Proč: příště mít připravené odpovědi)
 2. Retrospektiva: tři věci, které by tým udělal jinak. (Proč: vzorce, které se opakují)
 3. Nový dodavatel: první dojem, klíčové parametry spolupráce. (Proč: kontext pro budoucí jednání)
 4. Zamítnutý rozpočet: jaký byl skutečný důvod zamítnutí. (Proč: vzorec pro budoucí žádosti)
@@ -130,7 +130,7 @@ AI výstup — 5 věcí hodných zachycení:
       "Pravidlo: nejlepší Capture systém je ten nejjednodušší, který ti opravdu vyhovuje. Jeden inbox. Jedno místo. Dvě minuty.",
       "Tři vzorce Capture, které v praxi fungují:",
       [
-        "End-of-day zápis: 3 věty na konci pracovního dne — co se stalo, co ses naučila, co udělat jinak",
+        "End-of-day zápis: 3 věty na konci pracovního dne — co se stalo, jaké plyne poučení, co udělat jinak",
         "Meeting capture: hned po schůzce — dvě minuty, tři věci: co bylo rozhodnuto, co mám udělat, co překvapilo",
         "Inbox first: jedno místo pro vše — Notion, Apple Notes nebo papír — a jednou týdně zpracuješ",
       ],
@@ -159,8 +159,8 @@ AI výstup — 5 věcí hodných zachycení:
       "Tady je největší díra ve většině systémů: lidé zachycují, ale nečistí. A výsledek je hromada surového materiálu, ze které nelze nic efektivně vytáhnout.",
       "Rozdíl mezi uložením a zpracováním:",
       [
-        "Uložení: zkopíroval/a jsem transkript schůzky do Notion",
-        "Zpracování: z transkriptu jsem vyextrahoval/a tři klíčová rozhodnutí, dva úkoly s termíny a jeden strategický poznatek — a každý jsem otagoval/a pro snadné hledání",
+        "Uložení: transkript schůzky zkopírovaný do Notion",
+        "Zpracování: z transkriptu vyextrahovaná tři klíčová rozhodnutí, dva úkoly s termíny a jeden strategický poznatek — vše otagované pro snadné hledání",
       ],
       "Proč je Clean klíčové: AI potřebuje strukturovaný kontext, ne surový chaos. Čím lépe je vstupní materiál zpracovaný, tím relevantnější je výstup.",
       "Jak Clean funguje v praxi:",
@@ -177,7 +177,7 @@ AI výstup — 5 věcí hodných zachycení:
     taskItems: [
       "Otevři surový materiál — poznámky ze schůzky, zápis z dne, nebo cokoli z D2/D3",
       "Zadej AI instrukci Clean (viz prompt níže) nebo proveď ručně: extrahuj klíčové body, zformátuj, přidej kontext",
-      "Výsledek ulož jako čistý záznam — tak, aby sis za měsíc mohl/a přečíst a okamžitě pochopit",
+      "Výsledek ulož jako čistý záznam — tak, aby bylo za měsíc čitelné a srozumitelné na první pohled",
     ],
     taskType: "ol",
     taskPrompt: "Vlož tento surový materiál: [vlož poznámky nebo transkript]. Proveď Clean: 1) extrahuj klíčová rozhodnutí a závěry, 2) vypiš úkoly s termíny, 3) identifikuj nejdůležitější poznatek nebo vzorec, 4) napiš jednověté shrnutí. Výstup ve strukturovaném formátu.",
@@ -221,11 +221,11 @@ AI výstup — 5 věcí hodných zachycení:
     concept: [
       "Třetí krok 3C systému je Connect — propojování zachycených a zpracovaných znalostí s aktuální prací.",
       "Capture a Clean jsou příprava. Connect je místo, kde se hodnota skutečně projeví.",
-      "Co Connect znamená v praxi: když řešíš nový problém, projekt nebo rozhodnutí, nevytváříš znalost od nuly. Vracíš se k tomu, co jsi zachytil/a a zpracoval/a — a propojuješ to s aktuální situací.",
+      "Co Connect znamená v praxi: když řešíš nový problém, projekt nebo rozhodnutí, nevytváříš znalost od nuly. Vracíš se k tomu, co bylo zachyceno a zpracováno — a propojuješ to s aktuální situací.",
       "Tři způsoby, jak Connect funguje:",
       [
-        "Analogie: 'Řeším teď X. Řešil/a jsem podobnou situaci Y. Co se tehdy osvědčilo?'",
-        "Vzorce: 'V tomto projektu se opakuje problém Z. Viděl/a jsem ho v třech předchozích projektech. Co byl společný jmenovatel?'",
+        "Analogie: 'Řeším teď X. V minulosti šlo o podobnou situaci Y. Co se tehdy osvědčilo?'",
+        "Vzorce: 'V tomto projektu se opakuje problém Z. Tentýž problém se vyskytl ve třech předchozích projektech. Co byl společný jmenovatel?'",
         "Kontextový vstup: 'Mám vytvořit nabídku pro klienta A. Mám záznamy o podobném klientovi B — dám je AI jako kontext.'",
       ],
       "Jak AI pomáhá s Connect: vlož zpracované záznamy z Capture/Clean jako kontext a zadej AI: 'Řeším aktuálně tuto situaci: [popis]. Z mých předchozích záznamů je toto relevantní: [záznamy]. Jaké vzorce vidíš? Co z předchozích zkušeností je aplikovatelné?'",
@@ -250,12 +250,12 @@ AI výstup — 5 věcí hodných zachycení:
     preheader: "Systém funguje jen tehdy, pokud ho skutečně používáš.",
     concept: [
       "Celý první týden byl o 3C frameworku. Dnes je čas se zastavit a zhodnotit — ne jako teorii, ale jako praxi.",
-      "Reflexe není hodnocení toho, zda jsi vše udělal/a správně. Je to mapování reality: kde systém funguje a kde naráží. Tohle je nejcennější informace pro to, aby systém zůstal a zlepšoval se.",
+      "Reflexe není hodnocení toho, zda vše šlo správně. Je to mapování reality: kde systém funguje a kde naráží. Tohle je nejcennější informace pro to, aby systém zůstal a zlepšoval se.",
       "Tři otázky pro 3C reflexi:",
       [
         "Capture: zachycuješ pravidelně? Je inbox přeplněný nebo prázdný? Co je největší překážka?",
         "Clean: zpracováváš záznamy nebo se hromadí? Pomáhá ti AI s Clean nebo ho ještě nepoužíváš?",
-        "Connect: vrátil/a ses někdy v týdnu ke starému záznamu a použil/a ho? Proč ano nebo proč ne?",
+        "Connect: přišlo v tomto týdnu k návratu ke starému záznamu a jeho použití? Co to přineslo nebo co chybí?",
       ],
       "Co s výsledky reflexe: pokud Capture nefunguje — zjednodušíš systém (jedno místo, jeden vzorec). Pokud Clean je přetěžující — přejdeš na weekly Clean. Pokud Connect chybí — začneš každý projekt nebo problém nejdřív spojovat s archivm záznamů.",
       "Klíčový poznatek prvního týdne: 3C není o dokonalosti. Je o konzistenci. Nedokonalý systém, který používáš každý týden, je cennější než dokonalý systém, který opustíš za dva týdny.",
@@ -265,7 +265,7 @@ AI výstup — 5 věcí hodných zachycení:
     taskItems: [
       "Capture: funguje? Co je největší třecí plocha?",
       "Clean: zpracováváš pravidelně nebo se materiál hromadí?",
-      "Connect: použil/a jsi starý záznam tento týden? Co ti to přineslo nebo co ti chybí?",
+      "Connect: byl tento týden použit starý záznam ze systému? Co to přineslo nebo co chybí?",
     ],
     taskType: "ol",
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
@@ -470,15 +470,15 @@ AI výstup — 5 věcí hodných zachycení:
     subject: "Polovina Advanced challenge — čas zmapovat, kde jsi.",
     preheader: "Framework bez reflexe je jen teorie.",
     concept: [
-      "Čtrnáct dní je za námi. Prošel/a jsi celý 3C framework a celý PACT framework. Dnes je reflexe — ne test, ale mapování reality.",
+      "Čtrnáct dní je za námi. Celý 3C framework a celý PACT framework jsou za sebou. Dnes je reflexe — ne test, ale mapování reality.",
       "Nejužitečnější otázka dne: které části 3C a PACT opravdu používám a které zůstaly jen jako teorie?",
       [
         "3C — Capture: zachytuji pravidelně? Funguje mi filtr? Nebo pořád zachycuji příliš mnoho nebo příliš málo?",
         "3C — Clean: zpracovávám záznamy nebo se hromadí? Pomáhá mi AI s Clean?",
         "3C — Connect: vracím se ke starým znalostem nebo je ignoreji?",
-        "PACT — Projects: použil/a jsem WBS nebo strukturovaný přístup k projektu?",
+        "PACT — Projects: byl v praxi použit WBS nebo strukturovaný přístup k projektu?",
         "PACT — Agents: mám nějaký workflow, který funguje opakovaně?",
-        "PACT — Context: nastavil/a jsem si system prompt a používám ho?",
+        "PACT — Context: je system prompt nastavený a v pravidelném používání?",
         "PACT — Tools: mám jasno, proč používám které nástroje?",
       ],
       "Klíčový poznatek: není problém, pokud část frameworku nepoužíváš. Problém nastane, pokud to nevíš. Reflexe ti ukáže, kde je příležitost.",
@@ -533,7 +533,7 @@ AI výstup — 5 věcí hodných zachycení:
       "Jak AI spolupráce trénuje Perception: AI velmi rychle nachází strukturu ve velkém množství textu nebo dat. Pokud s AI pracuješ pravidelně, začneš přebírat tento způsob pohledu — hledáš vzorce dřív, než začneš tvořit. Vidíš strukturu dřív, než ji pojmenuješ.",
       "Tři cvičení, která Perception posilují:",
       [
-        "Pattern recognition: vlož AI velký objem materiálu a zeptej se — 'Jaké vzorce vidíš? Co se opakuje? Co vypadá neobvykle?' Pak si tenhle pohled zkus udělat sám/sama příště bez AI.",
+        "Pattern recognition: vlož AI velký objem materiálu a zeptej se — 'Jaké vzorce vidíš? Co se opakuje? Co vypadá neobvykle?' Pak zkus příště tentýž pohled udělat bez AI.",
         "Structure first: před každým novým úkolem se zeptej — 'Jaká je základní struktura tohoto problému? Co jsou klíčové proměnné?' Dříve než začneš tvořit.",
         "Anomaly detection: v jakémkoli datovém vstupu (reporty, zpětná vazba, zákaznické odpovědi) se zeptej AI — 'Co tady vypadá neobvykle nebo neočekávaně?' Trénuje tě vidět výjimky.",
       ],
@@ -544,7 +544,7 @@ AI výstup — 5 věcí hodných zachycení:
     taskItems: [
       "Vyber materiál: transkripty schůzek, zákaznická zpětná vazba, projektové poznámky, nebo data z reportu",
       "Vlož AI a zadej: 'Jaké vzorce vidíš? Co se opakuje? Co je neobvyklé nebo překvapivé?'",
-      "Porovnej výstup s tím, co by ses sama/sám všiml/a — co AI viděla, co tě překvapilo?",
+      "Porovnej výstup s vlastním pohledem — co AI viděla jinak, co tě překvapilo?",
     ],
     taskType: "ol",
     taskPrompt: "Tady je [typ materiálu]: [vlož materiál]. Proveď Perception analýzu: 1) Jaké vzorce nebo opakující se témata vidíš? 2) Co se zdá neobvyklé nebo překvapivé? 3) Jaká je základní struktura nebo logika tohoto materiálu?",
@@ -564,7 +564,7 @@ AI výstup — 5 věcí hodných zachycení:
         "Devil's advocate: 'Tady je moje rozhodnutí. Hraj ďáblova advokáta — jaké jsou nejsilnější argumenty proti?'",
         "Předpoklady: 'Tady je moje uvažování. Jaké předpoklady toto rozhodnutí vyžaduje? Které z nich jsou nejriskantnější?'",
         "Pre-mortem: 'Představ si, že toto rozhodnutí za rok selže. Co pravděpodobně způsobilo selhání?'",
-        "Alternativy: 'Jaké jsou tři alternativní přístupy k tomuto problému, které jsem nezmínil/a?'",
+        "Alternativy: 'Jaké jsou tři alternativní přístupy k tomuto problému, které v dosavadním uvažování nezazněly?'",
       ],
       "Proč to trénuje Intelligence: každé z těchto cvičení tě nutí rozdělit rozhodnutí na části a zkoumat ho strukturovaně. Pokud tuto metodu opakuješ, začneš ji aplikovat automaticky — i bez AI.",
       "Důležitá hranice: AI je myšlenkový partner, ne rozhodovací nástroj. Konečné rozhodnutí je vždy na tobě. AI ti dá šíři pohledu — ty dáš odborný úsudek a odpovědnost.",
@@ -684,18 +684,18 @@ AI výstup — 5 věcí hodných zachycení:
     subject: "Reflexe Superpowers týdne — a tvůj osobní profil.",
     preheader: "Nejlepší systém rozvoje je ten, který vychází z tebe.",
     concept: [
-      "Třetí týden je za námi. Prošel/a jsi všech pět superschopností — Perception, Intelligence, Memory, Creation, Connection — v teorii i praxi.",
-      "Dnes je reflexe: ne co jsi udělal/a, ale co z toho si bereš dál.",
+      "Třetí týden je za námi. Všech pět superschopností — Perception, Intelligence, Memory, Creation, Connection — je v teorii i praxi za sebou.",
+      "Dnes je reflexe: ne co proběhlo, ale co z toho jde dál.",
       "Proč je reflexe Superpowers důležitá: každý člověk pracuje s AI jinak. Každý má jiné přirozené silné stránky. A každý má jiné oblasti, kde je AI spolupráce největší příležitost. Znát svůj profil ti pomůže investovat energii tam, kde efekt bude největší.",
       "Pět otázek pro Superpowers reflexi:",
       [
         "Perception: Používáš AI pro hledání vzorců pravidelně? Nebo jde stále o jednorázové experimenty?",
-        "Intelligence: Prošel/a jsi AI structured decision-making v reálné situaci? Co to přineslo?",
+        "Intelligence: Byl AI structured decision-making vyzkoušen v reálné situaci? Co to přineslo?",
         "Memory: Funguje ti 3C systém jako externalizovaná paměť? Nebo stále spoléháš hlavně na hlavu?",
         "Creation: Překonala AI spolupráce paralýzu prázdné stránky? Iteruješ nebo stále čekáš na dokonalý první draft?",
         "Connection: Hledáš aktivně propojení a analogie z jiných oborů? Nebo zůstáváš v úzkém kontextu?",
       ],
-      "Tvůj Superpowers profil není dokonalý obraz — je to výchozí bod pro další rozvoj. Čtvrtý týden se zaměří na Scale: jak převést to, co jsi vybudoval/a, na systém, který pracuje za tebe.",
+      "Tvůj Superpowers profil není dokonalý obraz — je to výchozí bod pro další rozvoj. Čtvrtý týden se zaměří na Scale: jak vše vybudované převést na systém, který pracuje za tebe.",
     ],
     taskIntro: "Napiš svůj Superpowers profil — stručně a konkrétně:",
     taskItems: [
@@ -713,7 +713,7 @@ AI výstup — 5 věcí hodných zachycení:
     subject: "Jak navrhnout systém, kde AI pracuje, ale ty kontroluješ.",
     preheader: "Nejlepší AI systém není ten, kde AI dělá vše. Je to ten, kde ví, kde jsi potřeba.",
     concept: [
-      "Čtvrtý týden je o Scale — jak převést to, co jsi vybudoval/a, na systémy, které pracují za tebe. A první otázka, na kterou musíš odpovědět: kde jsi v procesu ty?",
+      "Čtvrtý týden je o Scale — jak vše vybudované převést na systémy, které pracují za tebe. A první otázka, na kterou musíš odpovědět: kde jsi v procesu ty?",
       "Human-in-the-loop (HITL) je princip návrhu AI systémů: AI dělá to, co dělá dobře, ale člověk je zapojen v klíčových rozhodovacích bodech.",
       "Proč HITL záleží: plně automatizovaný systém bez lidské kontroly funguje skvěle — dokud selže. A pak selže katastrofálně. HITL systémy jsou robustnější, protože člověk zachytí chyby, které AI nevidí.",
       "Tři typy zapojení člověka:",
@@ -746,7 +746,7 @@ AI výstup — 5 věcí hodných zachycení:
     subject: "Workflow s checkpointy — vizualizace systému.",
     preheader: "Systém, který nevidíš, nemůžeš optimalizovat.",
     concept: [
-      "Včera jsi rozhodl/a, kde jsi v procesu. Dnes to vizualizuješ — nakreslíš (nebo napíšeš) svůj workflow.",
+      "Včerejší den vyjasnil, kde v procesu stojíš. Dnes to vizualizuješ — nakreslíš (nebo napíšeš) svůj workflow.",
       "Proč vizualizace záleží: workflow, který máš jen v hlavě, je workflow, který nemůžeš sdílet, optimalizovat ani delegovat. Jakmile ho nakreslíš nebo popíšeš, vidíš ho jinak.",
       "Jak popsat workflow — čtyři prvky:",
       [
@@ -776,7 +776,7 @@ AI výstup — 5 věcí hodných zachycení:
     subject: "Jak přenést AI práci na kolegy bez tlaku a bez technologie pro technologii.",
     preheader: "Nejlepší AI champion v týmu je ten, kdo ukazuje výsledky, ne evangelizuje.",
     concept: [
-      "Jednou z největších příležitostí AI není to, co ty dokážeš s AI sám/sama. Je to, co dokáže tým, když jsou sdílené znalosti, prompty a workflow.",
+      "Jednou z největších příležitostí AI není to, čeho je možné s AI dosáhnout individuálně. Je to, co dokáže tým, když jsou sdílené znalosti, prompty a workflow.",
       "Ale AI adoption v týmu je jiná výzva než osobní AI adoption. Lidé mají různé technické zázemí, různý přístup k novým nástrojům a různé obavy. Přístup 'vyzkoušej, je to skvělé' nestačí.",
       "Tři přístupy k AI adoption v týmu, které fungují:",
       [
@@ -810,7 +810,7 @@ AI výstup — 5 věcí hodných zachycení:
     concept: [
       "Jeden z nejlepších způsobů, jak prohloubit vlastní znalost, je učit ostatní. Pokud dokážeš vysvětlit, jak AI prompt funguje, jednoduše a bez žargonu — skutečně tomu rozumíš.",
       "Dnešní úkol má dvě varianty: nauč kolegu jeden trick osobně nebo ho zapiš jako mini guide.",
-      "Osobní výuka (5–10 minut): vyber jeden konkrétní AI trick ze svého repertoáru, přejdi s kolegou přes jeden reálný příklad a nech ho zkusit sám/sama. Cíl: kolega odejde s jedním použitelným promptem.",
+      "Osobní výuka (5–10 minut): vyber jeden konkrétní AI trick ze svého repertoáru, přejdi s kolegou přes jeden reálný příklad a nech ho zkusit samostatně. Cíl: kolega odejde s jedním použitelným promptem.",
       "Mini guide (alternativa): napiš dokument, který vysvětlí jeden AI trick nebo workflow. Obsah:",
       [
         "Co to je: jednovětý popis",
@@ -819,7 +819,7 @@ AI výstup — 5 věcí hodných zachycení:
         "Příklad výstupu: co dostaneš, pokud to uděláš správně",
       ],
       "Proč mini guide funguje lépe než sdílení linku nebo tooltipu: guide je kontextualizovaný pro váš tým a vaší práci. Obecný tutorial pokrývá obecné situace. Tvůj guide pokrývá váš kontext.",
-      "Bonus: pokud kolega mini guide použije a vrátí ti zpětnou vazbu — co bylo nejasné, co funguje jinak — naučíš se tím víc, než kdybys trávil/a hodinu na dalším tutorialu.",
+      "Bonus: pokud kolega mini guide použije a vrátí ti zpětnou vazbu — co bylo nejasné, co funguje jinak — to přinese víc než hodina strávená na dalším tutorialu.",
     ],
     taskIntro: "Vyber si variantu a proveď ji dnes:",
     taskItems: [
@@ -848,7 +848,7 @@ AI výstup — 5 věcí hodných zachycení:
         "Sdílená knihovna promptů v týmu roste organicky — každý přidá co mu funguje",
       ],
       "Systémový leverage vzniká z návyků a procesů, ne z motivace. Pokud si každé pondělí musíš připomínat 'dnes použiji AI', ještě nemáš systémový leverage. Pokud AI je prostě součástí toho, jak věci děláš — máš ho.",
-      "Dnešní otázka: co z toho, cos za 26 dní vybudoval/a, se stalo součástí tvého systému? A co ještě není?",
+      "Dnešní otázka: co z toho, co za 26 dní vzniklo, se stalo součástí systému práce? A co ještě není?",
     ],
     taskIntro: "Zmapuj svůj aktuální systémový leverage:",
     taskItems: [
@@ -892,16 +892,16 @@ AI výstup — 5 věcí hodných zachycení:
     ],
     taskType: "ol",
     taskTip: "Systém ulož do svého knowledge base — tak aby byl dostupný tobě i kolegům.",
-    teaser: "Zítra je závěr. 28 dní. Co jsi vybudoval/a — a co přichází dál.",
+    teaser: "Zítra je závěr. 28 dní. Co za tu dobu vzniklo — a co přichází dál.",
   },
   {
     day: 28,
-    title: "Co jsi vybudoval/a. Systém, který pracuje za tebe.",
+    title: "Systém je postaven. A teď pracuje za tebe.",
     subject: "Závěr Advanced challenge — a co přichází dál.",
     preheader: "Konec challenge. Začátek systému.",
     concept: [
       "Dvacet osm dní je za námi.",
-      "Prošel/a jsi 3C framework — Capture, Clean, Connect — a vybudoval/a si základ pro práci se znalostmi v kontextu AI. Prošel/a jsi PACT framework — Projects, Agents, Context, Tools — a začal/a přemýšlet o AI systematicky, ne jako o sadě triků. Prošel/a jsi Superpowers — pět schopností, které AI spoluprací rozvíjíš. A zakončil/a jsi Scale — Human-in-the-loop, workflow design, AI adoption v týmu, systémový leverage.",
+      "Celá challenge šla přes čtyři vrstvy. 3C framework — Capture, Clean, Connect — základ pro práci se znalostmi v kontextu AI. PACT framework — Projects, Agents, Context, Tools — systematické přemýšlení o AI, ne sada triků. Superpowers — pět schopností, které AI spoluprací posiluješ. A Scale — Human-in-the-loop, workflow design, AI adoption v týmu, systémový leverage.",
       "Co si bereš z Advanced challenge:",
       [
         "3C systém jako základ práce se znalostmi — Capture, Clean, Connect jako rutina",
@@ -910,7 +910,7 @@ AI výstup — 5 věcí hodných zachycení:
         "HITL jako princip návrhu AI workflow — kde jsi ty, kde pracuje AI",
         "Alespoň jeden dokumentovaný end-to-end mini AI systém",
       ],
-      "Co přichází dál: tato challenge je konec kurzu, ne konec cesty. Systémy, které jsi vybudoval/a, se zlepšují s každým týdnem používání. 3C systém bude za měsíc lepší, než je dnes. Workflow, který jsi navrhl/a, se vyladí po prvním měsíci provozu.",
+      "Co přichází dál: tato challenge je konec kurzu, ne konec cesty. Vybudované systémy se zlepšují s každým týdnem používání. 3C systém bude za měsíc lepší, než je dnes. Navržený workflow se vyladí po prvním měsíci provozu.",
       "Jedna poslední otázka: co je jedno konkrétní rozhodnutí, které uděláš příštích 30 dní — jedno, které posune tvůj AI systém dál?",
       "Ber si to s sebou.",
     ],
@@ -922,6 +922,6 @@ AI výstup — 5 věcí hodných zachycení:
     ],
     taskType: "ol",
     taskTip: "Závěrečnou reflexi ulož do svého knowledge base — za 3 měsíce si ji přečti a uvidíš, jak daleko jsi.",
-    teaser: "Systém jsi vybudoval/a. Teď ho používej. Výsledky přijdou — ne z motivace, ale z konzistence.",
+    teaser: "Systém je postavený. Teď ho používej. Výsledky přijdou — ne z motivace, ale z konzistence.",
   },
 ];

@@ -18,7 +18,7 @@ export const challengeDataAdvancedCZ: ChallengeDay[] = [
       ],
       "A čtvrtá vrstva, která to celé uzavírá: Scale — jak vše vybudované převést na systém, který pracuje za tebe.",
       "Každý den trvá 5–10 minut. Teorie jsou kratší a konkrétnější. Praxe je zaměřena na věci, které budeš moci použít hned.",
-      "Prvním krokem: zamysli se nad tím, kde ti AI zatím nestačí. Ne obecně — ale konkrétně. Kde musíš výstup přepsat? Kde s AI ztrácíš čas místo aby ho ušetřila? Kde AI naráží?",
+      "Prvním krokem: zamysli se nad tím, kde ti AI zatím nestačí. Ne obecně — ale konkrétně. Kde musíš výstup přepsat? Kde s AI ztrácíš čas, místo aby ti ho ušetřila? Kde AI naráží?",
       "Tohle je výchozí bod. Nejde o sebekritiku — jde o mapování terénu. Příštích 28 dní bude konkrétnější, pokud víš, kde začínáš.",
     ],
     taskIntro: "Napiš 3 věci, kde ti AI zatím nestačí nebo kde chceš jít výrazně hlouběji. Buď konkrétní:",

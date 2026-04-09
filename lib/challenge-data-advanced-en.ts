@@ -896,7 +896,7 @@ AI output — 5 things worth capturing:
   },
   {
     day: 28,
-    title: "What you've built. A system that works for you.",
+    title: "The system is built. And now it works for you.",
     subject: "Advanced challenge wrap-up — and what comes next.",
     preheader: "End of the challenge. Beginning of the system.",
     concept: [

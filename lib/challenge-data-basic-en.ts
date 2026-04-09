@@ -128,7 +128,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 4,
-    title: "Good prompt or bad — it comes down to one thing.",
+    title: "One detail separates a great prompt from an average one.",
     subject: "What makes the biggest difference between a result and garbage.",
     preheader: "Vague input = vague output. Every single time.",
     concept: [
@@ -252,7 +252,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 8,
-    title: "Good prompts have structure. Here's yours.",
+    title: "Good prompts have structure. Four parts that work.",
     subject: "The anatomy of a good prompt — four parts that always work.",
     preheader: "Role, task, context, format. In that order.",
     concept: [
@@ -315,7 +315,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 10,
-    title: "Today you create for yourself. A prompt from your real work.",
+    title: "This one's personal. A prompt built from your actual work.",
     subject: "No exercises — a real task, a real output.",
     preheader: "This is where theory becomes practice.",
     concept: [
@@ -346,7 +346,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 11,
-    title: "Output doesn't work? Here's how to rescue it.",
+    title: "AI output off? Three questions that fix it.",
     subject: "How to fix a bad output — without starting from scratch.",
     preheader: "Disappointment with the result is information. You know what to say next.",
     concept: [
@@ -377,7 +377,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 12,
-    title: "We're going back to Monday's output. Let's take it further.",
+    title: "Good output becomes great. This is how you iterate.",
     subject: "Iteration in practice — better output from what you have.",
     preheader: "Good results don't come on the first try. They come on the third.",
     concept: [
@@ -407,7 +407,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 13,
-    title: "AI isn't always the right choice. Here's when.",
+    title: "When not to use AI — and why knowing that is an advantage.",
     subject: "When AI helps and when it adds work.",
     preheader: "The best tool for every task — sometimes that isn't AI.",
     concept: [
@@ -444,7 +444,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 14,
-    title: "Halfway through. Time to stop and look back.",
+    title: "Halfway through. A look back that gives direction.",
     subject: "Checkpoint — what you're taking from the first half.",
     preheader: "The best 5-minute investment: knowing what you carry forward.",
     concept: [
@@ -478,7 +478,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 15,
-    title: "Repetitive work is the most expensive work you do.",
+    title: "Repetitive tasks are the most expensive work that exists.",
     subject: "Identify what you do every week again — that's a signal.",
     preheader: "Not every repetitive task is necessary. But every one deserves attention.",
     concept: [
@@ -506,7 +506,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 16,
-    title: "You'll build your personal list of AI candidates.",
+    title: "Map it out: which tasks to hand to AI and which to keep.",
     subject: "Top 5 repetitive tasks where AI can save the most.",
     preheader: "Leverage matrix: what to hand off to AI, what to improve, what to automate.",
     concept: [
@@ -573,7 +573,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 18,
-    title: "Today you'll build a template that saves you an hour a week.",
+    title: "One template that saves an hour every week from here on.",
     subject: "Create your first reusable prompt.",
     preheader: "Do it right once. Then 30 seconds every time after.",
     concept: [
@@ -644,7 +644,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 20,
-    title: "One conscious day with AI alongside.",
+    title: "One deliberate day without AI. See what changes.",
     subject: "A real day with AI — not an experiment, but a way of working.",
     preheader: "AI as a quiet collaborator throughout the whole day.",
     concept: [
@@ -762,7 +762,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
   },
   {
     day: 24,
-    title: "You can feel it but can't measure it. Here's how.",
+    title: "You can feel AI is helping. But can you measure it?",
     subject: "How to know AI is actually helping you.",
     preheader: "Not 'AI helps me'. But why, where, and by how much.",
     concept: [

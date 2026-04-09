@@ -28,7 +28,9 @@ function ChallengeContent() {
       return;
     }
     const l = getLang();
-    const lv = getLevel();
+    // In demo mode, prefer the ?version= URL param over localStorage
+    const urlVersion = searchParams.get("version");
+    const lv = (demo && urlVersion) ? urlVersion : getLevel();
     setLangState(l);
     if (l === "cz") {
       setData(lv === "advanced" ? challengeDataAdvancedCZ : challengeDataBasicCZ);
@@ -37,7 +39,7 @@ function ChallengeContent() {
     }
     setUnlockedDays(demo ? 28 : getUnlockedDays());
     setVariantState(getVariant());
-  }, [router, demo]);
+  }, [router, demo, searchParams]);
 
   const labels = lang === "cz"
     ? { title: "28 Day Challenge", sub: "Vyber den a pokračuj v challenge.", days: "dní" }
@@ -80,7 +82,13 @@ function ChallengeContent() {
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
         {data.map((day) => (
-          <DayCard key={day.day} day={day} unlocked={demo || day.day <= unlockedDays} demo={demo} />
+          <DayCard
+            key={day.day}
+            day={day}
+            unlocked={demo || day.day <= unlockedDays}
+            demo={demo}
+            version={searchParams.get("version") ?? undefined}
+          />
         ))}
       </div>
 

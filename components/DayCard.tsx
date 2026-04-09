@@ -5,10 +5,14 @@ interface DayCardProps {
   day: ChallengeDay;
   unlocked: boolean;
   demo?: boolean;
+  version?: string;
 }
 
-export default function DayCard({ day, unlocked, demo }: DayCardProps) {
-  const href = `/challenge/${day.day}${demo ? "?demo=1" : ""}`;
+export default function DayCard({ day, unlocked, demo, version }: DayCardProps) {
+  const demoParams = demo
+    ? `?demo=1${version ? `&version=${version}` : ""}`
+    : "";
+  const href = `/challenge/${day.day}${demoParams}`;
 
   if (!unlocked) {
     return (

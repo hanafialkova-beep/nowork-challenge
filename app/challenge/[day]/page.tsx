@@ -23,13 +23,15 @@ function DayPageContent() {
 
   useEffect(() => {
     const email = getEmail();
-    if (!email) { router.push("/"); return; }
+    if (!email && !demo) { router.push("/"); return; }
     const l = getLang();
-    const lv = getLevel();
+    // In demo mode, prefer the ?version= URL param over localStorage
+    const urlVersion = searchParams.get("version");
+    const lv = (demo && urlVersion) ? urlVersion : getLevel();
     setLangState(l);
     const dayNum = parseInt(params.day as string, 10);
     if (isNaN(dayNum) || dayNum < 0 || dayNum > 28) { setNotFound(true); return; }
-    if (!demo && !isDayUnlocked(dayNum)) { router.push(`/challenge${demo ? "?demo=1" : ""}`); return; }
+    if (!demo && !isDayUnlocked(dayNum)) { router.push("/challenge"); return; }
     let data;
     if (l === "cz") {
       data = lv === "advanced" ? challengeDataAdvancedCZ : challengeDataBasicCZ;
@@ -39,7 +41,7 @@ function DayPageContent() {
     const found = data.find((d) => d.day === dayNum);
     if (!found) { setNotFound(true); return; }
     setDay(found);
-  }, [params.day, router, demo]);
+  }, [params.day, router, demo, searchParams]);
 
   if (notFound) return <p className="text-gray-400 text-center py-20">Den nenalezen.</p>;
   if (!day) return <div className="flex justify-center py-20"><div className="w-8 h-8 border-2 border-nowork-orange border-t-transparent rounded-full animate-spin" /></div>;

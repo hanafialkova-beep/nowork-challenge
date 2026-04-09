@@ -520,7 +520,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
       ["První draft textu — psaní od nuly je nejnákladnější; AI draft trvá sekundy, úprava minuty", "Strukturování — přepis poznámek nebo neuspořádaných informací do přehledné formy", "Variace — místo tvorby jedné možnosti dostaneš tři; výběr je rychlejší než tvorba", "Přeformátování — z bulletů na odstavce, z textu na tabulku, z formálního na přátelský"],
       "Kde AI čas nepřidává nebo přidává práci:",
       ["Krátké jednoduché věci — napsat jednu větu ručně je rychlejší než formulovat prompt", "Vysoce specifický kontext — pokud musíš napsat víc textu jako kontext než je výstup, nedává to smysl", "Ověřování faktů — AI výstup, který musíš doslova každou větu zkontrolovat, ušetří málo"],
-      "Praktický test: pokud ti tvorba dobrého promptu trvá déle než 2 minuty a výstup bude kratší než stránka — zvažte, jestli je AI opravdu rychlejší. Pokud ano, jděte do šablony.",
+      "Praktický test: pokud ti tvorba dobrého promptu trvá déle než 2 minuty a výstup bude kratší než stránka — zvaž, jestli je AI opravdu rychlejší. Pokud ano, jdi do šablony.",
       "Cílem dne není odpovědět \u201EAI mi šetří čas\". Cílem je vědět konkrétně: kde ano, jak moc a proč.",
     ],
     taskIntro: "Projdi svůj minulý týden a udělej malý experiment:",
@@ -727,7 +727,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     ],
     taskIntro: "Nastavení ranního AI rituálu — konkrétně:",
     taskItems: [
-      "Vyber jednu věc, pro které chceš AI každé ráno použít — agenda, psaní, příprava nebo reflexe",
+      "Vyber jednu věc, pro kterou chceš AI každé ráno použít — agenda, psaní, příprava nebo reflexe",
       "Napiš si konkrétní prompt, který budeš opakovat (ulož do svého druhého mozku z D22)",
       "Nastav si připomínku na 5–7 minut ráno po dobu příštích dvou týdnů — první tři týdny jsou klíčové",
     ],

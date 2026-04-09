@@ -891,7 +891,7 @@ AI výstup — 5 věcí hodných zachycení:
       "Otestuj ho jedenkrát — projdi celý systém na reálném příkladu a zapiš co upravit",
     ],
     taskType: "ol",
-    taskTip: "Systém ulož do svého knowledge base — tak aby byl dostupný tobě i kolegům.",
+    taskTip: "Systém ulož do svého knowledge base — tak, aby byl dostupný tobě i kolegům.",
     teaser: "Zítra je závěr. 28 dní. Co za tu dobu vzniklo — a co přichází dál.",
   },
   {

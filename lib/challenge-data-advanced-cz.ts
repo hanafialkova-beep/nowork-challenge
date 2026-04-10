@@ -6,6 +6,7 @@ export const challengeDataAdvancedCZ: ChallengeDay[] = [
     title: "Základy máš. Teď přichází systém.",
     subject: "Advanced start: 3C, PACT, Superpowers.",
     preheader: "Pro ty, kdo mají základy. Teď jde o to posunout se výš.",
+    teze: "Základy AI nestačí — systém rozhoduje o tom, jestli pokrok vydrží nebo zmizí za měsíc.",
     concept: [
       "Jsi tady, protože základy máš. Víš, jak zadat AI úkol. Možná ji používáš každý den. A přesto cítíš, že tam je víc — že z AI dostáváš zlomek toho, co by mohla nabídnout.",
       "Přesně proto existuje tato verze challenge.",
@@ -47,6 +48,7 @@ Tři konkrétní záznamy:
     title: "3C framework: Capture, Clean, Connect jako jeden systém.",
     subject: "Proč chaos ve znalostech brzdí i dobré prompty.",
     preheader: "Znalosti bez systému nejsou znalosti. Jsou to jen data.",
+    teze: "Znalosti bez systému nejsou znalosti — jsou to data, která nezachráníš, až je budeš potřebovat.",
     concept: [
       "Jeden z nejčastějších důvodů, proč AI výstupy jsou průměrné, nemá nic společného s promptem samotným.",
       "Má co do činění se vstupem. S tím, co AI dáš k dispozici.",
@@ -80,6 +82,7 @@ Tři konkrétní záznamy:
     title: "Capture: ne vše stojí za zachycení.",
     subject: "Filtrování je schopnost, ne jen zvyk.",
     preheader: "Zachytit vše je stejně špatné jako nezachytit nic.",
+    teze: "Zachytit vše je stejně špatné jako nezachytit nic — filtrování je dovednost, ne jen zvyk.",
     concept: [
       "Prvním krokem 3C systému je Capture — zachycení hodnotných informací z práce.",
       "Jenže tady je problém, do kterého padne většina lidí: snaží se zachytit vše. A výsledek je hromada poznámek, ze které nikdy nic nevytáhnou.",
@@ -125,6 +128,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Capture v praxi: systém, který nezabere více než 2 minuty.",
     subject: "Jak zachycování zabudovat do práce bez přetížení.",
     preheader: "Nejlepší systém je ten, který skutečně používáš.",
+    teze: "Nejlepší Capture systém není nejdůkladnější — je to ten, který skutečně používáš i v náročných týdnech.",
     concept: [
       "Teorie Capture je jasná. Praxe je jiná věc — protože většina lidí začne zachycovat, vydrží dva týdny a pak přestane. Ne proto, že by nechtěla. Ale proto, že systém byl příliš složitý.",
       "Pravidlo: nejlepší Capture systém je ten nejjednodušší, který ti opravdu vyhovuje. Jeden inbox. Jedno místo. Dvě minuty.",
@@ -154,6 +158,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Clean: zpracování není totéž co uložení.",
     subject: "Clean — surový materiál se stane znalostí až po zpracování.",
     preheader: "Hromada poznámek není znalostní systém. Je to jen hromada.",
+    teze: "Hromada poznámek není znalostní systém — surový materiál se stane znalostí až po zpracování.",
     concept: [
       "Druhý krok 3C systému je Clean — zpracování surového materiálu do použitelné znalosti.",
       "Tady je největší díra ve většině systémů: lidé zachycují, ale nečistí. A výsledek je hromada surového materiálu, ze které nelze nic efektivně vytáhnout.",
@@ -189,6 +194,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Clean v praxi: rutina, která funguje i pod tlakem.",
     subject: "Jak zpracovávat pravidelně — bez přetížení.",
     preheader: "Clean jako návyk: jednou týdně, strukturovaně, 20 minut.",
+    teze: "Clean jako týdenní rutina ušetří víc než hodinu hledání — a funguje jen tehdy, pokud ji skutečně opakuješ.",
     concept: [
       "Teorie Clean je jasná. Praxe je o tom, kdy a jak to zařadíš do pracovního týdne — ne jako extra práci, ale jako součást rutiny.",
       "Nejčastější chyba: snaha o Clean v reálném čase. Clean každého záznamu hned po zachycení je příliš náročné. Výsledkem je přetížení a pak opuštění celého systému.",
@@ -218,6 +224,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Connect: starý poznatek, nové řešení.",
     subject: "Connect — propojení znalostí jako nejcennější část 3C systému.",
     preheader: "Nejcennější znalost je ta, kterou máš — a dovede tě k novému řešení.",
+    teze: "Nejcennější znalost není nová — je to ta, kterou máš a která čeká na propojení s dnešním problémem.",
     concept: [
       "Třetí krok 3C systému je Connect — propojování zachycených a zpracovaných znalostí s aktuální prací.",
       "Capture a Clean jsou příprava. Connect je místo, kde se hodnota skutečně projeví.",
@@ -249,6 +256,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Connect v praxi: propoj starý poznatek s dnešním problémem.",
     subject: "Connect není metafora — je to konkrétní pracovní krok.",
     preheader: "Nejcennější znalost není nová. Je to ta, kterou máš — a najdeš ji.",
+    teze: "Tři slova, která změní způsob práce: 'Mám k tomuhle už něco?'",
     concept: [
       "Teorie Connect je jasná: vracíš se ke starým zachyceným a zpracovaným znalostem a propojuješ je s aktuálním problémem. Praxe je složitější — protože vyžaduje jeden přechod, který většina lidí přeskočí: záměrně se zeptat před tím, než začneš od nuly.",
       "Connect prompt — tři slova, která mění způsob práce: 'Mám k tomuhle už něco?'",
@@ -279,6 +287,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "3C reflexe: kde systém funguje a kde jsou díry.",
     subject: "Týden jedna za námi — co si z 3C bereš dál.",
     preheader: "Systém funguje jen tehdy, pokud ho skutečně používáš.",
+    teze: "Systém bez reflexe je teorie — reflexe je moment, kdy zjistíš, co skutečně používáš.",
     concept: [
       "Celý první týden byl o 3C frameworku. Dnes je čas se zastavit a zhodnotit — ne jako teorii, ale jako praxi.",
       "Reflexe není hodnocení toho, zda vše šlo správně. Je to mapování reality: kde systém funguje a kde naráží. Tohle je nejcennější informace pro to, aby systém zůstal a zlepšoval se.",
@@ -307,6 +316,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "PACT framework: Projects, Agents, Context, Tools.",
     subject: "Proč framework místo náhodného výběru nástrojů.",
     preheader: "Bez struktury se AI stane dalším nástrojem, který přidává zmatek.",
+    teze: "Bez struktury se AI stane dalším nástrojem ad hoc — PACT z ní udělá součást způsobu práce.",
     concept: [
       "Druhý týden challenge je o PACT frameworku — způsobu, jak přemýšlet o AI v pracovním kontextu systematicky.",
       "PACT stojí na čtyřech prvcích. Každý prvek je jiná vrstva, jiná otázka:",
@@ -343,6 +353,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Projects: naplánuj reálný projekt s AI pomocí WBS.",
     subject: "AI jako spolupracovník na struktuře projektu.",
     preheader: "AI nezná tvůj projekt. Ale pokud jí ho popíšeš, pomůže ti ho rozložit.",
+    teze: "AI nezná tvůj projekt — ale pokud jí ho popíšeš strukturovaně, pomůže ho rozložit na zvládnutelné části.",
     concept: [
       "První prvek PACT frameworku jsou Projects — způsob, jak AI zapojit do reálné projektové práce.",
       "Nejčastější chyba: AI se používá na jednotlivé části projektu (napsat email, shrnout dokument), ale ne na projekt jako celek. Výsledek je fragmentovaná pomoc bez přidané hodnoty na úrovni celku.",
@@ -375,6 +386,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Agents: kdy dávají smysl a kdy jsou zbytečně složití.",
     subject: "Co jsou AI agenti a jak o nich přemýšlet.",
     preheader: "Agent není magic. Je to workflow. A workflow musí mít smysl.",
+    teze: "Agent není magie — je to workflow, a každý workflow musí dávat smysl dřív, než ho pustíš na autopilot.",
     concept: [
       "Druhý prvek PACT frameworku jsou Agents — AI agenti a automatizované workflow.",
       "Co je AI agent: zjednodušeně jde o AI, která neprovádí jen jeden úkol, ale sérii kroků — reaguje na výsledek předchozího kroku, rozhoduje se co udělat dál, a může volat nástroje nebo jiné modely.",
@@ -409,6 +421,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Agents v praxi: multi-step workflow pro složitý úkol.",
     subject: "Postav workflow, kde každý krok staví na předchozím.",
     preheader: "Jeden složitý úkol. Tři kroky. Každý navazuje na předchozí.",
+    teze: "Složitý úkol rozložený do tří navazujících kroků zvládne AI lépe než v jednom obrovském promptu.",
     concept: [
       "Teorie agentů je za námi. Dnes jde o praxi: postavíš multi-step workflow pro jeden opakující se úkol.",
       "Multi-step workflow s AI je sekvence promptů, kde výstup jednoho kroku je vstup dalšího. Nepoužíváš nástroj automatizace — pracuješ v jedné konverzaci nebo v sérii konverzací, ale s jasnou strukturou.",
@@ -439,6 +452,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Jak posoudit kvalitu AI výstupu — ne pocitem, ale kritériem.",
     subject: "Calibrated trust: kdy výstupu věřit a kdy ho ověřit.",
     preheader: "Přesvědčivý výstup a správný výstup nejsou totéž.",
+    teze: "AI optimalizuje pro přesvědčivost, ne pro správnost — calibrated trust checklist to vyřeší.",
     concept: [
       "V projektové práci s AI nastává jeden specifický problém: výstup vypadá dobře. Struktura sedí, jazyk je přesvědčivý, logika dává smysl. A přesto může být chybný — protože AI optimalizuje pro přesvědčivost, ne pro správnost.",
       "Tři typy chyb, které v projektech nastávají nejčastěji:",
@@ -474,6 +488,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Context: proč kontext rozhoduje víc než prompt.",
     subject: "Nejdůležitější část PACT frameworku — a proč ji většina lidí přehlíží.",
     preheader: "Stejný prompt, jiný kontext — zcela jiný výsledek.",
+    teze: "Stejný prompt s jiným kontextem dá zcela jiný výsledek — kontext je tajná zbraň, kterou většina přehlíží.",
     concept: [
       "Třetí prvek PACT frameworku je Context — a je to pravděpodobně nejdůležitější ze čtyř.",
       "Experiment: vezmi libovolný prompt a zadej ho dvakrát — jednou bez kontextu a jednou s detailním kontextem. Výsledky budou tak odlišné, jako by to bylo od jiné AI.",
@@ -504,6 +519,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Context v praxi: napiš svůj pracovní system prompt.",
     subject: "Jednou napsat. Použít stokrát.",
     preheader: "System prompt je tvůj stálý briefing pro AI.",
+    teze: "Jednou napsat svůj pracovní system prompt — pak ho použít stokrát jako stálý briefing pro AI.",
     concept: [
       "Teorie kontextu je za námi. Dnes tvoříš: napíšeš svůj pracovní system prompt.",
       "System prompt je dokument nebo pasáž, která AI okamžitě dává kontext o tobě, tvé roli a tvých preferovaných způsobech spolupráce. Přidáš ho na začátek každé nové konverzace — nebo ho nastavíš v Custom Instructions v ChatGPT nebo v Project Settings v Claudovi.",
@@ -536,6 +552,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "PACT checkpoint: co z frameworku skutečně používáš.",
     subject: "Polovina Advanced challenge — čas zmapovat, kde jsi.",
     preheader: "Framework bez reflexe je jen teorie.",
+    teze: "Polovina Advanced challenge za tebou — framework bez reflexe zůstane jen teorií v zápisnících.",
     concept: [
       "Čtrnáct dní je za námi. Celý 3C framework a celý PACT framework jsou za sebou. Dnes je reflexe — ne test, ale mapování reality.",
       "Nejužitečnější otázka dne: které části 3C a PACT opravdu používám a které zůstaly jen jako teorie?",
@@ -566,6 +583,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Pět superschopností, které AI spoluprací skutečně získáváš.",
     subject: "Perception, Intelligence, Memory, Creation, Connection.",
     preheader: "Nejcennější věci, které AI spolupráce přinese, nejsou výstupy. Jsou to schopnosti.",
+    teze: "Nejcennější výsledek AI spolupráce nejsou výstupy — jsou to nové schopnosti, které zůstanou, i když AI zmizí.",
     concept: [
       "Třetí týden challenge je o Superpowers — pěti schopnostech, které AI spoluprací skutečně získáváš.",
       "Tento pohled je odlišný od toho, co většina lidí o AI slyší. Většina diskuze je o tom, co AI udělá za tebe. Ale ještě cennější je to, co tě AI spolupráce naučí — schopnosti, které si pak neseš i bez AI.",
@@ -595,6 +613,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Perception: vidíš vzorce, které by ti jinak unikly.",
     subject: "Jak AI spoluprací trénuješ schopnost vidět strukturu v chaosu.",
     preheader: "Nejcennější věc není rychlejší výstup. Je to jiný způsob vidění.",
+    teze: "AI spoluprací se trénuje schopnost vidět vzorce a signály, které by bez ní zůstaly pod povrchem.",
     concept: [
       "První superschopnost je Perception — schopnost vidět vzorce, strukturu a souvislosti tam, kde jiní vidí chaos nebo nesouvisející informace.",
       "Jak AI spolupráce trénuje Perception: AI velmi rychle nachází strukturu ve velkém množství textu nebo dat. Pokud s AI pracuješ pravidelně, začneš přebírat tento způsob pohledu — hledáš vzorce dřív, než začneš tvořit. Vidíš strukturu dřív, než ji pojmenuješ.",
@@ -623,6 +642,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Intelligence: lepší rozhodnutí s AI jako myšlenkovým partnerem.",
     subject: "Jak AI spoluprací trénuješ schopnost lépe rozhodovat.",
     preheader: "AI nerozhodne za tebe. Ale pomůže ti udělat lepší rozhodnutí.",
+    teze: "AI nerozhodne za tebe — ale strukturovaný dialog s ní odhalí předpoklady a slepá místa, která jinak přehlédneš.",
     concept: [
       "Druhá superschopnost je Intelligence — schopnost lépe rozhodovat díky strukturovanému dialogu s AI jako myšlenkovým partnerem.",
       "AI nerozhoduje za tebe. Ale může ti pomoci strukturovat rozhodnutí způsobem, který odhalí slepé skvrny, zpochybní předpoklady a ukáže alternativy.",
@@ -654,6 +674,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Intelligence v praxi: analyzuj rozhodnutí, které teď řešíš.",
     subject: "Structured decision-making s AI — od uvažování k akci.",
     preheader: "Teorie rozhodování je jedna věc. Praxe je jiná.",
+    teze: "Nejlepší test AI jako myšlenkového partnera je reálné rozhodnutí, které právě řešíš — dnes.",
     concept: [
       "Teorie Intelligence je za námi. Dnes jde o praxi — vezmeš reálné rozhodnutí ze svého pracovního kontextu a projdeš ho celým procesem.",
       "Proč je praxe obtížnější než teorie: reálná rozhodnutí mají nejistotu, emoční složku a politický kontext. AI ti pomůže s analytickou složkou — ale emoční a politická složka je na tobě.",
@@ -681,6 +702,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Memory, Creation, Connection: zbývající tři superschopnosti.",
     subject: "Tři superschopnosti, které dokončují obraz.",
     preheader: "Paměť, tvorba, propojení — a jak je AI spoluprací rozvíjíš.",
+    teze: "Paměť, tvorba, propojení — tři schopnosti, které AI spoluprací rozvíjíš a které posouvají výsledky nad průměr.",
     concept: [
       "Perception a Intelligence máme za sebou. Dnes přidáme zbývající tři superschopnosti — a spojíme to celé.",
       "Memory — schopnost pracovat s informacemi systematicky, bez spoléhání na přirozenou paměť:",
@@ -718,6 +740,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Creation: komplexní výstup od nuly s iterací.",
     subject: "Postav komplexní výstup v šesti krocích.",
     preheader: "Paralýza prázdné stránky přestane existovat, když máš proces.",
+    teze: "Paralýza prázdné stránky přestane existovat, jakmile máš proces — a Creation ti dává přesný proces.",
     concept: [
       "Creation superschopnost je dnes na řadě v praxi. Vezmeš komplexní výstup — takový, který by ti normálně trval hodiny — a projdeš ho celým iterativním procesem s AI.",
       "Co je komplexní výstup: ne jeden email nebo krátké shrnutí. Ale strategie, prezentace, nabídka, analýza, konzultační doporučení, nebo jakýkoli výstup, kde je prázdná stránka největší překážka.",
@@ -750,6 +773,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Tvoje AI superschopnosti: která ti sedí, kterou chceš rozvíjet?",
     subject: "Reflexe Superpowers týdne — a tvůj osobní profil.",
     preheader: "Nejlepší systém rozvoje je ten, který vychází z tebe.",
+    teze: "Pět superschopností, jedna priorita — nejrychlejší rozvoj přijde z toho, co ti přirozeně sedí.",
     concept: [
       "Třetí týden je za námi. Všech pět superschopností — Perception, Intelligence, Memory, Creation, Connection — je v teorii i praxi za sebou.",
       "Dnes je reflexe: ne co proběhlo, ale co z toho jde dál.",
@@ -779,6 +803,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Human-in-the-loop: kde jsi ty v AI procesu.",
     subject: "Jak navrhnout systém, kde AI pracuje, ale ty kontroluješ.",
     preheader: "Nejlepší AI systém není ten, kde AI dělá vše. Je to ten, kde ví, kde jsi potřeba.",
+    teze: "Nejlepší AI systém není ten, kde AI dělá vše — je to ten, kde přesně víš, kde jsi nenahraditelný.",
     concept: [
       "Čtvrtý týden je o Scale — jak vše vybudované převést na systémy, které pracují za tebe. A první otázka, na kterou musíš odpovědět: kde jsi v procesu ty?",
       "Human-in-the-loop (HITL) je princip návrhu AI systémů: AI dělá to, co dělá dobře, ale člověk je zapojen v klíčových rozhodovacích bodech.",
@@ -812,6 +837,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Nakresli svůj workflow: kde jsi ty, kde pracuje AI.",
     subject: "Workflow s checkpointy — vizualizace systému.",
     preheader: "Systém, který nevidíš, nemůžeš optimalizovat.",
+    teze: "Systém, který nevidíš, nemůžeš optimalizovat — vizualizace workflow odhalí díry i příležitosti.",
     concept: [
       "Včerejší den vyjasnil, kde v procesu stojíš. Dnes to vizualizuješ — nakreslíš (nebo napíšeš) svůj workflow.",
       "Proč vizualizace záleží: workflow, který máš jen v hlavě, je workflow, který nemůžeš sdílet, optimalizovat ani delegovat. Jakmile ho nakreslíš nebo popíšeš, vidíš ho jinak.",
@@ -842,6 +868,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "AI adoption v týmu: jak sdílet znalost bez hype a bez odporu.",
     subject: "Jak přenést AI práci na kolegy bez tlaku a bez technologie pro technologii.",
     preheader: "Nejlepší AI champion v týmu je ten, kdo ukazuje výsledky, ne evangelizuje.",
+    teze: "Nejlepší AI champion v týmu je ten, kdo ukazuje výsledky tiše — ne ten, kdo evangelizuje hlasitě.",
     concept: [
       "Jednou z největších příležitostí AI není to, čeho je možné s AI dosáhnout individuálně. Je to, co dokáže tým, když jsou sdílené znalosti, prompty a workflow.",
       "Ale AI adoption v týmu je jiná výzva než osobní AI adoption. Lidé mají různé technické zázemí, různý přístup k novým nástrojům a různé obavy. Přístup 'vyzkoušej, je to skvělé' nestačí.",
@@ -874,6 +901,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Nauč kolegu jeden AI trick — nebo ho zapiš jako mini guide.",
     subject: "Znalost sdílená je znalost zdvojená.",
     preheader: "Nejlepší test, jestli něco chápeš: dokážeš to vysvětlit jednoduše.",
+    teze: "Nejlepší test pochopení: dokážeš to vysvětlit jednoduše tak, aby to kolega použil hned?",
     concept: [
       "Jeden z nejlepších způsobů, jak prohloubit vlastní znalost, je učit ostatní. Pokud dokážeš vysvětlit, jak AI prompt funguje, jednoduše a bez žargonu — skutečně tomu rozumíš.",
       "Dnešní úkol má dvě varianty: nauč kolegu jeden trick osobně nebo ho zapiš jako mini guide.",
@@ -903,6 +931,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Leverage na úrovni systému: nástroj vs. způsob práce.",
     subject: "Rozdíl mezi 'používám AI' a 'AI je součást mého systému práce'.",
     preheader: "Největší leverage není v jednom skvělém promptu. Je v systému.",
+    teze: "Největší leverage není v jednom skvělém promptu — je v systému, kde AI je součástí každého kroku práce.",
     concept: [
       "Předposlední téma Advanced challenge se vrací k začátku — ale jinak.",
       "Na začátku challenge byl leverage definován jako: dosáhnout výsledku, který by jinak nebyl možný. Nebo by trvalo desetkrát déle. Leverage na úrovni jednotlivce.",
@@ -932,6 +961,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Postav end-to-end mini AI systém.",
     subject: "Jeden klíčový proces — od vstupu po výstup — s AI na každém kroku.",
     preheader: "Systém, který pracuje za tebe, začíná jako jeden dobře navržený proces.",
+    teze: "Systém, který pracuje za tebe, začíná jako jeden dobře navržený proces — a dnes ho postavíš.",
     concept: [
       "Předposlední den challenge. Dnes tvoříš — a tvoříš největší věc v celé challenge.",
       "End-to-end mini AI systém je jeden konkrétní proces ze tvé práce — od vstupu po výstup — navržený s AI na každém relevantním kroku, s jasnou HITL strukturou a dokumentovaný tak, aby ho mohl sledovat nebo použít i někdo jiný.",
@@ -966,6 +996,7 @@ AI výstup — 5 věcí hodných zachycení:
     title: "Systém je postaven. A teď pracuje za tebe.",
     subject: "Závěr Advanced challenge — a co přichází dál.",
     preheader: "Konec challenge. Začátek systému.",
+    teze: "Třicet dní systematické práce s AI vybudovalo něco trvalého — systém, ne jen zvyk.",
     concept: [
       "Dvacet osm dní je za námi.",
       "Celá challenge šla přes čtyři vrstvy. 3C framework — Capture, Clean, Connect — základ pro práci se znalostmi v kontextu AI. PACT framework — Projects, Agents, Context, Tools — systematické přemýšlení o AI, ne sada triků. Superpowers — pět schopností, které AI spoluprací posiluješ. A Scale — Human-in-the-loop, workflow design, AI adoption v týmu, systémový leverage.",

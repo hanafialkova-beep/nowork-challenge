@@ -28,6 +28,13 @@ export default function DayContent({ day, lang, demo, version, totalDays = 30 }:
         {day.title}
       </h1>
 
+      {/* Teze — core insight of the day */}
+      {day.teze && (
+        <p className="text-lg font-semibold text-nowork-black leading-snug mb-6 border-l-4 border-nowork-orange pl-4">
+          {day.teze}
+        </p>
+      )}
+
       {/* Concept */}
       <div className="day-content mb-8">
         {day.concept.map((item, i) =>

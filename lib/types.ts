@@ -3,6 +3,7 @@ export interface ChallengeDay {
   title: string;
   subject: string;
   preheader: string;
+  teze?: string;        // bold lead sentence — core insight of the day
   concept: (string | string[])[];  // string = paragraph, string[] = bullet list
   taskIntro: string;
   taskItems: string[];

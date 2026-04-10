@@ -6,6 +6,7 @@ export const challengeDataAdvancedEN: ChallengeDay[] = [
     title: "You have the basics. Now comes the system.",
     subject: "Advanced start: 3C, PACT, Superpowers.",
     preheader: "For those who have the fundamentals. Now it's time to go further.",
+    teze: "The basics of AI aren't enough — a system decides whether progress lasts or disappears within a month.",
     concept: [
       "You're here because you already have the basics. You know how to give AI a task. You may even use it every day. And still you feel there's more — that you're getting a fraction of what AI could offer.",
       "That's exactly why this version of the challenge exists.",
@@ -47,6 +48,7 @@ Three concrete records:
     title: "3C framework: Capture, Clean, Connect as one system.",
     subject: "Why knowledge chaos slows down even good prompts.",
     preheader: "Knowledge without a system isn't knowledge. It's just data.",
+    teze: "Knowledge without a system isn't knowledge — it's data you won't be able to retrieve when you need it.",
     concept: [
       "One of the most common reasons AI outputs are mediocre has nothing to do with the prompt itself.",
       "It has everything to do with the input. With what you give AI to work with.",
@@ -80,6 +82,7 @@ Three concrete records:
     title: "Capture: not everything is worth saving.",
     subject: "Filtering is a skill, not just a habit.",
     preheader: "Capturing everything is just as bad as capturing nothing.",
+    teze: "Capturing everything is just as bad as capturing nothing — filtering is a skill, not just a habit.",
     concept: [
       "The first step of the 3C system is Capture — saving valuable information from your work.",
       "But here's the problem most people fall into: they try to capture everything. And the result is a pile of notes they never pull anything useful from.",
@@ -125,6 +128,7 @@ AI output — 5 things worth capturing:
     title: "Capture in practice: a system that takes no more than 2 minutes.",
     subject: "How to build capturing into work without being overwhelmed.",
     preheader: "The best system is the one you actually use.",
+    teze: "The best Capture system isn't the most thorough — it's the one you actually use even in demanding weeks.",
     concept: [
       "The theory of Capture is clear. The practice is another thing — because most people start capturing, keep it up for two weeks, and then stop. Not because they don't want to. But because the system was too complex.",
       "The rule: the best Capture system is the simplest one that genuinely works for you. One inbox. One place. Two minutes.",
@@ -154,6 +158,7 @@ AI output — 5 things worth capturing:
     title: "Clean: processing is not the same as storing.",
     subject: "Clean — raw material becomes knowledge only after processing.",
     preheader: "A pile of notes isn't a knowledge system. It's just a pile.",
+    teze: "A pile of notes isn't a knowledge system — raw material only becomes knowledge after processing.",
     concept: [
       "The second step of the 3C system is Clean — processing raw material into usable knowledge.",
       "Here's the biggest gap in most systems: people capture but don't clean. And the result is a pile of raw material you can't efficiently extract anything from.",
@@ -189,6 +194,7 @@ AI output — 5 things worth capturing:
     title: "Clean in practice: a routine that works even under pressure.",
     subject: "How to process regularly — without being overwhelmed.",
     preheader: "Clean as a habit: once a week, structured, 20 minutes.",
+    teze: "Clean as a weekly routine saves more than an hour of searching — and only works if you actually repeat it.",
     concept: [
       "The theory of Clean is clear. The practice is about when and how you fit it into your working week — not as extra work, but as part of a routine.",
       "The most common mistake: trying to Clean in real time. Cleaning every record immediately after capturing is too demanding. The result is overwhelm, and then abandoning the whole system.",
@@ -218,6 +224,7 @@ AI output — 5 things worth capturing:
     title: "Connect: old insight, new solution.",
     subject: "Connect — linking knowledge is the most valuable part of 3C.",
     preheader: "The most valuable knowledge you have is the knowledge that leads you to a new solution.",
+    teze: "The most valuable knowledge isn't new — it's what you already have, waiting to be linked to today's problem.",
     concept: [
       "The third step of the 3C system is Connect — linking your captured and processed knowledge to current work.",
       "Capture and Clean are preparation. Connect is where the value actually shows up.",
@@ -249,6 +256,7 @@ AI output — 5 things worth capturing:
     title: "Connect in practice: link an old insight to today's problem.",
     subject: "Connect isn't a metaphor — it's a concrete work step.",
     preheader: "The most valuable knowledge isn't new. It's what you already have.",
+    teze: "Three words that change the way you work: 'Do I have anything on this?'",
     concept: [
       "The theory of Connect is clear: you return to old captured and processed knowledge and link it to a current problem. The practice is harder — because it requires one transition most people skip: deliberately asking before you start from scratch.",
       "The Connect prompt — three words that change the way you work: 'Do I have anything on this?'",
@@ -279,6 +287,7 @@ AI output — 5 things worth capturing:
     title: "3C reflection: where the system works and where the gaps are.",
     subject: "Week one is done — what you're taking from 3C.",
     preheader: "A system only works when you actually use it.",
+    teze: "A system without reflection is theory — reflection is the moment you discover what you actually use.",
     concept: [
       "The entire first week was about the 3C framework. Today is time to pause and evaluate — not as theory, but as practice.",
       "Reflection isn't an assessment of whether you did everything 'right'. It's mapping reality: where the system works and where it hits friction. This is the most valuable information for keeping the system alive and improving it.",
@@ -307,6 +316,7 @@ AI output — 5 things worth capturing:
     title: "PACT framework: Projects, Agents, Context, Tools.",
     subject: "Why a framework beats a random selection of tools.",
     preheader: "Without structure, AI becomes another tool that adds confusion.",
+    teze: "Without structure, AI becomes another ad hoc tool — PACT makes it part of how you work.",
     concept: [
       "Week two of the challenge is about the PACT framework — a way to think about AI in a work context systematically.",
       "PACT stands on four elements. Each is a different layer, a different question:",
@@ -343,6 +353,7 @@ AI output — 5 things worth capturing:
     title: "Projects: plan a real project with AI using WBS.",
     subject: "AI as a collaborator on project structure.",
     preheader: "AI doesn't know your project. But if you describe it, it can help you break it down.",
+    teze: "AI doesn't know your project — but describe it in structure and it will help break it into manageable parts.",
     concept: [
       "The first element of the PACT framework is Projects — how to involve AI in real project work.",
       "The most common mistake: AI is used on individual parts of a project (write an email, summarize a document) but not on the project as a whole. The result is fragmented help without added value at the level of the whole.",
@@ -375,6 +386,7 @@ AI output — 5 things worth capturing:
     title: "Agents: when they make sense and when they're overkill.",
     subject: "What are AI agents and how to think about them.",
     preheader: "An agent isn't magic. It's a workflow. And a workflow has to make sense.",
+    teze: "An agent isn't magic — it's a workflow, and every workflow must make sense before you put it on autopilot.",
     concept: [
       "The second element of the PACT framework is Agents — AI agents and automated workflows.",
       "What is an AI agent: simplified, it's an AI that doesn't just perform one task but a series of steps — it reacts to the result of the previous step, decides what to do next, and can call tools or other models.",
@@ -409,6 +421,7 @@ AI output — 5 things worth capturing:
     title: "Agents in practice: a multi-step workflow for a complex task.",
     subject: "Build a workflow where each step builds on the previous.",
     preheader: "One complex task. Three steps. Each depends on the last.",
+    teze: "A complex task broken into three sequential steps performs better with AI than one massive prompt.",
     concept: [
       "The theory of agents is behind us. Today it's practice: you'll build a multi-step workflow for one recurring task.",
       "A multi-step workflow with AI is a sequence of prompts where the output of one step is the input of the next. You're not using an automation tool — you're working in one conversation or a series of conversations, but with clear structure.",
@@ -439,6 +452,7 @@ AI output — 5 things worth capturing:
     title: "How to evaluate AI output quality — not by feel, but by criteria.",
     subject: "Calibrated trust: when to trust output and when to verify it.",
     preheader: "A convincing output and a correct output aren't the same thing.",
+    teze: "AI optimizes for persuasiveness, not correctness — a calibrated trust checklist closes that gap.",
     concept: [
       "In project work with AI, one specific problem arises: the output looks good. The structure works, the language is convincing, the logic makes sense. And yet it may be wrong — because AI optimizes for persuasiveness, not correctness.",
       "Three types of errors that occur most often in projects:",
@@ -474,6 +488,7 @@ AI output — 5 things worth capturing:
     title: "Context: why context decides more than the prompt.",
     subject: "The most important part of the PACT framework — and why most people overlook it.",
     preheader: "Same prompt, different context — completely different result.",
+    teze: "The same prompt with different context gives a completely different result — context is the secret weapon most people overlook.",
     concept: [
       "The third element of the PACT framework is Context — and it's probably the most important of the four.",
       "Experiment: take any prompt and give it twice — once without context and once with detailed context. The results will be as different as if they came from a different AI.",
@@ -504,6 +519,7 @@ AI output — 5 things worth capturing:
     title: "Context in practice: write your working system prompt.",
     subject: "Write it once. Use it a hundred times.",
     preheader: "Your system prompt is your standing briefing for AI.",
+    teze: "Write your working system prompt once — then use it a hundred times as a permanent briefing for AI.",
     concept: [
       "Context theory is behind us. Today you create: you'll write your working system prompt.",
       "A system prompt is a document or passage that immediately gives AI context about you, your role, and your preferred ways of working together. You add it to the beginning of every new conversation — or set it in Custom Instructions in ChatGPT or Project Settings in Claude.",
@@ -536,6 +552,7 @@ AI output — 5 things worth capturing:
     title: "PACT checkpoint: what from the framework you're actually using.",
     subject: "Halfway through Advanced challenge — time to map where you are.",
     preheader: "A framework without reflection is just theory.",
+    teze: "Halfway through Advanced — a framework without reflection stays just theory in your notes.",
     concept: [
       "Fourteen days are behind us. You've been through the entire 3C framework and the entire PACT framework. Today is reflection — not a test, but mapping reality.",
       "The most useful question of the day: which parts of 3C and PACT am I actually using and which stayed as theory?",
@@ -566,6 +583,7 @@ AI output — 5 things worth capturing:
     title: "Five superpowers you gain through AI collaboration.",
     subject: "Perception, Intelligence, Memory, Creation, Connection.",
     preheader: "The most valuable things AI collaboration brings aren't outputs. They're capabilities.",
+    teze: "The most valuable result of AI collaboration isn't output — it's new capabilities that stay even if AI disappears.",
     concept: [
       "Week three of the challenge is about Superpowers — five capabilities you genuinely develop through AI collaboration.",
       "This view is different from what most people hear about AI. Most discussion is about what AI will do for you. But even more valuable is what AI collaboration teaches you — capabilities you carry with you even without AI.",
@@ -595,6 +613,7 @@ AI output — 5 things worth capturing:
     title: "Perception: you see patterns that would otherwise escape you.",
     subject: "How AI collaboration trains your ability to see structure in chaos.",
     preheader: "The most valuable thing isn't a faster output. It's a different way of seeing.",
+    teze: "AI collaboration trains the ability to see patterns and signals that would stay below the surface without it.",
     concept: [
       "The first superpower is Perception — the ability to see patterns, structure, and connections where others see chaos or unrelated information.",
       "How AI collaboration trains Perception: AI very quickly finds structure in large amounts of text or data. If you work with AI regularly, you start to adopt this way of looking — you look for patterns before you start creating. You see structure before you name it.",
@@ -623,6 +642,7 @@ AI output — 5 things worth capturing:
     title: "Intelligence: better decisions with AI as a thinking partner.",
     subject: "How AI collaboration trains your ability to decide better.",
     preheader: "AI won't decide for you. But it will help you make a better decision.",
+    teze: "AI won't decide for you — but structured dialogue with it reveals assumptions and blind spots you'd otherwise miss.",
     concept: [
       "The second superpower is Intelligence — the ability to make better decisions through structured dialogue with AI as a thinking partner.",
       "AI doesn't decide for you. But it can help you structure a decision in a way that reveals blind spots, challenges assumptions, and shows alternatives.",
@@ -654,6 +674,7 @@ AI output — 5 things worth capturing:
     title: "Intelligence in practice: analyze a real decision you're facing.",
     subject: "Structured decision-making with AI — from reasoning to action.",
     preheader: "Decision theory is one thing. Practice is another.",
+    teze: "The best test of AI as a thinking partner is a real decision you're facing right now — today.",
     concept: [
       "Intelligence theory is behind us. Today it's practice — you'll take a real decision from your work context and run it through the whole process.",
       "Why practice is harder than theory: real decisions have uncertainty, an emotional component, and political context. AI helps with the analytical component — but the emotional and political component is on you.",
@@ -681,6 +702,7 @@ AI output — 5 things worth capturing:
     title: "Memory, Creation, Connection: the remaining three superpowers.",
     subject: "Three superpowers that complete the picture.",
     preheader: "Memory, creation, connection — and how AI collaboration develops them.",
+    teze: "Memory, creation, connection — three capabilities you develop through AI collaboration that lift results above average.",
     concept: [
       "Perception and Intelligence are behind us. Today we add the remaining three superpowers — and tie everything together.",
       "Memory — the ability to work with information systematically, without relying on natural memory:",
@@ -718,6 +740,7 @@ AI output — 5 things worth capturing:
     title: "Creation: complex output from scratch with iteration.",
     subject: "Build a complex output in six steps.",
     preheader: "Blank page paralysis stops when you have a process.",
+    teze: "Blank page paralysis stops existing once you have a process — and Creation gives you an exact process.",
     concept: [
       "The Creation superpower is today's practice. You'll take a complex output — one that would normally take hours — and run it through the full iterative process with AI.",
       "What a complex output is: not one email or short summary. But a strategy, presentation, proposal, analysis, consulting recommendation, or any output where the blank page is the biggest obstacle.",
@@ -750,6 +773,7 @@ AI output — 5 things worth capturing:
     title: "Your AI superpowers: which comes naturally, which to develop further.",
     subject: "Superpowers week reflection — and your personal profile.",
     preheader: "The best development system is the one that starts from you.",
+    teze: "Five superpowers, one priority — the fastest development comes from what naturally fits you.",
     concept: [
       "Week three is behind us. You've been through all five superpowers — Perception, Intelligence, Memory, Creation, Connection — in theory and practice.",
       "Today is reflection: not what you did, but what you're taking forward.",
@@ -779,6 +803,7 @@ AI output — 5 things worth capturing:
     title: "Human-in-the-loop: where you must be in the AI process.",
     subject: "How to design a system where AI works but you control.",
     preheader: "The best AI system isn't one where AI does everything. It's one that knows where you're needed.",
+    teze: "The best AI system isn't the one where AI does everything — it's the one where you know exactly where you're irreplaceable.",
     concept: [
       "Week four is about Scale — converting what you've built into systems that work for you. And the first question you need to answer: where are you in the process?",
       "Human-in-the-loop (HITL) is a principle of AI system design: AI does what it does well, but humans are involved at key decision points.",
@@ -812,6 +837,7 @@ AI output — 5 things worth capturing:
     title: "Map your workflow: where you are, where AI works.",
     subject: "Workflow with checkpoints — visualizing the system.",
     preheader: "A system you can't see, you can't optimize.",
+    teze: "A system you can't see, you can't optimize — visualizing the workflow reveals both gaps and opportunities.",
     concept: [
       "Yesterday you decided where you are in the process. Today you visualize it — you'll draw (or write) your workflow.",
       "Why visualization matters: a workflow you only have in your head is a workflow you can't share, optimize, or delegate. Once you draw it or describe it, you see it differently.",
@@ -842,6 +868,7 @@ AI output — 5 things worth capturing:
     title: "AI adoption in a team: sharing knowledge without hype or resistance.",
     subject: "How to bring AI to colleagues without pressure and without technology for technology's sake.",
     preheader: "The best AI champion on a team is the one who shows results, not evangelizes.",
+    teze: "The best AI champion in a team is the one who shows results quietly — not the one who evangelizes loudly.",
     concept: [
       "One of the biggest AI opportunities isn't what you can do with AI on your own. It's what a team can do when knowledge, prompts, and workflows are shared.",
       "But AI adoption in a team is a different challenge than personal AI adoption. People have different technical backgrounds, different openness to new tools, and different concerns. The 'just try it, it's great' approach isn't enough.",
@@ -874,6 +901,7 @@ AI output — 5 things worth capturing:
     title: "Teach a colleague one AI trick — or write it as a mini guide.",
     subject: "Knowledge shared is knowledge doubled.",
     preheader: "The best test of whether you understand something: can you explain it simply?",
+    teze: "The best test of understanding: can you explain it simply enough that a colleague uses it immediately?",
     concept: [
       "One of the best ways to deepen your own knowledge is to teach others. If you can explain how an AI prompt works, simply and without jargon — you genuinely understand it.",
       "Today's task has two variants: teach a colleague one trick in person, or write it as a mini guide.",
@@ -903,6 +931,7 @@ AI output — 5 things worth capturing:
     title: "Leverage at the system level: tool vs. way of working.",
     subject: "The difference between 'I use AI' and 'AI is part of how I work'.",
     preheader: "The biggest leverage isn't in one great prompt. It's in the system.",
+    teze: "The biggest leverage isn't in one great prompt — it's in a system where AI is part of every step of your work.",
     concept: [
       "The second-to-last topic of the Advanced challenge comes back to the beginning — but differently.",
       "At the start of the challenge, leverage was defined as: achieving a result that wouldn't otherwise be possible. Or would take ten times longer. Leverage at the individual level.",
@@ -932,6 +961,7 @@ AI output — 5 things worth capturing:
     title: "Build an end-to-end mini AI system.",
     subject: "One key process — from input to output — with AI at every step.",
     preheader: "A system that works for you starts as one well-designed process.",
+    teze: "A system that works for you starts as one well-designed process — and today you'll build it.",
     concept: [
       "Second-to-last day of the challenge. Today you create — and you're creating the biggest thing in the entire challenge.",
       "An end-to-end mini AI system is one concrete process from your work — from input to output — designed with AI at every relevant step, with a clear HITL structure, and documented so that someone else could follow it or use it.",
@@ -966,6 +996,7 @@ AI output — 5 things worth capturing:
     title: "The system is built. And now it works for you.",
     subject: "Advanced challenge wrap-up — and what comes next.",
     preheader: "End of the challenge. Beginning of the system.",
+    teze: "Thirty days of systematic AI work built something lasting — a system, not just a habit.",
     concept: [
       "Twenty-eight days are behind us.",
       "You've been through the 3C framework — Capture, Clean, Connect — and built the foundation for working with knowledge in the context of AI. You've been through the PACT framework — Projects, Agents, Context, Tools — and started thinking about AI systematically, not as a collection of tricks. You've been through Superpowers — five capabilities you develop through AI collaboration. And you finished with Scale — Human-in-the-loop, workflow design, AI adoption in a team, system leverage.",

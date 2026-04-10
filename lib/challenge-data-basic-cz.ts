@@ -8,6 +8,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Tohle není kurz. Je to nový způsob práce.",
     subject: "Začínáme. Takhle funguje challenge.",
     preheader: "28 dní, 5–7 minut denně. Jeden opravdový posun.",
+    teze: "Znalost o AI a zvyk s AI jsou dvě různé věci — tato challenge buduje to druhé.",
     concept: [
       "AI je dnes všude. Každý týden nové nástroje, nové funkce, nové sliby. A právě proto je snadné skončit u toho, že člověk něco vyzkouší, nedostane co čekal, a zavře záložku.",
       "Tahle challenge vznikla proto, aby se tohle nestalo.",
@@ -34,6 +35,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "AI není rychlejší Google. Je to leverage.",
     subject: "Jeden posun v myšlení, který změní výsledky.",
     preheader: "Rychlost je vedlejší efekt. Leverage je cíl.",
+    teze: "AI neurychlí práci — změní poměr vstupu a výstupu. Jeden prompt místo hodiny práce.",
     concept: [
       "Většina lidí používá AI tak, jako by to byl trochu chytřejší vyhledávač: napíše otázku, dostane odpověď, jde dál. To funguje — ale využívá zlomek toho, co AI skutečně umí.",
       "Je to jako mít Ferrari a jezdit s ním jenom na nákup.",
@@ -59,6 +61,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "AI je skvělá asistentka. Ale horší kouzelník.",
     subject: "Realistická mapa AI — co umí a co ne.",
     preheader: "Přehnané očekávání a přílišná skepse vedou na stejné místo.",
+    teze: "AI dělá skvěle to, co jí přesně popíšeš — a selhává tam, kde čekáš, že odhadne zbytek.",
     concept: [
       "Jedna z největších chyb při práci s AI je přehnané očekávání. Nebo naopak — přílišná skepse. Obojí vede ke stejnému výsledku: člověk AI nepoužívá efektivně, protože buď čeká zázraky, nebo věří, že mu nepomůže.",
       "Realistická mapa je víc než žádná mapa.",
@@ -86,6 +89,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "AI o tobě nic neví. Změň to za 5 minut.",
     subject: "Napiš co děláš — dostaneš návrh jak pomoci.",
     preheader: "Generický vstup = generický výstup. Kontext mění vše.",
+    teze: "Generický vstup dostane generický výstup — 5 minut na popis kontextu změní vše.",
     concept: [
       "AI bez kontextu je jako nový kolega v první den práce. Technicky schopný, ale ještě neví, pro koho pracuje, co je důležité, ani jak věci fungují.",
       "Přesně tak se AI chová, dokud jí nedáš kontext. A právě to je dnešní úkol.",
@@ -113,6 +117,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Jeden detail dělí skvělý prompt od průměrného.",
     subject: "Co dělá největší rozdíl mezi výsledkem a odpadem.",
     preheader: "Vágní vstup = vágní výstup. Platí vždy.",
+    teze: "Přesný záměr v promptu rozhoduje víc než délka nebo složitost — a jde se to naučit rychle.",
     concept: [
       "Špatný výsledek z AI má ve většině případů jednu příčinu: špatné zadání. Ne špatnou AI. To je zpráva, která osvobozuje — protože zadání můžeš zlepšit ty.",
       "Prompt je v podstatě pracovní zadání. A zadání, které dáš novému kolegovi, určuje kvalitu jeho práce. \u201ENapiš mi email\" je jako říct kolegovi \u201Eudělej mi tu věc\" — ani jeden z nich neví, kde začít.",
@@ -139,6 +144,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Přepisování promptů je sval. Dnes ho posílíš.",
     subject: "Praxe: z vágního na konkrétní, třikrát za sebou.",
     preheader: "Tohle je dovednost, ne znalost. Musíš si ji zkoušet.",
+    teze: "Psaní promptů se nezlepší čtením o tom — jen tím, že přepíšeš špatné a pak lepší.",
     concept: [
       "Přepisování promptů je jako editace textu — první verze nikdy není nejlepší. A stejně jako u textu: nemusíš začínat od nuly. Musíš vědět, co přidat nebo odebrat.",
       "Prompting je dovednost, ne znalost. To znamená, že čtení o tom nestačí — musíš si to zkoušet na vlastních příkladech. Dnes máš tři konkrétní prompty k přepsání. Tvůj úkol: oprav je tak, aby dávaly lepší výstup. Pak obě verze otestuj v AI a porovnej.",
@@ -165,6 +171,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "První výsledek je základ. Ne finální produkt.",
     subject: "Iterace — jak z AI dostat mnohem víc.",
     preheader: "Nejlepší výstup vzniká ve druhém nebo třetím kole.",
+    teze: "Iterace není oprava selhání — je to způsob práce, který z dobrého výstupu udělá skvělý.",
     concept: [
       "Největší chyba při práci s AI: napsat prompt, dostat výsledek, a buď ho přijmout nebo zahodit. Obojí je špatně — a obojí přichází o největší hodnotu, kterou AI nabízí.",
       "AI funguje nejlépe jako iterativní spolupracovník. První výstup je základ — ne finální produkt. Přesně tak funguje spolupráce s dobrým kolegou: dáš mu zadání, on navrhne draft, vy to společně dotáhnete. AI je v tomhle procesu neúnavná — může iterovat donekonečna.",
@@ -193,6 +200,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Týden za tebou. Co ti z něj zůstalo?",
     subject: "Reflexe prvního týdne — tři věci, které zůstávají.",
     preheader: "Znalost zapomeneš. Zapsaný poznatek ti zůstane.",
+    teze: "Týden zkušeností bez zápisu zmizí jako týden přečtených knih bez poznámek.",
     concept: [
       "První týden je za tebou. Šest témat, šest krátkých cvičení. A teď přichází možná nejdůležitější den ze všech — reflexe.",
       "Proč je reflexe tak důležitá? Protože bez ní mizí poznatky stejně rychle, jak přišly. Mozek si pamatuje to, co zpracuje — ne to, co jen přijme. Napsat si tři věci, které ti utkvěly, je víc než přečíst deset dalších článků o AI.",
@@ -220,6 +228,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Dobré prompty mají strukturu. Čtyři části, které fungují.",
     subject: "Anatomie dobrého promptu — čtyři části, které vždy fungují.",
     preheader: "Role, úkol, kontext, formát. V tomhle pořadí.",
+    teze: "Role, úkol, kontext, formát — čtyři části fungují jako šablona pro každý prompt.",
     concept: [
       "Minulý týden jsme rozlišili dobrý a špatný prompt. Teď jdeme o krok dál: naučíme se, co přesně dobrý prompt obsahuje — a v jakém pořadí to dát.",
       "Existují čtyři části, které má každý dobrý prompt. Nemusíš je použít vždy všechny — ale čím víc z nich zadáš, tím lepší výstup dostaneš.",
@@ -248,6 +257,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "AI neví, co ty víš. Kontext je tvůj nejsilnější nástroj.",
     subject: "Kontext je klíč — jak ho dát správně.",
     preheader: "Čím víc AI ví, tím víc se chová jako někdo, kdo zná tvoji práci.",
+    teze: "Čím přesnější kontext zadáš, tím víc se AI chová jako někdo, kdo zná tvoji práci.",
     concept: [
       "Proč dvě osoby se stejným promptem dostávají naprosto různé výsledky? Kontext.",
       "AI nemá přístup k tvé práci, tvým klientům, tvým omezeným zdrojům ani tvé historii projektů. Ví jen to, co bylo napsáno v aktuální konverzaci. To není omezení — to je pravidlo hry, které lze využít ve svůj prospěch.",
@@ -275,6 +285,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Dnes to bude osobní. Prompt přímo z tvé práce.",
     subject: "Žádné cvičení — opravdový úkol, opravdový výstup.",
     preheader: "Tady se teorie mění na praxi.",
+    teze: "Teorie se promění v praxi přesně ve chvíli, kdy ji použiješ na svůj vlastní úkol — dnes.",
     concept: [
       "Prvních devět dní bylo příprava. Dnes je výsledek.",
       "Nejlepší způsob, jak otestovat, co ti zůstalo, je vzít opravdový úkol z tvé práce a projít celým procesem: kontext, role, zadání, formát. A pak iterovat, dokud výstup není použitelný.",
@@ -302,6 +313,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Výstup z AI nesedí? Tři otázky, které ho zachrání.",
     subject: "Jak opravit špatný výstup — bez začínání od nuly.",
     preheader: "Zklamání z výsledku je informace. Víš, co říct dál.",
+    teze: "Špatný výstup je informace, ne selhání — říká ti přesně, co v promptu chybí.",
     concept: [
       "Špatný výstup z AI je frustrace. Ale je to také informace — říká ti přesně, co chybí v zadání.",
       "Nejhorší reakce: smazat výstup a začít znovu od prázdné stránky. Nebo AI opustit a dělat to ručně. Obojí je zbytečné — a oba přístupy vyhodí práci, kterou AI odvedla.",
@@ -328,6 +340,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Dobrý výstup se stane skvělým. Takto se iteruje.",
     subject: "Iterace v praxi — lepší výstup z toho, co máš.",
     preheader: "Dobrý výsledek nevznikne napoprvé. Vznikne napotřetí.",
+    teze: "Skvělý výstup nevznikne napoprvé — vznikne ve třetím kole s přesnou instrukcí, co opravit.",
     concept: [
       "Dnes je den, kdy se vše dá dohromady.",
       "Máš prompt a výstup z D10. Máš techniky z D11. Teď je čas je spojit — a dotáhnout výstup na úroveň, která je opravdu použitelná.",
@@ -354,6 +367,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Kdy AI nepoužívat — a proč to vědět je výhoda.",
     subject: "Kdy AI pomáhá a kdy přidává práci.",
     preheader: "Nejlepší nástroj pro každý úkol — to někdy není AI.",
+    teze: "Vědět, kdy AI nepoužít, je stejně cenná dovednost jako vědět, jak ji použít dobře.",
     concept: [
       "Nejsofistikovanější AI uživatelé nevyužívají AI na vše. Vědí přesně, kdy AI použít — a kdy je rychlejší, lepší nebo spolehlivější udělat to bez ní.",
       "Tohle je pohled, který v tutoriálech o AI málokdy uslyšíš. Ale je to pohled, který tě posune nejvíc.",
@@ -380,6 +394,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Kdy AI výstupu věřit — a kdy ne.",
     subject: "Přesvědčivý výstup ještě neznamená správný výstup.",
     preheader: "AI nikdy neřekne 'nevím'. Tady je, jak to poznat.",
+    teze: "AI nikdy neřekne 'nevím' — vygeneruje přesvědčivý text i tehdy, kdy se mýlí.",
     concept: [
       "Tato věta rozhoduje o tom, jak dobře budeš AI používat dlouhodobě: přesvědčivý výstup ještě neznamená správný výstup.",
       "AI nikdy neřekne 'nevím'. Místo toho vygeneruje text, který zní jistě — i tehdy, kdy si jistá být nemůže. Říká se tomu halucinace, ale přesnější výraz je: přesvědčivá nepřesnost.",
@@ -416,6 +431,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Polovina za tebou. Ohlédnutí, které dává směr.",
     subject: "Checkpoint — co ti z první poloviny zůstalo.",
     preheader: "Nejlepší investice 5 minut: vědět, co si vezmeš dál.",
+    teze: "Polovina challenge za tebou — co si nezapíšeš dnes, zapomeneš ještě dřív, než dojdeš na konec.",
     concept: [
       "Čtrnáct dní. Čtrnáct témat. A teď přichází jeden z nejdůležitějších dnů challenge — ne kvůli nové látce, ale proto, že se zastavíš a zpracuješ, co challenge přinesla.",
       "Zapsaný poznatek funguje jinak než přečtená informace. Když si napíšeš, co ti opravdu funguje, vytvoříš si osobní checklist — přesně na míru tvé práci a tvým situacím.",
@@ -444,6 +460,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Opakující se úkoly jsou nejdražší práce, která existuje.",
     subject: "Identifikuj, co děláš každý týden znovu — to je signál.",
     preheader: "Ne každá opakující se práce je nutná. Ale každá stojí za pozornost.",
+    teze: "Opakující se práce je signál — a každý signál je příležitost pro šablonu nebo workflow.",
     concept: [
       "Spousta práce nevypadá na první pohled drahá. Jeden email tady, jedno shrnutí tam, agenda schůzky ve čtvrtek. Každá věc zvlášť trvá deset minut.",
       "Ale deset věcí každý týden je hodina. A hodina každý týden je dva a půl týdne ročně. Na jedné kategorii práce.",
@@ -469,6 +486,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Sestav si mapu: které úkoly svěřit AI a které ne.",
     subject: "Top 5 opakujících se úkolů, kde AI může ušetřit nejvíc.",
     preheader: "Leverage matice: co předat AI, co vylepšit, co zautomatizovat.",
+    teze: "Ne všechna práce má stejnou hodnotu a ne vše patří AI — mapa ukáže, kde je největší leverage.",
     concept: [
       "Včera vznikl přehled opakující se práce. Dnes ji roztřídíš — a rozhodneš, kde AI přinese nejvíc.",
       "Ne každá opakující se práce je stejný typ příležitosti. Pomáhá ji rozdělit do tří kategorií:",
@@ -494,6 +512,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Šablona řeší jeden úkol. Workflow řeší celý proces.",
     subject: "Šablona vs. workflow — a kdy použít co.",
     preheader: "Šablona je odpověď. Workflow je systém.",
+    teze: "Šablona ušetří čas jednou. Workflow ušetří čas pokaždé, navždy.",
     concept: [
       "Šablona a workflow zní podobně. Ale jsou to dvě různé věci — a záměna je příčinou toho, proč někdo \u201Emá šablonu\", ale stále tráví stejně času.",
       "Šablona je předpřipravený výstup nebo prompt pro jeden opakující se úkol. Např.: mám prompt pro týdenní status — zadám data, dostanu draft. Šablona řeší jeden konkrétní krok.",
@@ -521,6 +540,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Jedna šablona, která od teď ušetří hodinu každý týden.",
     subject: "Vytvoř první opakovaně použitelný prompt.",
     preheader: "Jednou dobře. Pak za 30 vteřin pokaždé.",
+    teze: "Jedna dobře napsaná šablona vrátí investici při každém dalším použití — a neopotřebuje se.",
     concept: [
       "Dobré šablony se nepíší na jeden zátah. Vyvíjejí se — první verze funguje na 70 %, druhá verze na 85 %, třetí je ta, kterou pak používáš roky.",
       "Ale někdy začít. A začít znamená napsat první verzi — i nedokonalou.",
@@ -549,6 +569,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Kde AI šetří čas a kde ho přidává — upřímný přehled.",
     subject: "Měření, ne pocit. Kde AI přidává hodnotu a kde ne.",
     preheader: "Nejlepší AI workflow je ten, který opravdu ušetří čas.",
+    teze: "Pocit, že AI pomáhá, nestačí — konkrétní měření ukáže, kde je přínos a kde jde jen o zvyk.",
     concept: [
       "Říká se, že AI šetří čas. Ale \u201EAI mi šetří čas\" je pocit. Kde konkrétně, jak moc, a při jakém typu úkolů — to jsou data. A data jsou mnohem užitečnější.",
       "Proč to záleží? Protože bez měření jdeš buď do nadšení (AI pomáhá vždy) nebo do skepse (AI nepomáhá nikdy). Upřímný pohled na to, kde AI skutečně přidává hodnotu, ti pomůže ji nasadit tam, kde to dává smysl.",
@@ -575,6 +596,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Jeden den záměrně bez AI. Pozoruj, co se změní.",
     subject: "Den bez AI — ne jako trest, ale jako experiment.",
     preheader: "Jeden den bez AI ti řekne víc než týden s ní.",
+    teze: "Jeden den bez AI odhalí, kde ti skutečně pomáhá — a kde ji jen automaticky otevíráš ze zvyku.",
     concept: [
       "Po 19 dnech aktivního zapojování AI přijde dnes jeden den záměrně bez ní. Ne jako trest nebo detox — ale jako vědomý experiment. Nejlepší způsob, jak zjistit, kde ti AI skutečně pomáhá, je zkusit jeden den bez ní.",
       "Co se může stát: některé věci budou pomalejší. Jiné překvapivě stejné. A u některých si řekneš \u201Etady mi AI opravdu chybí\" — a to je přesně ta informace, která má hodnotu.",
@@ -603,6 +625,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Každý používá AI jinak. Jaký je tvůj styl?",
     subject: "Tvůj AI styl — silné stránky, preference, způsob práce.",
     preheader: "Nejlepší AI workflow je ten, který sedí tobě.",
+    teze: "Nejlepší způsob práce s AI není ten nejpopulárnější — je to ten, který sedí tobě a tvé práci.",
     concept: [
       "Dva lidé se stejnými AI nástroji mohou mít zcela odlišné výsledky. Jeden je skvělý ve psaní promptů, druhý v iteraci. Jeden používá AI pro texty, druhý pro strukturování a analýzu. Jeden preferuje krátké konverzace, druhý delší dialog.",
       "Tohle není problém. Je to realita — a čím dřív to přijmeš, tím lépe budeš vědět, jak AI nasadit.",
@@ -630,6 +653,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "AI si nic nepamatuje. Ale ty si to zařídit můžeš.",
     subject: "Druhý mozek — kde ukládat AI výstupy, aby se neztratily.",
     preheader: "Výstup bez uložení je polovina hodnoty.",
+    teze: "Výstup z AI bez systému uložení je polovina hodnoty — druhá polovina je v tom, co najdeš za měsíc.",
     concept: [
       "Každý AI výstup, který si neuložíš, je pryč. Příští konverzace s AI nezačíná tam, kde ta předchozí skončila — začíná od nuly. To je vlastnost AI, ne chyba. A lze ji kompenzovat.",
       "Druhý mozek je jednoduché místo, kde ukládáš věci, které se vrátí. AI výstupy, šablony, dobré prompty, poznatky, zápisy. Ne proto, aby to bylo hezky seřazené — ale proto, aby se šlo k tomu vrátit.",
@@ -655,6 +679,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Jeden dokument, který změní, jak pracuješ s AI.",
     subject: "Mini knowledge base — kontext, který používáš znovu a znovu.",
     preheader: "Jednou napsat. Použít stokrát.",
+    teze: "Jednou napsat kontext o sobě a své práci — pak ho použít stokrát, pokaždé s lepšími výsledky.",
     concept: [
       "Je jedna věc, kterou AI znovu a znovu potřebuje, a ty ji znovu a znovu opakuješ: kontext o tobě a tvé práci.",
       "Kdo jsi, co děláš, pro koho, jak komunikuješ, jaká jsou tvoje typická témata. Každý nový chat začíná od nuly — a bez kontextu dostáváš generické výstupy.",
@@ -682,6 +707,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Cítíš, že AI pomáhá. Ale umíš to změřit?",
     subject: "Jak poznat, že AI ti skutečně pomáhá.",
     preheader: "Ne \u201EAI mi pomáhá\". Ale proč, kde a o kolik.",
+    teze: "Ne 'AI mi pomáhá' — ale kde přesně, jak moc a co by trvalo bez ní. Rozdíl je měřitelný.",
     concept: [
       "Říkat \u201EAI mi pomáhá\" je jako říkat \u201Esport mi dělá dobře\". Je to pravda — ale bez konkrétnějšího pohledu nevíš, co zopakovat a co změnit.",
       "Čtyři signály, že AI ti opravdu přidává hodnotu:",
@@ -707,6 +733,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Jak vypadal tento týden bez AI?",
     subject: "Zpětné srovnání — s AI vs. bez AI.",
     preheader: "Nejlepší způsob vidět pokrok: imaginární porovnání.",
+    teze: "Porovnání s hypotetickým týdnem bez AI ukáže pokrok lépe než jakýkoli seznam splněných úkolů.",
     concept: [
       "Nemusíš celý týden žít bez AI, aby bylo vidět, co změnila. Stačí si ho představit.",
       "Zpětné porovnání je myšlenkový experiment: vezmi jeden konkrétní výstup nebo proces z minulého týdne a přemýšlej — jak by vypadal bez AI? Jak dlouho by trvalo? Jak by vypadal výsledek? Kolik energie by stál?",
@@ -732,6 +759,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Vědět nestačí. Návyk je jiná věc.",
     subject: "Budování AI návyku — jak ho zabudovat do dne.",
     preheader: "Motivace přijde a odejde. Návyk zůstane.",
+    teze: "Vědomost o AI přijde a odejde s motivací — návyk navázaný na den zůstane i bez ní.",
     concept: [
       "Po 25 dnech víš o AI víc, než většina lidí zjistí za měsíce zkoušení. Ale vědomosti zmizí, pokud za nimi nestojí návyk. A návyk nevznikne z motivace — motivace kolísá. Návyk vzniká z rutiny.",
       "Věda o návycích říká, že tři prvky dělají chování trvalým: spouštěč (cue), rutina (routine), a odměna (reward). To platí přesně i pro AI.",
@@ -756,6 +784,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Pět minut ráno, které změní celý den.",
     subject: "Nastav si svůj denní AI rituál.",
     preheader: "Jeden moment každý den je víc než hodina jednou za týden.",
+    teze: "Pět minut ráno s AI nastaví kontext pro celý den — konzistentně, ne dramaticky.",
     concept: [
       "Nejsilnější AI návyky nejsou velké. Jsou malé, pravidelné a vázané na začátek dne.",
       "Ranní AI rituál — pět minut ráno — dokáže nastavit kontext pro celý den, identifikovat priority, a zahájit nejdůležitější práci dřív, než se roztrhne vak emailů a notifikací.",
@@ -784,6 +813,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Třicet dní. Co ti zůstalo — a co tě čeká dál.",
     subject: "Závěr Basic challenge. Tady co si vezmeš.",
     preheader: "Konec základů. Začátek systémů.",
+    teze: "Třicet dní zvyku s AI je víc než rok příležitostného zkoušení — a je to základ pro vše, co přijde.",
     concept: [
       "Třicet dní je za tebou.",
       "Za sebou máš základy: AI jako leverage, ne jen rychlost. Anatomii dobrého promptu. Práci s kontextem. Iteraci. Šablony. Opakující se práci. Denní rituál. A — nejdůležitější — způsob přemýšlení o práci, který se změní, i když AI přestaneš používat.",
@@ -810,6 +840,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     title: "Kdo jsi teď jako AI uživatel? Jeden výstup, který zůstane.",
     subject: "Identity statement — a nový výchozí bod.",
     preheader: "Konec challenge je začátek způsobu práce.",
+    teze: "Challenge končí. Způsob práce začíná — a identity statement je kotva, která ho udrží.",
     concept: [
       "Poslední den není o učení. Je o pojmenování toho, co už víš.",
       "Výzkum říká, že jedním z největších prediktorů dlouhodobé změny chování je to, jestli si člověk dokáže říct: 'Jsem někdo, kdo tohle dělá.' Ne 'snažím se to dělat'. Ale: 'Tohle je součást toho, jak pracuju.'",

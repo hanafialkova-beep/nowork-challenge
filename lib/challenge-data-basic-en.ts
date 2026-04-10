@@ -6,6 +6,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "This isn't a course. It's a new way of working.",
     subject: "Let's start. Here's how the challenge works.",
     preheader: "28 days, 5–7 minutes a day. One real shift.",
+    teze: "Knowing about AI and habitually using AI are two different things — this challenge builds the second.",
     concept: [
       "AI is everywhere today. New tools, new features, new promises every week. And that's exactly why it's easy to end up just trying things — and then closing the tab when the results aren't what you expected.",
       "This challenge was built so that doesn't happen.",
@@ -31,6 +32,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "AI isn't a faster Google. It's leverage.",
     subject: "One mental shift that changes your results.",
     preheader: "Speed is a side effect. Leverage is the goal.",
+    teze: "AI doesn't speed up work — it changes the ratio of input to output. One prompt instead of an hour of work.",
     concept: [
       "Most people use AI like a slightly smarter search engine: they type a question, get an answer, move on. That works — but it uses a fraction of what AI is actually capable of.",
       "It's like having a Ferrari and only using it to go grocery shopping.",
@@ -61,6 +63,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "AI is a great assistant. Not a very good magician.",
     subject: "A realistic AI map — what it can and can't do.",
     preheader: "Unrealistic expectations and excessive skepticism lead to the same place.",
+    teze: "AI does great what you describe precisely — and fails where you expect it to guess the rest.",
     concept: [
       "One of the biggest mistakes in working with AI is unrealistic expectations. Or, on the other end, excessive skepticism. Both lead to the same result: you don't use AI effectively, because you're either waiting for miracles or convinced it won't help.",
       "A realistic map is better than no map at all.",
@@ -100,6 +103,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "AI knows nothing about you. Change that in 5 minutes.",
     subject: "Tell AI what you do — get a proposal for how to help.",
     preheader: "Generic input = generic output. Context changes everything.",
+    teze: "Generic input gets generic output — 5 minutes describing your context changes everything.",
     concept: [
       "AI without context is like a new colleague on day one. Technically capable, but doesn't yet know who they're working for, what matters, or how things work.",
       "That's exactly how AI behaves until you give it context. And that's today's task.",
@@ -131,6 +135,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "One detail separates a great prompt from an average one.",
     subject: "What makes the biggest difference between a result and garbage.",
     preheader: "Vague input = vague output. Every single time.",
+    teze: "Precise intent in a prompt matters more than length or complexity — and it can be learned quickly.",
     concept: [
       "A bad result from AI usually has one cause: a bad prompt. Not bad AI. That's a liberating message — because you can improve the prompt.",
       "A prompt is essentially a work brief. And the brief you give a new colleague determines the quality of their work. 'Write me an email' is like telling a colleague 'do that thing' — neither one knows where to start.",
@@ -166,6 +171,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Rewriting prompts is a muscle. Today you'll build it.",
     subject: "Practice: from vague to concrete, three times in a row.",
     preheader: "This is a skill, not just knowledge. You have to practice it.",
+    teze: "Prompt writing doesn't improve by reading about it — only by rewriting bad ones until they're better.",
     concept: [
       "Rewriting prompts is like editing text — the first version is never the best. And just like editing: you don't have to start from scratch. You need to know what to add or remove.",
       "Prompting is a skill, not just knowledge. That means reading about it isn't enough — you have to try it on your own examples. Today you have three specific prompts to rewrite. Your task: fix them so they produce better output. Then test both versions in AI and compare.",
@@ -196,6 +202,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "The first result is a foundation. Not a finished product.",
     subject: "Iteration — how to get much more from AI.",
     preheader: "The best output comes in the second or third round.",
+    teze: "Iteration isn't fixing failure — it's the method that turns a good output into a great one.",
     concept: [
       "The biggest mistake when working with AI: write a prompt, get a result, and either accept it or throw it away. Both are wrong — and both throw away the greatest value AI offers.",
       "AI works best as an iterative collaborator. The first output is a foundation — not a final product. That's exactly how collaboration with a good colleague works: you give them the brief, they draft something, you refine it together. AI is tireless in this process — it can iterate indefinitely.",
@@ -227,6 +234,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Week one is done. What did you actually learn?",
     subject: "Week 1 reflection — three things that stick.",
     preheader: "Knowledge fades. A written insight stays.",
+    teze: "A week of experience without writing it down disappears like a week of reading without notes.",
     concept: [
       "The first week is behind us. Six topics, six short exercises. And now comes possibly the most important day of all — reflection.",
       "Why is reflection so important? Because without it, insights disappear just as quickly as they arrived. The brain remembers what it processes — not what it merely receives. Writing down three things that stuck with you is worth more than reading ten more articles about AI.",
@@ -255,6 +263,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Good prompts have structure. Four parts that work.",
     subject: "The anatomy of a good prompt — four parts that always work.",
     preheader: "Role, task, context, format. In that order.",
+    teze: "Role, task, context, format — these four parts work as a template for every prompt.",
     concept: [
       "Last week we distinguished good prompts from bad ones. Now we go one step further: we'll learn exactly what a good prompt contains — and in what order.",
       "There are four parts every good prompt should have. You don't always need all of them — but the more you include, the better your output will be.",
@@ -287,6 +296,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "AI doesn't know what you know. Context is your most powerful tool.",
     subject: "Context is the key — how to give it right.",
     preheader: "The more AI knows, the more it behaves like someone who knows your work.",
+    teze: "The more precise context you give, the more AI behaves like someone who knows your work.",
     concept: [
       "Why do two people with the same prompt get completely different results? Context.",
       "AI has no access to your work, your clients, your resource constraints, or your project history. It only knows what you wrote in the current conversation. That's not a limitation — it's the rules of the game, and you can use them to your advantage.",
@@ -318,6 +328,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "This one's personal. A prompt built from your actual work.",
     subject: "No exercises — a real task, a real output.",
     preheader: "This is where theory becomes practice.",
+    teze: "Theory becomes practice exactly when you use it on your own real task — today.",
     concept: [
       "The first nine days were preparation. Today is the result.",
       "The best way to test what you've learned is to take a real task from your work and go through the whole process: context, role, task, format. Then iterate until the output is actually usable.",
@@ -349,6 +360,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "AI output off? Three questions that fix it.",
     subject: "How to fix a bad output — without starting from scratch.",
     preheader: "Disappointment with the result is information. You know what to say next.",
+    teze: "A bad output is information, not failure — it tells you exactly what's missing in the prompt.",
     concept: [
       "A bad output from AI is frustrating. But it's also information — it tells you exactly what's missing from the prompt.",
       "The worst reaction: delete the output and start over from a blank page. Or abandon AI and do it manually. Both are unnecessary — and both throw away what AI already did for you.",
@@ -380,6 +392,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Good output becomes great. This is how you iterate.",
     subject: "Iteration in practice — better output from what you have.",
     preheader: "Good results don't come on the first try. They come on the third.",
+    teze: "A great output doesn't appear on the first try — it appears in round three with a precise fix instruction.",
     concept: [
       "Today is the day everything comes together.",
       "You have a prompt and output from D10. You have the techniques from D11. Now it's time to combine them — and take the output to the level you'd actually use.",
@@ -410,6 +423,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "When not to use AI — and why knowing that is an advantage.",
     subject: "When AI helps and when it adds work.",
     preheader: "The best tool for every task — sometimes that isn't AI.",
+    teze: "Knowing when not to use AI is just as valuable a skill as knowing how to use it well.",
     concept: [
       "The most sophisticated AI users don't use AI for everything. They know exactly when to use AI — and when it's faster, better, or more reliable to do it without.",
       "This is a perspective you rarely hear in AI tutorials. But it's the perspective that moves you forward the most.",
@@ -448,6 +462,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "When to trust AI output — and when not to.",
     subject: "A convincing output doesn't mean a correct output.",
     preheader: "AI never says 'I don't know'. Here's how to tell.",
+    teze: "AI never says 'I don't know' — it generates convincing text even when it's wrong.",
     concept: [
       "This sentence will define how well you use AI long-term: a convincing output doesn't mean a correct output.",
       "AI never says 'I don't know'. Instead it generates text that sounds confident — even when it can't be sure. This is called hallucination, but a more accurate term is: convincing inaccuracy.",
@@ -484,6 +499,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Halfway through. A look back that gives direction.",
     subject: "Checkpoint — what you're taking from the first half.",
     preheader: "The best 5-minute investment: knowing what you carry forward.",
+    teze: "Halfway through — what you don't write down today, you'll forget before you reach the end.",
     concept: [
       "Fourteen days. Fourteen topics. And now comes one of the most important days of the challenge — not because you're doing something new today, but because you'll stop and process what you've learned.",
       "A written insight works differently from information you've read. When you write down what genuinely works for you, you create a personal checklist — tailored exactly to your work and your situations.",
@@ -518,6 +534,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Repetitive tasks are the most expensive work that exists.",
     subject: "Identify what you do every week again — that's a signal.",
     preheader: "Not every repetitive task is necessary. But every one deserves attention.",
+    teze: "Repetitive work is a signal — and every signal is an opportunity for a template or workflow.",
     concept: [
       "A lot of work doesn't look expensive at first glance. One email here, one summary there, a meeting agenda every Thursday. Each thing takes ten minutes.",
       "But ten things every week is an hour. And an hour every week is two and a half weeks per year. On one category of work.",
@@ -546,6 +563,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Map it out: which tasks to hand to AI and which to keep.",
     subject: "Top 5 repetitive tasks where AI can save the most.",
     preheader: "Leverage matrix: what to hand off to AI, what to improve, what to automate.",
+    teze: "Not all work has equal value and not everything belongs to AI — a map shows where the real leverage is.",
     concept: [
       "Yesterday you identified your repetitive work. Today you'll sort it — and decide where AI brings the most.",
       "Not every repetitive task is the same type of opportunity. It helps to divide them into three categories:",
@@ -579,6 +597,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "A template solves one task. A workflow solves a whole process.",
     subject: "Template vs. workflow — and when to use which.",
     preheader: "A template is an answer. A workflow is a system.",
+    teze: "A template saves time once. A workflow saves time every time, forever.",
     concept: [
       "Template and workflow sound similar. But they're two different things — and confusing them is why someone 'has a template' but still spends the same amount of time.",
       "A template is a pre-prepared output or prompt for one repetitive task. For example: I have a prompt for weekly status — I enter data, I get a draft. A template solves one specific step.",
@@ -613,6 +632,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "One template that saves an hour every week from here on.",
     subject: "Create your first reusable prompt.",
     preheader: "Do it right once. Then 30 seconds every time after.",
+    teze: "One well-written template pays back the investment with every use — and never wears out.",
     concept: [
       "Good templates aren't written in one sitting. They evolve — the first version works at 70%, the second at 85%, the third is the one you use for years.",
       "But sometimes you have to start. And starting means writing the first version — even an imperfect one.",
@@ -650,6 +670,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Where AI saves time and where it adds it — an honest overview.",
     subject: "Measurement, not feeling. Where AI adds value and where it doesn't.",
     preheader: "The best AI workflow is one that actually saves time.",
+    teze: "The feeling that AI helps isn't enough — specific measurement shows where the value is and where it's just habit.",
     concept: [
       "They say AI saves time. But 'AI saves me time' is a feeling. Where specifically, how much, and with what types of tasks — that's data. And data is far more useful.",
       "Why does it matter? Because without measurement you go either into enthusiasm (AI always helps) or skepticism (AI never helps). An honest look at where AI genuinely adds value helps you deploy it where it makes sense.",
@@ -684,6 +705,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "One deliberate day without AI. See what changes.",
     subject: "A real day with AI — not an experiment, but a way of working.",
     preheader: "AI as a quiet collaborator throughout the whole day.",
+    teze: "One day without AI reveals where it genuinely helps — and where you just open it out of habit.",
     concept: [
       "The biggest shift doesn't happen with one perfect AI prompt. It happens when AI stops being 'something I sometimes try' and becomes a quiet tool that's present throughout the day.",
       "That doesn't mean involving AI in every task. It means being alert during the day to moments where AI could help — and actually using it in the ones you choose.",
@@ -713,6 +735,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Everyone uses AI differently. What's your style?",
     subject: "Your AI style — strengths, preferences, way of working.",
     preheader: "The best AI workflow is the one that fits you.",
+    teze: "The best way to work with AI isn't the most popular one — it's the one that fits you and your work.",
     concept: [
       "Two people with the same AI tools can have completely different results. One is great at writing prompts, another at iteration. One uses AI for text, another for structuring and analysis. One prefers short conversations, another longer dialogues.",
       "This isn't a problem. It's reality — and the sooner you accept it, the better you'll know how to deploy AI.",
@@ -741,6 +764,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "AI remembers nothing. But you can set it up to.",
     subject: "Second brain — where to store AI outputs so they don't disappear.",
     preheader: "An output without storage is half the value.",
+    teze: "An AI output without a storage system is half its value — the other half is what you find a month later.",
     concept: [
       "Every AI output you don't save is gone. The next conversation with AI doesn't start where you left off — it starts from zero. That's a feature of AI, not a bug. And it can be compensated for.",
       "A second brain is simply a place where you store things you'll come back to. AI outputs, templates, good prompts, insights, notes. Not because it needs to be beautifully organized — but so you can return to it.",
@@ -770,6 +794,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "One document that changes how you work with AI.",
     subject: "Mini knowledge base — context you use again and again.",
     preheader: "Write it once. Use it a hundred times.",
+    teze: "Write your context once — then use it a hundred times, each time with better results.",
     concept: [
       "There's one thing AI needs again and again — and you keep repeating it: context about you and your work.",
       "Who you are, what you do, who you do it for, how you communicate, what your typical topics are. Every new chat starts from zero — and without context you get generic outputs.",
@@ -802,6 +827,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "You can feel AI is helping. But can you measure it?",
     subject: "How to know AI is actually helping you.",
     preheader: "Not 'AI helps me'. But why, where, and by how much.",
+    teze: "Not 'AI helps me' — but where exactly, how much, and what it would take without it. The difference is measurable.",
     concept: [
       "Saying 'AI helps me' is like saying 'exercise is good for me'. It's true — but without more specific insight you don't know what to repeat and what to change.",
       "Four signals that AI is genuinely adding value:",
@@ -836,6 +862,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "What would this week have looked like without AI?",
     subject: "Side-by-side comparison — with AI vs. without AI.",
     preheader: "The best way to see progress: an imaginary comparison.",
+    teze: "Comparing with a hypothetical week without AI shows progress better than any list of completed tasks.",
     concept: [
       "You don't need to live a whole week without AI to know what it changed. It's enough to imagine it.",
       "The retrospective comparison is a thought experiment: take one specific output or process from the past week and think — what would it have looked like without AI? How long would it have taken? What would the result have looked like? How much energy would it have cost?",
@@ -864,6 +891,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Knowing isn't enough. A habit is a different thing.",
     subject: "Building an AI habit — how to embed it into your day.",
     preheader: "Motivation comes and goes. A habit stays.",
+    teze: "Knowledge about AI comes and goes with motivation — a habit anchored to the day stays without it.",
     concept: [
       "After 25 days you know more about AI than most people know after months of experimenting. But knowledge disappears if there's no habit behind it. And a habit doesn't come from motivation — motivation fluctuates. A habit comes from routine.",
       "The science of habits says three elements make behavior lasting: a cue, a routine, and a reward. That applies exactly to AI too.",
@@ -891,6 +919,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Five minutes in the morning that change the whole day.",
     subject: "Set up your daily AI ritual.",
     preheader: "One moment every day is more than an hour once a week.",
+    teze: "Five minutes with AI in the morning sets context for the whole day — consistently, not dramatically.",
     concept: [
       "The strongest AI habits aren't big. They're small, regular, and attached to the start of the day.",
       "A morning AI ritual — five minutes in the morning — can set the context for the whole day, identify priorities, and start the most important work before the flood of emails and notifications begins.",
@@ -921,6 +950,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Thirty days. What you learned — and what comes next.",
     subject: "Basic challenge wrap-up. Here's what you take away.",
     preheader: "End of the basics. Beginning of systems.",
+    teze: "Thirty days of AI habit is worth more than a year of occasional trying — and it's the foundation for everything that follows.",
     concept: [
       "Thirty days are behind you.",
       "You went through the fundamentals: AI as leverage, not just speed. The anatomy of a good prompt. Working with context. Iteration. Templates. Repetitive work. Calibrated trust. A daily ritual. And — most importantly — a way of thinking about work that changes even if you stop using AI.",
@@ -959,6 +989,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     title: "Who are you now as an AI user? One output that stays.",
     subject: "Identity statement — and a new starting point.",
     preheader: "The end of the challenge is the beginning of a way of working.",
+    teze: "The challenge ends. The way of working begins — and the identity statement is the anchor that keeps it.",
     concept: [
       "The last day isn't about learning. It's about naming what you already know.",
       "Research shows that one of the strongest predictors of long-term behavior change is whether someone can say: 'I'm someone who does this.' Not 'I'm trying to do this.' But: 'This is part of how I work.'",

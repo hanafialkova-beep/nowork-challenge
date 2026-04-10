@@ -11,5 +11,5 @@ export interface ChallengeDay {
   taskFallback?: string; // fallback task if user has no AI tool yet
   taskExample?: string;  // example output or worked example
   taskTip?: string;      // where to record tip
-  teaser: string;
+  teaser?: string;
 }

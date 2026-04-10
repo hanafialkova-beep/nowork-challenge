@@ -19,7 +19,7 @@ export const challengeDataAdvancedCZ: ChallengeDay[] = [
       "A čtvrtá vrstva, která to celé uzavírá: Scale — jak vše vybudované převést na systém, který pracuje za tebe.",
       "Každý den trvá 5–10 minut. Teorie jsou kratší a konkrétnější. Praxe je zaměřena na věci, které budeš moci použít hned.",
       "Prvním krokem: zamysli se nad tím, kde ti AI zatím nestačí. Ne obecně — ale konkrétně. Kde musíš výstup přepsat? Kde s AI ztrácíš čas, místo aby ti ho ušetřila? Kde AI naráží?",
-      "Tohle je výchozí bod. Nejde o sebekritiku — jde o mapování terénu. Příštích 28 dní bude konkrétnější, pokud víš, kde začínáš.",
+      "Tohle je výchozí bod. Nejde o sebekritiku — jde o mapování terénu. Příštích 30 dní bude konkrétnější, pokud víš, kde začínáš.",
     ],
     taskIntro: "Napiš 3 věci, kde ti AI zatím nestačí nebo kde chceš jít výrazně hlouběji. Buď konkrétní:",
     taskItems: [],
@@ -241,10 +241,41 @@ AI výstup — 5 věcí hodných zachycení:
     taskType: "ol",
     taskPrompt: "Řeším aktuálně tuto situaci: [popis situace nebo problému]. Z mých předchozích záznamů je toto relevantní: [vlož záznamy]. Jaké vzorce vidíš? Co z předchozích zkušeností nebo poznatků lze aplikovat na aktuální situaci?",
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
-    teaser: "Zítra: 3C reflexe — kde systém funguje, kde jsou díry a co z prvního týdne vezmeš dál.",
+    teaser: "Zítra: Connect v praxi — propoj starý poznatek s dnešním problémem.",
   },
+
   {
     day: 7,
+    title: "Connect v praxi: propoj starý poznatek s dnešním problémem.",
+    subject: "Connect není metafora — je to konkrétní pracovní krok.",
+    preheader: "Nejcennější znalost není nová. Je to ta, kterou máš — a najdeš ji.",
+    concept: [
+      "Teorie Connect je jasná: vracíš se ke starým zachyceným a zpracovaným znalostem a propojuješ je s aktuálním problémem. Praxe je složitější — protože vyžaduje jeden přechod, který většina lidí přeskočí: záměrně se zeptat před tím, než začneš od nuly.",
+      "Connect prompt — tři slova, která mění způsob práce: 'Mám k tomuhle už něco?'",
+      "Tři situace, kde Connect funguje nejsilněji:",
+      [
+        "Nový projekt v podobné oblasti — zápisky z předchozího projektu mohou ušetřit dny práce",
+        "Opakující se rozhodnutí — pokud jsi podobné rozhodnutí řešil dřív, co jsi tehdy zjistil?",
+        "Výzva, která se zdá nová — zkontroluj, jestli je skutečně nová nebo jen jinak formulovaná"
+      ],
+      "Jak AI pomáhá s Connect: nemusíš zápisky sám procházet. Zkopíruj relevantní poznámky do AI a ptej se: 'Jak to souvisí s tímto novým problémem?' nebo 'Co z těchto záznamů je relevantní pro [situaci]?'",
+      "Klíčová dovednost Connect: neříkat si 'tohle je jiné'. Hledat podobné vzorce dřív, než prohlásíš situaci za zcela novou.",
+    ],
+    taskIntro: "Proveď dnes první vědomý Connect na reálném příkladu:",
+    taskItems: [
+      "Vyber jeden aktuální problém nebo projekt, na kterém pracuješ",
+      "Projdi své záznamy z posledních 3–6 měsíců — Notion, poznámky, emaily — a hledej cokoli relevantního",
+      "Zadej AI: 'Mám tyto záznamy: [vlož]. Řeším teď: [popis]. Co je relevantní a jak to propojit?'",
+      "Zapiš jeden konkrétní poznatek, který by jinak zapadl",
+    ],
+    taskType: "ol",
+    taskPrompt: "Mám tyto starší záznamy nebo poznámky: [vlož záznamy]. Aktuálně řeším: [popis situace nebo problému]. Co z těchto záznamů je relevantní? Jak to propojit s aktuální situací? Jaký klíčový poznatek by bylo škoda přehlédnout?",
+    taskTip: "I kdyby Connect přinesl jen jednu použitelnou věc — to je výsledek. Connect se zlepšuje s tím, jak roste tvůj archiv.",
+    teaser: "Zítra: 3C reflexe — kde systém funguje, kde jsou díry a co z prvního týdne vezmeš dál.",
+  },
+
+  {
+    day: 8,
     title: "3C reflexe: kde systém funguje a kde jsou díry.",
     subject: "Týden jedna za námi — co si z 3C bereš dál.",
     preheader: "Systém funguje jen tehdy, pokud ho skutečně používáš.",
@@ -272,7 +303,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Příští týden: PACT framework — Projects, Agents, Context, Tools. Systémový přístup k AI v projektové práci.",
   },
   {
-    day: 8,
+    day: 9,
     title: "PACT framework: Projects, Agents, Context, Tools.",
     subject: "Proč framework místo náhodného výběru nástrojů.",
     preheader: "Bez struktury se AI stane dalším nástrojem, který přidává zmatek.",
@@ -308,7 +339,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: Projects — jak naplánovat reálný projekt s AI pomocí WBS.",
   },
   {
-    day: 9,
+    day: 10,
     title: "Projects: naplánuj reálný projekt s AI pomocí WBS.",
     subject: "AI jako spolupracovník na struktuře projektu.",
     preheader: "AI nezná tvůj projekt. Ale pokud jí ho popíšeš, pomůže ti ho rozložit.",
@@ -340,7 +371,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: Agents — co jsou AI agenti, kdy dávají smysl a kdy jsou zbytečně složití.",
   },
   {
-    day: 10,
+    day: 11,
     title: "Agents: kdy dávají smysl a kdy jsou zbytečně složití.",
     subject: "Co jsou AI agenti a jak o nich přemýšlet.",
     preheader: "Agent není magic. Je to workflow. A workflow musí mít smysl.",
@@ -374,7 +405,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: Agents v praxi — sestavíš multi-step workflow pro jeden reálný úkol.",
   },
   {
-    day: 11,
+    day: 12,
     title: "Agents v praxi: multi-step workflow pro složitý úkol.",
     subject: "Postav workflow, kde každý krok staví na předchozím.",
     preheader: "Jeden složitý úkol. Tři kroky. Každý navazuje na předchozí.",
@@ -400,10 +431,46 @@ AI výstup — 5 věcí hodných zachycení:
     taskType: "ol",
     taskPrompt: "Krok 1: [instrukce pro analýzu vstupu]. \nKrok 2: Na základě výstupu kroku 1, [instrukce pro strukturu nebo návrh]. \nKrok 3: Na základě výstupu kroku 2, [instrukce pro finální výstup — formát, tón, délka].",
     taskTip: "Pracuj přímo v Claude, ChatGPT nebo Gemini – výsledek si ulož do Notion, Google Docs nebo Apple Notes.",
+    teaser: "Zítra: Jak posoudit, jestli AI výstup v projektu stojí za to — calibrated trust checklist.",
+  },
+
+  {
+    day: 13,
+    title: "Jak posoudit kvalitu AI výstupu — ne pocitem, ale kritériem.",
+    subject: "Calibrated trust: kdy výstupu věřit a kdy ho ověřit.",
+    preheader: "Přesvědčivý výstup a správný výstup nejsou totéž.",
+    concept: [
+      "V projektové práci s AI nastává jeden specifický problém: výstup vypadá dobře. Struktura sedí, jazyk je přesvědčivý, logika dává smysl. A přesto může být chybný — protože AI optimalizuje pro přesvědčivost, ne pro správnost.",
+      "Tři typy chyb, které v projektech nastávají nejčastěji:",
+      [
+        "Faktické chyby — čísla, data, reference: AI je dokáže vymyslet přesvědčivě bez varování",
+        "Kontextové chyby — výstup je obecně správný, ale nezohledňuje specifika projektu, klienta nebo trhu",
+        "Chyby předpokladů — AI předpokládá, že situace je standardní, ale tvůj případ standardní není"
+      ],
+      "Calibrated trust checklist — čtyři otázky pro každý důležitý projektový výstup:",
+      [
+        "Obsahuje výstup konkrétní čísla nebo fakta? → ověř aspoň jedno",
+        "Odpovídá výstup specifickému kontextu projektu nebo je obecný? → pokud obecný, iteruj s kontextem",
+        "Předpokládá výstup něco, co jsem AI neřekl? → identifikuj a explicitně ověř",
+        "Překvapuje výstup v dobrém smyslu? → to je signál pro ověření, ne jen pro přijetí"
+      ],
+      "Kdy iterovat vs. kdy začít znovu: pokud výstup nesedí ve více než jednom bodě checklistu — začni znovu s lepším kontextem. Iterace opravuje výstup. Lepší kontext opravuje zdroj problému.",
+      "Pravidlo pro projekty: čím větší dopad rozhodnutí, tím víc stojí za to ověřit AI výstup externě — vlastní znalostí, kolegou nebo zdrojem.",
+    ],
+    taskIntro: "Vezmi jeden AI výstup z PACT práce tohoto týdne a proveď quality check:",
+    taskItems: [
+      "Projdi ho podle calibrated trust checklistu — odpověz na všechny čtyři otázky",
+      "Identifikuj jedno místo, kde AI předpokládala víc, než jsi zadal",
+      "Uprav prompt nebo přidej kontext a porovnej nový výstup se starým",
+    ],
+    taskType: "ol",
+    taskPrompt: "Toto je můj AI výstup: [vlož výstup]. Proveď quality check: 1) Jaká fakta nebo čísla ve výstupu by stálo za to ověřit? 2) Kde výstup předpokládá kontext, který nebyl poskytnut? 3) Kde je výstup příliš obecný pro reálné použití v projektu?",
+    taskTip: "Quality check nemusí být obsáhlý — dvě minuty a čtyři otázky. Buduje calibrated trust, ne paranoiu.",
     teaser: "Zítra: Context — proč kontext rozhoduje víc než samotný prompt.",
   },
+
   {
-    day: 12,
+    day: 14,
     title: "Context: proč kontext rozhoduje víc než prompt.",
     subject: "Nejdůležitější část PACT frameworku — a proč ji většina lidí přehlíží.",
     preheader: "Stejný prompt, jiný kontext — zcela jiný výsledek.",
@@ -433,7 +500,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: napíšeš svůj pracovní system prompt — kontext, který použiješ znovu a znovu.",
   },
   {
-    day: 13,
+    day: 15,
     title: "Context v praxi: napiš svůj pracovní system prompt.",
     subject: "Jednou napsat. Použít stokrát.",
     preheader: "System prompt je tvůj stálý briefing pro AI.",
@@ -465,7 +532,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: PACT checkpoint — co z frameworku skutečně používáš a co ti přináší hodnotu.",
   },
   {
-    day: 14,
+    day: 16,
     title: "PACT checkpoint: co z frameworku skutečně používáš.",
     subject: "Polovina Advanced challenge — čas zmapovat, kde jsi.",
     preheader: "Framework bez reflexe je jen teorie.",
@@ -495,7 +562,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Příští týden: Superpowers — pět schopností, které AI spoluprací získáváš.",
   },
   {
-    day: 15,
+    day: 17,
     title: "Pět superschopností, které AI spoluprací skutečně získáváš.",
     subject: "Perception, Intelligence, Memory, Creation, Connection.",
     preheader: "Nejcennější věci, které AI spolupráce přinese, nejsou výstupy. Jsou to schopnosti.",
@@ -524,7 +591,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: Perception — jak AI spoluprací trénuješ schopnost vidět vzorce a strukturu.",
   },
   {
-    day: 16,
+    day: 18,
     title: "Perception: vidíš vzorce, které by ti jinak unikly.",
     subject: "Jak AI spoluprací trénuješ schopnost vidět strukturu v chaosu.",
     preheader: "Nejcennější věc není rychlejší výstup. Je to jiný způsob vidění.",
@@ -552,7 +619,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: Intelligence — jak AI spoluprací trénuješ schopnost lépe rozhodovat.",
   },
   {
-    day: 17,
+    day: 19,
     title: "Intelligence: lepší rozhodnutí s AI jako myšlenkovým partnerem.",
     subject: "Jak AI spoluprací trénuješ schopnost lépe rozhodovat.",
     preheader: "AI nerozhodne za tebe. Ale pomůže ti udělat lepší rozhodnutí.",
@@ -583,7 +650,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: Intelligence v praxi — analyzuješ reálné rozhodnutí, které teď řešíš.",
   },
   {
-    day: 18,
+    day: 20,
     title: "Intelligence v praxi: analyzuj rozhodnutí, které teď řešíš.",
     subject: "Structured decision-making s AI — od uvažování k akci.",
     preheader: "Teorie rozhodování je jedna věc. Praxe je jiná.",
@@ -610,7 +677,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: zbývající tři superschopnosti — Memory, Creation, Connection.",
   },
   {
-    day: 19,
+    day: 21,
     title: "Memory, Creation, Connection: zbývající tři superschopnosti.",
     subject: "Tři superschopnosti, které dokončují obraz.",
     preheader: "Paměť, tvorba, propojení — a jak je AI spoluprací rozvíjíš.",
@@ -647,7 +714,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: Creation v praxi — komplexní výstup od nuly, s iterací.",
   },
   {
-    day: 20,
+    day: 22,
     title: "Creation: komplexní výstup od nuly s iterací.",
     subject: "Postav komplexní výstup v šesti krocích.",
     preheader: "Paralýza prázdné stránky přestane existovat, když máš proces.",
@@ -679,7 +746,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: reflexe Superpowers — která ti sedí a kterou chceš dál rozvíjet.",
   },
   {
-    day: 21,
+    day: 23,
     title: "Tvoje AI superschopnosti: která ti sedí, kterou chceš rozvíjet?",
     subject: "Reflexe Superpowers týdne — a tvůj osobní profil.",
     preheader: "Nejlepší systém rozvoje je ten, který vychází z tebe.",
@@ -708,7 +775,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Příští týden: Scale — Human-in-the-loop, workflow s checkpointy, AI adoption v týmu a systém, který pracuje za tebe.",
   },
   {
-    day: 22,
+    day: 24,
     title: "Human-in-the-loop: kde jsi ty v AI procesu.",
     subject: "Jak navrhnout systém, kde AI pracuje, ale ty kontroluješ.",
     preheader: "Nejlepší AI systém není ten, kde AI dělá vše. Je to ten, kde ví, kde jsi potřeba.",
@@ -741,7 +808,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: nakresli svůj workflow — kde jsi ty, kde pracuje AI, kde jsou checkpointy.",
   },
   {
-    day: 23,
+    day: 25,
     title: "Nakresli svůj workflow: kde jsi ty, kde pracuje AI.",
     subject: "Workflow s checkpointy — vizualizace systému.",
     preheader: "Systém, který nevidíš, nemůžeš optimalizovat.",
@@ -771,7 +838,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: AI adoption v týmu — jak sdílet znalost bez hype a bez odporu.",
   },
   {
-    day: 24,
+    day: 26,
     title: "AI adoption v týmu: jak sdílet znalost bez hype a bez odporu.",
     subject: "Jak přenést AI práci na kolegy bez tlaku a bez technologie pro technologii.",
     preheader: "Nejlepší AI champion v týmu je ten, kdo ukazuje výsledky, ne evangelizuje.",
@@ -803,7 +870,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: nauč kolegu jeden AI trick — nebo ho zapiš jako mini guide.",
   },
   {
-    day: 25,
+    day: 27,
     title: "Nauč kolegu jeden AI trick — nebo ho zapiš jako mini guide.",
     subject: "Znalost sdílená je znalost zdvojená.",
     preheader: "Nejlepší test, jestli něco chápeš: dokážeš to vysvětlit jednoduše.",
@@ -832,7 +899,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: leverage na úrovni systému — nástroj vs. způsob práce.",
   },
   {
-    day: 26,
+    day: 28,
     title: "Leverage na úrovni systému: nástroj vs. způsob práce.",
     subject: "Rozdíl mezi 'používám AI' a 'AI je součást mého systému práce'.",
     preheader: "Největší leverage není v jednom skvělém promptu. Je v systému.",
@@ -861,7 +928,7 @@ AI výstup — 5 věcí hodných zachycení:
     teaser: "Zítra: postavíš end-to-end mini AI systém — na jeden ze svých klíčových procesů.",
   },
   {
-    day: 27,
+    day: 29,
     title: "Postav end-to-end mini AI systém.",
     subject: "Jeden klíčový proces — od vstupu po výstup — s AI na každém kroku.",
     preheader: "Systém, který pracuje za tebe, začíná jako jeden dobře navržený proces.",
@@ -892,10 +959,10 @@ AI výstup — 5 věcí hodných zachycení:
     ],
     taskType: "ol",
     taskTip: "Systém ulož do svého knowledge base — tak, aby byl dostupný tobě i kolegům.",
-    teaser: "Zítra je závěr. 28 dní. Co za tu dobu vzniklo — a co přichází dál.",
+    teaser: "Zítra je závěr. 30 dní. Co za tu dobu vzniklo — a co přichází dál.",
   },
   {
-    day: 28,
+    day: 30,
     title: "Systém je postaven. A teď pracuje za tebe.",
     subject: "Závěr Advanced challenge — a co přichází dál.",
     preheader: "Konec challenge. Začátek systému.",

@@ -9,7 +9,7 @@ interface DayContentProps {
   totalDays?: number;
 }
 
-export default function DayContent({ day, lang, demo, version, totalDays = 28 }: DayContentProps) {
+export default function DayContent({ day, lang, demo, version, totalDays = 30 }: DayContentProps) {
   const demoParam = demo ? `?demo=1${version ? `&version=${version}` : ""}` : "";
   const prevDay = day.day > 0 ? day.day - 1 : null;
   const nextDay = day.day < totalDays ? day.day + 1 : null;
@@ -19,7 +19,7 @@ export default function DayContent({ day, lang, demo, version, totalDays = 28 }:
       {/* Day badge */}
       <div className="mb-6">
         <span className="inline-block bg-nowork-black text-nowork-orange text-xs font-bold tracking-widest uppercase px-3 py-1.5 rounded-md">
-          Day {day.day} · 28 Day Challenge
+          Day {day.day} · 30 Day Challenge
         </span>
       </div>
 

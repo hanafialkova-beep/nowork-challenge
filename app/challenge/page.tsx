@@ -42,8 +42,8 @@ function ChallengeContent() {
   }, [router, demo, searchParams]);
 
   const labels = lang === "cz"
-    ? { title: "28 Day Challenge", sub: "Vyber den a pokračuj v challenge.", days: "dní" }
-    : { title: "28 Day Challenge", sub: "Pick a day and continue your challenge.", days: "days" };
+    ? { title: "30 Day Challenge", sub: "Vyber den a pokračuj v challenge.", days: "dní" }
+    : { title: "30 Day Challenge", sub: "Pick a day and continue your challenge.", days: "days" };
 
   const progressPct = Math.round((Math.min(unlockedDays, 28) / 28) * 100);
 

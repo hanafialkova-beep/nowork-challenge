@@ -7,12 +7,12 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "NOWORK 28 Day Challenge",
-  description: "Upgrade the way you work with AI. 28 days, 5–7 minutes a day.",
+  title: "NOWORK 30 Day Challenge",
+  description: "Upgrade the way you work with AI. 30 days, 5–7 minutes a day.",
   icons: { icon: "/favicon.ico" },
   openGraph: {
-    title: "NOWORK 28 Day Challenge",
-    description: "Upgrade the way you work with AI. 28 days, 5–7 minutes a day.",
+    title: "NOWORK 30 Day Challenge",
+    description: "Upgrade the way you work with AI. 30 days, 5–7 minutes a day.",
     url: "https://nowork.ai",
     siteName: "NOWORK",
   },

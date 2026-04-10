@@ -30,7 +30,7 @@ function DayPageContent() {
     const lv = (demo && urlVersion) ? urlVersion : getLevel();
     setLangState(l);
     const dayNum = parseInt(params.day as string, 10);
-    if (isNaN(dayNum) || dayNum < 0 || dayNum > 28) { setNotFound(true); return; }
+    if (isNaN(dayNum) || dayNum < 0 || dayNum > 30) { setNotFound(true); return; }
     if (!demo && !isDayUnlocked(dayNum)) { router.push("/challenge"); return; }
     let data;
     if (l === "cz") {

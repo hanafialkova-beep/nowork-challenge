@@ -13,7 +13,7 @@ export default function LandingPage() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-nowork-black text-nowork-orange text-xs font-bold tracking-widest uppercase px-4 py-2 rounded-full mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-nowork-orange animate-pulse" />
-            28 Day Challenge
+            30 Day Challenge
           </div>
 
           {/* Headline */}

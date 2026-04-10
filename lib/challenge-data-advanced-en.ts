@@ -19,7 +19,7 @@ export const challengeDataAdvancedEN: ChallengeDay[] = [
       "And a fourth layer that closes everything: Scale — how to turn what you've built into a system that works for you.",
       "Each day takes 5–10 minutes. The theory is shorter and more concrete. The practice focuses on things you can use immediately.",
       "First step: think about where AI falls short for you. Not generally — but specifically. Where do you have to rewrite the output? Where do you lose time with AI instead of saving it? Where does it hit a wall?",
-      "This is your starting point. It's not self-criticism — it's mapping the terrain. The next 28 days will be more concrete when you know where you're starting from.",
+      "This is your starting point. It's not self-criticism — it's mapping the terrain. The next 30 days will be more concrete when you know where you're starting from.",
     ],
     taskIntro: "Write 3 things where AI falls short for you or where you want to go significantly deeper. Be specific:",
     taskItems: [],
@@ -241,10 +241,41 @@ AI output — 5 things worth capturing:
     taskType: "ol",
     taskPrompt: "I'm currently dealing with this situation: [description of situation or problem]. From my previous records, this is relevant: [paste records]. What patterns do you see? What from previous experience or insights can be applied to the current situation?",
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
-    teaser: "Tomorrow: 3C reflection — where the system works, where there are gaps, and what you take forward from week one.",
+    teaser: "Tomorrow: Connect in practice — link an old insight to today's problem.",
   },
+
   {
     day: 7,
+    title: "Connect in practice: link an old insight to today's problem.",
+    subject: "Connect isn't a metaphor — it's a concrete work step.",
+    preheader: "The most valuable knowledge isn't new. It's what you already have.",
+    concept: [
+      "The theory of Connect is clear: you return to old captured and processed knowledge and link it to a current problem. The practice is harder — because it requires one transition most people skip: deliberately asking before you start from scratch.",
+      "The Connect prompt — three words that change the way you work: 'Do I have anything on this?'",
+      "Three situations where Connect works most powerfully:",
+      [
+        "A new project in a similar area — notes from a previous project can save days of work",
+        "A recurring decision — if you've dealt with a similar decision before, what did you find out?",
+        "A challenge that seems new — check whether it's actually new or just phrased differently"
+      ],
+      "How AI helps with Connect: you don't need to go through your notes yourself. Paste relevant notes into AI and ask: 'How does this relate to this new problem?' or 'What from these records is relevant to [situation]?'",
+      "The key Connect skill: not telling yourself 'this is different'. Looking for similar patterns before declaring a situation entirely new.",
+    ],
+    taskIntro: "Do your first conscious Connect on a real example today:",
+    taskItems: [
+      "Choose one current problem or project you're working on",
+      "Go through your records from the last 3–6 months — Notion, notes, emails — and look for anything relevant",
+      "Give AI: 'I have these records: [paste]. I'm now dealing with: [description]. What's relevant and how to connect it?'",
+      "Write down one concrete insight that would otherwise be lost",
+    ],
+    taskType: "ol",
+    taskPrompt: "I have these older records or notes: [paste records]. I'm currently dealing with: [description of situation or problem]. What from these records is relevant? How to connect it to the current situation? What key insight would be a shame to miss?",
+    taskTip: "Even if Connect brings just one usable thing — that's a result. Connect improves as your archive grows.",
+    teaser: "Tomorrow: 3C reflection — where the system works, where there are gaps, and what you take forward from week one.",
+  },
+
+  {
+    day: 8,
     title: "3C reflection: where the system works and where the gaps are.",
     subject: "Week one is done — what you're taking from 3C.",
     preheader: "A system only works when you actually use it.",
@@ -272,7 +303,7 @@ AI output — 5 things worth capturing:
     teaser: "Next week: PACT framework — Projects, Agents, Context, Tools. A systematic approach to AI in project work.",
   },
   {
-    day: 8,
+    day: 9,
     title: "PACT framework: Projects, Agents, Context, Tools.",
     subject: "Why a framework beats a random selection of tools.",
     preheader: "Without structure, AI becomes another tool that adds confusion.",
@@ -308,7 +339,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: Projects — how to plan a real project with AI using WBS.",
   },
   {
-    day: 9,
+    day: 10,
     title: "Projects: plan a real project with AI using WBS.",
     subject: "AI as a collaborator on project structure.",
     preheader: "AI doesn't know your project. But if you describe it, it can help you break it down.",
@@ -340,7 +371,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: Agents — what are AI agents, when do they make sense, and when are they overkill.",
   },
   {
-    day: 10,
+    day: 11,
     title: "Agents: when they make sense and when they're overkill.",
     subject: "What are AI agents and how to think about them.",
     preheader: "An agent isn't magic. It's a workflow. And a workflow has to make sense.",
@@ -374,7 +405,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: Agents in practice — you'll build a multi-step workflow for one real task.",
   },
   {
-    day: 11,
+    day: 12,
     title: "Agents in practice: a multi-step workflow for a complex task.",
     subject: "Build a workflow where each step builds on the previous.",
     preheader: "One complex task. Three steps. Each depends on the last.",
@@ -400,10 +431,46 @@ AI output — 5 things worth capturing:
     taskType: "ol",
     taskPrompt: "Step 1: [instruction for input analysis]. \nStep 2: Based on the output of step 1, [instruction for structure or proposal]. \nStep 3: Based on the output of step 2, [instruction for final output — format, tone, length].",
     taskTip: "Work directly in Claude, ChatGPT, or Gemini – save the result to Notion, Google Docs, or Apple Notes.",
+    teaser: "Tomorrow: how to evaluate whether an AI output in a project is worth trusting — calibrated trust checklist.",
+  },
+
+  {
+    day: 13,
+    title: "How to evaluate AI output quality — not by feel, but by criteria.",
+    subject: "Calibrated trust: when to trust output and when to verify it.",
+    preheader: "A convincing output and a correct output aren't the same thing.",
+    concept: [
+      "In project work with AI, one specific problem arises: the output looks good. The structure works, the language is convincing, the logic makes sense. And yet it may be wrong — because AI optimizes for persuasiveness, not correctness.",
+      "Three types of errors that occur most often in projects:",
+      [
+        "Factual errors — numbers, dates, references: AI can invent them convincingly with no warning",
+        "Context errors — output is generally correct but doesn't account for the specifics of your project, client, or market",
+        "Assumption errors — AI assumes the situation is standard, but your case isn't standard"
+      ],
+      "Calibrated trust checklist — four questions for every important project output:",
+      [
+        "Does the output contain specific numbers or facts? → verify at least one",
+        "Does the output match the specific project context or is it generic? → if generic, iterate with context",
+        "Does the output assume something you didn't tell AI? → identify and explicitly verify",
+        "Does the output surprise you in a good way? → that's a signal to verify, not just accept"
+      ],
+      "When to iterate vs. when to start over: if the output fails more than one checklist point — start over with better context. Iteration fixes output. Better context fixes the source of the problem.",
+      "Rule for projects: the greater the impact of a decision, the more it's worth verifying AI output externally — with your own knowledge, a colleague, or a source.",
+    ],
+    taskIntro: "Take one AI output from this week's PACT work and run a quality check:",
+    taskItems: [
+      "Go through it using the calibrated trust checklist — answer all four questions",
+      "Identify one place where AI assumed more than you told it",
+      "Adjust the prompt or add context and compare the new output with the old one",
+    ],
+    taskType: "ol",
+    taskPrompt: "This is my AI output: [paste output]. Run a quality check: 1) What facts or numbers in the output are worth verifying? 2) Where does the output assume context that wasn't provided? 3) Where is the output too generic for real use in the project?",
+    taskTip: "A quality check doesn't need to be extensive — two minutes and four questions. It builds calibrated trust, not paranoia.",
     teaser: "Tomorrow: Context — why context decides more than the prompt itself.",
   },
+
   {
-    day: 12,
+    day: 14,
     title: "Context: why context decides more than the prompt.",
     subject: "The most important part of the PACT framework — and why most people overlook it.",
     preheader: "Same prompt, different context — completely different result.",
@@ -433,7 +500,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: you'll write your working system prompt — context you'll use again and again.",
   },
   {
-    day: 13,
+    day: 15,
     title: "Context in practice: write your working system prompt.",
     subject: "Write it once. Use it a hundred times.",
     preheader: "Your system prompt is your standing briefing for AI.",
@@ -465,7 +532,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: PACT checkpoint — what from the framework you're actually using and what's bringing you value.",
   },
   {
-    day: 14,
+    day: 16,
     title: "PACT checkpoint: what from the framework you're actually using.",
     subject: "Halfway through Advanced challenge — time to map where you are.",
     preheader: "A framework without reflection is just theory.",
@@ -495,7 +562,7 @@ AI output — 5 things worth capturing:
     teaser: "Next week: Superpowers — five capabilities you develop through AI collaboration.",
   },
   {
-    day: 15,
+    day: 17,
     title: "Five superpowers you gain through AI collaboration.",
     subject: "Perception, Intelligence, Memory, Creation, Connection.",
     preheader: "The most valuable things AI collaboration brings aren't outputs. They're capabilities.",
@@ -524,7 +591,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: Perception — how AI collaboration trains your ability to see patterns and structure.",
   },
   {
-    day: 16,
+    day: 18,
     title: "Perception: you see patterns that would otherwise escape you.",
     subject: "How AI collaboration trains your ability to see structure in chaos.",
     preheader: "The most valuable thing isn't a faster output. It's a different way of seeing.",
@@ -552,7 +619,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: Intelligence — how AI collaboration trains your ability to make better decisions.",
   },
   {
-    day: 17,
+    day: 19,
     title: "Intelligence: better decisions with AI as a thinking partner.",
     subject: "How AI collaboration trains your ability to decide better.",
     preheader: "AI won't decide for you. But it will help you make a better decision.",
@@ -583,7 +650,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: Intelligence in practice — you'll analyze a real decision you're currently facing.",
   },
   {
-    day: 18,
+    day: 20,
     title: "Intelligence in practice: analyze a real decision you're facing.",
     subject: "Structured decision-making with AI — from reasoning to action.",
     preheader: "Decision theory is one thing. Practice is another.",
@@ -610,7 +677,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: the remaining three superpowers — Memory, Creation, Connection.",
   },
   {
-    day: 19,
+    day: 21,
     title: "Memory, Creation, Connection: the remaining three superpowers.",
     subject: "Three superpowers that complete the picture.",
     preheader: "Memory, creation, connection — and how AI collaboration develops them.",
@@ -647,7 +714,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: Creation in practice — building a complex output from scratch, with iteration.",
   },
   {
-    day: 20,
+    day: 22,
     title: "Creation: complex output from scratch with iteration.",
     subject: "Build a complex output in six steps.",
     preheader: "Blank page paralysis stops when you have a process.",
@@ -679,7 +746,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: Superpowers reflection — which comes naturally to you and which do you want to develop further.",
   },
   {
-    day: 21,
+    day: 23,
     title: "Your AI superpowers: which comes naturally, which to develop further.",
     subject: "Superpowers week reflection — and your personal profile.",
     preheader: "The best development system is the one that starts from you.",
@@ -708,7 +775,7 @@ AI output — 5 things worth capturing:
     teaser: "Next week: Scale — Human-in-the-loop, workflow with checkpoints, AI adoption in a team, and a system that works for you.",
   },
   {
-    day: 22,
+    day: 24,
     title: "Human-in-the-loop: where you must be in the AI process.",
     subject: "How to design a system where AI works but you control.",
     preheader: "The best AI system isn't one where AI does everything. It's one that knows where you're needed.",
@@ -741,7 +808,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: map your workflow — where you are, where AI works, where the checkpoints are.",
   },
   {
-    day: 23,
+    day: 25,
     title: "Map your workflow: where you are, where AI works.",
     subject: "Workflow with checkpoints — visualizing the system.",
     preheader: "A system you can't see, you can't optimize.",
@@ -771,7 +838,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: AI adoption in a team — sharing knowledge without hype or resistance.",
   },
   {
-    day: 24,
+    day: 26,
     title: "AI adoption in a team: sharing knowledge without hype or resistance.",
     subject: "How to bring AI to colleagues without pressure and without technology for technology's sake.",
     preheader: "The best AI champion on a team is the one who shows results, not evangelizes.",
@@ -803,7 +870,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: teach a colleague one AI trick — or write it as a mini guide.",
   },
   {
-    day: 25,
+    day: 27,
     title: "Teach a colleague one AI trick — or write it as a mini guide.",
     subject: "Knowledge shared is knowledge doubled.",
     preheader: "The best test of whether you understand something: can you explain it simply?",
@@ -832,7 +899,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: leverage at the system level — tool vs. way of working.",
   },
   {
-    day: 26,
+    day: 28,
     title: "Leverage at the system level: tool vs. way of working.",
     subject: "The difference between 'I use AI' and 'AI is part of how I work'.",
     preheader: "The biggest leverage isn't in one great prompt. It's in the system.",
@@ -861,7 +928,7 @@ AI output — 5 things worth capturing:
     teaser: "Tomorrow: you'll build an end-to-end mini AI system — for one of your key processes.",
   },
   {
-    day: 27,
+    day: 29,
     title: "Build an end-to-end mini AI system.",
     subject: "One key process — from input to output — with AI at every step.",
     preheader: "A system that works for you starts as one well-designed process.",
@@ -892,10 +959,10 @@ AI output — 5 things worth capturing:
     ],
     taskType: "ol",
     taskTip: "Save the system in your knowledge base — so it's accessible to you and to colleagues.",
-    teaser: "Tomorrow is the wrap-up. 28 days. What you've built — and what comes next.",
+    teaser: "Tomorrow is the wrap-up. 30 days. What you've built — and what comes next.",
   },
   {
-    day: 28,
+    day: 30,
     title: "The system is built. And now it works for you.",
     subject: "Advanced challenge wrap-up — and what comes next.",
     preheader: "End of the challenge. Beginning of the system.",

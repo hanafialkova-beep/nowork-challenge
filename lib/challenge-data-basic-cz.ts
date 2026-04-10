@@ -372,11 +372,47 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     ],
     taskType: "ol",
     taskTip: "Ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
-    teaser: "Zítra: Checkpoint — polovina challenge je za tebou a zapíšeš si svůj osobní prompt checklist.",
+    teaser: "Zítra: Kdy AI výstupu věřit — a kdy ho ověřit.",
   },
 
   {
     day: 14,
+    title: "Kdy AI výstupu věřit — a kdy ne.",
+    subject: "Přesvědčivý výstup ještě neznamená správný výstup.",
+    preheader: "AI nikdy neřekne 'nevím'. Tady je, jak to poznat.",
+    concept: [
+      "Tato věta rozhoduje o tom, jak dobře budeš AI používat dlouhodobě: přesvědčivý výstup ještě neznamená správný výstup.",
+      "AI nikdy neřekne 'nevím'. Místo toho vygeneruje text, který zní jistě — i tehdy, kdy si jistá být nemůže. Říká se tomu halucinace, ale přesnější výraz je: přesvědčivá nepřesnost.",
+      "Kde to nastává nejčastěji:",
+      [
+        "Fakta a čísla — statistiky, data, procentní výsledky: AI je dokáže vymyslet přesvědčivě bez varování",
+        "Reference a citáty — 'expert X říká...' nebo 'studie z roku...' — bez ověření nelze věřit",
+        "Aktuální informace — AI má datum cut-off a neví, co se stalo po určitém datu",
+        "Tvůj specifický kontext — AI nezná tvoji firmu, klienty ani interní procesy"
+      ],
+      "Tři červené vlajky, které stojí za ověření:",
+      [
+        "Přesné číslo nebo procento bez zdroje — kde to AI vzala?",
+        "Citát nebo reference na konkrétní studii nebo osobu — existuje to skutečně?",
+        "Tvrzení z tvého oboru, které jsi sám dosud neslyšel — proč to nevíš, pokud je to pravda?"
+      ],
+      "Calibrated trust: cílem není AI nedůvěřovat. Cílem je vědět, kde ověřit a kde věřit. Texty, struktury, nápady — nízké riziko. Fakta, čísla, reference — vždy ověřit.",
+    ],
+    taskIntro: "Vezmi jeden výstup z předchozích dnů a proveď rychlý fact-check:",
+    taskItems: [
+      "Najdi jedno konkrétní tvrzení, číslo nebo referenci, které AI použila",
+      "Ověř ho — Googlem, vlastní znalostí nebo zdrojem",
+      "Zapiš: bylo to správně? Pokud ne — jak přesvědčivě to znělo?",
+    ],
+    taskType: "ol",
+    taskFallback: `Pokud nemáš uložený výstup, zadej AI tento prompt a pak ověř jednu věc, kterou odpoví:
+"Jaké jsou tři klíčové statistiky o využití AI v práci v roce 2024?"`,
+    taskTip: "Nejde o to, že AI lže — jde o to, že si neuvědomuje, kdy si není jistá. Ty ano.",
+    teaser: "Zítra: Checkpoint — polovina challenge je za tebou a zapíšeš si svůj osobní prompt checklist.",
+  },
+
+  {
+    day: 15,
     title: "Polovina za tebou. Ohlédnutí, které dává směr.",
     subject: "Checkpoint — co ti z první poloviny zůstalo.",
     preheader: "Nejlepší investice 5 minut: vědět, co si vezmeš dál.",
@@ -404,7 +440,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   // ─── TÝDEN 3: Šablony + workflow (D15–D21) ────────────────────────────────────
 
   {
-    day: 15,
+    day: 16,
     title: "Opakující se úkoly jsou nejdražší práce, která existuje.",
     subject: "Identifikuj, co děláš každý týden znovu — to je signál.",
     preheader: "Ne každá opakující se práce je nutná. Ale každá stojí za pozornost.",
@@ -429,7 +465,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   },
 
   {
-    day: 16,
+    day: 17,
     title: "Sestav si mapu: které úkoly svěřit AI a které ne.",
     subject: "Top 5 opakujících se úkolů, kde AI může ušetřit nejvíc.",
     preheader: "Leverage matice: co předat AI, co vylepšit, co zautomatizovat.",
@@ -454,7 +490,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   },
 
   {
-    day: 17,
+    day: 18,
     title: "Šablona řeší jeden úkol. Workflow řeší celý proces.",
     subject: "Šablona vs. workflow — a kdy použít co.",
     preheader: "Šablona je odpověď. Workflow je systém.",
@@ -481,7 +517,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   },
 
   {
-    day: 18,
+    day: 19,
     title: "Jedna šablona, která od teď ušetří hodinu každý týden.",
     subject: "Vytvoř první opakovaně použitelný prompt.",
     preheader: "Jednou dobře. Pak za 30 vteřin pokaždé.",
@@ -509,7 +545,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   },
 
   {
-    day: 19,
+    day: 20,
     title: "Kde AI šetří čas a kde ho přidává — upřímný přehled.",
     subject: "Měření, ne pocit. Kde AI přidává hodnotu a kde ne.",
     preheader: "Nejlepší AI workflow je ten, který opravdu ušetří čas.",
@@ -535,7 +571,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   },
 
   {
-    day: 20,
+    day: 21,
     title: "Jeden den záměrně bez AI. Pozoruj, co se změní.",
     subject: "Den bez AI — ne jako trest, ale jako experiment.",
     preheader: "Jeden den bez AI ti řekne víc než týden s ní.",
@@ -563,7 +599,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   },
 
   {
-    day: 21,
+    day: 22,
     title: "Každý používá AI jinak. Jaký je tvůj styl?",
     subject: "Tvůj AI styl — silné stránky, preference, způsob práce.",
     preheader: "Nejlepší AI workflow je ten, který sedí tobě.",
@@ -590,7 +626,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   // ─── TÝDEN 4: Druhý mozek + návyk (D22–D28) ───────────────────────────────────
 
   {
-    day: 22,
+    day: 23,
     title: "AI si nic nepamatuje. Ale ty si to zařídit můžeš.",
     subject: "Druhý mozek — kde ukládat AI výstupy, aby se neztratily.",
     preheader: "Výstup bez uložení je polovina hodnoty.",
@@ -615,7 +651,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   },
 
   {
-    day: 23,
+    day: 24,
     title: "Jeden dokument, který změní, jak pracuješ s AI.",
     subject: "Mini knowledge base — kontext, který používáš znovu a znovu.",
     preheader: "Jednou napsat. Použít stokrát.",
@@ -642,7 +678,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   },
 
   {
-    day: 24,
+    day: 25,
     title: "Cítíš, že AI pomáhá. Ale umíš to změřit?",
     subject: "Jak poznat, že AI ti skutečně pomáhá.",
     preheader: "Ne \u201EAI mi pomáhá\". Ale proč, kde a o kolik.",
@@ -667,7 +703,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   },
 
   {
-    day: 25,
+    day: 26,
     title: "Jak vypadal tento týden bez AI?",
     subject: "Zpětné srovnání — s AI vs. bez AI.",
     preheader: "Nejlepší způsob vidět pokrok: imaginární porovnání.",
@@ -692,7 +728,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   },
 
   {
-    day: 26,
+    day: 27,
     title: "Vědět nestačí. Návyk je jiná věc.",
     subject: "Budování AI návyku — jak ho zabudovat do dne.",
     preheader: "Motivace přijde a odejde. Návyk zůstane.",
@@ -716,7 +752,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   },
 
   {
-    day: 27,
+    day: 28,
     title: "Pět minut ráno, které změní celý den.",
     subject: "Nastav si svůj denní AI rituál.",
     preheader: "Jeden moment každý den je víc než hodina jednou za týden.",
@@ -744,28 +780,56 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
   // ─── D28: Závěr ───────────────────────────────────────────────────────────────
 
   {
-    day: 28,
-    title: "28 dní. Co ti zůstalo — a co tě čeká dál.",
+    day: 29,
+    title: "Třicet dní. Co ti zůstalo — a co tě čeká dál.",
     subject: "Závěr Basic challenge. Tady co si vezmeš.",
     preheader: "Konec základů. Začátek systémů.",
     concept: [
-      "Dvacet osm dní je za tebou.",
+      "Třicet dní je za tebou.",
       "Za sebou máš základy: AI jako leverage, ne jen rychlost. Anatomii dobrého promptu. Práci s kontextem. Iteraci. Šablony. Opakující se práci. Denní rituál. A — nejdůležitější — způsob přemýšlení o práci, který se změní, i když AI přestaneš používat.",
       "Co challenge přinesla:",
-      ["Dobrý prompt = role + úkol + kontext + formát — a proč každá část záleží", "Iterace jako způsob práce — první výstup je základ, ne finální produkt", "Opakující se práce jako signál pro šablonu nebo workflow", "Druhý mozek — kde ukládat výstupy, aby nezmizely", "AI návyk jako rutina, ne motivace — malý, pravidelný, vázaný na den"],
+      ["Dobrý prompt = role + úkol + kontext + formát — a proč každá část záleží", "Iterace jako způsob práce — první výstup je základ, ne finální produkt", "Opakující se práce jako signál pro šablonu nebo workflow", "Kdy AI věřit a kdy ověřit — calibrated trust jako klíčová dovednost", "Druhý mozek — kde ukládat výstupy, aby nezmizely", "AI návyk jako rutina, ne motivace — malý, pravidelný, vázaný na den"],
       "Co přichází v Advanced verzi challenge:",
       ["3C framework: Capture, Clean, Connect — systém pro práci s informacemi a znalostmi", "PACT framework: Projects, Agents, Context, Tools — jak AI zapojit do projektové práce", "Pět superschopností, které AI spoluprací získáváš — Perception, Intelligence, Memory, Creation, Connection", "Leverage na úrovni systému — workflow, týmové nasazení, end-to-end procesy"],
       "Basic challenge tě postavila na nohy. Advanced challenge tě naučí běžet.",
-      "Ale teď — oslav, co za sebou máš. 28 dní, 5–7 minut denně. To není samozřejmost. Většina lidí to nikdy nedodělá.",
+      "Ale teď — jeden krok ještě zbývá. Zítra si odpoví na jednu otázku, která rozhoduje o tom, jestli tohle vydrží.",
     ],
-    taskIntro: "Poslední úkol challenge — závěrečná reflexe:",
+    taskIntro: "Reflexe posledních 30 dní — tři konkrétní věci:",
     taskItems: [
       "Tři největší poznatky z celé challenge — konkrétní, ne obecné",
       "Jedno místo, kde AI změnila způsob, jak pracuješ — konkrétní výstup nebo rutina",
       "Jeden cíl pro příštích 30 dní — co budeš dělat jinak s AI, specificky",
     ],
     taskType: "ol",
-    taskTip: "Závěrečnou reflexi ulož do svého druhého mozku — za 3 měsíce si to přečti a uvidíš, jak daleko jsi.",
-    teaser: "Co dál: Advanced challenge: 3C, PACT, Superschopnosti — a systémy, které pracují za tebe.",
+    taskTip: "Reflexi ulož do svého druhého mozku — za 3 měsíce si to přečti a uvidíš, jak daleko jsi.",
+    teaser: "Zítra: Poslední den. Jedna otázka, která rozhoduje o tom, jestli tohle vydrží.",
+  },
+
+  {
+    day: 30,
+    title: "Kdo jsi teď jako AI uživatel? Jeden výstup, který zůstane.",
+    subject: "Identity statement — a nový výchozí bod.",
+    preheader: "Konec challenge je začátek způsobu práce.",
+    concept: [
+      "Poslední den není o učení. Je o pojmenování toho, co už víš.",
+      "Výzkum říká, že jedním z největších prediktorů dlouhodobé změny chování je to, jestli si člověk dokáže říct: 'Jsem někdo, kdo tohle dělá.' Ne 'snažím se to dělat'. Ale: 'Tohle je součást toho, jak pracuju.'",
+      "Dnes si napíšeš AI identity statement — jednu větu nebo krátký odstavec, který popisuje, kdo jsi teď jako AI uživatel. Konkrétně, ne obecně.",
+      "Čtyři otázky, které ti pomohou ho napsat:",
+      [
+        "Kde AI ve své práci používám pravidelně a s dobrými výsledky?",
+        "Co dělám s AI jinak než před challengí — konkrétně?",
+        "Kde vím, že AI věřit — a kde jsem se naučil ověřovat?",
+        "Jak bych to popsal kolegovi za 30 vteřin, pokud by se zeptal: 'Jak pracuješ s AI?'"
+      ],
+      "Proč na tom záleží: identity statement není sebechvála. Je to kotva. Věta, ke které se vrátíš za tři měsíce a připomeneš si, kdo jsi.",
+    ],
+    taskIntro: "Napiš svůj AI identity statement — jednu větu nebo krátký odstavec:",
+    taskItems: [
+      "Odpověz na čtyři otázky výše — nemusí být perfektní, jen konkrétní",
+      "Z odpovědí napiš 2–3 věty: kdo jsi teď jako AI uživatel a jak to ovlivňuje tvou práci",
+      "Ulož ho na místo, kde ho za 3 měsíce uvidíš — Notion, poznámky, calendar reminder",
+    ],
+    taskType: "ol",
+    taskTip: "Sdílej identity statement s někým, kdo tě zná — výzkum ukazuje, že vyřčená nebo sdílená identita se drží dvakrát silněji.",
   },
 ];

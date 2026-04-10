@@ -82,7 +82,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
         "Replace expert judgment in critical decisions — medicine, law, finance",
       ],
       "The most treacherous trap: AI can't say 'I don't know' convincingly. It generates an answer that sounds great — but may be wrong. Always verify facts and specific numbers externally, especially when accuracy matters.",
-      "The key principle: AI is the best collaborator when you know what you want from it — and you verify what it gives you. This principle stays true for all 28 days.",
+      "The key principle: AI is the best collaborator when you know what you want from it — and you verify what it gives you. This principle stays true for all 30 days.",
     ],
     taskIntro: "Think of one task where you're not sure AI would help. Test it:",
     taskItems: [
@@ -440,10 +440,47 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     ],
     taskType: "ol",
     taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
-    teaser: "Tomorrow is the checkpoint — halfway through the challenge, you'll write your personal prompt checklist.",
+    teaser: "Tomorrow: when to trust AI output — and when to verify it.",
   },
+
   {
     day: 14,
+    title: "When to trust AI output — and when not to.",
+    subject: "A convincing output doesn't mean a correct output.",
+    preheader: "AI never says 'I don't know'. Here's how to tell.",
+    concept: [
+      "This sentence will define how well you use AI long-term: a convincing output doesn't mean a correct output.",
+      "AI never says 'I don't know'. Instead it generates text that sounds confident — even when it can't be sure. This is called hallucination, but a more accurate term is: convincing inaccuracy.",
+      "Where it happens most often:",
+      [
+        "Facts and numbers — statistics, data, percentages: AI can invent them convincingly with no warning",
+        "References and quotes — 'expert X says...' or 'a study from...' — never trust without verification",
+        "Current information — AI has a training cutoff and doesn't know what happened after a certain date",
+        "Your specific context — AI doesn't know your company, clients, or internal processes"
+      ],
+      "Three red flags worth verifying:",
+      [
+        "A precise number or percentage with no source — where did AI get that?",
+        "A quote or reference to a specific study or person — does it actually exist?",
+        "A claim from your field that you've never heard before — why don't you know it if it's true?"
+      ],
+      "Calibrated trust: the goal isn't to distrust AI. It's to know where to verify and where to trust. Texts, structures, ideas — low risk. Facts, numbers, references — always verify.",
+    ],
+    taskIntro: "Take one output from previous days and run a quick fact-check:",
+    taskItems: [
+      "Find one specific claim, number, or reference AI used",
+      "Verify it — via Google, your own knowledge, or a source",
+      "Write it down: was it correct? If not — how convincing did it sound?",
+    ],
+    taskType: "ol",
+    taskFallback: `If you don't have a saved output, give AI this prompt and then verify one thing it says:
+"What are three key statistics about AI use at work in 2024?"`,
+    taskTip: "It's not that AI lies — it's that it doesn't know when it isn't sure. You do.",
+    teaser: "Tomorrow is the checkpoint — halfway through the challenge, you'll write your personal prompt checklist.",
+  },
+
+  {
+    day: 15,
     title: "Halfway through. A look back that gives direction.",
     subject: "Checkpoint — what you're taking from the first half.",
     preheader: "The best 5-minute investment: knowing what you carry forward.",
@@ -477,7 +514,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Next week: repetitive work as a signal, templates and workflows — and how to save an hour a week on things you keep doing over and over.",
   },
   {
-    day: 15,
+    day: 16,
     title: "Repetitive tasks are the most expensive work that exists.",
     subject: "Identify what you do every week again — that's a signal.",
     preheader: "Not every repetitive task is necessary. But every one deserves attention.",
@@ -505,7 +542,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Tomorrow: from this list you'll build your personal leverage matrix — where AI can add the most.",
   },
   {
-    day: 16,
+    day: 17,
     title: "Map it out: which tasks to hand to AI and which to keep.",
     subject: "Top 5 repetitive tasks where AI can save the most.",
     preheader: "Leverage matrix: what to hand off to AI, what to improve, what to automate.",
@@ -538,7 +575,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Tomorrow: the difference between a template and a workflow — and why it matters when you want a system, not just a tool.",
   },
   {
-    day: 17,
+    day: 18,
     title: "A template solves one task. A workflow solves a whole process.",
     subject: "Template vs. workflow — and when to use which.",
     preheader: "A template is an answer. A workflow is a system.",
@@ -572,7 +609,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Tomorrow: you'll create your first real template — a prompt you'll use repeatedly.",
   },
   {
-    day: 18,
+    day: 19,
     title: "One template that saves an hour every week from here on.",
     subject: "Create your first reusable prompt.",
     preheader: "Do it right once. Then 30 seconds every time after.",
@@ -609,7 +646,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Tomorrow: an empirical look at time — where AI actually saves time and where it paradoxically adds it.",
   },
   {
-    day: 19,
+    day: 20,
     title: "Where AI saves time and where it adds it — an honest overview.",
     subject: "Measurement, not feeling. Where AI adds value and where it doesn't.",
     preheader: "The best AI workflow is one that actually saves time.",
@@ -643,7 +680,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Tomorrow: a whole day with AI alongside you — what it looks like in practice.",
   },
   {
-    day: 20,
+    day: 21,
     title: "One deliberate day without AI. See what changes.",
     subject: "A real day with AI — not an experiment, but a way of working.",
     preheader: "AI as a quiet collaborator throughout the whole day.",
@@ -672,7 +709,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Tomorrow: what's your AI style — and why everyone works with AI differently.",
   },
   {
-    day: 21,
+    day: 22,
     title: "Everyone uses AI differently. What's your style?",
     subject: "Your AI style — strengths, preferences, way of working.",
     preheader: "The best AI workflow is the one that fits you.",
@@ -700,7 +737,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Next week: how to build a second brain with AI — where to store outputs and how to reuse them.",
   },
   {
-    day: 22,
+    day: 23,
     title: "AI remembers nothing. But you can set it up to.",
     subject: "Second brain — where to store AI outputs so they don't disappear.",
     preheader: "An output without storage is half the value.",
@@ -729,7 +766,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Tomorrow: you'll build the foundation of your mini knowledge base — so AI outputs don't disappear.",
   },
   {
-    day: 23,
+    day: 24,
     title: "One document that changes how you work with AI.",
     subject: "Mini knowledge base — context you use again and again.",
     preheader: "Write it once. Use it a hundred times.",
@@ -761,7 +798,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Tomorrow: how to know AI is actually helping — not by feeling, but concretely.",
   },
   {
-    day: 24,
+    day: 25,
     title: "You can feel AI is helping. But can you measure it?",
     subject: "How to know AI is actually helping you.",
     preheader: "Not 'AI helps me'. But why, where, and by how much.",
@@ -795,7 +832,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Tomorrow: you'll compare last week with AI vs. a hypothetical week without it — and see what changed.",
   },
   {
-    day: 25,
+    day: 26,
     title: "What would this week have looked like without AI?",
     subject: "Side-by-side comparison — with AI vs. without AI.",
     preheader: "The best way to see progress: an imaginary comparison.",
@@ -823,7 +860,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Tomorrow: how to build an AI habit that outlasts motivation.",
   },
   {
-    day: 26,
+    day: 27,
     title: "Knowing isn't enough. A habit is a different thing.",
     subject: "Building an AI habit — how to embed it into your day.",
     preheader: "Motivation comes and goes. A habit stays.",
@@ -850,7 +887,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Second-to-last day: you'll set up your daily AI ritual — five minutes in the morning that change the whole day.",
   },
   {
-    day: 27,
+    day: 28,
     title: "Five minutes in the morning that change the whole day.",
     subject: "Set up your daily AI ritual.",
     preheader: "One moment every day is more than an hour once a week.",
@@ -880,18 +917,19 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     teaser: "Tomorrow is the last day. Wrap-up, reflection — and what comes next.",
   },
   {
-    day: 28,
-    title: "28 days. What you learned — and what comes next.",
+    day: 29,
+    title: "Thirty days. What you learned — and what comes next.",
     subject: "Basic challenge wrap-up. Here's what you take away.",
     preheader: "End of the basics. Beginning of systems.",
     concept: [
-      "Twenty-eight days are behind us.",
-      "You went through the fundamentals: AI as leverage, not just speed. The anatomy of a good prompt. Working with context. Iteration. Templates. Repetitive work. A daily ritual. And — most importantly — a way of thinking about work that changes even if you stop using AI.",
+      "Thirty days are behind you.",
+      "You went through the fundamentals: AI as leverage, not just speed. The anatomy of a good prompt. Working with context. Iteration. Templates. Repetitive work. Calibrated trust. A daily ritual. And — most importantly — a way of thinking about work that changes even if you stop using AI.",
       "What you learned in the Basic challenge:",
       [
         "Good prompt = role + task + context + format — and why each part matters",
         "Iteration as a way of working — the first output is a foundation, not a final product",
         "Repetitive work as a signal for a template or workflow",
+        "Calibrated trust — when to trust AI output and when to verify it",
         "Second brain — where to store outputs so they don't disappear",
         "AI habit as routine, not motivation — small, regular, attached to the day",
       ],
@@ -903,16 +941,44 @@ export const challengeDataBasicEN: ChallengeDay[] = [
         "Leverage at the system level — workflow, team deployment, end-to-end processes",
       ],
       "The Basic challenge got you on your feet. The Advanced challenge will teach you to run.",
-      "But right now — celebrate what you learned. 28 days, 5–7 minutes a day. That's not nothing. Most people never finish.",
+      "But first — one step remains. Tomorrow you answer one question that determines whether this sticks.",
     ],
-    taskIntro: "The last challenge task — final reflection:",
+    taskIntro: "30-day reflection — three concrete things:",
     taskItems: [
       "Three biggest insights from the whole challenge — concrete, not general",
       "One place where AI changed how you work — specific output or routine",
       "One goal for the next 30 days — what you'll do differently with AI, specifically",
     ],
     taskType: "ol",
-    taskTip: "Save the final reflection in your second brain — read it in 3 months and see how far you've come.",
-    teaser: "Advanced challenge: 3C, PACT, Superpowers — and systems that work for you.",
+    taskTip: "Save the reflection in your second brain — read it in 3 months and see how far you've come.",
+    teaser: "Tomorrow: the last day. One question that determines whether this sticks.",
+  },
+
+  {
+    day: 30,
+    title: "Who are you now as an AI user? One output that stays.",
+    subject: "Identity statement — and a new starting point.",
+    preheader: "The end of the challenge is the beginning of a way of working.",
+    concept: [
+      "The last day isn't about learning. It's about naming what you already know.",
+      "Research shows that one of the strongest predictors of long-term behavior change is whether someone can say: 'I'm someone who does this.' Not 'I'm trying to do this.' But: 'This is part of how I work.'",
+      "Today you'll write an AI identity statement — one sentence or short paragraph that describes who you are now as an AI user. Concrete, not general.",
+      "Four questions to help you write it:",
+      [
+        "Where do I regularly use AI at work and get good results?",
+        "What do I do differently with AI than before the challenge — specifically?",
+        "Where do I know to trust AI — and where have I learned to verify?",
+        "How would I describe it to a colleague in 30 seconds if they asked: 'How do you work with AI?'"
+      ],
+      "Why it matters: the identity statement isn't self-congratulation. It's an anchor. A sentence you'll return to in three months and remind yourself who you are.",
+    ],
+    taskIntro: "Write your AI identity statement — one sentence or short paragraph:",
+    taskItems: [
+      "Answer the four questions above — doesn't need to be perfect, just concrete",
+      "From the answers, write 2–3 sentences: who you are now as an AI user and how it affects your work",
+      "Save it somewhere you'll see it in 3 months — Notion, notes, calendar reminder",
+    ],
+    taskType: "ol",
+    taskTip: "Share the identity statement with someone who knows you — research shows that spoken or shared identity sticks twice as well.",
   },
 ];

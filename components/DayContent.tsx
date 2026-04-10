@@ -5,11 +5,12 @@ interface DayContentProps {
   day: ChallengeDay;
   lang: string;
   demo?: boolean;
+  version?: string;
   totalDays?: number;
 }
 
-export default function DayContent({ day, lang, demo, totalDays = 28 }: DayContentProps) {
-  const demoParam = demo ? "?demo=1" : "";
+export default function DayContent({ day, lang, demo, version, totalDays = 28 }: DayContentProps) {
+  const demoParam = demo ? `?demo=1${version ? `&version=${version}` : ""}` : "";
   const prevDay = day.day > 0 ? day.day - 1 : null;
   const nextDay = day.day < totalDays ? day.day + 1 : null;
 

@@ -46,9 +46,11 @@ function DayPageContent() {
   if (notFound) return <p className="text-gray-400 text-center py-20">Den nenalezen.</p>;
   if (!day) return <div className="flex justify-center py-20"><div className="w-8 h-8 border-2 border-nowork-orange border-t-transparent rounded-full animate-spin" /></div>;
 
+  const urlVersion = searchParams.get("version") ?? undefined;
+
   return (
     <main className="flex-1 px-6 py-12 max-w-3xl mx-auto w-full">
-      <DayContent day={day} lang={lang} demo={demo} />
+      <DayContent day={day} lang={lang} demo={demo} version={urlVersion} />
     </main>
   );
 }

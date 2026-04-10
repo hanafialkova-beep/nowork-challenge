@@ -50,9 +50,10 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
       "Jak by mi AI pomohla udělat tento úkol rychleji? (rychlost)",
       "Jaký výsledek by s AI mohl vzniknout, který by jinak vůbec nebyl možný — nebo by trval moc dlouho? (leverage)",
       "Zapiš si obě odpovědi. Nemusí být dokonalé — jde o způsob přemýšlení.",
+      "Vyber si jeden konkrétní moment v dnešním dni, kde AI zkusíš — například po prvním emailu ráno nebo před přípravou schůzky. Zapiš si ho.",
     ],
     taskType: "ol",
-    taskTip: "Ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
+    taskTip: "Tento konkrétní moment — 'po prvním emailu otevřu AI' — je tvůj první kotevní bod. Návyk s AI neroste z motivace, ale z opakování ve stejný moment dne.",
     teaser: "Zítra: Nakreslíme si realistickou mapu AI: co umí skvěle, kde selhává — a proč je to důležité vědět dřív než začneš.",
   },
 
@@ -108,6 +109,8 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     ],
     taskType: "ol",
     taskPrompt: "Pracuji jako [tvoje role nebo obor]. Moje typické úkoly jsou: [vypiš 3–5 konkrétních věcí]. Největší opakující se práce, která mi zabere čas, je [dopiš]. Navrh mi 5 konkrétních způsobů, jak by mi AI mohla pomoci — ne obecně, ale přímo na moje úkoly.",
+    taskFallback: `Pokud nevíš, jak začít, zkus tento vyplněný příklad:
+"Pracuji jako projektový koordinátor v marketingové agentuře. Moje typické úkoly jsou: příprava reportů pro klienty, koordinace termínů s grafiky a copywritery, komunikace s klienty, zadávání briefů a kontrola výstupů. Největší opakující se práce, která mi zabere čas, je příprava týdenního reportu — shromáždím data z různých míst a pak to sepisuji do přehledné zprávy. Navrh mi 5 konkrétních způsobů, jak by mi AI mohla pomoci."`,
     taskTip: "Funguje v ChatGPT, Claude i Gemini.",
     teaser: "Zítra: Co dělá největší rozdíl mezi dobrým a špatným promptem — a proč je to proveditelné hned.",
   },
@@ -162,6 +165,10 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     ],
     taskType: "ol",
     taskPrompt: "Přepiš tento prompt tak, aby byl konkrétnější: [vlož původní prompt]. Přidej kontext, cíl, tón a požadovaný formát výstupu.",
+    taskFallback: `Pokud nevíš, jak prompt přepsat, tady jsou příklady přepsaných verzí:
+1. LinkedIn: "Napiš příspěvek na LinkedIn pro produktového manažera. Téma: jak jsme snížili churn klientů o 20 %. Tón: osobní, bez korporátního jazyka. Délka: 150–200 slov. Cíl: ukázat konkrétní postup, ne jen výsledek."
+2. Prezentace: "Pomoz mi strukturovat 10minutovou prezentaci pro vedení o výsledcích Q3. Publikum: 5 manažerů, kteří vidí čísla poprvé. Výstup: osnova se 4–5 slidy a klíčovým sdělením každého."
+3. Email: "Napiš odpověď na email klienta, který si stěžuje na zpoždění dodávky. Tón: empatický, ne obranný. Délka: max 5 vět. Cíl: zachovat vztah a navrhnout konkrétní řešení."`,
     taskTip: "Funguje v ChatGPT, Claude i Gemini.",
     teaser: "Zítra: Proč je první výsledek z AI vždy jen začátek — a jak z toho dostat mnohem víc.",
   },
@@ -304,6 +311,10 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
       "Výstup ulož — vrátíme se k němu ve středu",
     ],
     taskType: "ol",
+    taskFallback: `Pokud nevíš, jaký úkol vzít, zkus jeden z těchto startovacích promptů:
+"Napiš shrnutí schůzky pro tým. Probrali jsme: [téma 1], [téma 2], [téma 3]. Výstup: odrážky, max 10 řádků, jasné akční body na konci."
+"Napiš follow-up email pro klienta po úvodní schůzce. Tón: přátelský a konkrétní. Délka: max 5 vět. Cíl: potvrdit zájem a domluvit další krok."
+"Napiš týdenní status pro vedení. Co jsme posunuli: [X]. Co čeká: [Y]. Blokery: [Z]. Formát: max 5 odrážek."`,
     taskTip: "Ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
     teaser: "Zítra: Co dělat, když výstup nesedí — konkrétní techniky pro opravu špatného výstupu.",
   },
@@ -477,6 +488,13 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
       "Označ hvězdičkou tu, u které je ztráta času nebo energie největší",
     ],
     taskType: "ol",
+    taskFallback: `Pokud nevíš, co si zapsat, tady jsou příklady opakující se práce z různých rolí:
+— Příprava týdenního reportu pro vedení (45 min)
+— Odpovědi na opakující se dotazy zákazníků (20–30 min/den)
+— Přepis poznámek ze schůzky do akčního plánu (20 min)
+— Příprava agendy pro pravidelné týmové meetingy (15 min)
+— Drafting follow-up emailů po obchodních schůzkách (20 min)
+Vyber, co se podobá tvé práci, nebo doplň vlastní.`,
     taskTip: "Ručně do notýsku, nebo otevři Notion, Google Docs nebo Apple Notes.",
     teaser: "Zítra: Z tohoto seznamu sestavíš svoji osobní leverage matici — kde AI může přidat nejvíc.",
   },
@@ -670,6 +688,18 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
       "Vlož tam tři věci z challenge: jednu šablonu, jeden dobrý prompt, jeden výstup, který chceš znovu použít",
     ],
     taskType: "ol",
+    taskFallback: `Pokud nevíš, co do dokumentu vložit, tady je příklad struktury:
+
+📁 AI — šablony a výstupy
+
+✅ Šablona: Příprava agendy schůzky
+"Napiš agendu pro 45minutovou schůzku na téma [téma]. Účastníci: [kdo]. Výstup: 4–5 bodů s časovými bloky."
+
+✅ Oblíbený prompt: Iterace výstupu
+"Přepiš předchozí výstup takto: zkrať na 3 klíčové body, formálnější tón, přidej konkrétní příklad."
+
+✅ Uložený výstup:
+[vlož výstup z challenge, který chceš znovu použít]`,
     taskTip: "Cíl: jedno místo, rychle dostupné. Není třeba složitá struktura — složitá struktura brání používání.",
     teaser: "Zítra: Postavíš základ svého mini knowledge base — tak, aby výstupy z AI nezmizely.",
   },

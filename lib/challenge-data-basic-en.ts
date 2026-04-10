@@ -53,9 +53,10 @@ export const challengeDataBasicEN: ChallengeDay[] = [
       "How could AI help me do this task faster? (speed)",
       "What result could I achieve with AI that would otherwise be completely impossible — or take way too long? (leverage)",
       "Write down both answers. They don't need to be perfect — the point is the way of thinking.",
+      "Choose one specific moment in today's day where you'll try AI — for example after the first email in the morning or before preparing a meeting. Write it down.",
     ],
     taskType: "ol",
-    taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
+    taskTip: "That specific moment — 'after the first email I'll open AI' — is your first habit anchor. An AI habit doesn't grow from motivation. It grows from repetition at the same moment every day.",
     teaser: "Tomorrow we'll draw a realistic map of AI: what it does well, where it fails — and why knowing this matters before you start.",
   },
   {
@@ -127,6 +128,8 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     ],
     taskType: "ol",
     taskPrompt: "I work as [your role or field]. My typical tasks are: [list 3–5 specific things]. My biggest recurring time-consuming task is [describe it]. Suggest 5 specific ways AI could help me — not generally, but directly for my tasks.",
+    taskFallback: `If you're not sure how to start, try this filled-in example:
+"I work as a project coordinator at a marketing agency. My typical tasks are: preparing client reports, coordinating deadlines with designers and copywriters, client communication, writing briefs and reviewing deliverables. My biggest recurring time-consuming task is preparing the weekly client report — I gather data from multiple places and write it up into a clear summary. Suggest 5 specific ways AI could help me."`,
     taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Tomorrow we'll look at what makes the biggest difference between a good and bad prompt — and why you can apply it right away.",
   },
@@ -194,6 +197,10 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     ],
     taskType: "ol",
     taskPrompt: "Rewrite this prompt to make it more concrete: [paste original prompt]. Add context, goal, tone, and required output format.",
+    taskFallback: `If you're not sure how to rewrite the prompts, here are example rewrites:
+1. LinkedIn: "Write a LinkedIn post for a product manager. Topic: how we reduced client churn by 20%. Tone: personal, no corporate language. Length: 150–200 words. Goal: show the specific process, not just the outcome."
+2. Presentation: "Help me structure a 10-minute presentation for leadership on Q3 results. Audience: 5 managers seeing the numbers for the first time. Output: outline with 4–5 slides and the key message for each."
+3. Email: "Write a reply to a client email complaining about a delivery delay. Tone: empathetic, not defensive. Length: max 5 sentences. Goal: preserve the relationship and propose a concrete solution."`,
     taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Tomorrow: why the first result from AI is always just the beginning — and how to get much more from it.",
   },
@@ -352,6 +359,10 @@ export const challengeDataBasicEN: ChallengeDay[] = [
       "Save the output — we'll come back to it on Wednesday",
     ],
     taskType: "ol",
+    taskFallback: `If you're not sure what task to pick, try one of these starter prompts:
+"Write a meeting summary for the team. We discussed: [topic 1], [topic 2], [topic 3]. Output: bullet points, max 10 lines, clear action items at the end."
+"Write a follow-up email to a client after an initial meeting. Tone: friendly and concrete. Length: max 5 sentences. Goal: confirm interest and agree on a next step."
+"Write a weekly status for leadership. What we moved forward: [X]. What's waiting: [Y]. Blockers: [Z]. Format: max 5 bullet points."`,
     taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Tomorrow: what to do when the output doesn't work — concrete techniques for fixing bad output.",
   },
@@ -555,6 +566,13 @@ export const challengeDataBasicEN: ChallengeDay[] = [
       "Mark the one where the time or energy cost is greatest with a star",
     ],
     taskType: "ol",
+    taskFallback: `If you're not sure what to write down, here are examples of repetitive work from different roles:
+— Preparing weekly report for leadership (45 min)
+— Responding to recurring customer questions (20–30 min/day)
+— Transcribing meeting notes into an action plan (20 min)
+— Preparing agenda for regular team meetings (15 min)
+— Drafting follow-up emails after sales calls (20 min)
+Pick whatever resembles your work, or add your own.`,
     taskTip: "Write it down by hand in a notebook, or open Notion, Google Docs, or Apple Notes.",
     teaser: "Tomorrow: from this list you'll build your personal leverage matrix — where AI can add the most.",
   },
@@ -786,6 +804,18 @@ export const challengeDataBasicEN: ChallengeDay[] = [
       "Add three things from the challenge: one template, one good prompt, one output you want to use again",
     ],
     taskType: "ol",
+    taskFallback: `If you're not sure what to put in the document, here's an example structure:
+
+📁 AI — templates and outputs
+
+✅ Template: Meeting agenda prep
+"Write an agenda for a 45-minute meeting on [topic]. Attendees: [who]. Output: 4–5 items with time blocks."
+
+✅ Favourite prompt: Iterating output
+"Rewrite the previous output as follows: shorten to 3 key points, more formal tone, add a concrete example."
+
+✅ Saved output:
+[paste an output from the challenge you want to reuse]`,
     taskTip: "Goal: one place, quickly accessible. No need for a complex structure — complex structure prevents usage.",
     teaser: "Tomorrow: you'll build the foundation of your mini knowledge base — so AI outputs don't disappear.",
   },

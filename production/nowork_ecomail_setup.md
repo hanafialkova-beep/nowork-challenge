@@ -1,15 +1,21 @@
-# NOWORK 28 Day Challenge — Nastavení v Ecomail
+# NOWORK 30 Day Challenge — Nastavení v Ecomail
 # Verze: 1.0 | Web: nowork.ai
 
 ---
 
 ## PŘEHLED SEKVENCE
 
-Celkem: **31 emailů** v autoresponder sekvenci
+Kanonická délka challenge: **30 dní**.
+
+Celkem: **33 emailů** v autoresponder sekvenci
+
+Konkrétní denní obsah ber z kanonických 30denních produkčních souborů:
+- `nowork_30_days_challenge_BASIC_CZ_PRODUCTION.md`
+- `nowork_30_days_challenge_BASIC_EN_PRODUCTION.md`
 
 | # | Typ | Kdy | Subject (CZ) |
 |---|-----|-----|--------------|
-| 0 | Confirmation | Ihned po registraci | Potvrzení registrace — NOWORK 28 Day Challenge |
+| 0 | Confirmation | Ihned po registraci | Potvrzení registrace — NOWORK 30 Day Challenge |
 | 1 | Welcome | Den 0 (den registrace, večer nebo +1 den ráno) | Jsi in. Tady je, co tě čeká. |
 | 2 | Day 0 | Den 1 | Začínáme. Takhle bude challenge fungovat. |
 | 3 | Day 1 | Den 2 | Nejsi placená za práci. Jsi placená za výsledek. |
@@ -39,7 +45,9 @@ Celkem: **31 emailů** v autoresponder sekvenci
 | 27 | Day 25 | Den 26 | AI governance: pár pravidel, která ti ušetří problémy. |
 | 28 | Day 26 | Den 27 | Jak rozšířit AI adopci přes celou firmu. |
 | 29 | Day 27 | Den 28 | Teď už neskládáš tipy. Skládáš systém. |
-| 30 | Day 28 | Den 29 | 28 dní za tebou. Skutečná změna začíná teď. |
+| 30 | Day 28 | Den 29 | Pět minut ráno, které změní celý den. |
+| 31 | Day 29 | Den 30 | Co ti zůstalo — a co tě čeká dál. |
+| 32 | Day 30 | Den 31 | Kdo jsi teď jako AI uživatel? Jeden výstup, který zůstane. |
 
 ---
 
@@ -47,7 +55,7 @@ Celkem: **31 emailů** v autoresponder sekvenci
 
 ### 1. Vytvoření autoresponder sekvence
 - **Typ:** Autoresponder (spouštěný registrací do listu)
-- **Název sekvence:** NOWORK 28 Day Challenge CZ
+- **Název sekvence:** NOWORK 30 Day Challenge CZ
 - **List:** vytvořit nový seznam "NOWORK Challenge CZ"
 - **Odesílatel:** NOWORK | hello@nowork.ai
 - **Reply-to:** hello@nowork.ai
@@ -56,7 +64,7 @@ Celkem: **31 emailů** v autoresponder sekvenci
 - Email #0 (Confirmation): **ihned po registraci** (trigger: signup)
 - Email #1 (Welcome): **+1 den, 8:00** (nebo 8:30 podle rozložení)
 - Email #2 (Day 0): **+2 dny, 8:00**
-- Email #3–30 (Day 1–28): **každý den +1, 8:00**
+- Email #3–32 (Day 1–30): **každý den +1, 8:00**
 
 > **Doporučení:** Rozložit časy mírně (8:03, 8:07...) aby nedošlo k výpadku při hromadném odesílání.
 
@@ -74,7 +82,7 @@ Celkem: **31 emailů** v autoresponder sekvenci
 - Zapnout: **Click tracking** (sledování kliknutí na CTA)
 - UTM parametry pro CTA:
   ```
-  https://nowork.ai/challenge?utm_source=email&utm_medium=challenge&utm_campaign=28day&utm_content=day{X}
+  https://nowork.ai/challenge?utm_source=email&utm_medium=challenge&utm_campaign=30day&utm_content=day{X}
   ```
 
 ### 5. Unsubscribe
@@ -115,7 +123,7 @@ Doporučené místo použití: záhlaví emailu nebo uvítací věta.
 | Open rate | > 40% (challenge emaily mají přirozeně vyšší OR) |
 | Click rate | > 8% |
 | Unsubscribe rate | < 1% na email |
-| Dokončení challenge (Day 28 open) | > 20% z Day 0 |
+| Dokončení challenge (Day 30 open) | > 20% z Day 0 |
 
 ---
 
@@ -123,8 +131,10 @@ Doporučené místo použití: záhlaví emailu nebo uvítací věta.
 
 | Soubor | Popis |
 |--------|-------|
-| `nowork_28_days_challenge_CZ_PRODUCTION.md` | Všechny dny v CZ s subject lines, teasery a CTA |
-| `nowork_28_days_challenge_EN_PRODUCTION.md` | Všechny dny v EN s subject lines, teasery a CTA |
+| `nowork_30_days_challenge_BASIC_CZ_PRODUCTION.md` | Kanonická BASIC CZ 30denní produkční verze |
+| `nowork_30_days_challenge_BASIC_EN_PRODUCTION.md` | Kanonická BASIC EN 30denní produkční verze |
+| `nowork_28_days_challenge_CZ_PRODUCTION.md` | Legacy 28denní archiv — nepoužívat pro novou produkci |
+| `nowork_28_days_challenge_EN_PRODUCTION.md` | Legacy 28denní archiv — nepoužívat pro novou produkci |
 | `nowork_welcome_emails.md` | Welcome email, Confirmation email (CZ + EN) |
 | `nowork_email_template.html` | HTML šablona pro Ecomail (branded, mobile-friendly) |
 | `nowork_ecomail_setup.md` | Tento soubor — návod na nastavení |

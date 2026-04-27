@@ -1,4 +1,5 @@
 # NOWORK 28 DAYS CHALLENGE – CZ PRODUKČNÍ VERZE
+# LEGACY ARCHIVE — nepoužívat pro novou produkci. Kanonické nové produkční soubory používají 30 dní.
 # Verze: 1.0 | Platforma: Ecomail | Web: nowork.ai
 #
 # Struktura každého dne:

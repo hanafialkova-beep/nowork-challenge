@@ -3,6 +3,7 @@
 export type Lang = "cz" | "en";
 export type Variant = "email" | "app";
 export type Level = "basic" | "advanced";
+export const TOTAL_CHALLENGE_DAYS = 30;
 
 export function getLang(): Lang {
   if (typeof window === "undefined") return "cz";
@@ -56,7 +57,7 @@ export function getUnlockedDays(): number {
   const start = new Date(startStr);
   const now = new Date();
   const diffDays = Math.floor((now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
-  return Math.min(diffDays + 1, 28); // Day 0 always unlocked on activation day
+  return Math.min(diffDays + 1, TOTAL_CHALLENGE_DAYS); // Day 0 always unlocked on activation day
 }
 
 export function isDayUnlocked(day: number): boolean {

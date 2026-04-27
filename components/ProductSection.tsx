@@ -19,7 +19,7 @@ const versions = {
     ],
     forWho: "Pro každého, kdo s AI teprve začíná nebo ji zatím nepoužívá systematicky.",
     email: {
-      features: ["Jeden email denně, ve stejnou dobu", "28 dní, automaticky", "Funguje odkudkoliv"],
+      features: ["Jeden email denně, ve stejnou dobu", "30 dní, automaticky", "Funguje odkudkoliv"],
       cta: "Chci Basic emaily →",
       href: "https://DOPLNIT-PLATEBNI-LINK-BASIC-EMAIL",
     },
@@ -43,7 +43,7 @@ const versions = {
     ],
     forWho: "Pro ty, kdo základy ovládají a chtějí budovat systémy a workflows, ne jen zrychlovat úkoly.",
     email: {
-      features: ["Jeden email denně, ve stejnou dobu", "28 dní, automaticky", "Funguje odkudkoliv"],
+      features: ["Jeden email denně, ve stejnou dobu", "30 dní, automaticky", "Funguje odkudkoliv"],
       cta: "Chci Advanced emaily →",
       href: "https://DOPLNIT-PLATEBNI-LINK-ADVANCED-EMAIL",
     },

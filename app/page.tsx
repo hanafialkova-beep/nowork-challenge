@@ -27,7 +27,7 @@ export default function LandingPage() {
 
           {/* Subheadline */}
           <p className="text-lg text-gray-500 mb-4 max-w-xl mx-auto leading-relaxed">
-            28 dní. 5–7 minut denně. Dvě úrovně – vyber si tu svoji a začni se posouvat.
+            30 dní. 5–7 minut denně. Dvě úrovně – vyber si tu svoji a začni se posouvat.
           </p>
 
           <div className="flex flex-wrap justify-center gap-3 mb-14 text-sm">
@@ -72,7 +72,7 @@ export default function LandingPage() {
       <section className="bg-nowork-black py-12 px-6">
         <div className="max-w-2xl mx-auto grid grid-cols-3 gap-8 text-center">
           {[
-            { value: "28", label: "dní" },
+            { value: "30", label: "dní" },
             { value: "5–7", label: "minut denně" },
             { value: "1", label: "posun za den" },
           ].map((stat) => (

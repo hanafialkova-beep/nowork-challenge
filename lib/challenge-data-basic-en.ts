@@ -5,7 +5,7 @@ export const challengeDataBasicEN: ChallengeDay[] = [
     day: 0,
     title: "This isn't a course. It's a new way of working.",
     subject: "Let's start. Here's how the challenge works.",
-    preheader: "28 days, 5–7 minutes a day. One real shift.",
+    preheader: "30 days, 5–7 minutes a day. One real shift.",
     teze: "Knowing about AI and habitually using AI are two different things — this challenge builds the second.",
     concept: [
       "AI is everywhere today. New tools, new features, new promises every week. And that's exactly why it's easy to end up just trying things — and then closing the tab when the results aren't what you expected.",

@@ -4,7 +4,7 @@ import { Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import DayCard from "@/components/DayCard";
-import { getEmail, getLang, getLevel, getUnlockedDays, getVariant } from "@/lib/utils";
+import { getEmail, getLang, getLevel, getUnlockedDays, getVariant, TOTAL_CHALLENGE_DAYS } from "@/lib/utils";
 import { challengeDataBasicCZ } from "@/lib/challenge-data-basic-cz";
 import { challengeDataAdvancedCZ } from "@/lib/challenge-data-advanced-cz";
 import { challengeDataBasicEN } from "@/lib/challenge-data-basic-en";
@@ -37,7 +37,7 @@ function ChallengeContent() {
     } else {
       setData(lv === "advanced" ? challengeDataAdvancedEN : challengeDataBasicEN);
     }
-    setUnlockedDays(demo ? 28 : getUnlockedDays());
+    setUnlockedDays(demo ? TOTAL_CHALLENGE_DAYS : getUnlockedDays());
     setVariantState(getVariant());
   }, [router, demo, searchParams]);
 
@@ -45,7 +45,8 @@ function ChallengeContent() {
     ? { title: "30 Day Challenge", sub: "Vyber den a pokračuj v challenge.", days: "dní" }
     : { title: "30 Day Challenge", sub: "Pick a day and continue your challenge.", days: "days" };
 
-  const progressPct = Math.round((Math.min(unlockedDays, 28) / 28) * 100);
+  const visibleDays = Math.min(unlockedDays, TOTAL_CHALLENGE_DAYS);
+  const progressPct = Math.round((visibleDays / TOTAL_CHALLENGE_DAYS) * 100);
 
   return (
     <main className="flex-1 px-6 py-12 max-w-5xl mx-auto w-full">
@@ -75,7 +76,7 @@ function ChallengeContent() {
             <div className="bg-nowork-orange h-2 rounded-full transition-all" style={{ width: `${progressPct}%` }} />
           </div>
           <span className="text-xs font-semibold text-gray-500 whitespace-nowrap">
-            {Math.min(unlockedDays, 28)}/28 {labels.days}
+            {visibleDays}/{TOTAL_CHALLENGE_DAYS} {labels.days}
           </span>
         </div>
       </div>

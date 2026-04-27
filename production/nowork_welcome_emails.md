@@ -6,15 +6,15 @@
 # WELCOME EMAIL — CZ
 
 > **📧 Subject:** Jsi in. Tady je, co tě čeká.
-> **👁 Preheader:** 28 dní, 5–7 minut denně. Zítra začínáme.
+> **👁 Preheader:** 30 dní, 5–7 minut denně. Zítra začínáme.
 
 Ahoj,
 
-zaregistrovala ses do NOWORK 28 Day Challenge. Rádi tě tady máme.
+zaregistrovala ses do NOWORK 30 Day Challenge. Rádi tě tady máme.
 
 Tady je, co tě čeká:
 
-**28 dní. Každý den jeden email.**
+**30 dní. Každý den jeden email.**
 
 Každý email ti zabere přibližně 5–7 minut. Každý den dostaneš krátký koncept a jeden mini úkol — něco konkrétního, co si ihned vyzkoušíš nebo použiješ v práci.
 
@@ -42,15 +42,15 @@ Uvidíme se zítra.
 # WELCOME EMAIL — EN
 
 > **📧 Subject:** You are in. Here is what to expect.
-> **👁 Preheader:** 28 days, 5–7 minutes a day. We start tomorrow.
+> **👁 Preheader:** 30 days, 5–7 minutes a day. We start tomorrow.
 
 Hi,
 
-you have signed up for the NOWORK 28 Day Challenge. We are glad you are here.
+you have signed up for the NOWORK 30 Day Challenge. We are glad you are here.
 
 Here is what to expect:
 
-**28 days. One email every day.**
+**30 days. One email every day.**
 
 Each email will take about 5–7 minutes. Each day you will get a short concept and one mini task — something concrete to try or use in your work right away.
 
@@ -77,12 +77,12 @@ See you tomorrow.
 
 # CONFIRMATION EMAIL (ihned po registraci) — CZ
 
-> **📧 Subject:** Potvrzení registrace — NOWORK 28 Day Challenge
+> **📧 Subject:** Potvrzení registrace — NOWORK 30 Day Challenge
 > **👁 Preheader:** Registrace proběhla. Brzy dostaneš první email.
 
 Ahoj,
 
-tvoje registrace do NOWORK 28 Day Challenge proběhla úspěšně.
+tvoje registrace do NOWORK 30 Day Challenge proběhla úspěšně.
 
 **Co se stane dál:**
 - Zítra ráno dostaneš uvítací email
@@ -99,12 +99,12 @@ Těšíme se na tebe.
 
 # CONFIRMATION EMAIL (ihned po registraci) — EN
 
-> **📧 Subject:** Registration confirmed — NOWORK 28 Day Challenge
+> **📧 Subject:** Registration confirmed — NOWORK 30 Day Challenge
 > **👁 Preheader:** You are registered. Your first email is coming soon.
 
 Hi,
 
-your registration for the NOWORK 28 Day Challenge was successful.
+your registration for the NOWORK 30 Day Challenge was successful.
 
 **What happens next:**
 - Tomorrow morning you will receive a welcome email

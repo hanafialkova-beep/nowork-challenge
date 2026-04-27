@@ -1,4 +1,5 @@
 # NOWORK 28 DAYS CHALLENGE – EN PRODUCTION VERSION
+# LEGACY ARCHIVE — do not use for new production. Current production files use 30 days.
 # Version: 1.0 | Platform: Ecomail | Web: nowork.ai
 #
 # Structure of each day:

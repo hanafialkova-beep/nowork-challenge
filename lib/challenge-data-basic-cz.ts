@@ -7,7 +7,7 @@ export const challengeDataBasicCZ: ChallengeDay[] = [
     day: 0,
     title: "Tohle není kurz. Je to nový způsob práce.",
     subject: "Začínáme. Takhle funguje challenge.",
-    preheader: "28 dní, 5–7 minut denně. Jeden opravdový posun.",
+    preheader: "30 dní, 5–7 minut denně. Jeden opravdový posun.",
     teze: "Znalost o AI a zvyk s AI jsou dvě různé věci — tato challenge buduje to druhé.",
     concept: [
       "AI je dnes všude. Každý týden nové nástroje, nové funkce, nové sliby. A právě proto je snadné skončit u toho, že člověk něco vyzkouší, nedostane co čekal, a zavře záložku.",

@@ -79,7 +79,7 @@ export default function ThankYouAppPage() {
           </h1>
           <p className="text-sm text-gray-500 mb-8 leading-relaxed text-center">
             Zadej email a spusť výzvu. <strong>Den 0</strong> se odemkne ihned,
-            každý následující den automaticky jeden nový — celkem 28 dní.
+            každý následující den automaticky jeden nový — celkem 30 dní.
           </p>
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-4">

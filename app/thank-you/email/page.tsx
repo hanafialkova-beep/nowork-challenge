@@ -56,7 +56,7 @@ export default function ThankYouEmailPage() {
             </h1>
             <p className="text-gray-500 text-sm leading-relaxed mb-6">
               <strong>Day 0</strong> ti přijde dnes — uvítací email s tím, co tě čeká.
-              Každý následující den ve stejnou dobu jedna výzva, 28 dní po sobě.
+              Každý následující den ve stejnou dobu jedna výzva, 30 dní po sobě.
             </p>
             <p className="text-xs text-gray-400 mb-8">
               Pokud email do 10 minut nepřijde, zkontroluj složku{" "}
@@ -131,7 +131,7 @@ export default function ThankYouEmailPage() {
           </form>
 
           <p className="text-xs text-gray-400 mt-5 text-center">
-            28 dní. Jeden email denně. Žádné přihlašování.
+            30 dní. Jeden email denně. Žádné přihlašování.
           </p>
 
         </div>

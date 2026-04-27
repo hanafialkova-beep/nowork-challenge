@@ -31,7 +31,7 @@ export default function LandingPage() {
           </p>
 
           <div className="flex flex-wrap justify-center gap-3 mb-14 text-sm">
-            {["Bez zbytečné teorie", "Bez složitosti", "Jen praxe"].map((f) => (
+            {["Obsahový náhled", "Emailová sekvence", "30 dní"].map((f) => (
               <span key={f} className="bg-gray-100 text-gray-600 px-4 py-1.5 rounded-full">
                 {f}
               </span>
@@ -48,9 +48,9 @@ export default function LandingPage() {
             <h3 className="text-sm font-bold text-gray-400 uppercase tracking-widest text-center mb-8">Jak to funguje</h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {[
-                { step: "1", title: "Zaplať a aktivuj", desc: "Po platbě zadáš email a spustí se challenge." },
-                { step: "2", title: "Každý den jedna výzva", desc: "Den 0 hned, pak každý den automaticky jedna nová." },
-                { step: "3", title: "5–7 minut stačí", desc: "Krátký koncept + mini úkol. Nic víc, nic míň." },
+                { step: "1", title: "Vyber úroveň", desc: "Přepni Basic nebo Advanced a otevři obsahový náhled." },
+                { step: "2", title: "Zkontroluj obsah", desc: "V preview jsou odemčené všechny dny pro rychlou kontrolu." },
+                { step: "3", title: "Připravíme emaily", desc: "Po schválení se sekvence přenese do Ecomailu a napojí na nákup." },
               ].map((s) => (
                 <div key={s.step} className="flex gap-4">
                   <span className="flex-shrink-0 w-8 h-8 rounded-full bg-nowork-orange text-white text-sm font-bold flex items-center justify-center">
